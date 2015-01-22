@@ -1,1 +1,1 @@
-web: java $JVM_OPTS -jar target/ponting-dynamics-standalone.jar $PORT
+web: java $JVM_OPTS -cp target/ponting-dynamics-standalone.jar clojure.main -m ponting-dynamics.core.handler
