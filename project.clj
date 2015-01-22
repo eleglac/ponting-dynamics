@@ -15,11 +15,14 @@
             [lein-cljsbuild "1.0.0"]]
   
   :main ponting-dynamics.core.handler
+  :uberjar-name "ponting-dynamics-standalone.jar"
 
   :profiles
     {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                           [ring-mock "0.1.5"]]}
      :uberjar {:aot :all} ;;because otherwise Leiningen is concerned for my well-being
+     
+     :production 
      }
 
 
