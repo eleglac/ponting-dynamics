@@ -1,4 +1,4 @@
-(ns ponting-dynamics.views
+(ns ponting-dynamics.views.common
   (:require [hiccup.core :refer [html]]
             ))
 
@@ -23,21 +23,3 @@
   [:div.pane.bottom
     [:div.content
       [:div.material content]]])
-
-(defn make-stat-htmls 
-  "Assumes stats come in the form {'filetype-str' loc-int...}
-   Will produce a series of <p> elements with the info in them.
-   I think."
-
-  [raw-stats]
-
-  (let [filetypes (keys raw-stats)]
-    (map 
-      (fn [k]
-        [:p (str k ": " (k raw-stats) " lines of code")])
-      filetypes)))
-
-(def stats-page
-  (boilerplate
-    (page-subject "Statistics")
-    (page-content [:p "Lol."])))
