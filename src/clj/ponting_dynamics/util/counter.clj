@@ -2,28 +2,43 @@
   (:require [clojure.java.io :refer [file]]
             [clojure.string :as s]))
 
+;; Define what we're interested in: .clj, .cljs, .html, and .css files in the respective folders.
+
 (def code-dirs ["resources/" "src/"])
 
 (def code-re #".*\.(clj|cljs|html|css)")
+
+(def code-res {:CSS #".*\.css" :Clojurescript #".*\.cljs" :HTML #".*\.html" :Clojure #".*\.clj"})
+
+;; Then, generate a list of the files (not strings of file names!) that pique our interest
 
 (defn walk [root pattern]
   (doall (filter #(re-matches pattern (.getName %))
                  (file-seq (file root)))))
 
-(def type-map {"s" "CSS" "m" "HTML" "j" "Clojurescript" "l" "Clojure"})
+(defn code-files [re dirs]
+  (flatten (map #(walk % re) dirs)))
 
-(def code-files
-  (map #(walk % code-re) code-dirs))
+;; Once we have the list of interesting files, sort them and pull out the relevant data (currently, LOC for each type)
+
+(defn sort-files [re files]
+  (filter #(not (empty? (re-matches re (str %)))) files))
 
 (defn file-loc [file]
   (->> (slurp file) (s/split-lines) (count)))
 
-(defn file-type [file]
-  ((str (nth (s/reverse file) 1)) type-map))
+(defn total-loc [files]
+  (reduce + (map file-loc files)))
 
-(defn assemble-file-data [files]
-  (into {}
-    (map
-      (fn [file]
-        {file {:kind (file-type file) :loc (file-loc file)}})
-      files)))
+;; Package the data into a convenient map - {:file-type loc-for-that-type... }
+
+(defn gen-data [files type-map]
+  (into {} 
+    (map 
+      (fn [k] {k (total-loc (sort-files (type-map k) files))})
+      (keys type-map))))
+
+;; And finally, a nice function to wrap it all up and make it easy to grab the code stats
+
+(defn get-code-stats []
+  (gen-data (code-files code-re code-dirs) code-res))
