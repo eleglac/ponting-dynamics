@@ -27,7 +27,7 @@
      }
 
 
-  :ring {:handler ponting-dynamics.core.handler/app} 
+  :ring {:handler ponting-dynamics.application/app} 
   
   :cljsbuild {:builds
                [{:source-paths ["src/cljs"]
