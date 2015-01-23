@@ -1,4 +1,4 @@
-(ns ponting-dynamics.core.counter
+(ns ponting-dynamics.counter
   (:require [clojure.java.io :refer [file]]
             [clojure.string :as s]))
 
@@ -16,10 +16,10 @@
   (map #(walk % code-re) code-dirs))
 
 (defn file-loc [file]
-  (->> (slurp file) (split-lines) (count)))
+  (->> (slurp file) (s/split-lines) (count)))
 
 (defn file-key [file]
-  (str (nth (reverse file) 1)))
+  (str (nth (s/reverse file) 1)))
 
 (defn file-counts [files]
   ;; TODO: Make it work
