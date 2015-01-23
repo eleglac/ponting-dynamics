@@ -1,4 +1,4 @@
-(ns ponting-dynamics.core.handler
+(ns ponting-dynamics.application
   (:gen-class) ;; because otherwise I have to run -cp {jarfile} clojure.main -m {this class} and I don't know if that's advantageous
   (:require [compojure.core :refer :all]
             [compojure.handler :refer [site]]

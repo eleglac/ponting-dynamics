@@ -1,4 +1,4 @@
-(defproject ponting-dynamics "0.1-alpha"
+(defproject ponting-dynamics "0.2-alpha"
   :description "A personal website for Alex J. Ponting."
   :url "http://www.pontingdynamics.org"
   :min-lein-version "2.0.0"
@@ -16,7 +16,7 @@
   :plugins [[lein-ring "0.8.13"]
             [lein-cljsbuild "1.0.0"]]
   
-  :main ponting-dynamics.core.handler
+  :main ponting-dynamics.application
   :uberjar-name "ponting-dynamics-standalone.jar"
 
   :profiles
