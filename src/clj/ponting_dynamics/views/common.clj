@@ -1,9 +1,9 @@
 (ns ponting-dynamics.views.common
-  (:require [hiccup.core :refer [html]]
+  (:require [hiccup.page :refer [html5]]
             ))
 
 (defn boilerplate [& content]
-  (html
+  (html5
     [:head 
       [:title "Ponting Dynamics | What You Need, When I Want To Do It"]
       [:link {:rel "stylesheet" :type "text/css" :href="css/layout.css"}]
@@ -23,3 +23,8 @@
   [:div.pane.bottom
     [:div.content
       [:div.material content]]])
+
+(defn standard-page [title content]
+  (boilerplate 
+    (page-subject title)
+    (page-content content)))
