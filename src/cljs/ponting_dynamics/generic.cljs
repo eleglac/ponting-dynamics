@@ -1,3 +1,3 @@
 (ns ponting-dynamics.generic)
 
-(.write js/document "A slight modification")
+(.write js/document "The Script is still here")
