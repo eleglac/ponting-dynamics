@@ -1,13 +1,13 @@
 (ns ponting-dynamics.views.common
   (:require [hiccup.page :refer [html5]]
-            ))
+            [clojure.string :refer [capitalize]]))
 
 (defn boilerplate [& content]
   (html5
     [:head 
       [:title "Ponting Dynamics | What You Need, When I Want To Do It"]
-      [:link {:rel "stylesheet" :type "text/css" :href="css/layout.css"}]
-      [:link {:rel "stylesheet" :type "text/css" :href="css/styles.css"}]]
+      [:link {:rel "stylesheet" :type "text/css" :href "css/layout.css"}]
+      [:link {:rel "stylesheet" :type "text/css" :href "css/styles.css"}]]
     [:body 
       [:div.wrapper content]
       ;[:script {:src "js/generic.js"}]
@@ -28,3 +28,6 @@
   (boilerplate 
     (page-subject title)
     (page-content content)))
+
+(defn default-page [title content]
+  (standard-page (capitalize title) content))

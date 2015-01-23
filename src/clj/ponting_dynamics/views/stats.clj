@@ -8,8 +8,9 @@
       [:p "This site has been built from the following resources: "]
       (map
         (fn [k]
-          [:p (str (name k) ": " (data k) " lines of code")])
-        (keys data))]))
+          [:p (str "- " (data k) " lines of " (name k))])
+        (keys data))
+      [:p (str "for a total of " (reduce + (vals data)) " lines of code overall.")]]))
 
 (defn stats-page []
   (standard-page "Statistics" (stat-content)))
