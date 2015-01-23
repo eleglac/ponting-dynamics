@@ -1,0 +1,33 @@
+body {
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pane {
+  display: flex;
+  flex-direction: column;
+
+  height: 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.top {
+  justify-content: flex-end;
+}
+
+.bottom {
+  justify-content: flex-start;
+}

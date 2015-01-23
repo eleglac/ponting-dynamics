@@ -7,7 +7,9 @@
                  [compojure "1.3.1"]
                  [ring/ring-jetty-adapter "1.3.2"]
                  [ring/ring-defaults "0.1.2"]
-                 [org.clojure/clojurescript "0.0-2069"]]
+                 [org.clojure/clojurescript "0.0-2069"]
+                 [hiccup "1.0.5"]
+                 ]
 
   :source-paths ["src/clj" "src/cljs"]
 
