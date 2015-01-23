@@ -6,12 +6,10 @@
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.adapter.jetty :as jetty]
 
-            ;[ponting-dynamics.core.counter :refer [stats]]
             ))
 
 (defroutes app-routes
   (GET "/" [] (slurp "resources/public/html/index.html"))
-  ;(GET "/meta" [] (stats))
   (route/not-found (slurp "resources/public/html/404.html")))
 
 ;; NOTES TO SELF RE: ACTUALLY RUNNING THIS SERVER

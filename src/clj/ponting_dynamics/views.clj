@@ -1,6 +1,6 @@
 (ns ponting-dynamics.views
   (:require [hiccup.core :refer [html]]
-            [ponting-dynamics.core.counter :refer [stats]]
+            ;[ponting-dynamics.core.counter :refer [stats]]
             ))
 
 (defn boilerplate [content]
