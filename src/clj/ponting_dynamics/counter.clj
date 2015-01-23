@@ -22,5 +22,5 @@
   (str (nth (reverse file) 1)))
 
 (defn file-counts [files]
-  ()
-  )
+  ;; TODO: Make it work
+  nil)
