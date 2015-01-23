@@ -10,7 +10,7 @@
   (doall (filter #(re-matches pattern (.getName %))
                  (file-seq (file root)))))
 
-(def type-map {"s" "css" "m" "html" "j" "cljs" "l" "clj"})
+(def type-map {"s" "CSS" "m" "HTML" "j" "Clojurescript" "l" "Clojure"})
 
 (def code-files
   (map #(walk % code-re) code-dirs))
@@ -18,9 +18,12 @@
 (defn file-loc [file]
   (->> (slurp file) (s/split-lines) (count)))
 
-(defn file-key [file]
-  (str (nth (s/reverse file) 1)))
+(defn file-type [file]
+  ((str (nth (s/reverse file) 1)) type-map))
 
-(defn file-counts [files]
-  ;; TODO: Make it work
-  nil)
+(defn assemble-file-data [files]
+  (into {}
+    (map
+      (fn [file]
+        {file {:kind (file-type file) :loc (file-loc file)}})
+      files)))
