@@ -41,6 +41,4 @@
 (def stats-page
   (boilerplate
     (page-subject "Statistics")
-    (page-content )
-    )
-  )
+    (page-content [:p "Lol."])))
