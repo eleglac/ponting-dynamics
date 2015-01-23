@@ -1,4 +1,4 @@
-(ns ponting-dynamics.counter
+(ns ponting-dynamics.util.counter
   (:require [clojure.java.io :refer [file]]
             [clojure.string :as s]))
 
