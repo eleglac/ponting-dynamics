@@ -1,9 +1,8 @@
 (ns ponting-dynamics.views
   (:require [hiccup.core :refer [html]]
-            ;[ponting-dynamics.core.counter :refer [stats]]
             ))
 
-(defn boilerplate [content]
+(defn boilerplate [& content]
   (html
     [:head 
       [:title "Ponting Dynamics | What You Need, When I Want To Do It"]
