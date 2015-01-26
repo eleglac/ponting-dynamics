@@ -22543,7 +22543,6 @@ cljs.core.special_symbol_QMARK_ = function special_symbol_QMARK_(x) {
 };
 goog.provide("ponting_dynamics.generic");
 goog.require("cljs.core");
-document.write("\x3ch1\x3eA Very Clojurescripty Test Page\x3ch2\x3e\x3cp\x3eThe game is battleship!  In one dimension!\x3c/p\x3e\x3cp\x3eThe ship is three units long, and the search space is ten units wide. glhf!\x3c/p\x3e\x3cp\x3eIf you want to play again you can refresh the page.  I'll add a button or something later.\x3c/p\x3e");
 ponting_dynamics.generic.ship_start = cljs.core.rand_int.call(null, 8);
 ponting_dynamics.generic.ship = new cljs.core.PersistentArrayMap.fromArray([[cljs.core.str(ponting_dynamics.generic.ship_start)].join(""), false, [cljs.core.str(ponting_dynamics.generic.ship_start + 1)].join(""), false, [cljs.core.str(ponting_dynamics.generic.ship_start + 2)].join(""), false], true, false);
 ponting_dynamics.generic.and_fn = function() {
@@ -22612,4 +22611,5 @@ ponting_dynamics.generic.game = function game(ship) {
     break
   }
 };
+document.write("\x3ch1\x3eA Very Clojurescripty Test Page\x3ch2\x3e\x3cp\x3eThe game is battleship!  In one dimension!\x3c/p\x3e\x3cp\x3eThe ship is three units long, and the search space is ten units wide. glhf!\x3c/p\x3e\x3cp\x3eIf you want to play again you can refresh the page.  I'll add a button or something later.\x3c/p\x3e");
 ponting_dynamics.generic.game.call(null, ponting_dynamics.generic.ship);
