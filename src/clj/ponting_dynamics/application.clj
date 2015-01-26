@@ -4,8 +4,9 @@
             [compojure.handler :refer [site]]
             [compojure.route :as route]
             
-            [ponting-dynamics.views.common :refer [default-page]]
-            [ponting-dynamics.views.stats :refer [stats-page]]
+            [ponting-dynamics.views.common  :refer [default-page]]
+            [ponting-dynamics.views.stats   :refer [stats-page]]
+            [ponting-dynamics.views.js-test :refer [js-page]]
 
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.adapter.jetty :as jetty]))
@@ -22,6 +23,9 @@
 
   ;; How many lines of code were used to make this site?
   (GET "/statistics" [] (stats-page))
+
+  ;; Added for Javascript testing
+  (GET "/js" [] (js-page))
 
   ;; Doesn't matter where you're trying to go, I got you covered
   (context "/:title" [title]
