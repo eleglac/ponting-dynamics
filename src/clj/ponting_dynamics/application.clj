@@ -28,9 +28,12 @@
   ;; Added for Javascript testing
   (GET "/js" [] (js-page))
 
+<<<<<<< HEAD
   ;; Added for CSS testing
   (GET "/overflow" [] (overflow))
 
+=======
+>>>>>>> fe28ebe32fc06152510b7dfdc1eb7b186355f102
   ;; Doesn't matter where you're trying to go, I got you covered
   (context "/:title" [title]
     (GET "/"  [title] (default-page title [:p "If you sought " title " then you have found it."]))
