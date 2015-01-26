@@ -4,9 +4,10 @@
             [compojure.handler :refer [site]]
             [compojure.route :as route]
             
-            [ponting-dynamics.views.common  :refer [default-page]]
-            [ponting-dynamics.views.stats   :refer [stats-page]]
-            [ponting-dynamics.views.js-test :refer [js-page]]
+            [ponting-dynamics.views.common   :refer [default-page]]
+            [ponting-dynamics.views.stats    :refer [stats-page]]
+            [ponting-dynamics.views.js-test  :refer [js-page]]
+            [ponting-dynamics.views.overflow :refer [overflow]]
 
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.adapter.jetty :as jetty]))
@@ -26,6 +27,9 @@
 
   ;; Added for Javascript testing
   (GET "/js" [] (js-page))
+
+  ;; Added for CSS testing
+  (GET "/overflow" [] (overflow))
 
   ;; Doesn't matter where you're trying to go, I got you covered
   (context "/:title" [title]

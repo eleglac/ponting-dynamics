@@ -22548,8 +22548,8 @@ ponting_dynamics.generic.ship_start = cljs.core.rand_int.call(null, 8);
 ponting_dynamics.generic.ship = new cljs.core.PersistentArrayMap.fromArray([[cljs.core.str(ponting_dynamics.generic.ship_start)].join(""), false, [cljs.core.str(ponting_dynamics.generic.ship_start + 1)].join(""), false, [cljs.core.str(ponting_dynamics.generic.ship_start + 2)].join(""), false], true, false);
 ponting_dynamics.generic.and_fn = function() {
   var and_fn__delegate = function(bools) {
-    return cljs.core.empty_QMARK_.call(null, cljs.core.filter.call(null, function(p1__6891_SHARP_) {
-      return cljs.core._EQ_.call(null, false, p1__6891_SHARP_)
+    return cljs.core.empty_QMARK_.call(null, cljs.core.filter.call(null, function(p1__6895_SHARP_) {
+      return cljs.core._EQ_.call(null, false, p1__6895_SHARP_)
     }, bools))
   };
   var and_fn = function(var_args) {
@@ -22560,8 +22560,8 @@ ponting_dynamics.generic.and_fn = function() {
     return and_fn__delegate.call(this, bools)
   };
   and_fn.cljs$lang$maxFixedArity = 0;
-  and_fn.cljs$lang$applyTo = function(arglist__6892) {
-    var bools = cljs.core.seq(arglist__6892);
+  and_fn.cljs$lang$applyTo = function(arglist__6896) {
+    var bools = cljs.core.seq(arglist__6896);
     return and_fn__delegate(bools)
   };
   and_fn.cljs$core$IFn$_invoke$arity$variadic = and_fn__delegate;
@@ -22603,10 +22603,10 @@ ponting_dynamics.generic.game = function game(ship) {
       return alert([cljs.core.str("You won with "), cljs.core.str(shots), cljs.core.str(" shots.  Were the sailor's lives worth it, you monster?")].join(""))
     }else {
       var target = prompt("Yo, fire a shot whereever.  Make it a number 0-9 or you will surely miss.");
-      var G__6893 = shots + 1;
-      var G__6894 = ponting_dynamics.generic.fire_shot.call(null, ship__$1, target);
-      shots = G__6893;
-      ship__$1 = G__6894;
+      var G__6897 = shots + 1;
+      var G__6898 = ponting_dynamics.generic.fire_shot.call(null, ship__$1, target);
+      shots = G__6897;
+      ship__$1 = G__6898;
       continue
     }
     break
