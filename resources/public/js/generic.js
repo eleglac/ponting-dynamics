@@ -22547,8 +22547,8 @@ ponting_dynamics.generic.ship_start = cljs.core.rand_int.call(null, 8);
 ponting_dynamics.generic.ship = new cljs.core.PersistentArrayMap.fromArray([[cljs.core.str(ponting_dynamics.generic.ship_start)].join(""), false, [cljs.core.str(ponting_dynamics.generic.ship_start + 1)].join(""), false, [cljs.core.str(ponting_dynamics.generic.ship_start + 2)].join(""), false], true, false);
 ponting_dynamics.generic.and_fn = function() {
   var and_fn__delegate = function(bools) {
-    return cljs.core.empty_QMARK_.call(null, cljs.core.filter.call(null, function(p1__5431_SHARP_) {
-      return cljs.core._EQ_.call(null, false, p1__5431_SHARP_)
+    return cljs.core.empty_QMARK_.call(null, cljs.core.filter.call(null, function(p1__5435_SHARP_) {
+      return cljs.core._EQ_.call(null, false, p1__5435_SHARP_)
     }, bools))
   };
   var and_fn = function(var_args) {
@@ -22559,8 +22559,8 @@ ponting_dynamics.generic.and_fn = function() {
     return and_fn__delegate.call(this, bools)
   };
   and_fn.cljs$lang$maxFixedArity = 0;
-  and_fn.cljs$lang$applyTo = function(arglist__5432) {
-    var bools = cljs.core.seq(arglist__5432);
+  and_fn.cljs$lang$applyTo = function(arglist__5436) {
+    var bools = cljs.core.seq(arglist__5436);
     return and_fn__delegate(bools)
   };
   and_fn.cljs$core$IFn$_invoke$arity$variadic = and_fn__delegate;
@@ -22604,10 +22604,10 @@ ponting_dynamics.generic.game = function game(ship) {
       if(target == null) {
         return alert("Fine, abandon your post.  Traitor.")
       }else {
-        var G__5433 = shots + 1;
-        var G__5434 = ponting_dynamics.generic.fire_shot.call(null, ship__$1, target);
-        shots = G__5433;
-        ship__$1 = G__5434;
+        var G__5437 = shots + 1;
+        var G__5438 = ponting_dynamics.generic.fire_shot.call(null, ship__$1, target);
+        shots = G__5437;
+        ship__$1 = G__5438;
         continue
       }
     }
