@@ -22547,8 +22547,8 @@ ponting_dynamics.generic.ship_start = cljs.core.rand_int.call(null, 8);
 ponting_dynamics.generic.ship = new cljs.core.PersistentArrayMap.fromArray([[cljs.core.str(ponting_dynamics.generic.ship_start)].join(""), false, [cljs.core.str(ponting_dynamics.generic.ship_start + 1)].join(""), false, [cljs.core.str(ponting_dynamics.generic.ship_start + 2)].join(""), false], true, false);
 ponting_dynamics.generic.and_fn = function() {
   var and_fn__delegate = function(bools) {
-    return cljs.core.empty_QMARK_.call(null, cljs.core.filter.call(null, function(p1__5407_SHARP_) {
-      return cljs.core._EQ_.call(null, false, p1__5407_SHARP_)
+    return cljs.core.empty_QMARK_.call(null, cljs.core.filter.call(null, function(p1__5431_SHARP_) {
+      return cljs.core._EQ_.call(null, false, p1__5431_SHARP_)
     }, bools))
   };
   var and_fn = function(var_args) {
@@ -22559,15 +22559,14 @@ ponting_dynamics.generic.and_fn = function() {
     return and_fn__delegate.call(this, bools)
   };
   and_fn.cljs$lang$maxFixedArity = 0;
-  and_fn.cljs$lang$applyTo = function(arglist__5408) {
-    var bools = cljs.core.seq(arglist__5408);
+  and_fn.cljs$lang$applyTo = function(arglist__5432) {
+    var bools = cljs.core.seq(arglist__5432);
     return and_fn__delegate(bools)
   };
   and_fn.cljs$core$IFn$_invoke$arity$variadic = and_fn__delegate;
   return and_fn
 }();
 ponting_dynamics.generic.hit_QMARK_ = function hit_QMARK_(ship, target) {
-  console.log([cljs.core.str(ship)].join(""));
   if(cljs.core.contains_QMARK_.call(null, ship, target) && cljs.core.not.call(null, ship.call(null, target))) {
     alert("A hit!  Dozens die in agony.");
     return cljs.core.assoc.call(null, ship, target, true)
@@ -22602,11 +22601,15 @@ ponting_dynamics.generic.game = function game(ship) {
       return alert([cljs.core.str("You won with "), cljs.core.str(shots), cljs.core.str(" shots.  Were the sailor's lives worth it, you monster?")].join(""))
     }else {
       var target = prompt("Yo, fire a shot whereever.  Make it a number 0-9 or you will surely miss.");
-      var G__5409 = shots + 1;
-      var G__5410 = ponting_dynamics.generic.fire_shot.call(null, ship__$1, target);
-      shots = G__5409;
-      ship__$1 = G__5410;
-      continue
+      if(target == null) {
+        return alert("Fine, abandon your post.  Traitor.")
+      }else {
+        var G__5433 = shots + 1;
+        var G__5434 = ponting_dynamics.generic.fire_shot.call(null, ship__$1, target);
+        shots = G__5433;
+        ship__$1 = G__5434;
+        continue
+      }
     }
     break
   }

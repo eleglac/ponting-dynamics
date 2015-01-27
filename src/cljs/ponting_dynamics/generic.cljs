@@ -1,6 +1,5 @@
 (ns ponting-dynamics.generic)
 
-
 (def ship-start (rand-int 8))
 
 (def ship {(str ship-start) false (str (+ ship-start 1)) false (str (+ ship-start 2)) false})
@@ -8,7 +7,6 @@
 (defn and-fn [& bools] (empty? (filter #(= false %) bools))) ;; hacky hacky hack, wanted to just do (apply and [seq of bools]) but can only do apply on fns? Over my head...
 
 (defn hit? [ship target]
-  (.log js/console (str ship))
   (if (and (contains? ship target) (not (ship target)))
     (do
       (js/alert "A hit!  Dozens die in agony.")
@@ -35,7 +33,10 @@
         (js/alert (str "You won with " shots " shots.  Were the sailor's lives worth it, you monster?")))
       (do
         (let [target (js/prompt "Yo, fire a shot whereever.  Make it a number 0-9 or you will surely miss.")]
-          (recur (inc shots) (fire-shot ship target)))))))
+          (if (nil? target) 
+            (js/alert "Fine, abandon your post.  Traitor.")
+            (recur (inc shots) (fire-shot ship target))))))))
+
 (do
   (.write js/document "<h1>A Very Clojurescripty Test Page<h2><p>The game is battleship!  In one dimension!</p><p>The ship is three units long, and the search space is ten units wide. glhf!</p><p>If you want to play again you can refresh the page.  I'll add a button or something later.</p>")
   (game ship))
