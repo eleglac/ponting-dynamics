@@ -22,6 +22,9 @@
   ;; Gotta have the index
   (GET "/" [] (slurp "resources/public/html/index.html"))
 
+  ;; Will become the main page soon.
+  (GET "/bootstrap" [] (slurp "resources/public/html/jumbotron.html"))
+
   ;; How many lines of code were used to make this site?
   (GET "/statistics" [] (stats-page))
 
