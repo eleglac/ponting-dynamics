@@ -22,6 +22,9 @@
   ;; Gotta have the index
   (GET "/" [] (slurp "resources/public/html/index.html"))
 
+  ;; The page formerly known as Index.
+  (GET "/about" [] (slurp "resources/public/html/about.html"))
+
   ;; Will become the main page soon.
   (GET "/bootstrap" [] (slurp "resources/public/html/jumbotron.html"))
 
