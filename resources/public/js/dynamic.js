@@ -13,7 +13,7 @@ var backgrounds = ["../img/blurry-city-traffic.jpg",
 
 
 function changeBackgrounds(imageList) {
-  var i = 0;
+  var i = 1;
 
   //Setup initial image
 
