@@ -16,14 +16,15 @@ function changeBackgrounds(imageList) {
   var i = 0;
 
   //Setup initial image
-  
+
   setInterval(function () {
     $("body").css("background-image", "url(" + imageList[i++] + ")");
-
-    $("#splash").fadeOut(1000, function () {
-      $("#splash").css("background-image", "url(" + imageList[i] + ")");
-      $("#splash").fadeIn(1000);
-    });
+    setTimeout(function() {
+      $("#splash").fadeOut(1000, function () {
+        $("#splash").css("background-image", "url(" + imageList[i] + ")");
+        $("#splash").fadeIn(1000);
+      });
+    }, 1000);
 
     if (i == imageList.length) i = 0;
 
