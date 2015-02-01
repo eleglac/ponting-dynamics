@@ -19,12 +19,11 @@ function changeBackgrounds(imageList) {
 
   setInterval(function () {
     $("body").css("background-image", "url(" + imageList[i++] + ")");
-    setTimeout(function() {
-      $("#splash").fadeOut(1000, function () {
-        $("#splash").css("background-image", "url(" + imageList[i] + ")");
-        $("#splash").fadeIn(1000);
-      });
-    }, 1000);
+  
+    $("#splash").fadeOut(1000, function () {
+      $("#splash").css("background-image", "url(" + imageList[i] + ")");
+      $("#splash").fadeIn(1000);
+    });
 
     if (i == imageList.length) i = 0;
 
