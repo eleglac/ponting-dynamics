@@ -14,11 +14,11 @@
 
 (defroutes app-routes
   ;;Now this is some bullshit here... I don't know why, but in routes that go more than one level (i.e. /l1/l2) the root is set to /l1
-  ;;and so when the browser looks for the css it looks in the wrong folder.  So, workaround: manually construct the response to guarantee
+  ;;and so when the browser looks for the file it looks in the wrong folder.  So, workaround: manually construct the response to guarantee
   ;;that no matter what stupid route the browser tries to use, it's going to get redirected to the actual content.
   (context "*/css" []
     (GET "/:file" [file] {:status 200 :headers {"Content-Type" "text/css; charset=utf-8"} :body (slurp (str "resources/public/css/" file))}))
-
+  
   ;; Gotta have the index
   (GET "/" [] (slurp "resources/public/html/index.html"))
 

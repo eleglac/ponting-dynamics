@@ -5,29 +5,40 @@ function highlightFeeder() {
 function deHighlightFeeder() {
   $("#feeder").html("Take The Tour").animate({backgroundColor:"#27A027"}, 200);
 }
-var backgrounds = ["../img/blurry-city-traffic.jpg", 
+
+var backgrounds = ["../img/wood-water.jpg",
+                   "../img/library-books.jpg",
+                   "../img/blurry-city-traffic.jpg", 
                    "../img/orange-tree.jpg",
                    "../img/designer-desk.jpg",
                    "../img/desk-and-chair.jpg",
                    "../img/old-tools.jpg"];
 
+function preloadBackgrounds(imageList) {
+  for (i = 0; i < imageList.length; i++) {
+    $("div#preload").append("<img src=" + imageList[i] + "></img>");
+  }
+}
 
 function changeBackgrounds(imageList) {
-  var i = 1;
-
-  //Setup initial image
+  var i = 0;
 
   setInterval(function () {
-    $("body").css("background-image", "url(" + imageList[i++] + ")");
+    $("#base").css("background-image", "url(" + imageList[i] + ")");
   
     $("#splash").fadeOut(1000, function () {
+      i++; //should probably do this as modulus but w/e
+      if (i == imageList.length) i = 0;
+
       $("#splash").css("background-image", "url(" + imageList[i] + ")");
-      $("#splash").fadeIn(1000);
+      $("#splash").fadeIn(2000);
     });
-
-    if (i == imageList.length) i = 0;
-
   }, 10000);
 }
-    
-$(window).load(changeBackgrounds(backgrounds));
+
+function handleBackgrounds(imageList) {
+  preloadBackgrounds(imageList);
+  changeBackgrounds(imageList);
+}
+
+$(window).load(handleBackgrounds(backgrounds));
