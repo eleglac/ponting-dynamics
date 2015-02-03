@@ -5,18 +5,15 @@
     <title>Ponting Dynamics | Solutions You Need</title>
     <meta name="description" content="Ponting Dynamics is an internet content development consultancy located in Los Angeles, CA."></meta>
     <meta name="author" content="Alex J. Ponting"></meta>
-    <meta name="keywords" content="HTML, CSS, Clojure, Clojurescript, JavaScript, Bootstrap, Internet, Consulting"></meta>
+    <meta name="keywords" content="HTML, CSS, Clojure, Clojurescript, JavaScript, jQuery, Bootstrap, Internet, Consulting"></meta>
     <link rel="stylesheet" type="text/css" href="../css/index-styles.css"></link>
-    <!--<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>-->
-    <!--<script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>-->
-    <!--<script src="../js/dynamic.js"></script>-->
   </head>
   <body>
     <div id="preload"></div>
     <div class="wrapper" id="base"></div>
     <div class="wrapper" id="splash"></div>
     <div class="wrapper">
-      <div class="banner">
+      <div class="banner pane">
         <div class="row">
           <p>
             <span id="pdyn-title">PONTING DYNAMICS</span>
@@ -28,11 +25,19 @@
           </p>
         </div>
         <div class="row">
-          <a href="/about" id="feeder" onmouseenter="highlightFeeder()" onmouseleave="deHighlightFeeder()">Take The Tour</a>
+          <a href="/about" id="feeder">Take The Tour</a>
         </div>
       </div> 
     </div>
-    <script src="../js/jquery-1.11.2.min.js"></script>
-    <script src="../js/jquery.color-2.1.0.min.js"></script>
+    <div class="hideable-container foot">
+      <div class="hideable navigation pane">
+        <div class="item"><a href="/js">Javascript Example</a></div>
+        <div class="item"><a href="/statistics">Project Information</a></div>
+        <div class="item"><a href="/about">About Me</a></div>
+        <div class="item" style="border: none"><a href="mailto:info@pontingdynamics.org">info@pontingdynamics.org</div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.0.min.js"></script>
     <script src="../js/dynamic.js"></script>
   </body>

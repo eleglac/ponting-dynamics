@@ -5,6 +5,7 @@
 
   :dependencies [[compojure "1.3.1"]
                  [hiccup "1.0.5"]  
+                 [jayq "2.5.2"]
                  [org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2069"]
                  [ring/ring-jetty-adapter "1.3.2"]
@@ -28,5 +29,5 @@
   :cljsbuild {:builds
                [{:source-paths ["src/cljs"]
                  :compiler {:output-to "resources/public/js/generic.js"
-                            :optimizations :whitespace
+                            :optimizations :simple
                             :pretty-print  true}}]})
