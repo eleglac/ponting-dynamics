@@ -5,6 +5,7 @@
             [compojure.route :as route]
             
             [ponting-dynamics.views.common   :refer [default-page]]
+            [ponting-dynamics.views.home     :refer [main-page]]
             [ponting-dynamics.views.stats    :refer [stats-page]]
             [ponting-dynamics.views.js-test  :refer [js-page]]
 
@@ -21,7 +22,7 @@
     (GET "/:file" [file] {:status 200 :headers {"Content-Type" "text/css; charset=utf-8"} :body (slurp (str "resources/public/css/" file))}))
   
   ;; Gotta have the index
-  (GET "/" [] (slurp "resources/public/html/index.html"))
+  (GET "/" [] (main-page))
 
   ;; The page formerly known as Index.
   (GET "/about" [] (slurp "resources/public/html/about.html"))
