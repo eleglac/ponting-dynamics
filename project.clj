@@ -1,4 +1,4 @@
-(defproject ponting-dynamics "0.4-alpha"
+(defproject ponting-dynamics "0.5-alpha"
   :description "A personal website for Alex J. Ponting."
   :url "http://www.pontingdynamics.org"
   :min-lein-version "2.0.0"
