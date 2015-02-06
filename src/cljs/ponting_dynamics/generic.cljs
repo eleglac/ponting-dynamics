@@ -38,5 +38,6 @@
             (recur (inc shots) (fire-shot ship target))))))))
 
 (do
-  (.write js/document "<h1>A Very Clojurescripty Test Page<h2><p>The game is battleship!  In one dimension!</p><p>The ship is three units long, and the search space is ten units wide. glhf!</p><p>If you want to play again you can refresh the page.  I'll add a button or something later.</p>")
+  (.write (.getElementById js/document (name "page-topic")) "Clojurescript Demo")
+  (.write (.getElementById js/document (name "add-text-here")) "<p>The game is battleship!  In one dimension!</p><p>The ship is three units long, and the search space is ten units wide. glhf!</p><p>If you want to play again you can refresh the page.  I'll add a button or something later.</p>")
   (game ship))

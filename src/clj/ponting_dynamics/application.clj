@@ -4,7 +4,7 @@
             [compojure.handler :refer [site]]
             [compojure.route :as route]
             
-            [ponting-dynamics.views.common   :refer [default-page]]
+            [ponting-dynamics.views.common   :refer [404-page]]
             [ponting-dynamics.views.home     :refer [main-page]]
             [ponting-dynamics.views.stats    :refer [stats-page]]
             [ponting-dynamics.views.js-test  :refer [js-page]]
@@ -34,12 +34,12 @@
   (GET "/js" [] (js-page))
   
   ;; Doesn't matter where you're trying to go, I got you covered
-  (context "/:title" [title]
-    (GET "/"  [title] (default-page title [:p "If you sought " title " then you have found it."]))
-    (GET "/*" [title] (default-page title [:p "Why do you seek to transcend " title "?"])))
+  ;(context "/:title" [title]
+    ;(GET "/"  [title] (default-page title [:p "If you sought " title " then you have found it."]))
+    ;(GET "/*" [title] (default-page title [:p "Why do you seek to transcend " title "?"])))
   
   ;; Did you done goof?
-  (route/not-found (slurp "resources/public/html/404.html")))
+  (route/not-found 404-page))
 
 ;; NOTES TO SELF RE: ACTUALLY RUNNING THIS SERVER
 ;;

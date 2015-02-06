@@ -2,7 +2,6 @@
 /lib
 /classes
 /checkouts
-/resources/public/js/generic.js
 pom.xml
 pom.xml.asc
 *.jar
