@@ -1,13 +1,16 @@
 // GLOBAL VARS
-//// First, the list of background images through which to cycle.
+//// backgrounds - the list of background images through which to cycle.  
+//// Every function called with an 'imageList' argument should be getting this list,
+//// and the links in the list should reflect the current path of the image directory.
+//// Generating this list should probably be done procedurally, but this gets the job done.
 
-var backgrounds = ["../img/wood-water.jpg",
-                   "../img/library-books.jpg",
-                   "../img/blurry-city-traffic.jpg", 
-                   "../img/orange-tree.jpg",
-                   "../img/designer-desk.jpg",
-                   "../img/desk-and-chair.jpg",
-                   "../img/old-tools.jpg"];
+var backgrounds = ["img/wood-water.jpg",
+                   "img/library-books.jpg",
+                   "img/blurry-city-traffic.jpg", 
+                   "img/orange-tree.jpg",
+                   "img/designer-desk.jpg",
+                   "img/desk-and-chair.jpg",
+                   "img/old-tools.jpg"];
 
 // FUNCTION DEFINITIONS
 //// makeHighlightable(element) - used to animate front page feeder link
@@ -21,7 +24,8 @@ function makeHighlightable(element, highlightColor) {
     element.html(defaultText).animate({backgroundColor: defaultColor}, {duration:200, queue:false}); });
 }
 
-//// makeHideable(hideableContainer, hideable, peek) - animates bottom navbar
+//// makeHideable(hideableContainer, hideable, peek) - currently used to animate the bottom navbar,
+//// but can (and will) be used to make any .hideable inside a .hideable-container slideable.
 
 function makeHideable(hideableContainer, hideable, peek) {
   hideable.css("top", peek);
@@ -46,12 +50,11 @@ function changeBackgrounds(imageList) {
   setInterval(function () {
     $("#base").css("background-image", "url(" + imageList[i] + ")");
   
-    $("#splash").fadeOut(1000, function () {
-      i++; //should probably do this as modulus but w/e
-      if (i == imageList.length) i = 0;
+    $("#splash").fadeOut(100, function () {
+      i++; i = i % imageList.length;
 
       $("#splash").css("background-image", "url(" + imageList[i] + ")");
-      $("#splash").fadeIn(2000);
+      $("#splash").fadeIn({duration:2000, queue:false});
     });
   }, 10000);
 }
@@ -63,7 +66,7 @@ function handleBackgrounds(imageList) {
   changeBackgrounds(imageList);
 }
 
-//// handleHighlightItems(highlightItems) - unused presently, was adding hover animation to navbar links but animation queueing got all fucked up
+//// handleHighlightItems(highlightItems) - adds hover animations to navbar items
 
 function handleHighlightItems(highlightItems) {
   highlightItems.each(function() { makeHighlightable($(this).children(), "rgba(255,255,255,0.4)"); 
@@ -71,7 +74,9 @@ function handleHighlightItems(highlightItems) {
 }
 
 // CALL ALL THE FUNCTIONS
-$(window).load(makeHighlightable($("#feeder"), "#4D4"));
-$(window).load(makeHideable($(".hideable-container"), $(".hideable"), "75%"));
-$(window).load(handleHighlightItems($(".item")));
-$(window).load(handleBackgrounds(backgrounds));
+window.onload = function() { 
+  makeHighlightable($("#feeder"), "#4D4");
+  makeHideable($(".hideable-container"), $(".hideable"), "75%");
+  handleHighlightItems($(".item"));
+  handleBackgrounds(backgrounds);
+};

@@ -11,8 +11,8 @@
      [:link {:rel "stylesheet" :type "text/css" :href "css/index-styles.css"}]]
     [:body
      [:div.preload]
-     [:div.wrapper#base]
-     [:div.wrapper#splash]
+     [:div.wrapper {:id "base"}]
+     [:div.wrapper {:id "splash"}]
      [:div.wrapper
       [:div.banner.pane
        [:div.row
