@@ -1,11 +1,11 @@
 (ns ponting-dynamics.views.common
-  (:require [hiccup.page :refer [html5]]
-            [clojure.string :refer [capitalize]]))
+  (:require [hiccup.page :refer [html5]]))
 
-(def footer-links {"Fun Stuff"  "/samples"
-                   "About Us"   "/about" 
-                   "Employment" "/jobs" 
-                   "Contact Us" "/contact"})
+(def default-links {"Home"       "/"
+                    "Fun Stuff"  "/samples"
+                    "About Us"   "/about" 
+                    "Employment" "/jobs" 
+                    "Contact Us" "/contact"})
 
 (def default-scripts ["https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
                       "https://code.jquery.com/color/jquery.color-2.1.0.min.js"
@@ -18,7 +18,7 @@
    :keywords    str - similar to :description
    :stylesheets []  - assumes a list of links and will add a <link rel=stylesheet...> for each in that list"
 
-  [& {:keys [title description keywords stylesheets]}]
+  [{:keys [title description keywords stylesheets]}]
   
   [:head
    [:title (or title "Ponting Dynamics | Solutions You Need")]
@@ -34,7 +34,7 @@
   Expects a map of {display-text link-target} pairs."
   
   [links]
-
+  
   (map (fn [[k v]] [:div.item [:a {:href v} k]]) links))
 
 (defn footer 
@@ -43,13 +43,13 @@
   [links]
   
   [:div.hideable-container.foot
-   (conj :div.hideable.pane (generate-link-html links))])
+   [:div.hideable.navigation.pane (generate-link-html links)]])
 
 (defn generate-script-html
   "Similar to generate-link-html, but expects a plain list instead of a map."
 
   [scripts]
-
+  
   (map (fn [src] [:script {:src src}]) scripts))
 
 (defn page-topic
@@ -57,24 +57,24 @@
   :topic    str - The actual text to be displayed as the page topic, defaults to 404
   :topic-id str - An optional id, if the page topic needs to be uniquely hooked or styled or whatever"
   
-  [& {:keys [topic topic-id]}]
+  [{:keys [topic topic-id]}]
   
-  [:div.presentation
-   [:span {:id (or topic-id "page-topic")} (or topic "404 - Not Found")]])
+  [:div.presentation.topic
+   [:p {:id (or topic-id "page-topic")} [:span (or topic "404 - Not Found")]]])
 
 (defn page-material 
   "Similar to page-topic, provides appropriate wrapper for standard page material i.e. text/html to be displayed, and can take a similar map argument."
   
-  [& {:keys [material material-id]}]
-
-  [:div.pane.presentation 
-   [:span {:id (or material-id "page-material")} (or material "<p>The content you have requested is not available at this time.</p>")]])
+  [{:keys [material material-id]}]
+  
+  [:div.pane.presentation.material 
+   [:div {:id (or material-id "page-material")} (or material "The content you have requested is not available at this time.")]])
 
 (defn background-layer
   "Establishes <body> and provides hook divs for background animation."
   
   [& content]
-
+  
   [:body
    [:div#preload]
    [:div.wrapper {:id "base"}]
@@ -83,7 +83,7 @@
 
 (defn content-layer 
   
-  [& {:keys [leading topic topic-id material material-id trailing]}]
+  [{:keys [leading topic topic-id material material-id trailing]}]
   
   [:div.wrapper
     leading
@@ -93,7 +93,7 @@
 
 (defn define-page
   
-  [& {:keys [head-data body-data links scripts]}]
+  [{:keys [head-data body-data links scripts]}]
   
   (html5
     (page-head head-data)
@@ -102,6 +102,5 @@
       (footer (or links default-links))
       (generate-script-html (or scripts default-scripts)))))
 
-(def 404-page
-  (define-page
-    {:head-data (page-head {:title "Ponting Dynamics | Not Found"})}))
+(def not-found-page
+  (define-page {:head-data {:title "Ponting Dynamics | Not Found"}}))

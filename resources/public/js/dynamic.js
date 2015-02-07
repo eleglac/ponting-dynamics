@@ -50,11 +50,11 @@ function changeBackgrounds(imageList) {
   setInterval(function () {
     $("#base").css("background-image", "url(" + imageList[i] + ")");
   
-    $("#splash").fadeOut(100, function () {
+    $("#fadeable").fadeOut(100, function () {
       i++; i = i % imageList.length;
 
-      $("#splash").css("background-image", "url(" + imageList[i] + ")");
-      $("#splash").fadeIn({duration:2000, queue:false});
+      $("#fadeable").css("background-image", "url(" + imageList[i] + ")");
+      $("#fadeable").fadeIn({duration:2000, queue:false});
     });
   }, 10000);
 }

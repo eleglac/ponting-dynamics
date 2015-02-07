@@ -15470,6 +15470,6 @@ ponting_dynamics.generic.game = function(a) {
     a = ponting_dynamics.generic.fire_shot.call(null, a, c)
   }
 };
-document.getElementById(cljs.core.name.call(null, "page-topic")).write("Clojurescript Demo");
-document.getElementById(cljs.core.name.call(null, "add-text-here")).write("\x3cp\x3eThe game is battleship!  In one dimension!\x3c/p\x3e\x3cp\x3eThe ship is three units long, and the search space is ten units wide. glhf!\x3c/p\x3e\x3cp\x3eIf you want to play again you can refresh the page.  I'll add a button or something later.\x3c/p\x3e");
+document.getElementById("page-topic").innerHTML = "Clojurescript Game";
+document.getElementById("add-text-here").innerHTML = '\x3cdiv id\x3d"page-material"\x3e\x3cp\x3eThe game is battleship!  In one dimension!\x3c/p\x3e\x3cp\x3eThe ship is three units long, and the search space is ten units wide. glhf!\x3c/p\x3e\x3cp\x3eIf you want to play again you can refresh the page.  I\'ll add a button or something later.\x3c/p\x3e\x3c/div\x3e';
 ponting_dynamics.generic.game.call(null, ponting_dynamics.generic.ship);

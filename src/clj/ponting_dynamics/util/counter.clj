@@ -8,7 +8,7 @@
 
 (def code-re #".*\.(clj|cljs|html|css|js)")
 
-(def code-res {:CSS #".*\.css" :Clojurescript #".*\.cljs" :HTML #".*\.html" :Clojure #".*\.clj" :Javascript #"dynamic.js"})
+(def code-res {:CSS #".*\.css" :Clojurescript #".*\.cljs" :HTML #".*\.html" :Clojure #".*\.clj" :Javascript #".*dynamic.js"})
 
 ;; Then, generate a list of the files (not strings of file names!) that pique our interest
 

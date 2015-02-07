@@ -23,7 +23,7 @@
         [:a#feeder {:href "/about"} "Take The Tour"]]]] 
      [:div.hideable-container.foot
       [:div.hideable.navigation.pane
-       [:div.item [:a {:href "/js"} "JS Example"]]
+       [:div.item [:a {:href "/cljs"} "JS Example"]]
        [:div.item [:a {:href "/statistics"} "Code Counts"]]
        [:div.item [:a {:href "/about"} "About Us"]]
        [:div.item {:style "border: none"} [:a {:href "mailto:info@pontingdynamics.org"} "info@pontingdynamics.org"]]]]

@@ -44,7 +44,7 @@ div#preload {
   top: 0px;
 }
 
-#splash, #base {
+#fadeable, #base {
   background-image: url("../img/wood-water.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,10 +63,36 @@ div#preload {
 .presentation {
   height: 50%;
   width: 100%;
-
-  padding-left: 50px;
-  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
   overflow: auto;
+  color: white;
+}
+
+.topic {
+  justify-content: flex-end;
+}
+
+#page-topic {
+  line-height: 10vh;
+  font-size: 10vh;
+  font-family: Vollkorn, sans-serif;
+  margin: 2vh auto;
+  text-shadow: 0px 0px 4px rgba(0,0,0,1);
+}
+
+.material {
+  justify-content: flex-start;
+}
+
+#page-material {
+  font-family: Rosario, sans-serif;
+  margin: 2vh auto;
+}
+
+#page-material a {
+  color: white;
+  text-decoration: none;
 }
 
 .banner {

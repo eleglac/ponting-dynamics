@@ -5,7 +5,7 @@
 (defn stat-content []
   (let [data (get-code-stats)]
     [:div#statistics
-      [:p "My personal code production for this site has been: "]
+      [:p "My personal code expenditure for this site has been: "]
       (map
         (fn [k]
           [:p (str "- " (data k) " lines of " (name k))])
@@ -13,5 +13,5 @@
       [:p (str "for a total of " (reduce + (vals data)) " lines of code overall.")]]))
 
 (def stats-page 
-  (define-page
-    {:body-data {:title "Statistics" :material (stat-content)}}))
+  (define-page {:head-data {:title "Ponting Dynamics | Code Expenditure"}
+                :body-data {:topic "Code Expenditure" :material (stat-content)}}))

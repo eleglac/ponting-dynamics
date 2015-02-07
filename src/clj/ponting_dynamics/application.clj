@@ -4,10 +4,10 @@
             [compojure.handler :refer [site]]
             [compojure.route :as route]
             
-            [ponting-dynamics.views.common   :refer [404-page]]
+            [ponting-dynamics.views.common   :refer [not-found-page]]
             [ponting-dynamics.views.home     :refer [main-page]]
+            [ponting-dynamics.views.pages    :refer [about-page contact samples cljs-page jobs]]
             [ponting-dynamics.views.stats    :refer [stats-page]]
-            [ponting-dynamics.views.js-test  :refer [js-page]]
 
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.adapter.jetty :as jetty]))
@@ -24,22 +24,31 @@
   ;; Gotta have the index
   (GET "/" [] (main-page))
 
-  ;; The page formerly known as Index.
-  (GET "/about" [] (slurp "resources/public/html/about.html"))
+  ;; What are Ponting Dynamics?
+  (GET "/about" [] about-page)
 
   ;; How many lines of code were used to make this site?
-  (GET "/statistics" [] (stats-page))
+  (GET "/statistics" [] stats-page)
 
-  ;; Added for Javascript testing
-  (GET "/js" [] (js-page))
+  ;; The Clojurescript Battleship Game
+  (GET "/cljs" [] cljs-page)
   
+  ;; Landing page for all sorts of little things
+  (GET "/samples" [] samples)
+
+  ;; What's a consulting firm without a contact page?
+  (GET "/contact" [] contact)
+
+  ;; Oh, did you actually want to WORK for us? Well... lol.
+  (GET "/jobs" [] jobs)
+
   ;; Doesn't matter where you're trying to go, I got you covered
   ;(context "/:title" [title]
     ;(GET "/"  [title] (default-page title [:p "If you sought " title " then you have found it."]))
     ;(GET "/*" [title] (default-page title [:p "Why do you seek to transcend " title "?"])))
   
   ;; Did you done goof?
-  (route/not-found 404-page))
+  (route/not-found not-found-page))
 
 ;; NOTES TO SELF RE: ACTUALLY RUNNING THIS SERVER
 ;;
