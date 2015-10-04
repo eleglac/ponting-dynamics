@@ -4,7 +4,7 @@
 (defn main-page []
   (html5
     [:head
-     [:title "Ponting Dynamics | Solutions You Need"]
+     [:title "Ponting Dynamics | The World Is Right Behind You"]
      [:meta {:name "description" :content "Ponting Dynamics is an internet content development consultancy located in Los Angeles, CA."}]
      [:meta {:name "author" :content "Alex J. Ponting"}]
      [:meta {:name "keywords" :content "HTML, CSS, Clojure, Clojurescript, JavaScript, jQuery, Bootstrap, Internet, Consulting"}]
@@ -18,7 +18,7 @@
        [:div.row
         [:p#pdyn-title "PONTING DYNAMICS"]]
        [:div.row
-        [:p#pdyn-slogan "&raquo; SOLUTIONS YOU NEED &laquo;"]]
+        [:p#pdyn-slogan "&raquo; THE WORLD IS RIGHT BEHIND YOU &laquo;"]]
        [:div.row
         [:a#feeder {:href "/about"} "Take The Tour"]]]] 
      [:div.hideable-container.foot

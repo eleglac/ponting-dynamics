@@ -4,10 +4,11 @@
             [compojure.handler :refer [site]]
             [compojure.route :as route]
             
-            [ponting-dynamics.views.common   :refer [not-found-page]]
-            [ponting-dynamics.views.home     :refer [main-page]]
-            [ponting-dynamics.views.pages    :refer [about-page contact samples cljs-page jobs]]
-            [ponting-dynamics.views.stats    :refer [stats-page]]
+            [ponting-dynamics.views.common    :refer [not-found-page]]
+            [ponting-dynamics.views.thefuture :refer [future-page]]
+            [ponting-dynamics.views.home      :refer [main-page]]
+            [ponting-dynamics.views.pages     :refer [about-page contact samples cljs-page jobs]]
+            [ponting-dynamics.views.stats     :refer [stats-page]]
 
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.adapter.jetty :as jetty]))
@@ -18,9 +19,13 @@
   ;;that no matter what stupid route the browser tries to use, it's going to get redirected to the actual content.
   ;;
   ;;Likely the same thing will happen if I have Javascript on deep pages, but that's a future worry.
+  ;; UPDATE 10/3/15 - it totally did happen with the javascript!  Way to go, past Alex
+
   (context "*/css" []
     (GET "/:file" [file] {:status 200 :headers {"Content-Type" "text/css; charset=utf-8"} :body (slurp (str "resources/public/css/" file))}))
-  
+  (context "*/js" []
+    (GET "/:file" [file] {:status 200 :headers {"Content-Type" "text/javascript; charset=utf-8"} :body (slurp (str "resources/public/js/" file))}))
+
   ;; Gotta have the index
   (GET "/" [] (main-page))
 
@@ -41,6 +46,9 @@
 
   ;; Oh, did you actually want to WORK for us? Well... lol.
   (GET "/jobs" [] jobs)
+
+  ;; At Ponting Dynamics, the future is right around the bend.
+  (GET "/future" [] (future-page))
 
   ;; Doesn't matter where you're trying to go, I got you covered
   ;(context "/:title" [title]
