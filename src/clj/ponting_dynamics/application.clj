@@ -9,6 +9,7 @@
             [ponting-dynamics.views.home      :refer [main-page]]
             [ponting-dynamics.views.pages     :refer [about-page contact samples cljs-page jobs]]
             [ponting-dynamics.views.stats     :refer [stats-page]]
+            [ponting-dynamics.views.circles   :refer [circles-page]]
 
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.adapter.jetty :as jetty]))
@@ -50,6 +51,8 @@
   ;; At Ponting Dynamics, the future is right around the bend.
   (GET "/future" [] (future-page))
 
+  ;; The Ponting Dynamics Large Circle Collider is finally online here.
+  (GET "/circles" [] (circles))
   ;; Doesn't matter where you're trying to go, I got you covered
   ;(context "/:title" [title]
     ;(GET "/"  [title] (default-page title [:p "If you sought " title " then you have found it."]))
