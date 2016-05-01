@@ -5,7 +5,7 @@
   (html5
     [:head
      [:title "Ponting Dynamics | The Possibilities are Endless"]
-     [:meta {:name "description" :content "Ponting Dynamics excels at navigating the fast-paced world of global rapid temporizing."}]
+     [:meta {:name "description" :content "Home of the Ponting Dynamics Variable-Radius Circle Collider."}]
      [:meta {:name "author" :content "Alex J. Ponting"}]
      [:meta {:name "keywords" :content "Quil, HTML, CSS, Clojure, Clojurescript, JavaScript, jQuery, Bootstrap, Internet, Consulting"}]
      [:link {:rel "stylesheet" :type "text/css" :href "css/circles.css"}]]

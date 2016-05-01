@@ -2879,27 +2879,27 @@ cljs.core._invoke.cljs$core$IFn$_invoke$arity$21 = function(a, b, c, d, e, f, g,
   if (null != a && null != a.cljs$core$IFn$_invoke$arity$21) {
     return a.cljs$core$IFn$_invoke$arity$21(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
   }
-  var A = cljs.core._invoke[goog.typeOf(null == a ? null : a)];
-  if (null != A) {
-    return A.cljs$core$IFn$_invoke$arity$21 ? A.cljs$core$IFn$_invoke$arity$21(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : A.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
+  var C = cljs.core._invoke[goog.typeOf(null == a ? null : a)];
+  if (null != C) {
+    return C.cljs$core$IFn$_invoke$arity$21 ? C.cljs$core$IFn$_invoke$arity$21(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : C.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
   }
-  A = cljs.core._invoke._;
-  if (null != A) {
-    return A.cljs$core$IFn$_invoke$arity$21 ? A.cljs$core$IFn$_invoke$arity$21(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : A.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
+  C = cljs.core._invoke._;
+  if (null != C) {
+    return C.cljs$core$IFn$_invoke$arity$21 ? C.cljs$core$IFn$_invoke$arity$21(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : C.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
   }
   throw cljs.core.missing_protocol("IFn.-invoke", a);
 };
-cljs.core._invoke.cljs$core$IFn$_invoke$arity$22 = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A) {
+cljs.core._invoke.cljs$core$IFn$_invoke$arity$22 = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C) {
   if (null != a && null != a.cljs$core$IFn$_invoke$arity$22) {
-    return a.cljs$core$IFn$_invoke$arity$22(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A);
+    return a.cljs$core$IFn$_invoke$arity$22(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C);
   }
-  var K = cljs.core._invoke[goog.typeOf(null == a ? null : a)];
-  if (null != K) {
-    return K.cljs$core$IFn$_invoke$arity$22 ? K.cljs$core$IFn$_invoke$arity$22(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A) : K.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A);
+  var M = cljs.core._invoke[goog.typeOf(null == a ? null : a)];
+  if (null != M) {
+    return M.cljs$core$IFn$_invoke$arity$22 ? M.cljs$core$IFn$_invoke$arity$22(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C) : M.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C);
   }
-  K = cljs.core._invoke._;
-  if (null != K) {
-    return K.cljs$core$IFn$_invoke$arity$22 ? K.cljs$core$IFn$_invoke$arity$22(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A) : K.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A);
+  M = cljs.core._invoke._;
+  if (null != M) {
+    return M.cljs$core$IFn$_invoke$arity$22 ? M.cljs$core$IFn$_invoke$arity$22(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C) : M.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C);
   }
   throw cljs.core.missing_protocol("IFn.-invoke", a);
 };
@@ -4324,59 +4324,59 @@ cljs.core.Var.prototype.call = function() {
   }, y = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) {
     a = this;
     return (a.val.cljs$core$IFn$_invoke$arity$0 ? a.val.cljs$core$IFn$_invoke$arity$0() : a.val.call(null)).call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x);
-  }, A = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) {
+  }, C = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) {
     a = this;
     return (a.val.cljs$core$IFn$_invoke$arity$0 ? a.val.cljs$core$IFn$_invoke$arity$0() : a.val.call(null)).call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
-  }, K = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A) {
+  }, M = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C) {
     a = this;
     a = a.val.cljs$core$IFn$_invoke$arity$0 ? a.val.cljs$core$IFn$_invoke$arity$0() : a.val.call(null);
-    return cljs.core.apply.cljs$core$IFn$_invoke$arity$22 ? cljs.core.apply.cljs$core$IFn$_invoke$arity$22(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A) : cljs.core.apply.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A);
-  }, a = function(a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U, V) {
+    return cljs.core.apply.cljs$core$IFn$_invoke$arity$22 ? cljs.core.apply.cljs$core$IFn$_invoke$arity$22(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C) : cljs.core.apply.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C);
+  }, a = function(a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T, U, V) {
     switch(arguments.length) {
       case 1:
         return b.call(this, a);
       case 2:
         return c.call(this, a, z);
       case 3:
-        return d.call(this, a, z, B);
+        return d.call(this, a, z, A);
       case 4:
-        return e.call(this, a, z, B, C);
+        return e.call(this, a, z, A, B);
       case 5:
-        return f.call(this, a, z, B, C, D);
+        return f.call(this, a, z, A, B, D);
       case 6:
-        return g.call(this, a, z, B, C, D, E);
+        return g.call(this, a, z, A, B, D, E);
       case 7:
-        return h.call(this, a, z, B, C, D, E, F);
+        return h.call(this, a, z, A, B, D, E, F);
       case 8:
-        return k.call(this, a, z, B, C, D, E, F, G);
+        return k.call(this, a, z, A, B, D, E, F, G);
       case 9:
-        return l.call(this, a, z, B, C, D, E, F, G, H);
+        return l.call(this, a, z, A, B, D, E, F, G, H);
       case 10:
-        return m.call(this, a, z, B, C, D, E, F, G, H, I);
+        return m.call(this, a, z, A, B, D, E, F, G, H, I);
       case 11:
-        return n.call(this, a, z, B, C, D, E, F, G, H, I, J);
+        return n.call(this, a, z, A, B, D, E, F, G, H, I, J);
       case 12:
-        return p.call(this, a, z, B, C, D, E, F, G, H, I, J, L);
+        return p.call(this, a, z, A, B, D, E, F, G, H, I, J, K);
       case 13:
-        return q.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M);
+        return q.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L);
       case 14:
-        return r.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N);
+        return r.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N);
       case 15:
-        return t.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O);
+        return t.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O);
       case 16:
-        return u.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P);
+        return u.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P);
       case 17:
-        return v.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q);
+        return v.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q);
       case 18:
-        return w.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R);
+        return w.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R);
       case 19:
-        return x.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S);
+        return x.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S);
       case 20:
-        return y.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T);
+        return y.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T);
       case 21:
-        return A.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U);
+        return C.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T, U);
       case 22:
-        return K.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U, V);
+        return M.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T, U, V);
     }
     throw Error("Invalid arity: " + arguments.length);
   };
@@ -4400,8 +4400,8 @@ cljs.core.Var.prototype.call = function() {
   a.cljs$core$IFn$_invoke$arity$18 = w;
   a.cljs$core$IFn$_invoke$arity$19 = x;
   a.cljs$core$IFn$_invoke$arity$20 = y;
-  a.cljs$core$IFn$_invoke$arity$21 = A;
-  a.cljs$core$IFn$_invoke$arity$22 = K;
+  a.cljs$core$IFn$_invoke$arity$21 = C;
+  a.cljs$core$IFn$_invoke$arity$22 = M;
   return a;
 }();
 cljs.core.Var.prototype.apply = function(a, b) {
@@ -4471,8 +4471,8 @@ cljs.core.Var.prototype.cljs$core$IFn$_invoke$arity$20 = function(a, b, c, d, e,
   return (this.val.cljs$core$IFn$_invoke$arity$0 ? this.val.cljs$core$IFn$_invoke$arity$0() : this.val.call(null)).call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x);
 };
 cljs.core.Var.prototype.cljs$core$IFn$_invoke$arity$21 = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) {
-  var A = this.val.cljs$core$IFn$_invoke$arity$0 ? this.val.cljs$core$IFn$_invoke$arity$0() : this.val.call(null);
-  return cljs.core.apply.cljs$core$IFn$_invoke$arity$22 ? cljs.core.apply.cljs$core$IFn$_invoke$arity$22(A, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : cljs.core.apply.call(null, A, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
+  var C = this.val.cljs$core$IFn$_invoke$arity$0 ? this.val.cljs$core$IFn$_invoke$arity$0() : this.val.call(null);
+  return cljs.core.apply.cljs$core$IFn$_invoke$arity$22 ? cljs.core.apply.cljs$core$IFn$_invoke$arity$22(C, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : cljs.core.apply.call(null, C, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
 };
 cljs.core.Var.getBasis = function() {
   return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "val", "val", 1769233139, null), new cljs.core.Symbol(null, "sym", "sym", 195671222, null), new cljs.core.Symbol(null, "_meta", "_meta", -1716892533, null)], null);
@@ -5633,58 +5633,58 @@ cljs.core.MetaFn.prototype.call = function() {
   }, y = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) {
     a = this;
     return a.afn.cljs$core$IFn$_invoke$arity$19 ? a.afn.cljs$core$IFn$_invoke$arity$19(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : a.afn.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x);
-  }, A = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) {
+  }, C = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) {
     a = this;
     return a.afn.cljs$core$IFn$_invoke$arity$20 ? a.afn.cljs$core$IFn$_invoke$arity$20(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : a.afn.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
-  }, K = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A) {
+  }, M = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C) {
     a = this;
-    return cljs.core.apply.cljs$core$IFn$_invoke$arity$22 ? cljs.core.apply.cljs$core$IFn$_invoke$arity$22(a.afn, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A) : cljs.core.apply.call(null, a.afn, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A);
-  }, a = function(a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U, V) {
+    return cljs.core.apply.cljs$core$IFn$_invoke$arity$22 ? cljs.core.apply.cljs$core$IFn$_invoke$arity$22(a.afn, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C) : cljs.core.apply.call(null, a.afn, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C);
+  }, a = function(a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T, U, V) {
     switch(arguments.length) {
       case 1:
         return b.call(this, a);
       case 2:
         return c.call(this, a, z);
       case 3:
-        return d.call(this, a, z, B);
+        return d.call(this, a, z, A);
       case 4:
-        return e.call(this, a, z, B, C);
+        return e.call(this, a, z, A, B);
       case 5:
-        return f.call(this, a, z, B, C, D);
+        return f.call(this, a, z, A, B, D);
       case 6:
-        return g.call(this, a, z, B, C, D, E);
+        return g.call(this, a, z, A, B, D, E);
       case 7:
-        return h.call(this, a, z, B, C, D, E, F);
+        return h.call(this, a, z, A, B, D, E, F);
       case 8:
-        return k.call(this, a, z, B, C, D, E, F, G);
+        return k.call(this, a, z, A, B, D, E, F, G);
       case 9:
-        return l.call(this, a, z, B, C, D, E, F, G, H);
+        return l.call(this, a, z, A, B, D, E, F, G, H);
       case 10:
-        return m.call(this, a, z, B, C, D, E, F, G, H, I);
+        return m.call(this, a, z, A, B, D, E, F, G, H, I);
       case 11:
-        return n.call(this, a, z, B, C, D, E, F, G, H, I, J);
+        return n.call(this, a, z, A, B, D, E, F, G, H, I, J);
       case 12:
-        return p.call(this, a, z, B, C, D, E, F, G, H, I, J, L);
+        return p.call(this, a, z, A, B, D, E, F, G, H, I, J, K);
       case 13:
-        return q.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M);
+        return q.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L);
       case 14:
-        return r.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N);
+        return r.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N);
       case 15:
-        return t.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O);
+        return t.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O);
       case 16:
-        return u.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P);
+        return u.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P);
       case 17:
-        return v.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q);
+        return v.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q);
       case 18:
-        return w.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R);
+        return w.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R);
       case 19:
-        return x.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S);
+        return x.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S);
       case 20:
-        return y.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T);
+        return y.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T);
       case 21:
-        return A.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U);
+        return C.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T, U);
       case 22:
-        return K.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U, V);
+        return M.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T, U, V);
     }
     throw Error("Invalid arity: " + arguments.length);
   };
@@ -5708,8 +5708,8 @@ cljs.core.MetaFn.prototype.call = function() {
   a.cljs$core$IFn$_invoke$arity$18 = w;
   a.cljs$core$IFn$_invoke$arity$19 = x;
   a.cljs$core$IFn$_invoke$arity$20 = y;
-  a.cljs$core$IFn$_invoke$arity$21 = A;
-  a.cljs$core$IFn$_invoke$arity$22 = K;
+  a.cljs$core$IFn$_invoke$arity$21 = C;
+  a.cljs$core$IFn$_invoke$arity$22 = M;
   return a;
 }();
 cljs.core.MetaFn.prototype.apply = function(a, b) {
@@ -8762,19 +8762,19 @@ cljs.core.apply_to = function(a, b, c) {
   if (17 === b) {
     return a.cljs$core$IFn$_invoke$arity$17 ? a.cljs$core$IFn$_invoke$arity$17(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w) : a.cljs$core$IFn$_invoke$arity$17 ? a.cljs$core$IFn$_invoke$arity$17(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w) : a.call(null, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w);
   }
-  var x = cljs.core._first(y), A = cljs.core._rest(y);
+  var x = cljs.core._first(y), C = cljs.core._rest(y);
   if (18 === b) {
     return a.cljs$core$IFn$_invoke$arity$18 ? a.cljs$core$IFn$_invoke$arity$18(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : a.cljs$core$IFn$_invoke$arity$18 ? a.cljs$core$IFn$_invoke$arity$18(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : a.call(null, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x);
   }
-  y = cljs.core._first(A);
-  A = cljs.core._rest(A);
+  y = cljs.core._first(C);
+  C = cljs.core._rest(C);
   if (19 === b) {
     return a.cljs$core$IFn$_invoke$arity$19 ? a.cljs$core$IFn$_invoke$arity$19(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : a.cljs$core$IFn$_invoke$arity$19 ? a.cljs$core$IFn$_invoke$arity$19(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : a.call(null, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
   }
-  var K = cljs.core._first(A);
-  cljs.core._rest(A);
+  var M = cljs.core._first(C);
+  cljs.core._rest(C);
   if (20 === b) {
-    return a.cljs$core$IFn$_invoke$arity$20 ? a.cljs$core$IFn$_invoke$arity$20(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, K) : a.cljs$core$IFn$_invoke$arity$20 ? a.cljs$core$IFn$_invoke$arity$20(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, K) : a.call(null, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, K);
+    return a.cljs$core$IFn$_invoke$arity$20 ? a.cljs$core$IFn$_invoke$arity$20(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, M) : a.cljs$core$IFn$_invoke$arity$20 ? a.cljs$core$IFn$_invoke$arity$20(c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, M) : a.call(null, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, M);
   }
   throw Error("Only up to 20 arguments supported on functions");
 };
@@ -8938,30 +8938,30 @@ cljs.core.not_empty = function(a) {
   return cljs.core.seq(a) ? a : null;
 };
 cljs.core.nil_iter = function cljs$core$nil_iter() {
-  "undefined" === typeof cljs.core.t_cljs$core9431 && (cljs.core.t_cljs$core9431 = function(b, c) {
+  "undefined" === typeof cljs.core.t_cljs$core11317 && (cljs.core.t_cljs$core11317 = function(b, c) {
     this.nil_iter = b;
-    this.meta9432 = c;
+    this.meta11318 = c;
     this.cljs$lang$protocol_mask$partition0$ = 393216;
     this.cljs$lang$protocol_mask$partition1$ = 0;
-  }, cljs.core.t_cljs$core9431.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = function(b, c) {
-    return new cljs.core.t_cljs$core9431(this.nil_iter, c);
-  }, cljs.core.t_cljs$core9431.prototype.cljs$core$IMeta$_meta$arity$1 = function(b) {
-    return this.meta9432;
-  }, cljs.core.t_cljs$core9431.prototype.hasNext = function() {
+  }, cljs.core.t_cljs$core11317.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = function(b, c) {
+    return new cljs.core.t_cljs$core11317(this.nil_iter, c);
+  }, cljs.core.t_cljs$core11317.prototype.cljs$core$IMeta$_meta$arity$1 = function(b) {
+    return this.meta11318;
+  }, cljs.core.t_cljs$core11317.prototype.hasNext = function() {
     return !1;
-  }, cljs.core.t_cljs$core9431.prototype.next = function() {
+  }, cljs.core.t_cljs$core11317.prototype.next = function() {
     return Error("No such element");
-  }, cljs.core.t_cljs$core9431.prototype.remove = function() {
+  }, cljs.core.t_cljs$core11317.prototype.remove = function() {
     return Error("Unsupported operation");
-  }, cljs.core.t_cljs$core9431.getBasis = function() {
-    return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "nil-iter", "nil-iter", 1101030523, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "arglists", "arglists", 1661989754), cljs.core.list(new cljs.core.Symbol(null, "quote", "quote", 1377916282, null), cljs.core.list(cljs.core.PersistentVector.EMPTY))], null)), new cljs.core.Symbol(null, "meta9432", "meta9432", -871980307, null)], 
+  }, cljs.core.t_cljs$core11317.getBasis = function() {
+    return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "nil-iter", "nil-iter", 1101030523, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "arglists", "arglists", 1661989754), cljs.core.list(new cljs.core.Symbol(null, "quote", "quote", 1377916282, null), cljs.core.list(cljs.core.PersistentVector.EMPTY))], null)), new cljs.core.Symbol(null, "meta11318", "meta11318", -168052714, null)], 
     null);
-  }, cljs.core.t_cljs$core9431.cljs$lang$type = !0, cljs.core.t_cljs$core9431.cljs$lang$ctorStr = "cljs.core/t_cljs$core9431", cljs.core.t_cljs$core9431.cljs$lang$ctorPrWriter = function(b, c, d) {
-    return cljs.core._write(c, "cljs.core/t_cljs$core9431");
-  }, cljs.core.__GT_t_cljs$core9431 = function(b, c) {
-    return new cljs.core.t_cljs$core9431(b, c);
+  }, cljs.core.t_cljs$core11317.cljs$lang$type = !0, cljs.core.t_cljs$core11317.cljs$lang$ctorStr = "cljs.core/t_cljs$core11317", cljs.core.t_cljs$core11317.cljs$lang$ctorPrWriter = function(b, c, d) {
+    return cljs.core._write(c, "cljs.core/t_cljs$core11317");
+  }, cljs.core.__GT_t_cljs$core11317 = function(b, c) {
+    return new cljs.core.t_cljs$core11317(b, c);
   });
-  return new cljs.core.t_cljs$core9431(cljs$core$nil_iter, cljs.core.PersistentArrayMap.EMPTY);
+  return new cljs.core.t_cljs$core11317(cljs$core$nil_iter, cljs.core.PersistentArrayMap.EMPTY);
 };
 cljs.core.StringIter = function(a, b) {
   this.s = a;
@@ -20210,65 +20210,65 @@ cljs.core.MultiFn.prototype.call = function() {
     return y.cljs$core$IFn$_invoke$arity$18 ? y.cljs$core$IFn$_invoke$arity$18(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w) : y.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w);
   }, y = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) {
     a = this;
-    var y = a.dispatch_fn.cljs$core$IFn$_invoke$arity$19 ? a.dispatch_fn.cljs$core$IFn$_invoke$arity$19(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : a.dispatch_fn.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x), A = this.cljs$core$IMultiFn$_get_method$arity$2(null, y);
-    cljs.core.truth_(A) || cljs.core.throw_no_method_error(a.name, y);
-    return A.cljs$core$IFn$_invoke$arity$19 ? A.cljs$core$IFn$_invoke$arity$19(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : A.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x);
-  }, A = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) {
+    var y = a.dispatch_fn.cljs$core$IFn$_invoke$arity$19 ? a.dispatch_fn.cljs$core$IFn$_invoke$arity$19(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : a.dispatch_fn.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x), C = this.cljs$core$IMultiFn$_get_method$arity$2(null, y);
+    cljs.core.truth_(C) || cljs.core.throw_no_method_error(a.name, y);
+    return C.cljs$core$IFn$_invoke$arity$19 ? C.cljs$core$IFn$_invoke$arity$19(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : C.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x);
+  }, C = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) {
     a = this;
-    var A = a.dispatch_fn.cljs$core$IFn$_invoke$arity$20 ? a.dispatch_fn.cljs$core$IFn$_invoke$arity$20(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : a.dispatch_fn.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y), K = this.cljs$core$IMultiFn$_get_method$arity$2(null, A);
-    cljs.core.truth_(K) || cljs.core.throw_no_method_error(a.name, A);
-    return K.cljs$core$IFn$_invoke$arity$20 ? K.cljs$core$IFn$_invoke$arity$20(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : K.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
-  }, K = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A) {
+    var C = a.dispatch_fn.cljs$core$IFn$_invoke$arity$20 ? a.dispatch_fn.cljs$core$IFn$_invoke$arity$20(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : a.dispatch_fn.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y), M = this.cljs$core$IMultiFn$_get_method$arity$2(null, C);
+    cljs.core.truth_(M) || cljs.core.throw_no_method_error(a.name, C);
+    return M.cljs$core$IFn$_invoke$arity$20 ? M.cljs$core$IFn$_invoke$arity$20(b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : M.call(null, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
+  }, M = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C) {
     a = this;
-    var K = cljs.core.apply.cljs$core$IFn$_invoke$arity$variadic(a.dispatch_fn, b, c, d, e, cljs.core.array_seq([f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A], 0)), W = this.cljs$core$IMultiFn$_get_method$arity$2(null, K);
-    cljs.core.truth_(W) || cljs.core.throw_no_method_error(a.name, K);
-    return cljs.core.apply.cljs$core$IFn$_invoke$arity$variadic(W, b, c, d, e, cljs.core.array_seq([f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A], 0));
-  }, a = function(a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U, V) {
+    var M = cljs.core.apply.cljs$core$IFn$_invoke$arity$variadic(a.dispatch_fn, b, c, d, e, cljs.core.array_seq([f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C], 0)), W = this.cljs$core$IMultiFn$_get_method$arity$2(null, M);
+    cljs.core.truth_(W) || cljs.core.throw_no_method_error(a.name, M);
+    return cljs.core.apply.cljs$core$IFn$_invoke$arity$variadic(W, b, c, d, e, cljs.core.array_seq([f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, C], 0));
+  }, a = function(a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T, U, V) {
     switch(arguments.length) {
       case 1:
         return b.call(this, a);
       case 2:
         return c.call(this, a, z);
       case 3:
-        return d.call(this, a, z, B);
+        return d.call(this, a, z, A);
       case 4:
-        return e.call(this, a, z, B, C);
+        return e.call(this, a, z, A, B);
       case 5:
-        return f.call(this, a, z, B, C, D);
+        return f.call(this, a, z, A, B, D);
       case 6:
-        return g.call(this, a, z, B, C, D, E);
+        return g.call(this, a, z, A, B, D, E);
       case 7:
-        return h.call(this, a, z, B, C, D, E, F);
+        return h.call(this, a, z, A, B, D, E, F);
       case 8:
-        return k.call(this, a, z, B, C, D, E, F, G);
+        return k.call(this, a, z, A, B, D, E, F, G);
       case 9:
-        return l.call(this, a, z, B, C, D, E, F, G, H);
+        return l.call(this, a, z, A, B, D, E, F, G, H);
       case 10:
-        return m.call(this, a, z, B, C, D, E, F, G, H, I);
+        return m.call(this, a, z, A, B, D, E, F, G, H, I);
       case 11:
-        return n.call(this, a, z, B, C, D, E, F, G, H, I, J);
+        return n.call(this, a, z, A, B, D, E, F, G, H, I, J);
       case 12:
-        return p.call(this, a, z, B, C, D, E, F, G, H, I, J, L);
+        return p.call(this, a, z, A, B, D, E, F, G, H, I, J, K);
       case 13:
-        return q.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M);
+        return q.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L);
       case 14:
-        return r.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N);
+        return r.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N);
       case 15:
-        return t.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O);
+        return t.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O);
       case 16:
-        return u.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P);
+        return u.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P);
       case 17:
-        return v.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q);
+        return v.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q);
       case 18:
-        return w.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R);
+        return w.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R);
       case 19:
-        return x.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S);
+        return x.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S);
       case 20:
-        return y.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T);
+        return y.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T);
       case 21:
-        return A.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U);
+        return C.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T, U);
       case 22:
-        return K.call(this, a, z, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U, V);
+        return M.call(this, a, z, A, B, D, E, F, G, H, I, J, K, L, N, O, P, Q, R, S, T, U, V);
     }
     throw Error("Invalid arity: " + arguments.length);
   };
@@ -20292,8 +20292,8 @@ cljs.core.MultiFn.prototype.call = function() {
   a.cljs$core$IFn$_invoke$arity$18 = w;
   a.cljs$core$IFn$_invoke$arity$19 = x;
   a.cljs$core$IFn$_invoke$arity$20 = y;
-  a.cljs$core$IFn$_invoke$arity$21 = A;
-  a.cljs$core$IFn$_invoke$arity$22 = K;
+  a.cljs$core$IFn$_invoke$arity$21 = C;
+  a.cljs$core$IFn$_invoke$arity$22 = M;
   return a;
 }();
 cljs.core.MultiFn.prototype.apply = function(a, b) {
@@ -20400,14 +20400,14 @@ cljs.core.MultiFn.prototype.cljs$core$IFn$_invoke$arity$19 = function(a, b, c, d
   return y.cljs$core$IFn$_invoke$arity$19 ? y.cljs$core$IFn$_invoke$arity$19(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w) : y.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w);
 };
 cljs.core.MultiFn.prototype.cljs$core$IFn$_invoke$arity$20 = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) {
-  var y = this.dispatch_fn.cljs$core$IFn$_invoke$arity$20 ? this.dispatch_fn.cljs$core$IFn$_invoke$arity$20(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : this.dispatch_fn.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x), A = this.cljs$core$IMultiFn$_get_method$arity$2(null, y);
-  cljs.core.truth_(A) || cljs.core.throw_no_method_error(this.name, y);
-  return A.cljs$core$IFn$_invoke$arity$20 ? A.cljs$core$IFn$_invoke$arity$20(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : A.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x);
+  var y = this.dispatch_fn.cljs$core$IFn$_invoke$arity$20 ? this.dispatch_fn.cljs$core$IFn$_invoke$arity$20(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : this.dispatch_fn.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x), C = this.cljs$core$IMultiFn$_get_method$arity$2(null, y);
+  cljs.core.truth_(C) || cljs.core.throw_no_method_error(this.name, y);
+  return C.cljs$core$IFn$_invoke$arity$20 ? C.cljs$core$IFn$_invoke$arity$20(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) : C.call(null, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x);
 };
 cljs.core.MultiFn.prototype.cljs$core$IFn$_invoke$arity$21 = function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) {
-  var A = cljs.core.apply.cljs$core$IFn$_invoke$arity$variadic(this.dispatch_fn, a, b, c, d, cljs.core.array_seq([e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y], 0)), K = this.cljs$core$IMultiFn$_get_method$arity$2(null, A);
-  cljs.core.truth_(K) || cljs.core.throw_no_method_error(this.name, A);
-  return cljs.core.apply.cljs$core$IFn$_invoke$arity$variadic(K, a, b, c, d, cljs.core.array_seq([e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y], 0));
+  var C = cljs.core.apply.cljs$core$IFn$_invoke$arity$variadic(this.dispatch_fn, a, b, c, d, cljs.core.array_seq([e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y], 0)), M = this.cljs$core$IMultiFn$_get_method$arity$2(null, C);
+  cljs.core.truth_(M) || cljs.core.throw_no_method_error(this.name, C);
+  return cljs.core.apply.cljs$core$IFn$_invoke$arity$variadic(M, a, b, c, d, cljs.core.array_seq([e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y], 0));
 };
 cljs.core.MultiFn.prototype.cljs$core$IMultiFn$_prefer_method$arity$3 = function(a, b, c) {
   if (cljs.core.truth_(cljs.core.prefers_STAR_(b, c, this.prefer_table))) {
@@ -20912,6 +20912,618 @@ cljs.core.find_macros_ns = function(a) {
 };
 cljs.core.ns_name = function(a) {
   return a.name;
+};
+var ponting_dynamics = {combinatorics:{}};
+ponting_dynamics.combinatorics.all_different_QMARK_ = function(a) {
+  return cljs.core.seq.call(null, a) ? cljs.core.apply.call(null, cljs.core.distinct_QMARK_, a) : !0;
+};
+ponting_dynamics.combinatorics.assert_with_message = function(a, b, c, d) {
+  return cljs.core.truth_(cljs.core._STAR_assert_STAR_) ? cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "when-not", "cljs.core/when-not", -556141047, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c), function() {
+    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "throw", "throw", 595905694, null)), function() {
+      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "new", "new", -444906321, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("ponting-dynamics.combinatorics", "AssertionError", "ponting-dynamics.combinatorics/AssertionError", 175953618, null)), function() {
+        var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "str", "cljs.core/str", -1971828991, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, "Assert failed: "), cljs.core._conj.call(null, cljs.core.List.EMPTY, d), cljs.core._conj.call(null, cljs.core.List.EMPTY, "\n"), function() {
+          var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "pr-str", "cljs.core/pr-str", -552799478, null)), function() {
+            var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "quote", "quote", 1377916282, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c))));
+            return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
+          }())));
+          return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
+        }())));
+        return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
+      }())));
+      return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
+    }())));
+    return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
+  }()))) : null;
+};
+ponting_dynamics.combinatorics.assert_with_message.cljs$lang$macro = !0;
+ponting_dynamics.combinatorics.plus = cljs.core.first.call(null, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [ponting_dynamics.combinatorics._PLUS__SINGLEQUOTE_, cljs.core._PLUS_], null));
+ponting_dynamics.combinatorics.mult = cljs.core.first.call(null, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [ponting_dynamics.combinatorics._STAR__SINGLEQUOTE_, cljs.core._STAR_], null));
+ponting_dynamics.combinatorics.index_combinations = function(a, b) {
+  return new cljs.core.LazySeq(null, function() {
+    var c = cljs.core.vec.call(null, cljs.core.cons.call(null, null, function() {
+      return function f(c) {
+        return new cljs.core.LazySeq(null, function() {
+          for (;;) {
+            var d = cljs.core.seq.call(null, c);
+            if (d) {
+              if (cljs.core.chunked_seq_QMARK_.call(null, d)) {
+                var k = cljs.core.chunk_first.call(null, d), l = cljs.core.count.call(null, k), m = cljs.core.chunk_buffer.call(null, l);
+                a: {
+                  for (var n = 0;;) {
+                    if (n < l) {
+                      var p = cljs.core._nth.call(null, k, n);
+                      cljs.core.chunk_append.call(null, m, p + b + -(a + 1));
+                      n += 1;
+                    } else {
+                      k = !0;
+                      break a;
+                    }
+                  }
+                }
+                return k ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, m), f.call(null, cljs.core.chunk_rest.call(null, d))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, m), null);
+              }
+              m = cljs.core.first.call(null, d);
+              return cljs.core.cons.call(null, m + b + -(a + 1), f.call(null, cljs.core.rest.call(null, d)));
+            }
+            return null;
+          }
+        }, null, null);
+      }.call(null, cljs.core.range.call(null, 1, a + 1));
+    }())), d = function(b) {
+      return function(b, c) {
+        if (c > a) {
+          return null;
+        }
+        var d = cljs.core.assoc.call(null, b, c, b.call(null, c) - 1);
+        if (d.call(null, c) < c) {
+          return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [d, c + 1], null);
+        }
+        for (var e = c;;) {
+          if (cljs.core._EQ_.call(null, e, 1)) {
+            return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [d, e], null);
+          }
+          d = cljs.core.assoc.call(null, d, e - 1, d.call(null, e) - 1);
+          --e;
+        }
+      };
+    }(c);
+    return function(b, c) {
+      return function h(d, l) {
+        return cljs.core.cons.call(null, cljs.core.rseq.call(null, cljs.core.subvec.call(null, d, 1, a + 1)), new cljs.core.LazySeq(null, function(a, b) {
+          return function() {
+            var a = b.call(null, d, l);
+            return cljs.core.truth_(a) ? h.call(null, a.call(null, 0), a.call(null, 1)) : null;
+          };
+        }(b, c), null, null));
+      };
+    }(c, d).call(null, c, 1);
+  }, null, null);
+};
+ponting_dynamics.combinatorics.distribute = function(a, b, c, d, e) {
+  for (;;) {
+    if (b >= cljs.core.count.call(null, a)) {
+      return null;
+    }
+    var f = c - e, g = a.call(null, b);
+    if (f <= g) {
+      return cljs.core.conj.call(null, d, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, f, c], null));
+    }
+    d = cljs.core.conj.call(null, d, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, g, e + g], null));
+    b += 1;
+    e += g;
+  }
+};
+ponting_dynamics.combinatorics.next_distribution = function(a, b, c) {
+  var d = cljs.core.peek.call(null, c), e = cljs.core.nth.call(null, d, 0, null), f = cljs.core.nth.call(null, d, 1, null), d = cljs.core.nth.call(null, d, 2, null);
+  if (e < cljs.core.count.call(null, a) - 1) {
+    return cljs.core._EQ_.call(null, f, 1) ? cljs.core.conj.call(null, cljs.core.pop.call(null, c), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [e + 1, 1, d], null)) : cljs.core.conj.call(null, cljs.core.pop.call(null, c), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [e, f - 1, d - 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [e + 1, 1, d], null));
+  }
+  if (cljs.core._EQ_.call(null, f, b)) {
+    return null;
+  }
+  for (e = cljs.core.pop.call(null, c);;) {
+    d = cljs.core.peek.call(null, e);
+    c = cljs.core.nth.call(null, d, 0, null);
+    f = cljs.core.nth.call(null, d, 1, null);
+    d = cljs.core.nth.call(null, d, 2, null);
+    e = cljs.core._EQ_.call(null, f, 1) ? cljs.core.pop.call(null, e) : cljs.core.conj.call(null, cljs.core.pop.call(null, e), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [c, f - 1, d - 1], null));
+    if (b - (d - 1) <= cljs.core.apply.call(null, cljs.core._PLUS_, cljs.core.subvec.call(null, a, c + 1))) {
+      return ponting_dynamics.combinatorics.distribute.call(null, a, c + 1, b, e, d - 1);
+    }
+    if (!cljs.core.seq.call(null, e)) {
+      return null;
+    }
+  }
+};
+ponting_dynamics.combinatorics.bounded_distributions = function(a, b) {
+  return function d(e) {
+    return cljs.core.cons.call(null, e, new cljs.core.LazySeq(null, function() {
+      var f = ponting_dynamics.combinatorics.next_distribution.call(null, a, b, e);
+      return cljs.core.truth_(f) ? d.call(null, f) : null;
+    }, null, null));
+  }.call(null, ponting_dynamics.combinatorics.distribute.call(null, a, 0, b, cljs.core.PersistentVector.EMPTY, 0));
+};
+ponting_dynamics.combinatorics.multi_comb = function(a, b) {
+  var c = cljs.core.frequencies.call(null, a), d = cljs.core.vec.call(null, cljs.core.distinct.call(null, a)), e = cljs.core.range.call(null, cljs.core.count.call(null, d)), f = cljs.core.vec.call(null, function() {
+    return function(a, b, c) {
+      return function n(d) {
+        return new cljs.core.LazySeq(null, function(a, b, c) {
+          return function() {
+            for (;;) {
+              var c = cljs.core.seq.call(null, d);
+              if (c) {
+                if (cljs.core.chunked_seq_QMARK_.call(null, c)) {
+                  var e = cljs.core.chunk_first.call(null, c), f = cljs.core.count.call(null, e), g = cljs.core.chunk_buffer.call(null, f);
+                  a: {
+                    for (var h = 0;;) {
+                      if (h < f) {
+                        var k = cljs.core._nth.call(null, e, h);
+                        cljs.core.chunk_append.call(null, g, a.call(null, b.call(null, k)));
+                        h += 1;
+                      } else {
+                        e = !0;
+                        break a;
+                      }
+                    }
+                  }
+                  return e ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), n.call(null, cljs.core.chunk_rest.call(null, c))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), null);
+                }
+                g = cljs.core.first.call(null, c);
+                return cljs.core.cons.call(null, a.call(null, b.call(null, g)), n.call(null, cljs.core.rest.call(null, c)));
+              }
+              return null;
+            }
+          };
+        }(a, b, c), null, null);
+      };
+    }(c, d, e).call(null, e);
+  }()), g = ponting_dynamics.combinatorics.bounded_distributions.call(null, f, b);
+  return function(a, b, c, d, e) {
+    return function q(f) {
+      return new cljs.core.LazySeq(null, function(a, b, c, d, e) {
+        return function() {
+          for (;;) {
+            var g = cljs.core.seq.call(null, f);
+            if (g) {
+              var h = g;
+              if (cljs.core.chunked_seq_QMARK_.call(null, h)) {
+                var k = cljs.core.chunk_first.call(null, h), l = cljs.core.count.call(null, k), m = cljs.core.chunk_buffer.call(null, l);
+                return function() {
+                  for (var f = 0;;) {
+                    if (f < l) {
+                      var n = cljs.core._nth.call(null, k, f);
+                      cljs.core.chunk_append.call(null, m, cljs.core.apply.call(null, cljs.core.concat, function() {
+                        return function(a, b, c, d, e, f, g, h, k, l, m, n) {
+                          return function S(q) {
+                            return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m, n) {
+                              return function() {
+                                for (;;) {
+                                  var a = cljs.core.seq.call(null, q);
+                                  if (a) {
+                                    if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
+                                      var b = cljs.core.chunk_first.call(null, a), c = cljs.core.count.call(null, b), d = cljs.core.chunk_buffer.call(null, c);
+                                      a: {
+                                        for (var e = 0;;) {
+                                          if (e < c) {
+                                            var f = cljs.core._nth.call(null, b, e), g = cljs.core.nth.call(null, f, 0, null), h = cljs.core.nth.call(null, f, 1, null);
+                                            cljs.core.nth.call(null, f, 2, null);
+                                            cljs.core.chunk_append.call(null, d, cljs.core.repeat.call(null, h, k.call(null, g)));
+                                            e += 1;
+                                          } else {
+                                            b = !0;
+                                            break a;
+                                          }
+                                        }
+                                      }
+                                      return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), S.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), null);
+                                    }
+                                    d = cljs.core.first.call(null, a);
+                                    b = cljs.core.nth.call(null, d, 0, null);
+                                    c = cljs.core.nth.call(null, d, 1, null);
+                                    cljs.core.nth.call(null, d, 2, null);
+                                    return cljs.core.cons.call(null, cljs.core.repeat.call(null, c, k.call(null, b)), S.call(null, cljs.core.rest.call(null, a)));
+                                  }
+                                  return null;
+                                }
+                              };
+                            }(a, b, c, d, e, f, g, h, k, l, m, n), null, null);
+                          };
+                        }(f, n, k, l, m, h, g, a, b, c, d, e).call(null, n);
+                      }()));
+                      f += 1;
+                    } else {
+                      return !0;
+                    }
+                  }
+                }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, m), q.call(null, cljs.core.chunk_rest.call(null, h))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, m), null);
+              }
+              var n = cljs.core.first.call(null, h);
+              return cljs.core.cons.call(null, cljs.core.apply.call(null, cljs.core.concat, function() {
+                return function(a, b, c, d, e, f, g, h) {
+                  return function L(k) {
+                    return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h) {
+                      return function() {
+                        for (;;) {
+                          var a = cljs.core.seq.call(null, k);
+                          if (a) {
+                            if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
+                              var b = cljs.core.chunk_first.call(null, a), c = cljs.core.count.call(null, b), d = cljs.core.chunk_buffer.call(null, c);
+                              a: {
+                                for (var f = 0;;) {
+                                  if (f < c) {
+                                    var g = cljs.core._nth.call(null, b, f), h = cljs.core.nth.call(null, g, 0, null), l = cljs.core.nth.call(null, g, 1, null);
+                                    cljs.core.nth.call(null, g, 2, null);
+                                    cljs.core.chunk_append.call(null, d, cljs.core.repeat.call(null, l, e.call(null, h)));
+                                    f += 1;
+                                  } else {
+                                    b = !0;
+                                    break a;
+                                  }
+                                }
+                              }
+                              return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), L.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), null);
+                            }
+                            d = cljs.core.first.call(null, a);
+                            b = cljs.core.nth.call(null, d, 0, null);
+                            c = cljs.core.nth.call(null, d, 1, null);
+                            cljs.core.nth.call(null, d, 2, null);
+                            return cljs.core.cons.call(null, cljs.core.repeat.call(null, c, e.call(null, b)), L.call(null, cljs.core.rest.call(null, a)));
+                          }
+                          return null;
+                        }
+                      };
+                    }(a, b, c, d, e, f, g, h), null, null);
+                  };
+                }(n, h, g, a, b, c, d, e).call(null, n);
+              }()), q.call(null, cljs.core.rest.call(null, h)));
+            }
+            return null;
+          }
+        };
+      }(a, b, c, d, e), null, null);
+    };
+  }(c, d, e, f, g).call(null, g);
+};
+ponting_dynamics.combinatorics.combinations = function(a, b) {
+  var c = cljs.core.vec.call(null, cljs.core.reverse.call(null, a));
+  if (0 === b) {
+    return c = cljs.core.List.EMPTY, cljs.core._conj.call(null, cljs.core.List.EMPTY, c);
+  }
+  var d = cljs.core.count.call(null, a);
+  return b > d ? null : cljs.core._EQ_.call(null, b, 1) ? function(a, b) {
+    return function h(c) {
+      return new cljs.core.LazySeq(null, function(a, b) {
+        return function() {
+          for (;;) {
+            var a = cljs.core.seq.call(null, c);
+            if (a) {
+              if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
+                var b = cljs.core.chunk_first.call(null, a), d = cljs.core.count.call(null, b), e = cljs.core.chunk_buffer.call(null, d);
+                a: {
+                  for (var f = 0;;) {
+                    if (f < d) {
+                      var l = cljs.core._nth.call(null, b, f);
+                      cljs.core.chunk_append.call(null, e, cljs.core._conj.call(null, cljs.core.List.EMPTY, l));
+                      f += 1;
+                    } else {
+                      b = !0;
+                      break a;
+                    }
+                  }
+                }
+                return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, e), h.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, e), null);
+              }
+              e = cljs.core.first.call(null, a);
+              return cljs.core.cons.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, e), h.call(null, cljs.core.rest.call(null, a)));
+            }
+            return null;
+          }
+        };
+      }(a, b), null, null);
+    };
+  }(d, c).call(null, cljs.core.distinct.call(null, a)) : cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? cljs.core._EQ_.call(null, b, d) ? (c = cljs.core.seq.call(null, a), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)) : cljs.core.map.call(null, function(a, b) {
+    return function(a) {
+      return cljs.core.map.call(null, b, a);
+    };
+  }(d, c), ponting_dynamics.combinatorics.index_combinations.call(null, b, d)) : ponting_dynamics.combinatorics.multi_comb.call(null, a, b);
+};
+var clojure = {set:{}};
+clojure.set.bubble_max_key = function(a, b) {
+  var c = cljs.core.apply.call(null, cljs.core.max_key, a, b);
+  return cljs.core.cons.call(null, c, cljs.core.remove.call(null, function(a) {
+    return function(b) {
+      return a === b;
+    };
+  }(c), b));
+};
+clojure.set.union = function(a) {
+  for (var b = [], c = arguments.length, d = 0;;) {
+    if (d < c) {
+      b.push(arguments[d]), d += 1;
+    } else {
+      break;
+    }
+  }
+  switch(b.length) {
+    case 0:
+      return clojure.set.union.cljs$core$IFn$_invoke$arity$0();
+    case 1:
+      return clojure.set.union.cljs$core$IFn$_invoke$arity$1(arguments[0]);
+    case 2:
+      return clojure.set.union.cljs$core$IFn$_invoke$arity$2(arguments[0], arguments[1]);
+    default:
+      return b = new cljs.core.IndexedSeq(b.slice(2), 0, null), clojure.set.union.cljs$core$IFn$_invoke$arity$variadic(arguments[0], arguments[1], b);
+  }
+};
+clojure.set.union.cljs$core$IFn$_invoke$arity$0 = function() {
+  return cljs.core.PersistentHashSet.EMPTY;
+};
+clojure.set.union.cljs$core$IFn$_invoke$arity$1 = function(a) {
+  return a;
+};
+clojure.set.union.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
+  return cljs.core.count.call(null, a) < cljs.core.count.call(null, b) ? cljs.core.reduce.call(null, cljs.core.conj, b, a) : cljs.core.reduce.call(null, cljs.core.conj, a, b);
+};
+clojure.set.union.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c) {
+  a = clojure.set.bubble_max_key.call(null, cljs.core.count, cljs.core.conj.call(null, c, b, a));
+  return cljs.core.reduce.call(null, cljs.core.into, cljs.core.first.call(null, a), cljs.core.rest.call(null, a));
+};
+clojure.set.union.cljs$lang$applyTo = function(a) {
+  var b = cljs.core.first.call(null, a), c = cljs.core.next.call(null, a);
+  a = cljs.core.first.call(null, c);
+  c = cljs.core.next.call(null, c);
+  return clojure.set.union.cljs$core$IFn$_invoke$arity$variadic(b, a, c);
+};
+clojure.set.union.cljs$lang$maxFixedArity = 2;
+clojure.set.intersection = function(a) {
+  for (var b = [], c = arguments.length, d = 0;;) {
+    if (d < c) {
+      b.push(arguments[d]), d += 1;
+    } else {
+      break;
+    }
+  }
+  switch(b.length) {
+    case 1:
+      return clojure.set.intersection.cljs$core$IFn$_invoke$arity$1(arguments[0]);
+    case 2:
+      return clojure.set.intersection.cljs$core$IFn$_invoke$arity$2(arguments[0], arguments[1]);
+    default:
+      return b = new cljs.core.IndexedSeq(b.slice(2), 0, null), clojure.set.intersection.cljs$core$IFn$_invoke$arity$variadic(arguments[0], arguments[1], b);
+  }
+};
+clojure.set.intersection.cljs$core$IFn$_invoke$arity$1 = function(a) {
+  return a;
+};
+clojure.set.intersection.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
+  for (;;) {
+    if (cljs.core.count.call(null, b) < cljs.core.count.call(null, a)) {
+      var c = a;
+      a = b;
+      b = c;
+    } else {
+      return cljs.core.reduce.call(null, function(a, b) {
+        return function(a, c) {
+          return cljs.core.contains_QMARK_.call(null, b, c) ? a : cljs.core.disj.call(null, a, c);
+        };
+      }(a, b), a, a);
+    }
+  }
+};
+clojure.set.intersection.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c) {
+  a = clojure.set.bubble_max_key.call(null, function(a) {
+    return -cljs.core.count.call(null, a);
+  }, cljs.core.conj.call(null, c, b, a));
+  return cljs.core.reduce.call(null, clojure.set.intersection, cljs.core.first.call(null, a), cljs.core.rest.call(null, a));
+};
+clojure.set.intersection.cljs$lang$applyTo = function(a) {
+  var b = cljs.core.first.call(null, a), c = cljs.core.next.call(null, a);
+  a = cljs.core.first.call(null, c);
+  c = cljs.core.next.call(null, c);
+  return clojure.set.intersection.cljs$core$IFn$_invoke$arity$variadic(b, a, c);
+};
+clojure.set.intersection.cljs$lang$maxFixedArity = 2;
+clojure.set.difference = function(a) {
+  for (var b = [], c = arguments.length, d = 0;;) {
+    if (d < c) {
+      b.push(arguments[d]), d += 1;
+    } else {
+      break;
+    }
+  }
+  switch(b.length) {
+    case 1:
+      return clojure.set.difference.cljs$core$IFn$_invoke$arity$1(arguments[0]);
+    case 2:
+      return clojure.set.difference.cljs$core$IFn$_invoke$arity$2(arguments[0], arguments[1]);
+    default:
+      return b = new cljs.core.IndexedSeq(b.slice(2), 0, null), clojure.set.difference.cljs$core$IFn$_invoke$arity$variadic(arguments[0], arguments[1], b);
+  }
+};
+clojure.set.difference.cljs$core$IFn$_invoke$arity$1 = function(a) {
+  return a;
+};
+clojure.set.difference.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
+  return cljs.core.count.call(null, a) < cljs.core.count.call(null, b) ? cljs.core.reduce.call(null, function(a, d) {
+    return cljs.core.contains_QMARK_.call(null, b, d) ? cljs.core.disj.call(null, a, d) : a;
+  }, a, a) : cljs.core.reduce.call(null, cljs.core.disj, a, b);
+};
+clojure.set.difference.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c) {
+  return cljs.core.reduce.call(null, clojure.set.difference, a, cljs.core.conj.call(null, c, b));
+};
+clojure.set.difference.cljs$lang$applyTo = function(a) {
+  var b = cljs.core.first.call(null, a), c = cljs.core.next.call(null, a);
+  a = cljs.core.first.call(null, c);
+  c = cljs.core.next.call(null, c);
+  return clojure.set.difference.cljs$core$IFn$_invoke$arity$variadic(b, a, c);
+};
+clojure.set.difference.cljs$lang$maxFixedArity = 2;
+clojure.set.select = function(a, b) {
+  return cljs.core.reduce.call(null, function(b, d) {
+    return cljs.core.truth_(a.call(null, d)) ? b : cljs.core.disj.call(null, b, d);
+  }, b, b);
+};
+clojure.set.project = function(a, b) {
+  return cljs.core.set.call(null, cljs.core.map.call(null, function(a) {
+    return cljs.core.select_keys.call(null, a, b);
+  }, a));
+};
+clojure.set.rename_keys = function(a, b) {
+  return cljs.core.reduce.call(null, function(b, d) {
+    var e = cljs.core.nth.call(null, d, 0, null), f = cljs.core.nth.call(null, d, 1, null);
+    return cljs.core.contains_QMARK_.call(null, a, e) ? cljs.core.assoc.call(null, b, f, cljs.core.get.call(null, a, e)) : b;
+  }, cljs.core.apply.call(null, cljs.core.dissoc, a, cljs.core.keys.call(null, b)), b);
+};
+clojure.set.rename = function(a, b) {
+  return cljs.core.set.call(null, cljs.core.map.call(null, function(a) {
+    return clojure.set.rename_keys.call(null, a, b);
+  }, a));
+};
+clojure.set.index = function(a, b) {
+  return cljs.core.reduce.call(null, function(a, d) {
+    var e = cljs.core.select_keys.call(null, d, b);
+    return cljs.core.assoc.call(null, a, e, cljs.core.conj.call(null, cljs.core.get.call(null, a, e, cljs.core.PersistentHashSet.EMPTY), d));
+  }, cljs.core.PersistentArrayMap.EMPTY, a);
+};
+clojure.set.map_invert = function(a) {
+  return cljs.core.reduce.call(null, function(a, c) {
+    var d = cljs.core.nth.call(null, c, 0, null), e = cljs.core.nth.call(null, c, 1, null);
+    return cljs.core.assoc.call(null, a, e, d);
+  }, cljs.core.PersistentArrayMap.EMPTY, a);
+};
+clojure.set.join = function(a) {
+  for (var b = [], c = arguments.length, d = 0;;) {
+    if (d < c) {
+      b.push(arguments[d]), d += 1;
+    } else {
+      break;
+    }
+  }
+  switch(b.length) {
+    case 2:
+      return clojure.set.join.cljs$core$IFn$_invoke$arity$2(arguments[0], arguments[1]);
+    case 3:
+      return clojure.set.join.cljs$core$IFn$_invoke$arity$3(arguments[0], arguments[1], arguments[2]);
+    default:
+      throw Error([cljs.core.str("Invalid arity: "), cljs.core.str(b.length)].join(""));;
+  }
+};
+clojure.set.join.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
+  if (cljs.core.seq.call(null, a) && cljs.core.seq.call(null, b)) {
+    var c = clojure.set.intersection.call(null, cljs.core.set.call(null, cljs.core.keys.call(null, cljs.core.first.call(null, a))), cljs.core.set.call(null, cljs.core.keys.call(null, cljs.core.first.call(null, b)))), d = cljs.core.count.call(null, a) <= cljs.core.count.call(null, b) ? new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [a, b], null) : new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, a], null), e = cljs.core.nth.call(null, 
+    d, 0, null), f = cljs.core.nth.call(null, d, 1, null), g = clojure.set.index.call(null, e, c);
+    return cljs.core.reduce.call(null, function(a, b, c, d, e) {
+      return function(f, g) {
+        var r = e.call(null, cljs.core.select_keys.call(null, g, a));
+        return cljs.core.truth_(r) ? cljs.core.reduce.call(null, function(a, b, c, d, e, f) {
+          return function(a, b) {
+            return cljs.core.conj.call(null, a, cljs.core.merge.call(null, b, g));
+          };
+        }(r, a, b, c, d, e), f, r) : f;
+      };
+    }(c, d, e, f, g), cljs.core.PersistentHashSet.EMPTY, f);
+  }
+  return cljs.core.PersistentHashSet.EMPTY;
+};
+clojure.set.join.cljs$core$IFn$_invoke$arity$3 = function(a, b, c) {
+  a = cljs.core.count.call(null, a) <= cljs.core.count.call(null, b) ? new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [a, b, clojure.set.map_invert.call(null, c)], null) : new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, a, c], null);
+  b = cljs.core.nth.call(null, a, 0, null);
+  c = cljs.core.nth.call(null, a, 1, null);
+  var d = cljs.core.nth.call(null, a, 2, null), e = clojure.set.index.call(null, b, cljs.core.vals.call(null, d));
+  return cljs.core.reduce.call(null, function(a, b, c, d, e) {
+    return function(m, n) {
+      var p = e.call(null, clojure.set.rename_keys.call(null, cljs.core.select_keys.call(null, n, cljs.core.keys.call(null, d)), d));
+      return cljs.core.truth_(p) ? cljs.core.reduce.call(null, function(a, b, c, d, e, f) {
+        return function(a, b) {
+          return cljs.core.conj.call(null, a, cljs.core.merge.call(null, b, n));
+        };
+      }(p, a, b, c, d, e), m, p) : m;
+    };
+  }(a, b, c, d, e), cljs.core.PersistentHashSet.EMPTY, c);
+};
+clojure.set.join.cljs$lang$maxFixedArity = 3;
+clojure.set.subset_QMARK_ = function(a, b) {
+  return cljs.core.count.call(null, a) <= cljs.core.count.call(null, b) && cljs.core.every_QMARK_.call(null, function(a) {
+    return cljs.core.contains_QMARK_.call(null, b, a);
+  }, a);
+};
+clojure.set.superset_QMARK_ = function(a, b) {
+  return cljs.core.count.call(null, a) >= cljs.core.count.call(null, b) && cljs.core.every_QMARK_.call(null, function(b) {
+    return cljs.core.contains_QMARK_.call(null, a, b);
+  }, b);
+};
+ponting_dynamics.collision = {};
+ponting_dynamics.collision.cell_size = 40;
+ponting_dynamics.collision.euclid_dist = function(a, b) {
+  return Math.sqrt(a * a + b * b);
+};
+ponting_dynamics.collision.colliding_QMARK_ = function(a) {
+  if (cljs.core.seq.call(null, a)) {
+    var b = cljs.core.first.call(null, a), c = cljs.core.second.call(null, a);
+    a = (new cljs.core.Keyword(null, "rad", "rad", -833983012)).cljs$core$IFn$_invoke$arity$1(b) + (new cljs.core.Keyword(null, "rad", "rad", -833983012)).cljs$core$IFn$_invoke$arity$1(c);
+    var d = (new cljs.core.Keyword(null, "x", "x", 2099068185)).cljs$core$IFn$_invoke$arity$1(c) - (new cljs.core.Keyword(null, "x", "x", 2099068185)).cljs$core$IFn$_invoke$arity$1(b), b = (new cljs.core.Keyword(null, "y", "y", -1757859776)).cljs$core$IFn$_invoke$arity$1(c) - (new cljs.core.Keyword(null, "y", "y", -1757859776)).cljs$core$IFn$_invoke$arity$1(b);
+    return ponting_dynamics.collision.euclid_dist.call(null, d, b) <= a;
+  }
+  return !1;
+};
+ponting_dynamics.collision.agent_and_cells = function(a) {
+  var b = (new cljs.core.Keyword(null, "x", "x", 2099068185)).cljs$core$IFn$_invoke$arity$1(a) - (new cljs.core.Keyword(null, "rad", "rad", -833983012)).cljs$core$IFn$_invoke$arity$1(a), c = (new cljs.core.Keyword(null, "x", "x", 2099068185)).cljs$core$IFn$_invoke$arity$1(a) + (new cljs.core.Keyword(null, "rad", "rad", -833983012)).cljs$core$IFn$_invoke$arity$1(a), d = (new cljs.core.Keyword(null, "y", "y", -1757859776)).cljs$core$IFn$_invoke$arity$1(a) - (new cljs.core.Keyword(null, "rad", "rad", 
+  -833983012)).cljs$core$IFn$_invoke$arity$1(a), e = (new cljs.core.Keyword(null, "y", "y", -1757859776)).cljs$core$IFn$_invoke$arity$1(a) + (new cljs.core.Keyword(null, "rad", "rad", -833983012)).cljs$core$IFn$_invoke$arity$1(a), f = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, d], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [c, 
+  d], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, e], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [c, e], null)], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [a, cljs.core.distinct.call(null, cljs.core.map.call(null, function(a, b, c, d, e) {
+    return function(a) {
+      var b = cljs.core.nth.call(null, a, 0, null);
+      a = cljs.core.nth.call(null, a, 1, null);
+      return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.quot.call(null, b, ponting_dynamics.collision.cell_size), cljs.core.quot.call(null, a, ponting_dynamics.collision.cell_size)], null);
+    };
+  }(b, c, d, e, f), f))], null);
+};
+ponting_dynamics.collision.pair_to_cell_agent = function(a) {
+  var b = cljs.core.nth.call(null, a, 0, null), c = cljs.core.nth.call(null, a, 1, null);
+  return cljs.core.interleave.call(null, cljs.core.map.call(null, function(a, b, c) {
+    return function(a) {
+      var b = cljs.core.nth.call(null, a, 0, null);
+      a = cljs.core.nth.call(null, a, 1, null);
+      return cljs.core.keyword.call(null, [cljs.core.str(b), cljs.core.str("-"), cljs.core.str(a)].join(""));
+    };
+  }(a, b, c), c), cljs.core.repeat.call(null, cljs.core.count.call(null, c), b));
+};
+ponting_dynamics.collision.nearby_agent_maps = function(a) {
+  return cljs.core.vals.call(null, cljs.core.apply.call(null, cljs.core.merge_with, cljs.core.comp.call(null, cljs.core.vec, cljs.core.flatten, cljs.core.vector), cljs.core.map.call(null, function(a) {
+    var c = cljs.core.nth.call(null, a, 0, null);
+    a = cljs.core.nth.call(null, a, 1, null);
+    return cljs.core.PersistentHashMap.fromArrays([c], [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [a], null)]);
+  }, a)));
+};
+ponting_dynamics.collision.all_occupied_cells = function(a) {
+  return ponting_dynamics.collision.nearby_agent_maps.call(null, cljs.core.partition.call(null, 2, cljs.core.flatten.call(null, cljs.core.map.call(null, ponting_dynamics.collision.pair_to_cell_agent, cljs.core.map.call(null, ponting_dynamics.collision.agent_and_cells, a)))));
+};
+ponting_dynamics.collision.check_cell = function(a) {
+  var b = ponting_dynamics.combinatorics.combinations.call(null, a, 2), c = cljs.core.filter.call(null, ponting_dynamics.collision.colliding_QMARK_, b), d = cljs.core.distinct.call(null, cljs.core.flatten.call(null, c));
+  a = clojure.set.difference.call(null, cljs.core.set.call(null, a), d);
+  return cljs.core.concat.call(null, cljs.core.map.call(null, function(a, b, c, d) {
+    return function(a) {
+      return cljs.core.assoc.call(null, a, new cljs.core.Keyword(null, "colliding?", "colliding?", 982736489), !0);
+    };
+  }(b, c, d, a), d), a);
+};
+ponting_dynamics.collision.check_all = function(a) {
+  a = cljs.core.map.call(null, ponting_dynamics.collision.check_cell, a);
+  var b = cljs.core.distinct.call(null, cljs.core.flatten.call(null, a)), c = cljs.core.map.call(null, new cljs.core.Keyword(null, "id", "id", -1388402092), b), d = cljs.core.partition.call(null, 2, cljs.core.interleave.call(null, c, b));
+  return cljs.core.vals.call(null, cljs.core.apply.call(null, cljs.core.merge_with, function(a, b, c, d) {
+    return function(a, b) {
+      return cljs.core.assoc.call(null, b, new cljs.core.Keyword(null, "colliding?", "colliding?", 982736489), !0);
+    };
+  }(a, b, c, d), cljs.core.map.call(null, function(a, b, c, d) {
+    return function(a) {
+      var b = cljs.core.nth.call(null, a, 0, null);
+      a = cljs.core.nth.call(null, a, 1, null);
+      return cljs.core.PersistentHashMap.fromArrays([b], [a]);
+    };
+  }(a, b, c, d), d)));
+};
+ponting_dynamics.collision.collision_detect = function(a) {
+  return ponting_dynamics.collision.check_all.call(null, ponting_dynamics.collision.all_occupied_cells.call(null, a));
 };
 goog.labs = {};
 goog.labs.userAgent = {};
@@ -23511,7 +24123,7 @@ goog.events.wrapListener = function(a) {
 goog.debug.entryPointRegistry.register(function(a) {
   goog.events.handleBrowserEvent_ = a(goog.events.handleBrowserEvent_);
 });
-var clojure = {string:{}};
+clojure.string = {};
 clojure.string.seq_reverse = function(a) {
   return cljs.core.reduce.call(null, cljs.core.conj, cljs.core.List.EMPTY, a);
 };
@@ -26569,7 +27181,7 @@ quil.core.with_fill = function(a) {
 };
 quil.core.with_fill.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) {
   return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "let", "cljs.core/let", -308701135, null)), function() {
-    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-fill__12655__auto__", "old-fill__12655__auto__", 1951279392, null)), function() {
+    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-fill__14480__auto__", "old-fill__14480__auto__", 224447828, null)), function() {
       var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "current-fill", "quil.core/current-fill", 269663137, null)))));
       return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
     }()))));
@@ -26578,7 +27190,7 @@ quil.core.with_fill.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) 
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "apply", "cljs.core/apply", 1757277831, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "fill", "quil.core/fill", 814613078, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), d, function() {
-    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "fill", "quil.core/fill", 814613078, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-fill__12655__auto__", "old-fill__12655__auto__", 1951279392, null)))));
+    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "fill", "quil.core/fill", 814613078, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-fill__14480__auto__", "old-fill__14480__auto__", 224447828, null)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }())));
 };
@@ -26603,7 +27215,7 @@ quil.core.with_stroke = function(a) {
 };
 quil.core.with_stroke.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) {
   return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "let", "cljs.core/let", -308701135, null)), function() {
-    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-stroke__12663__auto__", "old-stroke__12663__auto__", 592028909, null)), function() {
+    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-stroke__14488__auto__", "old-stroke__14488__auto__", -607950350, null)), function() {
       var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "current-stroke", "quil.core/current-stroke", -1148124489, null)))));
       return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
     }()))));
@@ -26612,7 +27224,7 @@ quil.core.with_stroke.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "apply", "cljs.core/apply", 1757277831, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "stroke", "quil.core/stroke", 577473004, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), d, function() {
-    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "stroke", "quil.core/stroke", 577473004, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-stroke__12663__auto__", "old-stroke__12663__auto__", 592028909, null)))));
+    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "stroke", "quil.core/stroke", 577473004, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-stroke__14488__auto__", "old-stroke__14488__auto__", -607950350, null)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }())));
 };
@@ -26637,14 +27249,14 @@ quil.core.with_translation = function(a) {
 };
 quil.core.with_translation.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) {
   return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "let", "cljs.core/let", -308701135, null)), function() {
-    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__12671__auto__", "tr__12671__auto__", -515287253, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)))));
+    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__14496__auto__", "tr__14496__auto__", -1147037943, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), function() {
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "push-matrix", "quil.core/push-matrix", 1356326676, null)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), function() {
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "try", "try", -1273693247, null)), function() {
-      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "translate", "quil.core/translate", 150889028, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__12671__auto__", "tr__12671__auto__", -515287253, null)))));
+      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "translate", "quil.core/translate", 150889028, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__14496__auto__", "tr__14496__auto__", -1147037943, null)))));
       return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
     }(), d, function() {
       var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "finally", "finally", -1065347064, null)), function() {
@@ -26677,14 +27289,14 @@ quil.core.with_rotation = function(a) {
 };
 quil.core.with_rotation.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) {
   return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "let", "cljs.core/let", -308701135, null)), function() {
-    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__12679__auto__", "tr__12679__auto__", 781095782, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)))));
+    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__14504__auto__", "tr__14504__auto__", -1923853265, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), function() {
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "push-matrix", "quil.core/push-matrix", 1356326676, null)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), function() {
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "try", "try", -1273693247, null)), function() {
-      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "apply", "cljs.core/apply", 1757277831, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "rotate", "quil.core/rotate", -1944995048, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__12679__auto__", "tr__12679__auto__", 781095782, null)))));
+      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "apply", "cljs.core/apply", 1757277831, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "rotate", "quil.core/rotate", -1944995048, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__14504__auto__", "tr__14504__auto__", -1923853265, null)))));
       return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
     }(), d, function() {
       var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "finally", "finally", -1065347064, null)), function() {
@@ -26782,7 +27394,7 @@ quil.core.key_as_keyword = function() {
   var a = quil.core.raw_key.call(null), b = quil.core.key_code.call(null);
   return cljs.core.truth_(quil.core.key_coded_QMARK_.call(null, a)) ? cljs.core.get.call(null, quil.core.KEY_CODES, b, new cljs.core.Keyword(null, "unknown-key", "unknown-key", 255305911)) : cljs.core.keyword.call(null, String(a));
 };
-var ponting_dynamics = {circles:{}};
+ponting_dynamics.circles = {};
 ponting_dynamics.circles.wide = window.innerWidth;
 ponting_dynamics.circles.high = window.innerHeight;
 ponting_dynamics.circles.popl = 150;
@@ -26803,7 +27415,7 @@ ponting_dynamics.circles.draw_agent = function(a) {
 };
 ponting_dynamics.circles.populate = function(a, b) {
   return cljs.core.repeatedly.call(null, a, function() {
-    var a = cljs.core.rand_int.call(null, ponting_dynamics.circles.wide), b = cljs.core.rand_int.call(null, ponting_dynamics.circles.high), e = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [255, 255], null), f = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.rand_int.call(null, 255), cljs.core.rand_int.call(null, 255), cljs.core.rand_int.call(null, 255), 255], null);
+    var a = cljs.core.rand_int.call(null, ponting_dynamics.circles.wide), b = cljs.core.rand_int.call(null, ponting_dynamics.circles.high), e = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [200, 255], null), f = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.rand_int.call(null, 255), cljs.core.rand_int.call(null, 255), cljs.core.rand_int.call(null, 255), 255], null);
     return ponting_dynamics.circles.make_agent.call(null, a, b, 5, e, f);
   });
 };
@@ -26830,7 +27442,7 @@ ponting_dynamics.circles.stationary_QMARK_ = function(a) {
   }());
 };
 ponting_dynamics.circles.update_agents = function(a) {
-  a = cljs.core.map.call(null, ponting_dynamics.circles.stationary_QMARK_, a);
+  a = cljs.core.map.call(null, ponting_dynamics.circles.stationary_QMARK_, ponting_dynamics.collision.collision_detect.call(null, a));
   return cljs.core.map.call(null, function(a) {
     return function(a) {
       return cljs.core.truth_(function() {
@@ -26897,2002 +27509,3 @@ goog.exportSymbol("ponting_dynamics.circles.circles", ponting_dynamics.circles.c
 cljs.core.truth_(cljs.core.some.call(null, function(a) {
   return cljs.core._EQ_.call(null, new cljs.core.Keyword(null, "no-start", "no-start", 1381488856), a);
 }, null)) || quil.sketch.add_sketch_to_init_list.call(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "fn", "fn", -1175266204), ponting_dynamics.circles.circles, new cljs.core.Keyword(null, "host-id", "host-id", 742376279), "quil-circles"], null));
-clojure.set = {};
-clojure.set.bubble_max_key = function(a, b) {
-  var c = cljs.core.apply.call(null, cljs.core.max_key, a, b);
-  return cljs.core.cons.call(null, c, cljs.core.remove.call(null, function(a) {
-    return function(b) {
-      return a === b;
-    };
-  }(c), b));
-};
-clojure.set.union = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  switch(b.length) {
-    case 0:
-      return clojure.set.union.cljs$core$IFn$_invoke$arity$0();
-    case 1:
-      return clojure.set.union.cljs$core$IFn$_invoke$arity$1(arguments[0]);
-    case 2:
-      return clojure.set.union.cljs$core$IFn$_invoke$arity$2(arguments[0], arguments[1]);
-    default:
-      return b = new cljs.core.IndexedSeq(b.slice(2), 0, null), clojure.set.union.cljs$core$IFn$_invoke$arity$variadic(arguments[0], arguments[1], b);
-  }
-};
-clojure.set.union.cljs$core$IFn$_invoke$arity$0 = function() {
-  return cljs.core.PersistentHashSet.EMPTY;
-};
-clojure.set.union.cljs$core$IFn$_invoke$arity$1 = function(a) {
-  return a;
-};
-clojure.set.union.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
-  return cljs.core.count.call(null, a) < cljs.core.count.call(null, b) ? cljs.core.reduce.call(null, cljs.core.conj, b, a) : cljs.core.reduce.call(null, cljs.core.conj, a, b);
-};
-clojure.set.union.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c) {
-  a = clojure.set.bubble_max_key.call(null, cljs.core.count, cljs.core.conj.call(null, c, b, a));
-  return cljs.core.reduce.call(null, cljs.core.into, cljs.core.first.call(null, a), cljs.core.rest.call(null, a));
-};
-clojure.set.union.cljs$lang$applyTo = function(a) {
-  var b = cljs.core.first.call(null, a), c = cljs.core.next.call(null, a);
-  a = cljs.core.first.call(null, c);
-  c = cljs.core.next.call(null, c);
-  return clojure.set.union.cljs$core$IFn$_invoke$arity$variadic(b, a, c);
-};
-clojure.set.union.cljs$lang$maxFixedArity = 2;
-clojure.set.intersection = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  switch(b.length) {
-    case 1:
-      return clojure.set.intersection.cljs$core$IFn$_invoke$arity$1(arguments[0]);
-    case 2:
-      return clojure.set.intersection.cljs$core$IFn$_invoke$arity$2(arguments[0], arguments[1]);
-    default:
-      return b = new cljs.core.IndexedSeq(b.slice(2), 0, null), clojure.set.intersection.cljs$core$IFn$_invoke$arity$variadic(arguments[0], arguments[1], b);
-  }
-};
-clojure.set.intersection.cljs$core$IFn$_invoke$arity$1 = function(a) {
-  return a;
-};
-clojure.set.intersection.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
-  for (;;) {
-    if (cljs.core.count.call(null, b) < cljs.core.count.call(null, a)) {
-      var c = a;
-      a = b;
-      b = c;
-    } else {
-      return cljs.core.reduce.call(null, function(a, b) {
-        return function(a, c) {
-          return cljs.core.contains_QMARK_.call(null, b, c) ? a : cljs.core.disj.call(null, a, c);
-        };
-      }(a, b), a, a);
-    }
-  }
-};
-clojure.set.intersection.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c) {
-  a = clojure.set.bubble_max_key.call(null, function(a) {
-    return -cljs.core.count.call(null, a);
-  }, cljs.core.conj.call(null, c, b, a));
-  return cljs.core.reduce.call(null, clojure.set.intersection, cljs.core.first.call(null, a), cljs.core.rest.call(null, a));
-};
-clojure.set.intersection.cljs$lang$applyTo = function(a) {
-  var b = cljs.core.first.call(null, a), c = cljs.core.next.call(null, a);
-  a = cljs.core.first.call(null, c);
-  c = cljs.core.next.call(null, c);
-  return clojure.set.intersection.cljs$core$IFn$_invoke$arity$variadic(b, a, c);
-};
-clojure.set.intersection.cljs$lang$maxFixedArity = 2;
-clojure.set.difference = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  switch(b.length) {
-    case 1:
-      return clojure.set.difference.cljs$core$IFn$_invoke$arity$1(arguments[0]);
-    case 2:
-      return clojure.set.difference.cljs$core$IFn$_invoke$arity$2(arguments[0], arguments[1]);
-    default:
-      return b = new cljs.core.IndexedSeq(b.slice(2), 0, null), clojure.set.difference.cljs$core$IFn$_invoke$arity$variadic(arguments[0], arguments[1], b);
-  }
-};
-clojure.set.difference.cljs$core$IFn$_invoke$arity$1 = function(a) {
-  return a;
-};
-clojure.set.difference.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
-  return cljs.core.count.call(null, a) < cljs.core.count.call(null, b) ? cljs.core.reduce.call(null, function(a, d) {
-    return cljs.core.contains_QMARK_.call(null, b, d) ? cljs.core.disj.call(null, a, d) : a;
-  }, a, a) : cljs.core.reduce.call(null, cljs.core.disj, a, b);
-};
-clojure.set.difference.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c) {
-  return cljs.core.reduce.call(null, clojure.set.difference, a, cljs.core.conj.call(null, c, b));
-};
-clojure.set.difference.cljs$lang$applyTo = function(a) {
-  var b = cljs.core.first.call(null, a), c = cljs.core.next.call(null, a);
-  a = cljs.core.first.call(null, c);
-  c = cljs.core.next.call(null, c);
-  return clojure.set.difference.cljs$core$IFn$_invoke$arity$variadic(b, a, c);
-};
-clojure.set.difference.cljs$lang$maxFixedArity = 2;
-clojure.set.select = function(a, b) {
-  return cljs.core.reduce.call(null, function(b, d) {
-    return cljs.core.truth_(a.call(null, d)) ? b : cljs.core.disj.call(null, b, d);
-  }, b, b);
-};
-clojure.set.project = function(a, b) {
-  return cljs.core.set.call(null, cljs.core.map.call(null, function(a) {
-    return cljs.core.select_keys.call(null, a, b);
-  }, a));
-};
-clojure.set.rename_keys = function(a, b) {
-  return cljs.core.reduce.call(null, function(b, d) {
-    var e = cljs.core.nth.call(null, d, 0, null), f = cljs.core.nth.call(null, d, 1, null);
-    return cljs.core.contains_QMARK_.call(null, a, e) ? cljs.core.assoc.call(null, b, f, cljs.core.get.call(null, a, e)) : b;
-  }, cljs.core.apply.call(null, cljs.core.dissoc, a, cljs.core.keys.call(null, b)), b);
-};
-clojure.set.rename = function(a, b) {
-  return cljs.core.set.call(null, cljs.core.map.call(null, function(a) {
-    return clojure.set.rename_keys.call(null, a, b);
-  }, a));
-};
-clojure.set.index = function(a, b) {
-  return cljs.core.reduce.call(null, function(a, d) {
-    var e = cljs.core.select_keys.call(null, d, b);
-    return cljs.core.assoc.call(null, a, e, cljs.core.conj.call(null, cljs.core.get.call(null, a, e, cljs.core.PersistentHashSet.EMPTY), d));
-  }, cljs.core.PersistentArrayMap.EMPTY, a);
-};
-clojure.set.map_invert = function(a) {
-  return cljs.core.reduce.call(null, function(a, c) {
-    var d = cljs.core.nth.call(null, c, 0, null), e = cljs.core.nth.call(null, c, 1, null);
-    return cljs.core.assoc.call(null, a, e, d);
-  }, cljs.core.PersistentArrayMap.EMPTY, a);
-};
-clojure.set.join = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  switch(b.length) {
-    case 2:
-      return clojure.set.join.cljs$core$IFn$_invoke$arity$2(arguments[0], arguments[1]);
-    case 3:
-      return clojure.set.join.cljs$core$IFn$_invoke$arity$3(arguments[0], arguments[1], arguments[2]);
-    default:
-      throw Error([cljs.core.str("Invalid arity: "), cljs.core.str(b.length)].join(""));;
-  }
-};
-clojure.set.join.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
-  if (cljs.core.seq.call(null, a) && cljs.core.seq.call(null, b)) {
-    var c = clojure.set.intersection.call(null, cljs.core.set.call(null, cljs.core.keys.call(null, cljs.core.first.call(null, a))), cljs.core.set.call(null, cljs.core.keys.call(null, cljs.core.first.call(null, b)))), d = cljs.core.count.call(null, a) <= cljs.core.count.call(null, b) ? new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [a, b], null) : new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, a], null), e = cljs.core.nth.call(null, 
-    d, 0, null), f = cljs.core.nth.call(null, d, 1, null), g = clojure.set.index.call(null, e, c);
-    return cljs.core.reduce.call(null, function(a, b, c, d, e) {
-      return function(f, g) {
-        var r = e.call(null, cljs.core.select_keys.call(null, g, a));
-        return cljs.core.truth_(r) ? cljs.core.reduce.call(null, function(a, b, c, d, e, f) {
-          return function(a, b) {
-            return cljs.core.conj.call(null, a, cljs.core.merge.call(null, b, g));
-          };
-        }(r, a, b, c, d, e), f, r) : f;
-      };
-    }(c, d, e, f, g), cljs.core.PersistentHashSet.EMPTY, f);
-  }
-  return cljs.core.PersistentHashSet.EMPTY;
-};
-clojure.set.join.cljs$core$IFn$_invoke$arity$3 = function(a, b, c) {
-  a = cljs.core.count.call(null, a) <= cljs.core.count.call(null, b) ? new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [a, b, clojure.set.map_invert.call(null, c)], null) : new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, a, c], null);
-  b = cljs.core.nth.call(null, a, 0, null);
-  c = cljs.core.nth.call(null, a, 1, null);
-  var d = cljs.core.nth.call(null, a, 2, null), e = clojure.set.index.call(null, b, cljs.core.vals.call(null, d));
-  return cljs.core.reduce.call(null, function(a, b, c, d, e) {
-    return function(m, n) {
-      var p = e.call(null, clojure.set.rename_keys.call(null, cljs.core.select_keys.call(null, n, cljs.core.keys.call(null, d)), d));
-      return cljs.core.truth_(p) ? cljs.core.reduce.call(null, function(a, b, c, d, e, f) {
-        return function(a, b) {
-          return cljs.core.conj.call(null, a, cljs.core.merge.call(null, b, n));
-        };
-      }(p, a, b, c, d, e), m, p) : m;
-    };
-  }(a, b, c, d, e), cljs.core.PersistentHashSet.EMPTY, c);
-};
-clojure.set.join.cljs$lang$maxFixedArity = 3;
-clojure.set.subset_QMARK_ = function(a, b) {
-  return cljs.core.count.call(null, a) <= cljs.core.count.call(null, b) && cljs.core.every_QMARK_.call(null, function(a) {
-    return cljs.core.contains_QMARK_.call(null, b, a);
-  }, a);
-};
-clojure.set.superset_QMARK_ = function(a, b) {
-  return cljs.core.count.call(null, a) >= cljs.core.count.call(null, b) && cljs.core.every_QMARK_.call(null, function(b) {
-    return cljs.core.contains_QMARK_.call(null, a, b);
-  }, b);
-};
-ponting_dynamics.combinatorics = {};
-ponting_dynamics.combinatorics.all_different_QMARK_ = function(a) {
-  return cljs.core.seq.call(null, a) ? cljs.core.apply.call(null, cljs.core.distinct_QMARK_, a) : !0;
-};
-ponting_dynamics.combinatorics.assert_with_message = function(a, b, c, d) {
-  return cljs.core.truth_(cljs.core._STAR_assert_STAR_) ? cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "when-not", "cljs.core/when-not", -556141047, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c), function() {
-    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "throw", "throw", 595905694, null)), function() {
-      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "new", "new", -444906321, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("ponting-dynamics.combinatorics", "AssertionError", "ponting-dynamics.combinatorics/AssertionError", 175953618, null)), function() {
-        var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "str", "cljs.core/str", -1971828991, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, "Assert failed: "), cljs.core._conj.call(null, cljs.core.List.EMPTY, d), cljs.core._conj.call(null, cljs.core.List.EMPTY, "\n"), function() {
-          var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "pr-str", "cljs.core/pr-str", -552799478, null)), function() {
-            var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "quote", "quote", 1377916282, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c))));
-            return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
-          }())));
-          return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
-        }())));
-        return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
-      }())));
-      return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
-    }())));
-    return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
-  }()))) : null;
-};
-ponting_dynamics.combinatorics.assert_with_message.cljs$lang$macro = !0;
-ponting_dynamics.combinatorics.plus = cljs.core.first.call(null, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [ponting_dynamics.combinatorics._PLUS__SINGLEQUOTE_, cljs.core._PLUS_], null));
-ponting_dynamics.combinatorics.mult = cljs.core.first.call(null, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [ponting_dynamics.combinatorics._STAR__SINGLEQUOTE_, cljs.core._STAR_], null));
-ponting_dynamics.combinatorics.index_combinations = function(a, b) {
-  return new cljs.core.LazySeq(null, function() {
-    var c = cljs.core.vec.call(null, cljs.core.cons.call(null, null, function() {
-      return function f(c) {
-        return new cljs.core.LazySeq(null, function() {
-          for (;;) {
-            var d = cljs.core.seq.call(null, c);
-            if (d) {
-              if (cljs.core.chunked_seq_QMARK_.call(null, d)) {
-                var k = cljs.core.chunk_first.call(null, d), l = cljs.core.count.call(null, k), m = cljs.core.chunk_buffer.call(null, l);
-                a: {
-                  for (var n = 0;;) {
-                    if (n < l) {
-                      var p = cljs.core._nth.call(null, k, n);
-                      cljs.core.chunk_append.call(null, m, p + b + -(a + 1));
-                      n += 1;
-                    } else {
-                      k = !0;
-                      break a;
-                    }
-                  }
-                }
-                return k ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, m), f.call(null, cljs.core.chunk_rest.call(null, d))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, m), null);
-              }
-              m = cljs.core.first.call(null, d);
-              return cljs.core.cons.call(null, m + b + -(a + 1), f.call(null, cljs.core.rest.call(null, d)));
-            }
-            return null;
-          }
-        }, null, null);
-      }.call(null, cljs.core.range.call(null, 1, a + 1));
-    }())), d = function(b) {
-      return function(b, c) {
-        if (c > a) {
-          return null;
-        }
-        var d = cljs.core.assoc.call(null, b, c, b.call(null, c) - 1);
-        if (d.call(null, c) < c) {
-          return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [d, c + 1], null);
-        }
-        for (var e = c;;) {
-          if (cljs.core._EQ_.call(null, e, 1)) {
-            return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [d, e], null);
-          }
-          d = cljs.core.assoc.call(null, d, e - 1, d.call(null, e) - 1);
-          --e;
-        }
-      };
-    }(c);
-    return function(b, c) {
-      return function h(d, l) {
-        return cljs.core.cons.call(null, cljs.core.rseq.call(null, cljs.core.subvec.call(null, d, 1, a + 1)), new cljs.core.LazySeq(null, function(a, b) {
-          return function() {
-            var a = b.call(null, d, l);
-            return cljs.core.truth_(a) ? h.call(null, a.call(null, 0), a.call(null, 1)) : null;
-          };
-        }(b, c), null, null));
-      };
-    }(c, d).call(null, c, 1);
-  }, null, null);
-};
-ponting_dynamics.combinatorics.distribute = function(a, b, c, d, e) {
-  for (;;) {
-    if (b >= cljs.core.count.call(null, a)) {
-      return null;
-    }
-    var f = c - e, g = a.call(null, b);
-    if (f <= g) {
-      return cljs.core.conj.call(null, d, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, f, c], null));
-    }
-    d = cljs.core.conj.call(null, d, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, g, e + g], null));
-    b += 1;
-    e += g;
-  }
-};
-ponting_dynamics.combinatorics.next_distribution = function(a, b, c) {
-  var d = cljs.core.peek.call(null, c), e = cljs.core.nth.call(null, d, 0, null), f = cljs.core.nth.call(null, d, 1, null), d = cljs.core.nth.call(null, d, 2, null);
-  if (e < cljs.core.count.call(null, a) - 1) {
-    return cljs.core._EQ_.call(null, f, 1) ? cljs.core.conj.call(null, cljs.core.pop.call(null, c), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [e + 1, 1, d], null)) : cljs.core.conj.call(null, cljs.core.pop.call(null, c), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [e, f - 1, d - 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [e + 1, 1, d], null));
-  }
-  if (cljs.core._EQ_.call(null, f, b)) {
-    return null;
-  }
-  for (e = cljs.core.pop.call(null, c);;) {
-    d = cljs.core.peek.call(null, e);
-    c = cljs.core.nth.call(null, d, 0, null);
-    f = cljs.core.nth.call(null, d, 1, null);
-    d = cljs.core.nth.call(null, d, 2, null);
-    e = cljs.core._EQ_.call(null, f, 1) ? cljs.core.pop.call(null, e) : cljs.core.conj.call(null, cljs.core.pop.call(null, e), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [c, f - 1, d - 1], null));
-    if (b - (d - 1) <= cljs.core.apply.call(null, cljs.core._PLUS_, cljs.core.subvec.call(null, a, c + 1))) {
-      return ponting_dynamics.combinatorics.distribute.call(null, a, c + 1, b, e, d - 1);
-    }
-    if (!cljs.core.seq.call(null, e)) {
-      return null;
-    }
-  }
-};
-ponting_dynamics.combinatorics.bounded_distributions = function(a, b) {
-  return function d(e) {
-    return cljs.core.cons.call(null, e, new cljs.core.LazySeq(null, function() {
-      var f = ponting_dynamics.combinatorics.next_distribution.call(null, a, b, e);
-      return cljs.core.truth_(f) ? d.call(null, f) : null;
-    }, null, null));
-  }.call(null, ponting_dynamics.combinatorics.distribute.call(null, a, 0, b, cljs.core.PersistentVector.EMPTY, 0));
-};
-ponting_dynamics.combinatorics.multi_comb = function(a, b) {
-  var c = cljs.core.frequencies.call(null, a), d = cljs.core.vec.call(null, cljs.core.distinct.call(null, a)), e = cljs.core.range.call(null, cljs.core.count.call(null, d)), f = cljs.core.vec.call(null, function() {
-    return function(a, b, c) {
-      return function n(d) {
-        return new cljs.core.LazySeq(null, function(a, b, c) {
-          return function() {
-            for (;;) {
-              var c = cljs.core.seq.call(null, d);
-              if (c) {
-                if (cljs.core.chunked_seq_QMARK_.call(null, c)) {
-                  var e = cljs.core.chunk_first.call(null, c), f = cljs.core.count.call(null, e), g = cljs.core.chunk_buffer.call(null, f);
-                  a: {
-                    for (var h = 0;;) {
-                      if (h < f) {
-                        var k = cljs.core._nth.call(null, e, h);
-                        cljs.core.chunk_append.call(null, g, a.call(null, b.call(null, k)));
-                        h += 1;
-                      } else {
-                        e = !0;
-                        break a;
-                      }
-                    }
-                  }
-                  return e ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), n.call(null, cljs.core.chunk_rest.call(null, c))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), null);
-                }
-                g = cljs.core.first.call(null, c);
-                return cljs.core.cons.call(null, a.call(null, b.call(null, g)), n.call(null, cljs.core.rest.call(null, c)));
-              }
-              return null;
-            }
-          };
-        }(a, b, c), null, null);
-      };
-    }(c, d, e).call(null, e);
-  }()), g = ponting_dynamics.combinatorics.bounded_distributions.call(null, f, b);
-  return function(a, b, c, d, e) {
-    return function q(f) {
-      return new cljs.core.LazySeq(null, function(a, b, c, d, e) {
-        return function() {
-          for (;;) {
-            var g = cljs.core.seq.call(null, f);
-            if (g) {
-              var h = g;
-              if (cljs.core.chunked_seq_QMARK_.call(null, h)) {
-                var k = cljs.core.chunk_first.call(null, h), l = cljs.core.count.call(null, k), m = cljs.core.chunk_buffer.call(null, l);
-                return function() {
-                  for (var f = 0;;) {
-                    if (f < l) {
-                      var n = cljs.core._nth.call(null, k, f);
-                      cljs.core.chunk_append.call(null, m, cljs.core.apply.call(null, cljs.core.concat, function() {
-                        return function(a, b, c, d, e, f, g, h, k, l, m, n) {
-                          return function S(q) {
-                            return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m, n) {
-                              return function() {
-                                for (;;) {
-                                  var a = cljs.core.seq.call(null, q);
-                                  if (a) {
-                                    if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
-                                      var b = cljs.core.chunk_first.call(null, a), c = cljs.core.count.call(null, b), d = cljs.core.chunk_buffer.call(null, c);
-                                      a: {
-                                        for (var e = 0;;) {
-                                          if (e < c) {
-                                            var f = cljs.core._nth.call(null, b, e), g = cljs.core.nth.call(null, f, 0, null), h = cljs.core.nth.call(null, f, 1, null);
-                                            cljs.core.nth.call(null, f, 2, null);
-                                            cljs.core.chunk_append.call(null, d, cljs.core.repeat.call(null, h, k.call(null, g)));
-                                            e += 1;
-                                          } else {
-                                            b = !0;
-                                            break a;
-                                          }
-                                        }
-                                      }
-                                      return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), S.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), null);
-                                    }
-                                    d = cljs.core.first.call(null, a);
-                                    b = cljs.core.nth.call(null, d, 0, null);
-                                    c = cljs.core.nth.call(null, d, 1, null);
-                                    cljs.core.nth.call(null, d, 2, null);
-                                    return cljs.core.cons.call(null, cljs.core.repeat.call(null, c, k.call(null, b)), S.call(null, cljs.core.rest.call(null, a)));
-                                  }
-                                  return null;
-                                }
-                              };
-                            }(a, b, c, d, e, f, g, h, k, l, m, n), null, null);
-                          };
-                        }(f, n, k, l, m, h, g, a, b, c, d, e).call(null, n);
-                      }()));
-                      f += 1;
-                    } else {
-                      return !0;
-                    }
-                  }
-                }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, m), q.call(null, cljs.core.chunk_rest.call(null, h))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, m), null);
-              }
-              var n = cljs.core.first.call(null, h);
-              return cljs.core.cons.call(null, cljs.core.apply.call(null, cljs.core.concat, function() {
-                return function(a, b, c, d, e, f, g, h) {
-                  return function M(k) {
-                    return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h) {
-                      return function() {
-                        for (;;) {
-                          var a = cljs.core.seq.call(null, k);
-                          if (a) {
-                            if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
-                              var b = cljs.core.chunk_first.call(null, a), c = cljs.core.count.call(null, b), d = cljs.core.chunk_buffer.call(null, c);
-                              a: {
-                                for (var f = 0;;) {
-                                  if (f < c) {
-                                    var g = cljs.core._nth.call(null, b, f), h = cljs.core.nth.call(null, g, 0, null), l = cljs.core.nth.call(null, g, 1, null);
-                                    cljs.core.nth.call(null, g, 2, null);
-                                    cljs.core.chunk_append.call(null, d, cljs.core.repeat.call(null, l, e.call(null, h)));
-                                    f += 1;
-                                  } else {
-                                    b = !0;
-                                    break a;
-                                  }
-                                }
-                              }
-                              return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), M.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), null);
-                            }
-                            d = cljs.core.first.call(null, a);
-                            b = cljs.core.nth.call(null, d, 0, null);
-                            c = cljs.core.nth.call(null, d, 1, null);
-                            cljs.core.nth.call(null, d, 2, null);
-                            return cljs.core.cons.call(null, cljs.core.repeat.call(null, c, e.call(null, b)), M.call(null, cljs.core.rest.call(null, a)));
-                          }
-                          return null;
-                        }
-                      };
-                    }(a, b, c, d, e, f, g, h), null, null);
-                  };
-                }(n, h, g, a, b, c, d, e).call(null, n);
-              }()), q.call(null, cljs.core.rest.call(null, h)));
-            }
-            return null;
-          }
-        };
-      }(a, b, c, d, e), null, null);
-    };
-  }(c, d, e, f, g).call(null, g);
-};
-ponting_dynamics.combinatorics.combinations = function(a, b) {
-  var c = cljs.core.vec.call(null, cljs.core.reverse.call(null, a));
-  if (0 === b) {
-    return c = cljs.core.List.EMPTY, cljs.core._conj.call(null, cljs.core.List.EMPTY, c);
-  }
-  var d = cljs.core.count.call(null, a);
-  return b > d ? null : cljs.core._EQ_.call(null, b, 1) ? function(a, b) {
-    return function h(c) {
-      return new cljs.core.LazySeq(null, function(a, b) {
-        return function() {
-          for (;;) {
-            var a = cljs.core.seq.call(null, c);
-            if (a) {
-              if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
-                var b = cljs.core.chunk_first.call(null, a), d = cljs.core.count.call(null, b), e = cljs.core.chunk_buffer.call(null, d);
-                a: {
-                  for (var f = 0;;) {
-                    if (f < d) {
-                      var l = cljs.core._nth.call(null, b, f);
-                      cljs.core.chunk_append.call(null, e, cljs.core._conj.call(null, cljs.core.List.EMPTY, l));
-                      f += 1;
-                    } else {
-                      b = !0;
-                      break a;
-                    }
-                  }
-                }
-                return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, e), h.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, e), null);
-              }
-              e = cljs.core.first.call(null, a);
-              return cljs.core.cons.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, e), h.call(null, cljs.core.rest.call(null, a)));
-            }
-            return null;
-          }
-        };
-      }(a, b), null, null);
-    };
-  }(d, c).call(null, cljs.core.distinct.call(null, a)) : cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? cljs.core._EQ_.call(null, b, d) ? (c = cljs.core.seq.call(null, a), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)) : cljs.core.map.call(null, function(a, b) {
-    return function(a) {
-      return cljs.core.map.call(null, b, a);
-    };
-  }(d, c), ponting_dynamics.combinatorics.index_combinations.call(null, b, d)) : ponting_dynamics.combinatorics.multi_comb.call(null, a, b);
-};
-ponting_dynamics.combinatorics.unchunk = function ponting_dynamics$combinatorics$unchunk(b) {
-  return new cljs.core.LazySeq(null, function() {
-    return cljs.core.seq.call(null, b) ? cljs.core.cons.call(null, cljs.core.first.call(null, b), ponting_dynamics$combinatorics$unchunk.call(null, cljs.core.rest.call(null, b))) : null;
-  }, null, null);
-};
-ponting_dynamics.combinatorics.subsets = function(a) {
-  return cljs.core.mapcat.call(null, function(b) {
-    return ponting_dynamics.combinatorics.combinations.call(null, a, b);
-  }, ponting_dynamics.combinatorics.unchunk.call(null, cljs.core.range.call(null, cljs.core.count.call(null, a) + 1)));
-};
-ponting_dynamics.combinatorics.cartesian_product = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  b = 0 < b.length ? new cljs.core.IndexedSeq(b.slice(0), 0, null) : null;
-  return ponting_dynamics.combinatorics.cartesian_product.cljs$core$IFn$_invoke$arity$variadic(b);
-};
-ponting_dynamics.combinatorics.cartesian_product.cljs$core$IFn$_invoke$arity$variadic = function(a) {
-  var b = cljs.core.vec.call(null, a), c = function(a) {
-    return function f(b) {
-      var c = function(a) {
-        return function(b) {
-          for (var c = cljs.core.count.call(null, b) - 1;;) {
-            if (cljs.core._EQ_.call(null, c, -1)) {
-              return null;
-            }
-            var d = cljs.core.next.call(null, b.call(null, c));
-            if (d) {
-              return cljs.core.assoc.call(null, b, c, d);
-            }
-            d = c - 1;
-            b = cljs.core.assoc.call(null, b, c, a.call(null, c));
-            c = d;
-          }
-        };
-      }(a);
-      return cljs.core.truth_(b) ? cljs.core.cons.call(null, cljs.core.map.call(null, cljs.core.first, b), new cljs.core.LazySeq(null, function(a, c) {
-        return function() {
-          return f.call(null, a.call(null, b));
-        };
-      }(c, a), null, null)) : null;
-    };
-  }(b);
-  return cljs.core.every_QMARK_.call(null, cljs.core.seq, a) ? new cljs.core.LazySeq(null, function(a, b) {
-    return function() {
-      return b.call(null, a);
-    };
-  }(b, c), null, null) : null;
-};
-ponting_dynamics.combinatorics.cartesian_product.cljs$lang$maxFixedArity = 0;
-ponting_dynamics.combinatorics.cartesian_product.cljs$lang$applyTo = function(a) {
-  return ponting_dynamics.combinatorics.cartesian_product.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null, a));
-};
-ponting_dynamics.combinatorics.selections = function(a, b) {
-  return cljs.core.apply.call(null, ponting_dynamics.combinatorics.cartesian_product, cljs.core.take.call(null, b, cljs.core.repeat.call(null, a)));
-};
-ponting_dynamics.combinatorics.iter_perm = function(a) {
-  var b = cljs.core.count.call(null, a), c = function() {
-    for (var c = b - 2;;) {
-      if (cljs.core._EQ_.call(null, c, -1)) {
-        return null;
-      }
-      if (a.call(null, c) < a.call(null, c + 1)) {
-        return c;
-      }
-      --c;
-    }
-  }();
-  if (cljs.core.truth_(c)) {
-    for (var d = a.call(null, c), e = function() {
-      for (var c = b - 1;;) {
-        if (d < a.call(null, c)) {
-          return c;
-        }
-        --c;
-      }
-    }(), e = cljs.core.assoc.call(null, a, c, a.call(null, e), e, d), c = c + 1, f = b - 1;;) {
-      if (c < f) {
-        e = cljs.core.assoc.call(null, e, c, e.call(null, f), f, e.call(null, c)), c += 1, --f;
-      } else {
-        return e;
-      }
-    }
-  } else {
-    return null;
-  }
-};
-ponting_dynamics.combinatorics.vec_lex_permutations = function ponting_dynamics$combinatorics$vec_lex_permutations(b) {
-  return cljs.core.truth_(b) ? cljs.core.cons.call(null, b, new cljs.core.LazySeq(null, function() {
-    return ponting_dynamics$combinatorics$vec_lex_permutations.call(null, ponting_dynamics.combinatorics.iter_perm.call(null, b));
-  }, null, null)) : null;
-};
-ponting_dynamics.combinatorics.lex_permutations = function(a) {
-  return new cljs.core.LazySeq(null, function() {
-    var b = cljs.core.vec.call(null, cljs.core.sort.call(null, a));
-    return 0 === cljs.core.count.call(null, b) ? cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.PersistentVector.EMPTY) : ponting_dynamics.combinatorics.vec_lex_permutations.call(null, b);
-  }, null, null);
-};
-ponting_dynamics.combinatorics.sorted_numbers_QMARK_ = function(a) {
-  var b = cljs.core.every_QMARK_.call(null, cljs.core.number_QMARK_, a);
-  return b ? (b = cljs.core.empty_QMARK_.call(null, a)) ? b : cljs.core.apply.call(null, cljs.core._LT__EQ_, a) : b;
-};
-ponting_dynamics.combinatorics.multi_perm = function(a) {
-  var b = cljs.core.frequencies.call(null, a), c = cljs.core.vec.call(null, cljs.core.distinct.call(null, a));
-  a = cljs.core.apply.call(null, cljs.core.concat, function() {
-    return function(a, b) {
-      return function g(c) {
-        return new cljs.core.LazySeq(null, function(a, b) {
-          return function() {
-            for (;;) {
-              var d = cljs.core.seq.call(null, c);
-              if (d) {
-                if (cljs.core.chunked_seq_QMARK_.call(null, d)) {
-                  var e = cljs.core.chunk_first.call(null, d), p = cljs.core.count.call(null, e), q = cljs.core.chunk_buffer.call(null, p);
-                  a: {
-                    for (var r = 0;;) {
-                      if (r < p) {
-                        var t = cljs.core._nth.call(null, e, r);
-                        cljs.core.chunk_append.call(null, q, cljs.core.repeat.call(null, a.call(null, b.call(null, t)), t));
-                        r += 1;
-                      } else {
-                        e = !0;
-                        break a;
-                      }
-                    }
-                  }
-                  return e ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, q), g.call(null, cljs.core.chunk_rest.call(null, d))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, q), null);
-                }
-                q = cljs.core.first.call(null, d);
-                return cljs.core.cons.call(null, cljs.core.repeat.call(null, a.call(null, b.call(null, q)), q), g.call(null, cljs.core.rest.call(null, d)));
-              }
-              return null;
-            }
-          };
-        }(a, b), null, null);
-      };
-    }(b, c).call(null, cljs.core.range.call(null, cljs.core.count.call(null, c)));
-  }());
-  return cljs.core.map.call(null, cljs.core.partial.call(null, cljs.core.map, c), ponting_dynamics.combinatorics.lex_permutations.call(null, a));
-};
-ponting_dynamics.combinatorics.permutations = function(a) {
-  return cljs.core.truth_(ponting_dynamics.combinatorics.sorted_numbers_QMARK_.call(null, a)) ? ponting_dynamics.combinatorics.lex_permutations.call(null, a) : cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? (a = cljs.core.vec.call(null, a), cljs.core.map.call(null, function(a) {
-    return function(c) {
-      return cljs.core.map.call(null, a, c);
-    };
-  }(a), ponting_dynamics.combinatorics.lex_permutations.call(null, cljs.core.range.call(null, cljs.core.count.call(null, a))))) : ponting_dynamics.combinatorics.multi_perm.call(null, a);
-};
-ponting_dynamics.combinatorics.factorial = function(a) {
-  if (!cljs.core.integer_QMARK_.call(null, a)) {
-    throw Error("Assert failed: (integer? n)");
-  }
-  if (0 > a) {
-    throw Error("Assert failed: (not (neg? n))");
-  }
-  for (var b = 1;;) {
-    if (0 === a) {
-      return b;
-    }
-    b = ponting_dynamics.combinatorics.mult.call(null, b, a);
-    --a;
-  }
-};
-ponting_dynamics.combinatorics.factorial_numbers = function(a) {
-  if (!cljs.core.integer_QMARK_.call(null, a)) {
-    throw Error("Assert failed: (integer? n)");
-  }
-  if (0 > a) {
-    throw Error("Assert failed: (not (neg? n))");
-  }
-  var b = a;
-  a = cljs.core.List.EMPTY;
-  for (var c = 1;;) {
-    if (0 === b) {
-      return a;
-    }
-    var d = cljs.core.quot.call(null, b, c), e = cljs.core.rem.call(null, b, c), b = d;
-    a = cljs.core.cons.call(null, e, a);
-    c += 1;
-  }
-};
-ponting_dynamics.combinatorics.remove_nth = function(a, b) {
-  for (var c = cljs.core.PersistentVector.EMPTY, d = a, e = b;;) {
-    if (0 === e) {
-      return cljs.core.into.call(null, c, cljs.core.rest.call(null, d));
-    }
-    c = cljs.core.conj.call(null, c, cljs.core.first.call(null, d));
-    d = cljs.core.rest.call(null, d);
-    --e;
-  }
-};
-ponting_dynamics.combinatorics.nth_permutation_distinct = function(a, b) {
-  ponting_dynamics.combinatorics.assert_with_message.call(null, b < ponting_dynamics.combinatorics.factorial.call(null, cljs.core.count.call(null, a)), ponting_dynamics.combinatorics.format.call(null, "%s is too large. Input has only %s permutations.", "" + cljs.core.str(b), "" + cljs.core.str(ponting_dynamics.combinatorics.factorial.call(null, cljs.core.count.call(null, a)))));
-  for (var c = cljs.core.count.call(null, a), d = ponting_dynamics.combinatorics.factorial_numbers.call(null, b), c = cljs.core.concat.call(null, cljs.core.repeat.call(null, c - cljs.core.count.call(null, d), 0), d), d = a, e = cljs.core.PersistentVector.EMPTY;;) {
-    if (cljs.core.empty_QMARK_.call(null, c)) {
-      return e;
-    }
-    var f = cljs.core.first.call(null, c), g = cljs.core.nth.call(null, d, f), c = cljs.core.rest.call(null, c), d = ponting_dynamics.combinatorics.remove_nth.call(null, d, f), e = cljs.core.conj.call(null, e, g);
-  }
-};
-ponting_dynamics.combinatorics.count_permutations_from_frequencies = function(a) {
-  a = cljs.core.vals.call(null, a);
-  return cljs.core.reduce.call(null, cljs.core._SLASH_, ponting_dynamics.combinatorics.factorial.call(null, cljs.core.apply.call(null, cljs.core._PLUS_, a)), cljs.core.map.call(null, ponting_dynamics.combinatorics.factorial, a));
-};
-ponting_dynamics.combinatorics.count_permutations = function(a) {
-  return cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? ponting_dynamics.combinatorics.factorial.call(null, cljs.core.count.call(null, a)) : ponting_dynamics.combinatorics.count_permutations_from_frequencies.call(null, cljs.core.frequencies.call(null, a));
-};
-ponting_dynamics.combinatorics.initial_perm_numbers = function(a) {
-  return cljs.core.reductions.call(null, cljs.core._PLUS_, 0, function() {
-    return function c(d) {
-      return new cljs.core.LazySeq(null, function() {
-        for (;;) {
-          var e = cljs.core.seq.call(null, d);
-          if (e) {
-            if (cljs.core.chunked_seq_QMARK_.call(null, e)) {
-              var f = cljs.core.chunk_first.call(null, e), g = cljs.core.count.call(null, f), h = cljs.core.chunk_buffer.call(null, g);
-              a: {
-                for (var k = 0;;) {
-                  if (k < g) {
-                    var l = cljs.core._nth.call(null, f, k), m = cljs.core.nth.call(null, l, 0, null), l = cljs.core.nth.call(null, l, 1, null);
-                    cljs.core.chunk_append.call(null, h, ponting_dynamics.combinatorics.count_permutations_from_frequencies.call(null, cljs.core.assoc.call(null, a, m, l - 1)));
-                    k += 1;
-                  } else {
-                    f = !0;
-                    break a;
-                  }
-                }
-              }
-              return f ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, h), c.call(null, cljs.core.chunk_rest.call(null, e))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, h), null);
-            }
-            f = cljs.core.first.call(null, e);
-            h = cljs.core.nth.call(null, f, 0, null);
-            f = cljs.core.nth.call(null, f, 1, null);
-            return cljs.core.cons.call(null, ponting_dynamics.combinatorics.count_permutations_from_frequencies.call(null, cljs.core.assoc.call(null, a, h, f - 1)), c.call(null, cljs.core.rest.call(null, e)));
-          }
-          return null;
-        }
-      }, null, null);
-    }.call(null, a);
-  }());
-};
-ponting_dynamics.combinatorics.index_remainder = function(a, b) {
-  for (var c = a, d = 0;;) {
-    if (cljs.core.first.call(null, c) <= b && b < cljs.core.second.call(null, c)) {
-      return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [d, b - cljs.core.first.call(null, c)], null);
-    }
-    c = cljs.core.rest.call(null, c);
-    d += 1;
-  }
-};
-ponting_dynamics.combinatorics.dec_key = function(a, b) {
-  return cljs.core._EQ_.call(null, 1, a.call(null, b)) ? cljs.core.dissoc.call(null, a, b) : cljs.core.update_in.call(null, a, new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [b], null), cljs.core.dec);
-};
-ponting_dynamics.combinatorics.factorial_numbers_with_duplicates = function(a, b) {
-  for (var c = a, d = cljs.core.PersistentVector.EMPTY, e = b;;) {
-    if (0 === c) {
-      return cljs.core.into.call(null, d, cljs.core.repeat.call(null, cljs.core.apply.call(null, cljs.core._PLUS_, cljs.core.vals.call(null, e)), 0));
-    }
-    var c = ponting_dynamics.combinatorics.index_remainder.call(null, ponting_dynamics.combinatorics.initial_perm_numbers.call(null, e), c), f = cljs.core.nth.call(null, c, 0, null), c = cljs.core.nth.call(null, c, 1, null), d = cljs.core.conj.call(null, d, f), f = cljs.core.nth.call(null, cljs.core.keys.call(null, e), f), e = ponting_dynamics.combinatorics.dec_key.call(null, e, f);
-  }
-};
-ponting_dynamics.combinatorics.nth_permutation_duplicates = function(a, b) {
-  ponting_dynamics.combinatorics.assert_with_message.call(null, b < ponting_dynamics.combinatorics.count_permutations.call(null, a), ponting_dynamics.combinatorics.format.call(null, "%s is too large. Input has only %s permutations.", "" + cljs.core.str(b), "" + cljs.core.str(ponting_dynamics.combinatorics.count_permutations.call(null, a))));
-  for (var c = cljs.core.into.call(null, cljs.core.sorted_map.call(null), cljs.core.frequencies.call(null, a)), d = ponting_dynamics.combinatorics.factorial_numbers_with_duplicates.call(null, b, c), e = cljs.core.PersistentVector.EMPTY;;) {
-    if (cljs.core.empty_QMARK_.call(null, d)) {
-      return e;
-    }
-    var f = cljs.core.first.call(null, d), f = cljs.core.nth.call(null, cljs.core.keys.call(null, c), f), c = ponting_dynamics.combinatorics.dec_key.call(null, c, f), d = cljs.core.rest.call(null, d), e = cljs.core.conj.call(null, e, f);
-  }
-};
-ponting_dynamics.combinatorics.nth_permutation = function(a, b) {
-  if (cljs.core.truth_(ponting_dynamics.combinatorics.sorted_numbers_QMARK_.call(null, a))) {
-    return cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? ponting_dynamics.combinatorics.nth_permutation_distinct.call(null, a, b) : ponting_dynamics.combinatorics.nth_permutation_duplicates.call(null, a, b);
-  }
-  if (cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a))) {
-    var c = cljs.core.vec.call(null, a), d = ponting_dynamics.combinatorics.nth_permutation_distinct.call(null, cljs.core.range.call(null, cljs.core.count.call(null, a)), b);
-    return cljs.core.vec.call(null, cljs.core.map.call(null, c, d));
-  }
-  var c = cljs.core.vec.call(null, cljs.core.distinct.call(null, a)), e = cljs.core.frequencies.call(null, a), d = cljs.core.apply.call(null, cljs.core.concat, function() {
-    return function(a, b) {
-      return function k(c) {
-        return new cljs.core.LazySeq(null, function(a, b) {
-          return function() {
-            for (;;) {
-              var d = cljs.core.seq.call(null, c);
-              if (d) {
-                if (cljs.core.chunked_seq_QMARK_.call(null, d)) {
-                  var e = cljs.core.chunk_first.call(null, d), f = cljs.core.count.call(null, e), g = cljs.core.chunk_buffer.call(null, f);
-                  a: {
-                    for (var u = 0;;) {
-                      if (u < f) {
-                        var v = cljs.core._nth.call(null, e, u);
-                        cljs.core.chunk_append.call(null, g, cljs.core.repeat.call(null, b.call(null, a.call(null, v)), v));
-                        u += 1;
-                      } else {
-                        e = !0;
-                        break a;
-                      }
-                    }
-                  }
-                  return e ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), k.call(null, cljs.core.chunk_rest.call(null, d))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), null);
-                }
-                g = cljs.core.first.call(null, d);
-                return cljs.core.cons.call(null, cljs.core.repeat.call(null, b.call(null, a.call(null, g)), g), k.call(null, cljs.core.rest.call(null, d)));
-              }
-              return null;
-            }
-          };
-        }(a, b), null, null);
-      };
-    }(c, e).call(null, cljs.core.range.call(null, cljs.core.count.call(null, c)));
-  }());
-  return cljs.core.vec.call(null, cljs.core.map.call(null, c, ponting_dynamics.combinatorics.nth_permutation_duplicates.call(null, d, b)));
-};
-ponting_dynamics.combinatorics.drop_permutations = function(a, b) {
-  if (0 === b) {
-    return ponting_dynamics.combinatorics.permutations.call(null, a);
-  }
-  if (cljs.core._EQ_.call(null, b, ponting_dynamics.combinatorics.count_permutations.call(null, a))) {
-    return cljs.core.List.EMPTY;
-  }
-  if (cljs.core.truth_(ponting_dynamics.combinatorics.sorted_numbers_QMARK_.call(null, a))) {
-    return cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? ponting_dynamics.combinatorics.vec_lex_permutations.call(null, ponting_dynamics.combinatorics.nth_permutation_distinct.call(null, a, b)) : ponting_dynamics.combinatorics.vec_lex_permutations.call(null, ponting_dynamics.combinatorics.nth_permutation_duplicates.call(null, a, b));
-  }
-  if (cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a))) {
-    var c = cljs.core.vec.call(null, a), d = ponting_dynamics.combinatorics.nth_permutation_distinct.call(null, cljs.core.range.call(null, cljs.core.count.call(null, a)), b);
-    return cljs.core.map.call(null, cljs.core.partial.call(null, cljs.core.map, c), ponting_dynamics.combinatorics.vec_lex_permutations.call(null, d));
-  }
-  var c = cljs.core.vec.call(null, cljs.core.distinct.call(null, a)), e = cljs.core.frequencies.call(null, a), d = cljs.core.apply.call(null, cljs.core.concat, function() {
-    return function(a, b) {
-      return function k(c) {
-        return new cljs.core.LazySeq(null, function(a, b) {
-          return function() {
-            for (;;) {
-              var d = cljs.core.seq.call(null, c);
-              if (d) {
-                if (cljs.core.chunked_seq_QMARK_.call(null, d)) {
-                  var e = cljs.core.chunk_first.call(null, d), f = cljs.core.count.call(null, e), g = cljs.core.chunk_buffer.call(null, f);
-                  a: {
-                    for (var u = 0;;) {
-                      if (u < f) {
-                        var v = cljs.core._nth.call(null, e, u);
-                        cljs.core.chunk_append.call(null, g, cljs.core.repeat.call(null, b.call(null, a.call(null, v)), v));
-                        u += 1;
-                      } else {
-                        e = !0;
-                        break a;
-                      }
-                    }
-                  }
-                  return e ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), k.call(null, cljs.core.chunk_rest.call(null, d))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), null);
-                }
-                g = cljs.core.first.call(null, d);
-                return cljs.core.cons.call(null, cljs.core.repeat.call(null, b.call(null, a.call(null, g)), g), k.call(null, cljs.core.rest.call(null, d)));
-              }
-              return null;
-            }
-          };
-        }(a, b), null, null);
-      };
-    }(c, e).call(null, cljs.core.range.call(null, cljs.core.count.call(null, c)));
-  }());
-  return cljs.core.map.call(null, cljs.core.partial.call(null, cljs.core.map, c), ponting_dynamics.combinatorics.vec_lex_permutations.call(null, ponting_dynamics.combinatorics.nth_permutation_duplicates.call(null, d, b)));
-};
-ponting_dynamics.combinatorics.n_take_k = function(a, b) {
-  for (;;) {
-    if (0 > b || b > a) {
-      return 0;
-    }
-    if (0 === b) {
-      return 1;
-    }
-    if (cljs.core._EQ_.call(null, b, 1)) {
-      return a;
-    }
-    if (b > cljs.core.quot.call(null, a, 2)) {
-      b = a - b;
-    } else {
-      return cljs.core.apply.call(null, ponting_dynamics.combinatorics.mult, cljs.core.range.call(null, a - b + 1, a + 1)) / cljs.core.apply.call(null, ponting_dynamics.combinatorics.mult, cljs.core.range.call(null, 1, b + 1));
-    }
-  }
-};
-ponting_dynamics.combinatorics.count_combinations_from_frequencies = function ponting_dynamics$combinatorics$count_combinations_from_frequencies(b, c) {
-  var d = cljs.core.vals.call(null, b), e = cljs.core.apply.call(null, cljs.core._PLUS_, d);
-  if (0 === c) {
-    return 1;
-  }
-  if (cljs.core._EQ_.call(null, c, 1)) {
-    return cljs.core.count.call(null, b);
-  }
-  if (cljs.core.every_QMARK_.call(null, new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [1, null], null), null), d)) {
-    return ponting_dynamics.combinatorics.n_take_k.call(null, cljs.core.count.call(null, b), c);
-  }
-  if (c > e) {
-    return 0;
-  }
-  if (cljs.core._EQ_.call(null, c, e) || cljs.core._EQ_.call(null, cljs.core.count.call(null, b), 1)) {
-    return 1;
-  }
-  d = ponting_dynamics.combinatorics.dec_key.call(null, b, cljs.core.first.call(null, cljs.core.keys.call(null, b)));
-  return ponting_dynamics.combinatorics.plus.call(null, ponting_dynamics$combinatorics$count_combinations_from_frequencies.call(null, d, c - 1), ponting_dynamics$combinatorics$count_combinations_from_frequencies.call(null, cljs.core.dissoc.call(null, b, cljs.core.first.call(null, cljs.core.keys.call(null, b))), c));
-};
-ponting_dynamics.combinatorics.count_combinations_unmemoized = function(a, b) {
-  return cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? ponting_dynamics.combinatorics.n_take_k.call(null, cljs.core.count.call(null, a), b) : ponting_dynamics.combinatorics.count_combinations_from_frequencies.call(null, cljs.core.frequencies.call(null, a), b);
-};
-ponting_dynamics.combinatorics.count_combinations = function(a, b) {
-  var c = ponting_dynamics.combinatorics.count_combinations_from_frequencies;
-  ponting_dynamics.combinatorics.count_combinations_from_frequencies = cljs.core.memoize.call(null, ponting_dynamics.combinatorics.count_combinations_from_frequencies);
-  try {
-    return ponting_dynamics.combinatorics.count_combinations_unmemoized.call(null, a, b);
-  } finally {
-    ponting_dynamics.combinatorics.count_combinations_from_frequencies = c;
-  }
-};
-ponting_dynamics.combinatorics.expt_int = function(a, b) {
-  for (var c = b, d = 1, e = a;;) {
-    var f = cljs.core.even_QMARK_.call(null, c), c = cljs.core.quot.call(null, c, 2);
-    if (!f) {
-      if (0 === c) {
-        return ponting_dynamics.combinatorics.mult.call(null, e, d);
-      }
-      d = ponting_dynamics.combinatorics.mult.call(null, e, d);
-    }
-    e = ponting_dynamics.combinatorics.mult.call(null, e, e);
-  }
-};
-ponting_dynamics.combinatorics.count_subsets_unmemoized = function(a) {
-  return cljs.core.empty_QMARK_.call(null, a) ? 1 : cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? ponting_dynamics.combinatorics.expt_int.call(null, 2, cljs.core.count.call(null, a)) : cljs.core.apply.call(null, ponting_dynamics.combinatorics.plus, function() {
-    return function c(d) {
-      return new cljs.core.LazySeq(null, function() {
-        for (;;) {
-          var e = cljs.core.seq.call(null, d);
-          if (e) {
-            if (cljs.core.chunked_seq_QMARK_.call(null, e)) {
-              var f = cljs.core.chunk_first.call(null, e), g = cljs.core.count.call(null, f), h = cljs.core.chunk_buffer.call(null, g);
-              a: {
-                for (var k = 0;;) {
-                  if (k < g) {
-                    var l = cljs.core._nth.call(null, f, k);
-                    cljs.core.chunk_append.call(null, h, ponting_dynamics.combinatorics.count_combinations_unmemoized.call(null, a, l));
-                    k += 1;
-                  } else {
-                    f = !0;
-                    break a;
-                  }
-                }
-              }
-              return f ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, h), c.call(null, cljs.core.chunk_rest.call(null, e))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, h), null);
-            }
-            h = cljs.core.first.call(null, e);
-            return cljs.core.cons.call(null, ponting_dynamics.combinatorics.count_combinations_unmemoized.call(null, a, h), c.call(null, cljs.core.rest.call(null, e)));
-          }
-          return null;
-        }
-      }, null, null);
-    }.call(null, cljs.core.range.call(null, 0, cljs.core.count.call(null, a) + 1));
-  }());
-};
-ponting_dynamics.combinatorics.count_subsets = function(a) {
-  var b = ponting_dynamics.combinatorics.count_combinations_from_frequencies;
-  ponting_dynamics.combinatorics.count_combinations_from_frequencies = cljs.core.memoize.call(null, ponting_dynamics.combinatorics.count_combinations_from_frequencies);
-  try {
-    return ponting_dynamics.combinatorics.count_subsets_unmemoized.call(null, a);
-  } finally {
-    ponting_dynamics.combinatorics.count_combinations_from_frequencies = b;
-  }
-};
-ponting_dynamics.combinatorics.nth_combination_distinct = function(a, b, c) {
-  for (var d = cljs.core.PersistentVector.EMPTY;;) {
-    if (0 === c || cljs.core.empty_QMARK_.call(null, a)) {
-      return cljs.core.into.call(null, d, cljs.core.take.call(null, b, a));
-    }
-    var e = ponting_dynamics.combinatorics.n_take_k.call(null, cljs.core.count.call(null, a) - 1, b - 1);
-    c < e ? (d = cljs.core.conj.call(null, d, cljs.core.first.call(null, a)), a = cljs.core.rest.call(null, a), --b) : (a = cljs.core.rest.call(null, a), c -= e);
-  }
-};
-ponting_dynamics.combinatorics.nth_combination_freqs = function(a, b, c) {
-  for (var d = cljs.core.PersistentVector.EMPTY, e = a, f = b, g = c;;) {
-    if (0 === g || cljs.core.empty_QMARK_.call(null, e)) {
-      return cljs.core.into.call(null, d, cljs.core.take.call(null, f, cljs.core.apply.call(null, cljs.core.concat, function() {
-        return function(a, b, c, d) {
-          return function q(e) {
-            return new cljs.core.LazySeq(null, function(a, b, c, d) {
-              return function() {
-                for (;;) {
-                  var a = cljs.core.seq.call(null, e);
-                  if (a) {
-                    if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
-                      var b = cljs.core.chunk_first.call(null, a), c = cljs.core.count.call(null, b), d = cljs.core.chunk_buffer.call(null, c);
-                      a: {
-                        for (var f = 0;;) {
-                          if (f < c) {
-                            var g = cljs.core._nth.call(null, b, f), h = cljs.core.nth.call(null, g, 0, null), g = cljs.core.nth.call(null, g, 1, null);
-                            cljs.core.chunk_append.call(null, d, cljs.core.repeat.call(null, g, h));
-                            f += 1;
-                          } else {
-                            b = !0;
-                            break a;
-                          }
-                        }
-                      }
-                      return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), q.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), null);
-                    }
-                    b = cljs.core.first.call(null, a);
-                    d = cljs.core.nth.call(null, b, 0, null);
-                    b = cljs.core.nth.call(null, b, 1, null);
-                    return cljs.core.cons.call(null, cljs.core.repeat.call(null, b, d), q.call(null, cljs.core.rest.call(null, a)));
-                  }
-                  return null;
-                }
-              };
-            }(a, b, c, d), null, null);
-          };
-        }(d, e, f, g).call(null, e);
-      }())));
-    }
-    c = cljs.core.first.call(null, cljs.core.keys.call(null, e));
-    b = ponting_dynamics.combinatorics.dec_key.call(null, e, c);
-    a = ponting_dynamics.combinatorics.count_combinations_from_frequencies.call(null, b, f - 1);
-    if (g < a) {
-      a = cljs.core.conj.call(null, d, c);
-      c = f - 1;
-      var h = g, d = a, e = b, f = c, g = h;
-    } else {
-      b = d, c = cljs.core.dissoc.call(null, e, c), h = f, a = g - a, d = b, e = c, f = h, g = a;
-    }
-  }
-};
-ponting_dynamics.combinatorics.nth_combination = function(a, b, c) {
-  ponting_dynamics.combinatorics.assert_with_message.call(null, c < ponting_dynamics.combinatorics.count_combinations.call(null, a, b), ponting_dynamics.combinatorics.format.call(null, "%s is too large. Input has only %s combinations.", "" + cljs.core.str(c), "" + cljs.core.str(ponting_dynamics.combinatorics.count_combinations_unmemoized.call(null, a, b))));
-  if (cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a))) {
-    return ponting_dynamics.combinatorics.nth_combination_distinct.call(null, a, b, c);
-  }
-  var d = ponting_dynamics.combinatorics.count_combinations_from_frequencies;
-  ponting_dynamics.combinatorics.count_combinations_from_frequencies = cljs.core.memoize.call(null, ponting_dynamics.combinatorics.count_combinations_from_frequencies);
-  try {
-    var e = cljs.core.vec.call(null, cljs.core.distinct.call(null, a)), f = cljs.core.frequencies.call(null, a), g = cljs.core.apply.call(null, cljs.core.concat, function() {
-      return function(a, b, c) {
-        return function p(d) {
-          return new cljs.core.LazySeq(null, function(a, b, c) {
-            return function() {
-              for (;;) {
-                var c = cljs.core.seq.call(null, d);
-                if (c) {
-                  if (cljs.core.chunked_seq_QMARK_.call(null, c)) {
-                    var e = cljs.core.chunk_first.call(null, c), f = cljs.core.count.call(null, e), g = cljs.core.chunk_buffer.call(null, f);
-                    a: {
-                      for (var h = 0;;) {
-                        if (h < f) {
-                          var k = cljs.core._nth.call(null, e, h);
-                          cljs.core.chunk_append.call(null, g, cljs.core.repeat.call(null, b.call(null, a.call(null, k)), k));
-                          h += 1;
-                        } else {
-                          e = !0;
-                          break a;
-                        }
-                      }
-                    }
-                    return e ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), p.call(null, cljs.core.chunk_rest.call(null, c))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), null);
-                  }
-                  g = cljs.core.first.call(null, c);
-                  return cljs.core.cons.call(null, cljs.core.repeat.call(null, b.call(null, a.call(null, g)), g), p.call(null, cljs.core.rest.call(null, c)));
-                }
-                return null;
-              }
-            };
-          }(a, b, c), null, null);
-        };
-      }(e, f, d).call(null, cljs.core.range.call(null, cljs.core.count.call(null, e)));
-    }()), h = cljs.core.into.call(null, cljs.core.sorted_map.call(null), cljs.core.frequencies.call(null, g));
-    return cljs.core.vec.call(null, cljs.core.map.call(null, e, ponting_dynamics.combinatorics.nth_combination_freqs.call(null, h, b, c)));
-  } finally {
-    ponting_dynamics.combinatorics.count_combinations_from_frequencies = d;
-  }
-};
-ponting_dynamics.combinatorics.nth_subset = function(a, b) {
-  ponting_dynamics.combinatorics.assert_with_message.call(null, b < ponting_dynamics.combinatorics.count_subsets.call(null, a), ponting_dynamics.combinatorics.format.call(null, "%s is too large. Input has only %s subsets.", "" + cljs.core.str(b), "" + cljs.core.str(ponting_dynamics.combinatorics.count_subsets.call(null, a))));
-  for (var c = 0, d = b;;) {
-    var e = ponting_dynamics.combinatorics.count_combinations.call(null, a, c);
-    if (d < e) {
-      return ponting_dynamics.combinatorics.nth_combination.call(null, a, c, d);
-    }
-    d -= e;
-    c += 1;
-  }
-};
-ponting_dynamics.combinatorics.list_index = function(a, b) {
-  for (var c = a, d = 0;;) {
-    if (!cljs.core.seq.call(null, c)) {
-      throw Error("Assert failed: (seq l)");
-    }
-    if (cljs.core._EQ_.call(null, b, cljs.core.first.call(null, c))) {
-      return d;
-    }
-    c = cljs.core.rest.call(null, c);
-    d += 1;
-  }
-};
-ponting_dynamics.combinatorics.permutation_index_distinct = function(a) {
-  for (var b = 0, c = cljs.core.count.call(null, a) - 1;;) {
-    if (cljs.core.empty_QMARK_.call(null, a)) {
-      return b;
-    }
-    var d = cljs.core.rest.call(null, a), b = b + ponting_dynamics.combinatorics.factorial.call(null, c) * ponting_dynamics.combinatorics.list_index.call(null, cljs.core.sort.call(null, a), cljs.core.first.call(null, a)), c = c - 1;
-    a = d;
-  }
-};
-ponting_dynamics.combinatorics.permutation_index_duplicates = function(a) {
-  for (var b = a, c = 0, d = cljs.core.into.call(null, cljs.core.sorted_map.call(null), cljs.core.frequencies.call(null, b));;) {
-    if (cljs.core.empty_QMARK_.call(null, b)) {
-      return c;
-    }
-    a = cljs.core.rest.call(null, b);
-    var e = cljs.core.reduce.call(null, cljs.core._PLUS_, c, function() {
-      var a = function(a, b, c) {
-        return function n(d) {
-          return new cljs.core.LazySeq(null, function(a, b, c) {
-            return function() {
-              for (;;) {
-                var a = cljs.core.seq.call(null, d);
-                if (a) {
-                  if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
-                    var b = cljs.core.chunk_first.call(null, a), e = cljs.core.count.call(null, b), f = cljs.core.chunk_buffer.call(null, e);
-                    a: {
-                      for (var g = 0;;) {
-                        if (g < e) {
-                          var h = cljs.core._nth.call(null, b, g);
-                          cljs.core.chunk_append.call(null, f, ponting_dynamics.combinatorics.count_permutations_from_frequencies.call(null, ponting_dynamics.combinatorics.dec_key.call(null, c, h)));
-                          g += 1;
-                        } else {
-                          b = !0;
-                          break a;
-                        }
-                      }
-                    }
-                    return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, f), n.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, f), null);
-                  }
-                  f = cljs.core.first.call(null, a);
-                  return cljs.core.cons.call(null, ponting_dynamics.combinatorics.count_permutations_from_frequencies.call(null, ponting_dynamics.combinatorics.dec_key.call(null, c, f)), n.call(null, cljs.core.rest.call(null, a)));
-                }
-                return null;
-              }
-            };
-          }(a, b, c), null, null);
-        };
-      }(b, c, d);
-      return a.call(null, cljs.core.take_while.call(null, function(a, b, c, d) {
-        return function(b) {
-          return 0 > cljs.core.compare.call(null, b, cljs.core.first.call(null, a));
-        };
-      }(b, c, d, a), cljs.core.keys.call(null, d)));
-    }()), f = ponting_dynamics.combinatorics.dec_key.call(null, d, cljs.core.first.call(null, b)), b = a, c = e, d = f;
-  }
-};
-ponting_dynamics.combinatorics.permutation_index = function(a) {
-  return cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? ponting_dynamics.combinatorics.permutation_index_distinct.call(null, a) : ponting_dynamics.combinatorics.permutation_index_duplicates.call(null, a);
-};
-ponting_dynamics.combinatorics.update = function(a, b, c) {
-  var d = a.call(null, b);
-  return cljs.core.assoc.call(null, a, b, c.call(null, d));
-};
-ponting_dynamics.combinatorics.reify_bool = function(a, b, c) {
-  return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "if", "if", 1181717262, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c), cljs.core._conj.call(null, cljs.core.List.EMPTY, 1), cljs.core._conj.call(null, cljs.core.List.EMPTY, 0))));
-};
-ponting_dynamics.combinatorics.reify_bool.cljs$lang$macro = !0;
-ponting_dynamics.combinatorics.init = function(a, b) {
-  return cljs.core.truth_(b) ? cljs.core.vec.call(null, function() {
-    return function d(e) {
-      return new cljs.core.LazySeq(null, function() {
-        for (;;) {
-          var f = cljs.core.seq.call(null, e);
-          if (f) {
-            if (cljs.core.chunked_seq_QMARK_.call(null, f)) {
-              var g = cljs.core.chunk_first.call(null, f), h = cljs.core.count.call(null, g), k = cljs.core.chunk_buffer.call(null, h);
-              return function() {
-                for (var d = 0;;) {
-                  if (d < h) {
-                    var e = cljs.core._nth.call(null, g, d);
-                    cljs.core.chunk_append.call(null, k, function() {
-                      var d = e - (a - b - -1);
-                      return 0 > d ? 0 : d;
-                    }());
-                    d += 1;
-                  } else {
-                    return !0;
-                  }
-                }
-              }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, k), d.call(null, cljs.core.chunk_rest.call(null, f))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, k), null);
-            }
-            var l = cljs.core.first.call(null, f);
-            return cljs.core.cons.call(null, function() {
-              var d = l - (a - b - -1);
-              return 0 > d ? 0 : d;
-            }(), d.call(null, cljs.core.rest.call(null, f)));
-          }
-          return null;
-        }
-      }, null, null);
-    }.call(null, cljs.core.range.call(null, 1, a + 1));
-  }()) : cljs.core.vec.call(null, cljs.core.repeat.call(null, a, 0));
-};
-ponting_dynamics.combinatorics.growth_strings_H = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  switch(b.length) {
-    case 3:
-      return ponting_dynamics.combinatorics.growth_strings_H.cljs$core$IFn$_invoke$arity$3(arguments[0], arguments[1], arguments[2]);
-    case 5:
-      return ponting_dynamics.combinatorics.growth_strings_H.cljs$core$IFn$_invoke$arity$5(arguments[0], arguments[1], arguments[2], arguments[3], arguments[4]);
-    default:
-      throw Error([cljs.core.str("Invalid arity: "), cljs.core.str(b.length)].join(""));;
-  }
-};
-ponting_dynamics.combinatorics.growth_strings_H.cljs$core$IFn$_invoke$arity$3 = function(a, b, c) {
-  return ponting_dynamics.combinatorics.growth_strings_H.call(null, a, ponting_dynamics.combinatorics.init.call(null, a, c), cljs.core.vec.call(null, cljs.core.repeat.call(null, a, 1)), b, c);
-};
-ponting_dynamics.combinatorics.growth_strings_H.cljs$core$IFn$_invoke$arity$5 = function(a, b, c, d, e) {
-  return cljs.core.cons.call(null, b, new cljs.core.LazySeq(null, function() {
-    if (function() {
-      var a = cljs.core.peek.call(null, c) > cljs.core.peek.call(null, b);
-      return a ? cljs.core.truth_(d) ? cljs.core.peek.call(null, b) < d - 1 : !0 : a;
-    }()) {
-      return ponting_dynamics.combinatorics.growth_strings_H.call(null, a, ponting_dynamics.combinatorics.update.call(null, b, a - 1, cljs.core.inc), c, d, e);
-    }
-    var f = function() {
-      for (var f = a - 2;;) {
-        var g;
-        if (g = b.call(null, f) < c.call(null, f)) {
-          g = (g = cljs.core.truth_(d) ? b.call(null, f) < d - 1 : !0) ? cljs.core.truth_(e) ? e - c.call(null, f) - ponting_dynamics.combinatorics.reify_bool.call(null, b.call(null, f) + 1 === c.call(null, f)) <= a - f : !0 : g;
-        }
-        if (g) {
-          return f;
-        }
-        --f;
-      }
-    }();
-    if (0 === f) {
-      return cljs.core.List.EMPTY;
-    }
-    var g = ponting_dynamics.combinatorics.update.call(null, b, f, cljs.core.inc), h = cljs.core.truth_(e) ? e - (c.call(null, f) + ponting_dynamics.combinatorics.reify_bool.call(null, cljs.core._EQ_.call(null, g.call(null, f), c.call(null, f)))) : null, k = function() {
-      for (var b = g, d = c, k = f + 1, l = d.call(null, f) + ponting_dynamics.combinatorics.reify_bool.call(null, d.call(null, f) === b.call(null, f));;) {
-        if (k === a) {
-          return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [b, d], null);
-        }
-        if (cljs.core.truth_(cljs.core.truth_(e) ? k > a - h - 1 : e)) {
-          var r = k - a + e, b = cljs.core.assoc.call(null, b, k, r), d = cljs.core.assoc.call(null, d, k, l), k = k + 1, r = r + 1, l = l > r ? l : r
-        } else {
-          b = cljs.core.assoc.call(null, b, k, 0), d = cljs.core.assoc.call(null, d, k, l), k += 1;
-        }
-      }
-    }(), l = cljs.core.nth.call(null, k, 0, null), k = cljs.core.nth.call(null, k, 1, null);
-    return ponting_dynamics.combinatorics.growth_strings_H.call(null, a, l, k, d, e);
-  }, null, null));
-};
-ponting_dynamics.combinatorics.growth_strings_H.cljs$lang$maxFixedArity = 5;
-ponting_dynamics.combinatorics.lex_partitions_H = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  b = 1 < b.length ? new cljs.core.IndexedSeq(b.slice(1), 0, null) : null;
-  return ponting_dynamics.combinatorics.lex_partitions_H.cljs$core$IFn$_invoke$arity$variadic(arguments[0], b);
-};
-ponting_dynamics.combinatorics.lex_partitions_H.cljs$core$IFn$_invoke$arity$variadic = function(a, b) {
-  var c = null != b && (b.cljs$lang$protocol_mask$partition0$ & 64 || b.cljs$core$ISeq$) ? cljs.core.apply.call(null, cljs.core.hash_map, b) : b, d = cljs.core.get.call(null, c, new cljs.core.Keyword(null, "min", "min", 444991522)), e = cljs.core.get.call(null, c, new cljs.core.Keyword(null, "max", "max", 61366548));
-  if (cljs.core._EQ_.call(null, a, 0)) {
-    return 0 >= (cljs.core.truth_(d) ? d : 0) && 0 <= (cljs.core.truth_(e) ? e : 0) ? cljs.core.list(cljs.core.List.EMPTY) : cljs.core.List.EMPTY;
-  }
-  var f = cljs.core.truth_(cljs.core.truth_(d) ? 1 >= d : d) ? null : d, g = cljs.core.truth_(cljs.core.truth_(e) ? e >= a : e) ? null : e;
-  if (1 <= (cljs.core.truth_(f) ? f : 1) && (cljs.core.truth_(f) ? f : 1) <= (cljs.core.truth_(g) ? g : a) && (cljs.core.truth_(g) ? g : a) <= a) {
-    if (cljs.core._EQ_.call(null, a, 0)) {
-      return cljs.core.list(cljs.core.List.EMPTY);
-    }
-    if (cljs.core._EQ_.call(null, a, 1)) {
-      return cljs.core.list(cljs.core.list(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [0], null)));
-    }
-    if (cljs.core._EQ_.call(null, g, 1)) {
-      return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, function() {
-        var b = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, function() {
-          var b = cljs.core.range.call(null, a);
-          return cljs.core._conj.call(null, cljs.core.List.EMPTY, b);
-        }())));
-        return cljs.core._conj.call(null, cljs.core.List.EMPTY, b);
-      }())));
-    }
-    var h = ponting_dynamics.combinatorics.growth_strings_H.call(null, a, g, f);
-    return function(b, c, d, e, f, g, h) {
-      return function u(v) {
-        return new cljs.core.LazySeq(null, function(b, c, d, e, f, g, h) {
-          return function() {
-            for (;;) {
-              var b = cljs.core.seq.call(null, v);
-              if (b) {
-                if (cljs.core.chunked_seq_QMARK_.call(null, b)) {
-                  var c = cljs.core.chunk_first.call(null, b), d = cljs.core.count.call(null, c), e = cljs.core.chunk_buffer.call(null, d);
-                  a: {
-                    for (var f = 0;;) {
-                      if (f < d) {
-                        var g = cljs.core._nth.call(null, c, f), g = cljs.core.group_by.call(null, g, cljs.core.range.call(null, a));
-                        cljs.core.chunk_append.call(null, e, cljs.core.map.call(null, g, cljs.core.range.call(null, cljs.core.count.call(null, g))));
-                        f += 1;
-                      } else {
-                        c = !0;
-                        break a;
-                      }
-                    }
-                  }
-                  return c ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, e), u.call(null, cljs.core.chunk_rest.call(null, b))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, e), null);
-                }
-                e = cljs.core.first.call(null, b);
-                e = cljs.core.group_by.call(null, e, cljs.core.range.call(null, a));
-                return cljs.core.cons.call(null, cljs.core.map.call(null, e, cljs.core.range.call(null, cljs.core.count.call(null, e))), u.call(null, cljs.core.rest.call(null, b)));
-              }
-              return null;
-            }
-          };
-        }(b, c, d, e, f, g, h), null, null);
-      };
-    }(h, f, g, b, c, d, e).call(null, h);
-  }
-  return cljs.core.List.EMPTY;
-};
-ponting_dynamics.combinatorics.lex_partitions_H.cljs$lang$maxFixedArity = 1;
-ponting_dynamics.combinatorics.lex_partitions_H.cljs$lang$applyTo = function(a) {
-  var b = cljs.core.first.call(null, a);
-  a = cljs.core.next.call(null, a);
-  return ponting_dynamics.combinatorics.lex_partitions_H.cljs$core$IFn$_invoke$arity$variadic(b, a);
-};
-ponting_dynamics.combinatorics.partitions_H = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  b = 1 < b.length ? new cljs.core.IndexedSeq(b.slice(1), 0, null) : null;
-  return ponting_dynamics.combinatorics.partitions_H.cljs$core$IFn$_invoke$arity$variadic(arguments[0], b);
-};
-ponting_dynamics.combinatorics.partitions_H.cljs$core$IFn$_invoke$arity$variadic = function(a, b) {
-  var c = cljs.core.vec.call(null, a), d = cljs.core.count.call(null, c), e = cljs.core.apply.call(null, ponting_dynamics.combinatorics.lex_partitions_H, d, b);
-  return function(a, b, c) {
-    return function l(d) {
-      return new cljs.core.LazySeq(null, function(a, b, c) {
-        return function() {
-          for (;;) {
-            var e = cljs.core.seq.call(null, d);
-            if (e) {
-              var f = e;
-              if (cljs.core.chunked_seq_QMARK_.call(null, f)) {
-                var g = cljs.core.chunk_first.call(null, f), h = cljs.core.count.call(null, g), w = cljs.core.chunk_buffer.call(null, h);
-                return function() {
-                  for (var d = 0;;) {
-                    if (d < h) {
-                      var l = cljs.core._nth.call(null, g, d);
-                      cljs.core.chunk_append.call(null, w, function() {
-                        return function(a, b, c, d, e, f, g, h, l, m) {
-                          return function J(n) {
-                            return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, l, m) {
-                              return function() {
-                                for (;;) {
-                                  var p = cljs.core.seq.call(null, n);
-                                  if (p) {
-                                    var q = p;
-                                    if (cljs.core.chunked_seq_QMARK_.call(null, q)) {
-                                      var r = cljs.core.chunk_first.call(null, q), t = cljs.core.count.call(null, r), u = cljs.core.chunk_buffer.call(null, t);
-                                      return function() {
-                                        for (var n = 0;;) {
-                                          if (n < t) {
-                                            var v = cljs.core._nth.call(null, r, n);
-                                            cljs.core.chunk_append.call(null, u, cljs.core.persistent_BANG_.call(null, cljs.core.reduce.call(null, function(a, b, c, d, e, f, g, h, l, m, n, p, q, r, t, u, v) {
-                                              return function(a, b) {
-                                                return cljs.core.conj_BANG_.call(null, a, t.call(null, b));
-                                              };
-                                            }(n, a, v, r, t, u, q, p, b, c, d, e, f, g, h, l, m), cljs.core.transient$.call(null, cljs.core.PersistentVector.EMPTY), v)));
-                                            n += 1;
-                                          } else {
-                                            return !0;
-                                          }
-                                        }
-                                      }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, u), J.call(null, cljs.core.chunk_rest.call(null, q))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, u), null);
-                                    }
-                                    var v = cljs.core.first.call(null, q);
-                                    return cljs.core.cons.call(null, cljs.core.persistent_BANG_.call(null, cljs.core.reduce.call(null, function(a, b, c, d, e, f, g, h, l, m, n, p, q) {
-                                      return function(a, b) {
-                                        return cljs.core.conj_BANG_.call(null, a, n.call(null, b));
-                                      };
-                                    }(a, v, q, p, b, c, d, e, f, g, h, l, m), cljs.core.transient$.call(null, cljs.core.PersistentVector.EMPTY), v)), J.call(null, cljs.core.rest.call(null, q)));
-                                  }
-                                  return null;
-                                }
-                              };
-                            }(a, b, c, d, e, f, g, h, l, m), null, null);
-                          };
-                        }(d, l, g, h, w, f, e, a, b, c).call(null, l);
-                      }());
-                      d += 1;
-                    } else {
-                      return !0;
-                    }
-                  }
-                }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, w), l.call(null, cljs.core.chunk_rest.call(null, f))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, w), null);
-              }
-              var x = cljs.core.first.call(null, f);
-              return cljs.core.cons.call(null, function() {
-                return function(a, b, c, d, e, f) {
-                  return function D(g) {
-                    return new cljs.core.LazySeq(null, function(a, b, c, d, e, f) {
-                      return function() {
-                        for (;;) {
-                          var h = cljs.core.seq.call(null, g);
-                          if (h) {
-                            var l = h;
-                            if (cljs.core.chunked_seq_QMARK_.call(null, l)) {
-                              var m = cljs.core.chunk_first.call(null, l), n = cljs.core.count.call(null, m), p = cljs.core.chunk_buffer.call(null, n);
-                              return function() {
-                                for (var g = 0;;) {
-                                  if (g < n) {
-                                    var q = cljs.core._nth.call(null, m, g);
-                                    cljs.core.chunk_append.call(null, p, cljs.core.persistent_BANG_.call(null, cljs.core.reduce.call(null, function(a, b, c, d, e, f, g, h, l, m, n, p, q) {
-                                      return function(a, b) {
-                                        return cljs.core.conj_BANG_.call(null, a, n.call(null, b));
-                                      };
-                                    }(g, q, m, n, p, l, h, a, b, c, d, e, f), cljs.core.transient$.call(null, cljs.core.PersistentVector.EMPTY), q)));
-                                    g += 1;
-                                  } else {
-                                    return !0;
-                                  }
-                                }
-                              }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, p), D.call(null, cljs.core.chunk_rest.call(null, l))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, p), null);
-                            }
-                            var q = cljs.core.first.call(null, l);
-                            return cljs.core.cons.call(null, cljs.core.persistent_BANG_.call(null, cljs.core.reduce.call(null, function(a, b, c, d, e, f, g, h, l) {
-                              return function(a, b) {
-                                return cljs.core.conj_BANG_.call(null, a, g.call(null, b));
-                              };
-                            }(q, l, h, a, b, c, d, e, f), cljs.core.transient$.call(null, cljs.core.PersistentVector.EMPTY), q)), D.call(null, cljs.core.rest.call(null, l)));
-                          }
-                          return null;
-                        }
-                      };
-                    }(a, b, c, d, e, f), null, null);
-                  };
-                }(x, f, e, a, b, c).call(null, x);
-              }(), l.call(null, cljs.core.rest.call(null, f)));
-            }
-            return null;
-          }
-        };
-      }(a, b, c), null, null);
-    };
-  }(c, d, e).call(null, e);
-};
-ponting_dynamics.combinatorics.partitions_H.cljs$lang$maxFixedArity = 1;
-ponting_dynamics.combinatorics.partitions_H.cljs$lang$applyTo = function(a) {
-  var b = cljs.core.first.call(null, a);
-  a = cljs.core.next.call(null, a);
-  return ponting_dynamics.combinatorics.partitions_H.cljs$core$IFn$_invoke$arity$variadic(b, a);
-};
-ponting_dynamics.combinatorics.multiset_partitions_M = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  switch(b.length) {
-    case 3:
-      return ponting_dynamics.combinatorics.multiset_partitions_M.cljs$core$IFn$_invoke$arity$3(arguments[0], arguments[1], arguments[2]);
-    case 11:
-      return ponting_dynamics.combinatorics.multiset_partitions_M.cljs$core$IFn$_invoke$arity$11(arguments[0], arguments[1], arguments[2], arguments[3], arguments[4], arguments[5], arguments[6], arguments[7], arguments[8], arguments[9], arguments[10]);
-    default:
-      throw Error([cljs.core.str("Invalid arity: "), cljs.core.str(b.length)].join(""));;
-  }
-};
-ponting_dynamics.combinatorics.multiset_partitions_M.cljs$core$IFn$_invoke$arity$3 = function(a, b, c) {
-  var d = cljs.core.apply.call(null, cljs.core._PLUS_, cljs.core.vals.call(null, a)), e = cljs.core.count.call(null, a), f = cljs.core.PersistentVector.EMPTY, g;
-  a: {
-    for (var h = 0, k = cljs.core.PersistentVector.EMPTY, l = cljs.core.PersistentVector.EMPTY, m = cljs.core.PersistentVector.EMPTY;;) {
-      if (cljs.core._EQ_.call(null, h, e)) {
-        g = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [k, l, m], null);
-        break a;
-      } else {
-        g = h + 1, k = cljs.core.assoc.call(null, k, h, h + 1), l = cljs.core.assoc.call(null, l, h, a.call(null, h + 1)), m = cljs.core.assoc.call(null, m, h, a.call(null, h + 1)), h = g;
-      }
-    }
-  }
-  a = cljs.core.nth.call(null, g, 0, null);
-  h = cljs.core.nth.call(null, g, 1, null);
-  g = cljs.core.nth.call(null, g, 2, null);
-  f = cljs.core.assoc.call(null, f, 0, 0, 1, e);
-  return ponting_dynamics.combinatorics.multiset_partitions_M.call(null, d, e, f, a, h, g, 0, e, 0, b, c);
-};
-ponting_dynamics.combinatorics.multiset_partitions_M.cljs$core$IFn$_invoke$arity$11 = function(a, b, c, d, e, f, g, h, k, l, m) {
-  for (;;) {
-    var n = function() {
-      for (var a = g, b = h, c = !1, k = e, l = f, m = d;;) {
-        if (a >= h) {
-          return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [k, l, m, a, b], null);
-        }
-        var n = cljs.core.assoc.call(null, k, b, k.call(null, a) - l.call(null, a));
-        if (cljs.core._EQ_.call(null, n.call(null, b), 0)) {
-          var c = b, k = n, p = l, a = a + 1, b = c, c = !0, l = p
-        } else {
-          if (c) {
-            var p = cljs.core.assoc.call(null, m, b, m.call(null, a)), m = cljs.core.assoc.call(null, l, b, n.call(null, b)), q = b + 1, k = a + 1, r = q, q = n, a = k, b = r, k = q
-          } else {
-            var p = cljs.core.assoc.call(null, m, b, m.call(null, a)), m = cljs.core.assoc.call(null, l, b, function() {
-              var c = l.call(null, a), d = n.call(null, b);
-              return c < d ? c : d;
-            }()), r = n.call(null, b) < m.call(null, a), q = b + 1, k = a + 1, c = q, q = r, r = n, a = k, b = c, c = q, k = r
-          }
-          l = m;
-          m = p;
-        }
-      }
-    }(), p = cljs.core.nth.call(null, n, 0, null), q = cljs.core.nth.call(null, n, 1, null), r = cljs.core.nth.call(null, n, 2, null), t = cljs.core.nth.call(null, n, 3, null), u = cljs.core.nth.call(null, n, 4, null);
-    if (cljs.core.truth_(function() {
-      var a = l;
-      return cljs.core.truth_(a) ? u > h && cljs.core._EQ_.call(null, k, l - 1) : a;
-    }()) || cljs.core.truth_(function() {
-      var a = m;
-      return cljs.core.truth_(a) ? u <= h && k + 1 < m : a;
-    }())) {
-      return ponting_dynamics.combinatorics.m5.call(null, a, b, c, r, p, q, g, h, k, l, m);
-    }
-    if (u > h) {
-      var v = h, w = u, x = k + 1, y = cljs.core.assoc.call(null, c, x + 1, w), A = r, K = p, ba = q, z = l, B = m;
-      c = y;
-      d = A;
-      e = K;
-      f = ba;
-      g = v;
-      h = w;
-      k = x;
-      l = z;
-      m = B;
-    } else {
-      return y = function() {
-        return function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u) {
-          return function V(v) {
-            return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u) {
-              return function() {
-                for (;;) {
-                  var w = cljs.core.seq.call(null, v);
-                  if (w) {
-                    var x = w;
-                    if (cljs.core.chunked_seq_QMARK_.call(null, x)) {
-                      var y = cljs.core.chunk_first.call(null, x), B = cljs.core.count.call(null, y), z = cljs.core.chunk_buffer.call(null, B);
-                      return function() {
-                        for (var v = 0;;) {
-                          if (v < B) {
-                            var A = cljs.core._nth.call(null, y, v);
-                            cljs.core.chunk_append.call(null, z, function() {
-                              var C = c.call(null, A), D = c.call(null, A + 1) - 1;
-                              return cljs.core.into.call(null, cljs.core.PersistentArrayMap.EMPTY, function() {
-                                return function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A, z, B, C, D) {
-                                  return function aa(E) {
-                                    return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A, z, B, C, D) {
-                                      return function() {
-                                        for (var a = E;;) {
-                                          if (a = cljs.core.seq.call(null, a)) {
-                                            if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
-                                              var b = cljs.core.chunk_first.call(null, a), c = cljs.core.count.call(null, b), d = cljs.core.chunk_buffer.call(null, c);
-                                              a: {
-                                                for (var e = 0;;) {
-                                                  if (e < c) {
-                                                    var f = cljs.core._nth.call(null, b, e);
-                                                    cljs.core.not_EQ_.call(null, z.call(null, f), 0) && cljs.core.chunk_append.call(null, d, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [B.call(null, f), z.call(null, f)], null));
-                                                    e += 1;
-                                                  } else {
-                                                    b = !0;
-                                                    break a;
-                                                  }
-                                                }
-                                              }
-                                              return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), aa.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), null);
-                                            }
-                                            d = cljs.core.first.call(null, a);
-                                            if (cljs.core.not_EQ_.call(null, z.call(null, d), 0)) {
-                                              return cljs.core.cons.call(null, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [B.call(null, d), z.call(null, d)], null), aa.call(null, cljs.core.rest.call(null, a)));
-                                            }
-                                            a = cljs.core.rest.call(null, a);
-                                          } else {
-                                            return null;
-                                          }
-                                        }
-                                      };
-                                    }(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, A, z, B, C, D), null, null);
-                                  };
-                                }(v, a, b, c, d, e, f, g, h, k, l, m, C, D, A, y, B, z, x, w, n, p, q, r, t, u).call(null, cljs.core.range.call(null, C, D + 1));
-                              }());
-                            }());
-                            v += 1;
-                          } else {
-                            return !0;
-                          }
-                        }
-                      }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, z), V.call(null, cljs.core.chunk_rest.call(null, x))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, z), null);
-                    }
-                    var A = cljs.core.first.call(null, x);
-                    return cljs.core.cons.call(null, function() {
-                      var v = c.call(null, A), y = c.call(null, A + 1) - 1;
-                      return cljs.core.into.call(null, cljs.core.PersistentArrayMap.EMPTY, function() {
-                        return function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, z) {
-                          return function Z(A) {
-                            return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, z) {
-                              return function() {
-                                for (var a = A;;) {
-                                  if (a = cljs.core.seq.call(null, a)) {
-                                    if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
-                                      var b = cljs.core.chunk_first.call(null, a), c = cljs.core.count.call(null, b), d = cljs.core.chunk_buffer.call(null, c);
-                                      a: {
-                                        for (var e = 0;;) {
-                                          if (e < c) {
-                                            var f = cljs.core._nth.call(null, b, e);
-                                            cljs.core.not_EQ_.call(null, w.call(null, f), 0) && cljs.core.chunk_append.call(null, d, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x.call(null, f), w.call(null, f)], null));
-                                            e += 1;
-                                          } else {
-                                            b = !0;
-                                            break a;
-                                          }
-                                        }
-                                      }
-                                      return b ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), Z.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, d), null);
-                                    }
-                                    d = cljs.core.first.call(null, a);
-                                    if (cljs.core.not_EQ_.call(null, w.call(null, d), 0)) {
-                                      return cljs.core.cons.call(null, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x.call(null, d), w.call(null, d)], null), Z.call(null, cljs.core.rest.call(null, a)));
-                                    }
-                                    a = cljs.core.rest.call(null, a);
-                                  } else {
-                                    return null;
-                                  }
-                                }
-                              };
-                            }(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, z), null, null);
-                          };
-                        }(a, b, c, d, e, f, g, h, k, l, m, v, y, A, x, w, n, p, q, r, t, u).call(null, cljs.core.range.call(null, v, y + 1));
-                      }());
-                    }(), V.call(null, cljs.core.rest.call(null, x)));
-                  }
-                  return null;
-                }
-              };
-            }(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u), null, null);
-          };
-        }(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u).call(null, cljs.core.range.call(null, k + 1));
-      }(), cljs.core.cons.call(null, y, new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v) {
-        return function() {
-          return ponting_dynamics.combinatorics.m5.call(null, a, b, c, t, q, r, g, h, k, l, m);
-        };
-      }(a, b, c, d, e, f, g, h, k, l, m, y, n, p, q, r, t, u), null, null));
-    }
-  }
-};
-ponting_dynamics.combinatorics.multiset_partitions_M.cljs$lang$maxFixedArity = 11;
-ponting_dynamics.combinatorics.m5 = function(a, b, c, d, e, f, g, h, k, l, m) {
-  var n = function() {
-    for (var a = h - 1;;) {
-      if (cljs.core.not_EQ_.call(null, f.call(null, a), 0)) {
-        return a;
-      }
-      --a;
-    }
-  }();
-  if (cljs.core.truth_(cljs.core.truth_(l) ? cljs.core._EQ_.call(null, n, g) && (f.call(null, n) - 1) * (l - k) < e.call(null, n) : l) || cljs.core._EQ_.call(null, n, g) && cljs.core._EQ_.call(null, f.call(null, n), 1)) {
-    return ponting_dynamics.combinatorics.m6.call(null, a, b, c, d, e, f, g, h, k, l, m);
-  }
-  var p = ponting_dynamics.combinatorics.update.call(null, f, n, cljs.core.dec), q = cljs.core.truth_(m) ? cljs.core.apply.call(null, cljs.core._PLUS_, function() {
-    return function(a, b) {
-      return function A(c) {
-        return new cljs.core.LazySeq(null, function(a, b) {
-          return function() {
-            for (;;) {
-              var b = cljs.core.seq.call(null, c);
-              if (b) {
-                if (cljs.core.chunked_seq_QMARK_.call(null, b)) {
-                  var d = cljs.core.chunk_first.call(null, b), f = cljs.core.count.call(null, d), g = cljs.core.chunk_buffer.call(null, f);
-                  a: {
-                    for (var h = 0;;) {
-                      if (h < f) {
-                        var k = cljs.core._nth.call(null, d, h);
-                        cljs.core.chunk_append.call(null, g, e.call(null, k) - a.call(null, k));
-                        h += 1;
-                      } else {
-                        d = !0;
-                        break a;
-                      }
-                    }
-                  }
-                  return d ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), A.call(null, cljs.core.chunk_rest.call(null, b))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, g), null);
-                }
-                g = cljs.core.first.call(null, b);
-                return cljs.core.cons.call(null, e.call(null, g) - a.call(null, g), A.call(null, cljs.core.rest.call(null, b)));
-              }
-              return null;
-            }
-          };
-        }(a, b), null, null);
-      };
-    }(p, n).call(null, cljs.core.range.call(null, g, n + 1));
-  }()) : null, r = function() {
-    for (var a = cljs.core.range.call(null, n + 1, h), b = p;;) {
-      if (cljs.core.empty_QMARK_.call(null, a)) {
-        return b;
-      }
-      var c = cljs.core.first.call(null, a), a = cljs.core.rest.call(null, a), b = cljs.core.assoc.call(null, b, c, e.call(null, c));
-    }
-  }(), t = cljs.core.truth_(m) ? m - (k + 1) : 0, u = cljs.core.truth_(m) ? function() {
-    var a = t - q;
-    return 0 > a ? 0 : a;
-  }() : 0, v = cljs.core._EQ_.call(null, u, 0) ? r : function() {
-    for (var a = h - 1, b = r, c = u;;) {
-      var d = b.call(null, a);
-      if (c > d) {
-        var e = a - 1, b = cljs.core.assoc.call(null, b, a, 0), c = c - d, a = e
-      } else {
-        return cljs.core.assoc.call(null, b, a, d - c);
-      }
-    }
-  }();
-  return ponting_dynamics.combinatorics.multiset_partitions_M.call(null, a, b, c, d, e, v, g, h, k, l, m);
-};
-ponting_dynamics.combinatorics.m6 = function(a, b, c, d, e, f, g, h, k, l, m) {
-  if (cljs.core._EQ_.call(null, k, 0)) {
-    return cljs.core.List.EMPTY;
-  }
-  h = k - 1;
-  k = c.call(null, h);
-  return ponting_dynamics.combinatorics.m5.call(null, a, b, c, d, e, f, k, g, h, l, m);
-};
-ponting_dynamics.combinatorics.partitions_M = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  b = 1 < b.length ? new cljs.core.IndexedSeq(b.slice(1), 0, null) : null;
-  return ponting_dynamics.combinatorics.partitions_M.cljs$core$IFn$_invoke$arity$variadic(arguments[0], b);
-};
-ponting_dynamics.combinatorics.partitions_M.cljs$core$IFn$_invoke$arity$variadic = function(a, b) {
-  var c = null != b && (b.cljs$lang$protocol_mask$partition0$ & 64 || b.cljs$core$ISeq$) ? cljs.core.apply.call(null, cljs.core.hash_map, b) : b, d = cljs.core.get.call(null, c, new cljs.core.Keyword(null, "min", "min", 444991522)), e = cljs.core.get.call(null, c, new cljs.core.Keyword(null, "max", "max", 61366548));
-  if (cljs.core._EQ_.call(null, cljs.core.count.call(null, a), 0)) {
-    return 0 >= (cljs.core.truth_(d) ? d : 0) && 0 <= (cljs.core.truth_(e) ? e : 0) ? cljs.core.list(cljs.core.List.EMPTY) : cljs.core.List.EMPTY;
-  }
-  var f = cljs.core.vec.call(null, a), g = cljs.core.vec.call(null, cljs.core.distinct.call(null, f)), h = cljs.core.frequencies.call(null, f), k = cljs.core.count.call(null, f), l = cljs.core.count.call(null, g), m = cljs.core.truth_(cljs.core.truth_(d) ? 1 >= d : d) ? null : d, n = cljs.core.truth_(cljs.core.truth_(e) ? e >= k : e) ? null : e;
-  if (1 <= (cljs.core.truth_(m) ? m : 1) && (cljs.core.truth_(m) ? m : 1) <= (cljs.core.truth_(n) ? n : k) && (cljs.core.truth_(n) ? n : k) <= k) {
-    if (cljs.core._EQ_.call(null, k, 1)) {
-      return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, function() {
-        var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, function() {
-          var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, function() {
-            var a = cljs.core.first.call(null, f);
-            return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
-          }()))));
-          return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
-        }())));
-        return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
-      }())));
-    }
-    var p = cljs.core.into.call(null, cljs.core.PersistentArrayMap.EMPTY, function() {
-      return function(a, b, c, d, e, f, g, h, k, l, m) {
-        return function C(n) {
-          return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m) {
-            return function() {
-              for (;;) {
-                var a = cljs.core.seq.call(null, n);
-                if (a) {
-                  if (cljs.core.chunked_seq_QMARK_.call(null, a)) {
-                    var d = cljs.core.chunk_first.call(null, a), e = cljs.core.count.call(null, d), f = cljs.core.chunk_buffer.call(null, e);
-                    a: {
-                      for (var g = 0;;) {
-                        if (g < e) {
-                          var h = cljs.core._nth.call(null, d, g);
-                          cljs.core.chunk_append.call(null, f, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [h + 1, c.call(null, b.call(null, h))], null));
-                          g += 1;
-                        } else {
-                          d = !0;
-                          break a;
-                        }
-                      }
-                    }
-                    return d ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, f), C.call(null, cljs.core.chunk_rest.call(null, a))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, f), null);
-                  }
-                  f = cljs.core.first.call(null, a);
-                  return cljs.core.cons.call(null, new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [f + 1, c.call(null, b.call(null, f))], null), C.call(null, cljs.core.rest.call(null, a)));
-                }
-                return null;
-              }
-            };
-          }(a, b, c, d, e, f, g, h, k, l, m), null, null);
-        };
-      }(f, g, h, k, l, m, n, b, c, d, e).call(null, cljs.core.range.call(null, l));
-    }()), q = ponting_dynamics.combinatorics.multiset_partitions_M.call(null, p, n, m);
-    return function(a, b, c, d, e, f, g, h, k, l, m, n, p) {
-      return function E(q) {
-        return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p) {
-          return function() {
-            for (;;) {
-              var r = cljs.core.seq.call(null, q);
-              if (r) {
-                var t = r;
-                if (cljs.core.chunked_seq_QMARK_.call(null, t)) {
-                  var u = cljs.core.chunk_first.call(null, t), v = cljs.core.count.call(null, u), w = cljs.core.chunk_buffer.call(null, v);
-                  return function() {
-                    for (var q = 0;;) {
-                      if (q < v) {
-                        var x = cljs.core._nth.call(null, u, q);
-                        cljs.core.chunk_append.call(null, w, function() {
-                          return function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) {
-                            return function Y(y) {
-                              return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x) {
-                                return function() {
-                                  for (;;) {
-                                    var z = cljs.core.seq.call(null, y);
-                                    if (z) {
-                                      var A = z;
-                                      if (cljs.core.chunked_seq_QMARK_.call(null, A)) {
-                                        var B = cljs.core.chunk_first.call(null, A), C = cljs.core.count.call(null, B), E = cljs.core.chunk_buffer.call(null, C);
-                                        return function() {
-                                          for (var y = 0;;) {
-                                            if (y < C) {
-                                              var F = cljs.core._nth.call(null, B, y);
-                                              cljs.core.chunk_append.call(null, E, cljs.core.vec.call(null, cljs.core.mapcat.call(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, z, A, B, C, E, F) {
-                                                return function(a) {
-                                                  var b = cljs.core.nth.call(null, a, 0, null);
-                                                  a = cljs.core.nth.call(null, a, 1, null);
-                                                  return cljs.core.repeat.call(null, a, v.call(null, b - 1));
-                                                };
-                                              }(y, a, F, B, C, E, A, z, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x), F)));
-                                              y += 1;
-                                            } else {
-                                              return !0;
-                                            }
-                                          }
-                                        }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, E), Y.call(null, cljs.core.chunk_rest.call(null, A))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, E), null);
-                                      }
-                                      var F = cljs.core.first.call(null, A);
-                                      return cljs.core.cons.call(null, cljs.core.vec.call(null, cljs.core.mapcat.call(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, z, A) {
-                                        return function(a) {
-                                          var b = cljs.core.nth.call(null, a, 0, null);
-                                          a = cljs.core.nth.call(null, a, 1, null);
-                                          return cljs.core.repeat.call(null, a, q.call(null, b - 1));
-                                        };
-                                      }(a, F, A, z, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x), F)), Y.call(null, cljs.core.rest.call(null, A)));
-                                    }
-                                    return null;
-                                  }
-                                };
-                              }(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x), null, null);
-                            };
-                          }(q, x, u, v, w, t, r, a, b, c, d, e, f, g, h, k, l, m, n, p).call(null, x);
-                        }());
-                        q += 1;
-                      } else {
-                        return !0;
-                      }
-                    }
-                  }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, w), E.call(null, cljs.core.chunk_rest.call(null, t))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, w), null);
-                }
-                var x = cljs.core.first.call(null, t);
-                return cljs.core.cons.call(null, function() {
-                  return function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t) {
-                    return function X(u) {
-                      return new cljs.core.LazySeq(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t) {
-                        return function() {
-                          for (;;) {
-                            var v = cljs.core.seq.call(null, u);
-                            if (v) {
-                              var w = v;
-                              if (cljs.core.chunked_seq_QMARK_.call(null, w)) {
-                                var x = cljs.core.chunk_first.call(null, w), y = cljs.core.count.call(null, x), z = cljs.core.chunk_buffer.call(null, y);
-                                return function() {
-                                  for (var u = 0;;) {
-                                    if (u < y) {
-                                      var A = cljs.core._nth.call(null, x, u);
-                                      cljs.core.chunk_append.call(null, z, cljs.core.vec.call(null, cljs.core.mapcat.call(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y, z, A) {
-                                        return function(a) {
-                                          var b = cljs.core.nth.call(null, a, 0, null);
-                                          a = cljs.core.nth.call(null, a, 1, null);
-                                          return cljs.core.repeat.call(null, a, q.call(null, b - 1));
-                                        };
-                                      }(u, A, x, y, z, w, v, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t), A)));
-                                      u += 1;
-                                    } else {
-                                      return !0;
-                                    }
-                                  }
-                                }() ? cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, z), X.call(null, cljs.core.chunk_rest.call(null, w))) : cljs.core.chunk_cons.call(null, cljs.core.chunk.call(null, z), null);
-                              }
-                              var A = cljs.core.first.call(null, w);
-                              return cljs.core.cons.call(null, cljs.core.vec.call(null, cljs.core.mapcat.call(null, function(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w) {
-                                return function(a) {
-                                  var b = cljs.core.nth.call(null, a, 0, null);
-                                  a = cljs.core.nth.call(null, a, 1, null);
-                                  return cljs.core.repeat.call(null, a, l.call(null, b - 1));
-                                };
-                              }(A, w, v, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t), A)), X.call(null, cljs.core.rest.call(null, w)));
-                            }
-                            return null;
-                          }
-                        };
-                      }(a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t), null, null);
-                    };
-                  }(x, t, r, a, b, c, d, e, f, g, h, k, l, m, n, p).call(null, x);
-                }(), E.call(null, cljs.core.rest.call(null, t)));
-              }
-              return null;
-            }
-          };
-        }(a, b, c, d, e, f, g, h, k, l, m, n, p), null, null);
-      };
-    }(p, q, f, g, h, k, l, m, n, b, c, d, e).call(null, q);
-  }
-  return cljs.core.List.EMPTY;
-};
-ponting_dynamics.combinatorics.partitions_M.cljs$lang$maxFixedArity = 1;
-ponting_dynamics.combinatorics.partitions_M.cljs$lang$applyTo = function(a) {
-  var b = cljs.core.first.call(null, a);
-  a = cljs.core.next.call(null, a);
-  return ponting_dynamics.combinatorics.partitions_M.cljs$core$IFn$_invoke$arity$variadic(b, a);
-};
-ponting_dynamics.combinatorics.partitions = function(a) {
-  for (var b = [], c = arguments.length, d = 0;;) {
-    if (d < c) {
-      b.push(arguments[d]), d += 1;
-    } else {
-      break;
-    }
-  }
-  b = 1 < b.length ? new cljs.core.IndexedSeq(b.slice(1), 0, null) : null;
-  return ponting_dynamics.combinatorics.partitions.cljs$core$IFn$_invoke$arity$variadic(arguments[0], b);
-};
-ponting_dynamics.combinatorics.partitions.cljs$core$IFn$_invoke$arity$variadic = function(a, b) {
-  return cljs.core._EQ_.call(null, cljs.core.count.call(null, a), 0) ? cljs.core.apply.call(null, ponting_dynamics.combinatorics.partitions_H, a, b) : cljs.core.truth_(ponting_dynamics.combinatorics.all_different_QMARK_.call(null, a)) ? cljs.core.apply.call(null, ponting_dynamics.combinatorics.partitions_H, a, b) : cljs.core.apply.call(null, ponting_dynamics.combinatorics.partitions_M, a, b);
-};
-ponting_dynamics.combinatorics.partitions.cljs$lang$maxFixedArity = 1;
-ponting_dynamics.combinatorics.partitions.cljs$lang$applyTo = function(a) {
-  var b = cljs.core.first.call(null, a);
-  a = cljs.core.next.call(null, a);
-  return ponting_dynamics.combinatorics.partitions.cljs$core$IFn$_invoke$arity$variadic(b, a);
-};
-ponting_dynamics.collision = {};
-ponting_dynamics.collision.colliding_QMARK_ = function(a) {
-  return !1;
-};
