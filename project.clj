@@ -3,18 +3,18 @@
   :url "http://www.pontingdynamics.org"
   :min-lein-version "2.0.0"
 
-  :dependencies [[compojure "1.3.1"]
+  :dependencies [[compojure "1.5.0"]
                  [hiccup "1.0.5"]  
-                 [jayq "2.5.2"]
-                 [org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2069"]
-                 [ring/ring-jetty-adapter "1.3.2"]
-                 [ring/ring-defaults "0.1.2"]]
+                 [org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojurescript "1.8.51"]
+                 [quil "2.4.0"]
+                 [ring/ring-jetty-adapter "1.4.0"]
+                 [ring/ring-defaults "0.2.0"]]
 
   :source-paths ["src/clj" "src/cljs"]
 
-  :plugins [[lein-ring "0.8.13"]
-            [lein-cljsbuild "1.0.0"]]
+  :plugins [[lein-ring "0.9.7"]
+            [lein-cljsbuild "1.1.3"]]
   
   :main ponting-dynamics.application
   :uberjar-name "ponting-dynamics-standalone.jar"
@@ -26,8 +26,14 @@
 
   :ring {:handler ponting-dynamics.application/app} 
   
-  :cljsbuild {:builds
-               [{:source-paths ["src/cljs"]
-                 :compiler {:output-to "resources/public/js/generic.js"
-                            :optimizations :simple
-                            :pretty-print  true}}]})
+  :cljsbuild {:builds {
+               :main 
+                 {:source-paths ["src/cljs/ponting_dynamics/page"]
+                  :compiler {:output-to "resources/public/js/generic.js"
+                             :optimizations :simple
+                             :pretty-print  true}}
+               :circles
+                 {:source-paths ["src/cljs/ponting_dynamics/circles"]
+                  :compiler {:output-to "resources/public/js/circles.js"
+                             :optimizations :simple
+                             :pretty-print  true}}}})

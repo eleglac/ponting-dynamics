@@ -12,5 +12,5 @@
     [:body
      [:div.wrapper
       [:canvas#quil-circles]]
-     [:script {:src "processing-1.4.8.js"}]
-     [:script {:src "generic.js"}]]))
+     [:script {:src "js/processing-1.4.8.js"}]
+     [:script {:src "js/circles.js"}]]))

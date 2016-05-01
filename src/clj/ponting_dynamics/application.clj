@@ -52,7 +52,8 @@
   (GET "/future" [] (future-page))
 
   ;; The Ponting Dynamics Large Circle Collider is finally online here.
-  (GET "/circles" [] (circles))
+  (GET "/circles" [] (circles-page))
+
   ;; Doesn't matter where you're trying to go, I got you covered
   ;(context "/:title" [title]
     ;(GET "/"  [title] (default-page title [:p "If you sought " title " then you have found it."]))
