@@ -1,6 +1,6 @@
 (ns ponting-dynamics.collision
-  (:require [ponting-dynamics.combinatorics :as mc]
-            [clojure.set :as s]))
+  (:require [ponting-dynamics.combinatorics :refer [combinations]]
+            [clojure.set :refer [difference]]))
 
 (def cell-size 40)
 
@@ -93,10 +93,10 @@
 
   [agents]
 
-  (let [pairs       (mc/combinations agents 2)
+  (let [pairs       (combinations agents 2)
         klidepairs  (filter colliding? pairs)
         kliders     (distinct (flatten klidepairs))
-        freebirds   (s/difference (set agents) kliders)]
+        freebirds   (difference (set agents) kliders)]
  
     (concat (map #(assoc % :colliding? true) kliders) freebirds)))
 
