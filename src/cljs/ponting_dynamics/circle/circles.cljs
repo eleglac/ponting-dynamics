@@ -1,11 +1,13 @@
 (ns ponting-dynamics.circles
   (:require [ponting-dynamics.collision :as pd-c]
-            [quil.core :as q :include-macros true]))
+            [quil.core :refer [stroke stroke-weight fill ellipse-mode ellipse
+                               smooth frame-rate background defsketch width height] 
+                       :include-macros true]))
 
 (def wide  (.-innerWidth js/window))
 (def high  (.-innerHeight js/window))
-(def popl 150)
-(def rate 24)
+(def popl 100)
+(def rate 30)
 
 (defn make-agent
   "Creates an agent, which is a map containing the included params and a few others."
@@ -34,17 +36,17 @@
         x         (:x     agent)
         y         (:y     agent)]
     
-    (q/stroke rgb f)
-    (q/stroke-weight 2)
-    (q/fill r g b l)
-    (q/ellipse-mode :radius)
-    (q/ellipse x y rad rad)))
+    (stroke rgb f)
+    (stroke-weight 2)
+    (fill r g b l)
+    (ellipse-mode :radius)
+    (ellipse x y rad rad)))
 
 (defn populate
   "Creates a list of entities of either type :agent or :food.  If neither of those is
    the type given as *type, will create a list of nil, I think."
   
-  [pop-count *type]
+  [pop-count]
   
   (repeatedly pop-count
     (fn []
@@ -73,11 +75,11 @@
 
   (let 
     [x  (if (pos? (:d-x agent))
-          (rem (+ (:d-x agent) (:x agent)) (q/width))
-          (flow-back (q/width) (+ (:d-x agent) (:x agent))))
+          (rem (+ (:d-x agent) (:x agent)) (width))
+          (flow-back (width) (+ (:d-x agent) (:x agent))))
      y  (if (pos? (:d-y agent))
-          (rem (+ (:d-y agent) (:y agent)) (q/height))
-          (flow-back (q/height) (+ (:d-y agent) (:y agent))))]
+          (rem (+ (:d-y agent) (:y agent)) (height))
+          (flow-back (height) (+ (:d-y agent) (:y agent))))]
 
     (assoc agent :x x :y y)))
 
@@ -116,17 +118,18 @@
       d-agents)))
 
 (defn setup []
-  (q/smooth)
-  (q/frame-rate rate)
-  (def agent-list (atom (populate popl :agent))))
+  (smooth)
+  (frame-rate rate)
+  (def agent-list (atom (populate popl))))
 
 (defn draw []
-  (q/background 32)
+  (background 32)
   (doall (map draw-agent (swap! agent-list update-agents))))
 
-(q/defsketch circles
+(defsketch circles
   :title "An animation of circular antagonism."
   :host "quil-circles"
   :setup setup
   :draw draw
+  :renderer :p3d
   :size [wide high])

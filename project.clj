@@ -1,4 +1,4 @@
-(defproject ponting-dynamics "0.6.1-alpha"
+(defproject ponting-dynamics "0.6.2-alpha"
   :description "A personal website for Alex J. Ponting."
   :url "http://www.pontingdynamics.org"
   :min-lein-version "2.0.0"
@@ -28,13 +28,15 @@
   :ring {:handler ponting-dynamics.application/app} 
   
   :cljsbuild {:builds {
+	       :dev
+                 {:source-paths ["src/cljs/ponting_dynamics/page" "src/cljs/ponting_dynamics/circle"]
+                  :compiler {:output-to "resources/public/js/dev.js"
+                             :optimizations :none}}
                :main 
                  {:source-paths ["src/cljs/ponting_dynamics/page"]
                   :compiler {:output-to "resources/public/js/generic.js"
-                             :optimizations :simple
-                             :pretty-print  true}}
+                             :optimizations :advanced}}
                :circles
                  {:source-paths ["src/cljs/ponting_dynamics/circle"]
                   :compiler {:output-to "resources/public/js/circles.js"
-                             :optimizations :simple
-                             :pretty-print  true}}}})
+                             :optimizations :advanced}}}})
