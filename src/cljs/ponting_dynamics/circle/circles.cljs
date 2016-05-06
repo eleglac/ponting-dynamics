@@ -6,8 +6,8 @@
 
 (def wide  (.-innerWidth js/window))
 (def high  (.-innerHeight js/window))
-(def popl 150)
-(def rate 60)
+(def popl 75)
+(def rate 24)
 
 (defn make-agent
   "Creates an agent, which is a map containing the included params and a few others."
@@ -131,5 +131,4 @@
   :host "quil-circles"
   :setup setup
   :draw draw
-  :renderer :p2d
   :size [wide high])

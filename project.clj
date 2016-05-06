@@ -39,4 +39,4 @@
                :circles
                  {:source-paths ["src/cljs/ponting_dynamics/circle"]
                   :compiler {:output-to "resources/public/js/circles.js"
-                             :optimizations :advanced}}}})
+                             :optimizations :none}}}})
