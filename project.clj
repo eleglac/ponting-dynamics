@@ -28,10 +28,7 @@
   :ring {:handler ponting-dynamics.application/app} 
   
   :cljsbuild {:builds {
-	       :dev
-                 {:source-paths ["src/cljs/ponting_dynamics/page" "src/cljs/ponting_dynamics/circle"]
-                  :compiler {:output-to "resources/public/js/dev.js"
-                             :optimizations :simple}}
+               
                :main 
                  {:source-paths ["src/cljs/ponting_dynamics/page"]
                   :compiler {:output-to "resources/public/js/generic.js"
@@ -39,5 +36,5 @@
                :circles
                  {:source-paths ["src/cljs/ponting_dynamics/circle"]
                   :compiler {:output-to "resources/public/js/circles.js"
-                             :optimizations :advanced
+                             :optimizations :simple
                              :pretty-print true}}}})
