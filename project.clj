@@ -31,7 +31,7 @@
 	       :dev
                  {:source-paths ["src/cljs/ponting_dynamics/page" "src/cljs/ponting_dynamics/circle"]
                   :compiler {:output-to "resources/public/js/dev.js"
-                             :optimizations :none}}
+                             :optimizations :simple}}
                :main 
                  {:source-paths ["src/cljs/ponting_dynamics/page"]
                   :compiler {:output-to "resources/public/js/generic.js"
@@ -39,4 +39,5 @@
                :circles
                  {:source-paths ["src/cljs/ponting_dynamics/circle"]
                   :compiler {:output-to "resources/public/js/circles.js"
-                             :optimizations :none}}}})
+                             :optimizations :advanced
+                             :pretty-print true}}}})
