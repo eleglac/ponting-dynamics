@@ -2246,7 +2246,8 @@ cljs.core._STAR_print_length_STAR_ = null;
 cljs.core._STAR_print_level_STAR_ = null;
 "undefined" === typeof cljs.core._STAR_loaded_libs_STAR_ && (cljs.core._STAR_loaded_libs_STAR_ = null);
 cljs.core.pr_opts = function() {
-  return new cljs.core.PersistentArrayMap(null, 5, [cljs.core.cst$kw$flush_DASH_on_DASH_newline, cljs.core._STAR_flush_on_newline_STAR_, cljs.core.cst$kw$readably, cljs.core._STAR_print_readably_STAR_, cljs.core.cst$kw$meta, cljs.core._STAR_print_meta_STAR_, cljs.core.cst$kw$dup, cljs.core._STAR_print_dup_STAR_, cljs.core.cst$kw$print_DASH_length, cljs.core._STAR_print_length_STAR_], null);
+  return new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null, "flush-on-newline", "flush-on-newline", -151457939), cljs.core._STAR_flush_on_newline_STAR_, new cljs.core.Keyword(null, "readably", "readably", 1129599760), cljs.core._STAR_print_readably_STAR_, new cljs.core.Keyword(null, "meta", "meta", 1499536964), cljs.core._STAR_print_meta_STAR_, new cljs.core.Keyword(null, "dup", "dup", 556298533), cljs.core._STAR_print_dup_STAR_, new cljs.core.Keyword(null, "print-length", "print-length", 
+  1931866356), cljs.core._STAR_print_length_STAR_], null);
 };
 cljs.core.enable_console_print_BANG_ = function() {
   cljs.core._STAR_print_newline_STAR_ = !1;
@@ -3985,7 +3986,7 @@ cljs.core.StringBufferWriter.prototype.cljs$core$IWriter$_flush$arity$1 = functi
   return null;
 };
 cljs.core.StringBufferWriter.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$sb], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "sb", "sb", -1249746442, null)], null);
 };
 cljs.core.StringBufferWriter.cljs$lang$type = !0;
 cljs.core.StringBufferWriter.cljs$lang$ctorStr = "cljs.core/StringBufferWriter";
@@ -4195,7 +4196,8 @@ cljs.core.Symbol.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = funct
   return cljs.core._write(b, this.str);
 };
 cljs.core.Symbol.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$ns, cljs.core.cst$sym$name, cljs.core.cst$sym$str, cljs.core.with_meta(cljs.core.cst$sym$_hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.cst$sym$_meta], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "ns", "ns", 2082130287, null), new cljs.core.Symbol(null, "name", "name", -810760592, null), new cljs.core.Symbol(null, "str", "str", -1564826950, null), cljs.core.with_meta(new cljs.core.Symbol(null, "_hash", "_hash", -2130838312, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), new cljs.core.Symbol(null, 
+  "_meta", "_meta", -1716892533, null)], null);
 };
 cljs.core.Symbol.cljs$lang$type = !0;
 cljs.core.Symbol.cljs$lang$ctorStr = "cljs.core/Symbol";
@@ -4473,7 +4475,7 @@ cljs.core.Var.prototype.cljs$core$IFn$_invoke$arity$21 = function(a, b, c, d, e,
   return cljs.core.apply.cljs$core$IFn$_invoke$arity$22 ? cljs.core.apply.cljs$core$IFn$_invoke$arity$22(C, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : cljs.core.apply.call(null, C, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
 };
 cljs.core.Var.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$val, cljs.core.cst$sym$sym, cljs.core.cst$sym$_meta], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "val", "val", 1769233139, null), new cljs.core.Symbol(null, "sym", "sym", 195671222, null), new cljs.core.Symbol(null, "_meta", "_meta", -1716892533, null)], null);
 };
 cljs.core.Var.cljs$lang$type = !0;
 cljs.core.Var.cljs$lang$ctorStr = "cljs.core/Var";
@@ -4581,7 +4583,7 @@ cljs.core.ES6Iterator.prototype.next = function() {
   return {value:null, done:!0};
 };
 cljs.core.ES6Iterator.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$s, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "s", "s", -948495851, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ES6Iterator.cljs$lang$type = !0;
 cljs.core.ES6Iterator.cljs$lang$ctorStr = "cljs.core/ES6Iterator";
@@ -4612,7 +4614,7 @@ cljs.core.ES6IteratorSeq.prototype.cljs$core$ISeq$_rest$arity$1 = function(a) {
   return this._rest;
 };
 cljs.core.ES6IteratorSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$value, cljs.core.cst$sym$iter, cljs.core.with_meta(cljs.core.cst$sym$_rest, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "value", "value", 1946509744, null), new cljs.core.Symbol(null, "iter", "iter", -1346195486, null), cljs.core.with_meta(new cljs.core.Symbol(null, "_rest", "_rest", -2100466189, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ES6IteratorSeq.cljs$lang$type = !0;
 cljs.core.ES6IteratorSeq.cljs$lang$ctorStr = "cljs.core/ES6IteratorSeq";
@@ -4692,7 +4694,7 @@ cljs.core.Reduced.prototype.cljs$core$IDeref$_deref$arity$1 = function(a) {
   return this.val;
 };
 cljs.core.Reduced.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$val], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "val", "val", 1769233139, null)], null);
 };
 cljs.core.Reduced.cljs$lang$type = !0;
 cljs.core.Reduced.cljs$lang$ctorStr = "cljs.core/Reduced";
@@ -4942,7 +4944,7 @@ cljs.core.IndexedSeqIterator.prototype.next = function() {
   return a;
 };
 cljs.core.IndexedSeqIterator.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$arr, cljs.core.with_meta(cljs.core.cst$sym$i, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), cljs.core.with_meta(new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.IndexedSeqIterator.cljs$lang$type = !0;
 cljs.core.IndexedSeqIterator.cljs$lang$ctorStr = "cljs.core/IndexedSeqIterator";
@@ -5061,7 +5063,7 @@ cljs.core.IndexedSeq.prototype.cljs$core$ICollection$_conj$arity$2 = function(a,
   return cljs.core.cons.cljs$core$IFn$_invoke$arity$2 ? cljs.core.cons.cljs$core$IFn$_invoke$arity$2(b, this) : cljs.core.cons.call(null, b, this);
 };
 cljs.core.IndexedSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$arr, cljs.core.cst$sym$i, cljs.core.cst$sym$meta], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.Symbol(null, "meta", "meta", -1154898805, null)], null);
 };
 cljs.core.IndexedSeq.cljs$lang$type = !0;
 cljs.core.IndexedSeq.cljs$lang$ctorStr = "cljs.core/IndexedSeq";
@@ -5216,7 +5218,7 @@ cljs.core.RSeq.prototype.cljs$core$ICollection$_conj$arity$2 = function(a, b) {
   return cljs.core.cons.cljs$core$IFn$_invoke$arity$2 ? cljs.core.cons.cljs$core$IFn$_invoke$arity$2(b, this) : cljs.core.cons.call(null, b, this);
 };
 cljs.core.RSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$ci, cljs.core.cst$sym$i, cljs.core.cst$sym$meta], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "ci", "ci", 2049808339, null), new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.Symbol(null, "meta", "meta", -1154898805, null)], null);
 };
 cljs.core.RSeq.cljs$lang$type = !0;
 cljs.core.RSeq.cljs$lang$ctorStr = "cljs.core/RSeq";
@@ -5780,7 +5782,7 @@ cljs.core.MetaFn.prototype.cljs$core$IFn$_invoke$arity$21 = function(a, b, c, d,
   return cljs.core.apply.cljs$core$IFn$_invoke$arity$22 ? cljs.core.apply.cljs$core$IFn$_invoke$arity$22(this.afn, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y) : cljs.core.apply.call(null, this.afn, a, b, c, d, e, f, g, h, k, l, m, n, p, q, r, t, u, v, w, x, y);
 };
 cljs.core.MetaFn.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$afn, cljs.core.cst$sym$meta], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "afn", "afn", 216963467, null), new cljs.core.Symbol(null, "meta", "meta", -1154898805, null)], null);
 };
 cljs.core.MetaFn.cljs$lang$type = !0;
 cljs.core.MetaFn.cljs$lang$ctorStr = "cljs.core/MetaFn";
@@ -7463,7 +7465,8 @@ cljs.core.List.prototype.cljs$core$ICollection$_conj$arity$2 = function(a, b) {
   return new cljs.core.List(this.meta, b, this, this.count + 1, null);
 };
 cljs.core.List.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$first, cljs.core.cst$sym$rest, cljs.core.cst$sym$count, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "first", "first", 996428481, null), new cljs.core.Symbol(null, "rest", "rest", 398835108, null), new cljs.core.Symbol(null, "count", "count", -514511684, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, 
+  "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.List.cljs$lang$type = !0;
 cljs.core.List.cljs$lang$ctorStr = "cljs.core/List";
@@ -7575,7 +7578,7 @@ cljs.core.EmptyList.prototype.cljs$core$ICollection$_conj$arity$2 = function(a, 
   return new cljs.core.List(this.meta, b, null, 1, null);
 };
 cljs.core.EmptyList.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null)], null);
 };
 cljs.core.EmptyList.cljs$lang$type = !0;
 cljs.core.EmptyList.cljs$lang$ctorStr = "cljs.core/EmptyList";
@@ -7729,7 +7732,7 @@ cljs.core.Cons.prototype.cljs$core$ICollection$_conj$arity$2 = function(a, b) {
   return new cljs.core.Cons(null, b, this, null);
 };
 cljs.core.Cons.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$first, cljs.core.cst$sym$rest, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "first", "first", 996428481, null), new cljs.core.Symbol(null, "rest", "rest", 398835108, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.Cons.cljs$lang$type = !0;
 cljs.core.Cons.cljs$lang$ctorStr = "cljs.core/Cons";
@@ -7826,7 +7829,7 @@ cljs.core.Keyword.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = func
   return cljs.core._write(b, [cljs.core.str(":"), cljs.core.str(this.fqn)].join(""));
 };
 cljs.core.Keyword.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$ns, cljs.core.cst$sym$name, cljs.core.cst$sym$fqn, cljs.core.with_meta(cljs.core.cst$sym$_hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "ns", "ns", 2082130287, null), new cljs.core.Symbol(null, "name", "name", -810760592, null), new cljs.core.Symbol(null, "fqn", "fqn", -1749334463, null), cljs.core.with_meta(new cljs.core.Symbol(null, "_hash", "_hash", -2130838312, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.Keyword.cljs$lang$type = !0;
 cljs.core.Keyword.cljs$lang$ctorStr = "cljs.core/Keyword";
@@ -7993,7 +7996,8 @@ cljs.core.LazySeq.prototype.cljs$core$ICollection$_conj$arity$2 = function(a, b)
   return cljs.core.cons(b, this);
 };
 cljs.core.LazySeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.with_meta(cljs.core.cst$sym$fn, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$s, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), cljs.core.with_meta(new cljs.core.Symbol(null, "fn", "fn", 465265323, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "s", "s", -948495851, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", 
+  "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.LazySeq.cljs$lang$type = !0;
 cljs.core.LazySeq.cljs$lang$ctorStr = "cljs.core/LazySeq";
@@ -8025,7 +8029,7 @@ cljs.core.ChunkBuffer.prototype.cljs$core$ICounted$_count$arity$1 = function(a) 
   return this.end;
 };
 cljs.core.ChunkBuffer.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$buf, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$end, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "buf", "buf", 1426618187, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "end", "end", 1372345569, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ChunkBuffer.cljs$lang$type = !0;
 cljs.core.ChunkBuffer.cljs$lang$ctorStr = "cljs.core/ChunkBuffer";
@@ -8068,7 +8072,7 @@ cljs.core.ArrayChunk.prototype.cljs$core$IReduce$_reduce$arity$3 = function(a, b
   return cljs.core.array_reduce.cljs$core$IFn$_invoke$arity$4(this.arr, b, c, this.off);
 };
 cljs.core.ArrayChunk.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$arr, cljs.core.cst$sym$off, cljs.core.cst$sym$end], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), new cljs.core.Symbol(null, "off", "off", -2047994980, null), new cljs.core.Symbol(null, "end", "end", 1372345569, null)], null);
 };
 cljs.core.ArrayChunk.cljs$lang$type = !0;
 cljs.core.ArrayChunk.cljs$lang$ctorStr = "cljs.core/ArrayChunk";
@@ -8202,7 +8206,7 @@ cljs.core.ChunkedCons.prototype.cljs$core$IChunkedNext$_chunked_next$arity$1 = f
   return null == this.more ? null : this.more;
 };
 cljs.core.ChunkedCons.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$chunk, cljs.core.cst$sym$more, cljs.core.cst$sym$meta, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "chunk", "chunk", 449371907, null), new cljs.core.Symbol(null, "more", "more", -418290273, null), new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ChunkedCons.cljs$lang$type = !0;
 cljs.core.ChunkedCons.cljs$lang$ctorStr = "cljs.core/ChunkedCons";
@@ -8934,29 +8938,30 @@ cljs.core.not_empty = function(a) {
   return cljs.core.seq(a) ? a : null;
 };
 cljs.core.nil_iter = function cljs$core$nil_iter() {
-  "undefined" === typeof cljs.core.t_cljs$core9988 && (cljs.core.t_cljs$core9988 = function(b, c) {
+  "undefined" === typeof cljs.core.t_cljs$core9431 && (cljs.core.t_cljs$core9431 = function(b, c) {
     this.nil_iter = b;
-    this.meta9989 = c;
+    this.meta9432 = c;
     this.cljs$lang$protocol_mask$partition0$ = 393216;
     this.cljs$lang$protocol_mask$partition1$ = 0;
-  }, cljs.core.t_cljs$core9988.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = function(b, c) {
-    return new cljs.core.t_cljs$core9988(this.nil_iter, c);
-  }, cljs.core.t_cljs$core9988.prototype.cljs$core$IMeta$_meta$arity$1 = function(b) {
-    return this.meta9989;
-  }, cljs.core.t_cljs$core9988.prototype.hasNext = function() {
+  }, cljs.core.t_cljs$core9431.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = function(b, c) {
+    return new cljs.core.t_cljs$core9431(this.nil_iter, c);
+  }, cljs.core.t_cljs$core9431.prototype.cljs$core$IMeta$_meta$arity$1 = function(b) {
+    return this.meta9432;
+  }, cljs.core.t_cljs$core9431.prototype.hasNext = function() {
     return !1;
-  }, cljs.core.t_cljs$core9988.prototype.next = function() {
+  }, cljs.core.t_cljs$core9431.prototype.next = function() {
     return Error("No such element");
-  }, cljs.core.t_cljs$core9988.prototype.remove = function() {
+  }, cljs.core.t_cljs$core9431.prototype.remove = function() {
     return Error("Unsupported operation");
-  }, cljs.core.t_cljs$core9988.getBasis = function() {
-    return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$nil_DASH_iter, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$arglists, cljs.core.list(cljs.core.cst$sym$quote, cljs.core.list(cljs.core.PersistentVector.EMPTY))], null)), cljs.core.cst$sym$meta9989], null);
-  }, cljs.core.t_cljs$core9988.cljs$lang$type = !0, cljs.core.t_cljs$core9988.cljs$lang$ctorStr = "cljs.core/t_cljs$core9988", cljs.core.t_cljs$core9988.cljs$lang$ctorPrWriter = function(b, c, d) {
-    return cljs.core._write(c, "cljs.core/t_cljs$core9988");
-  }, cljs.core.__GT_t_cljs$core9988 = function(b, c) {
-    return new cljs.core.t_cljs$core9988(b, c);
+  }, cljs.core.t_cljs$core9431.getBasis = function() {
+    return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "nil-iter", "nil-iter", 1101030523, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "arglists", "arglists", 1661989754), cljs.core.list(new cljs.core.Symbol(null, "quote", "quote", 1377916282, null), cljs.core.list(cljs.core.PersistentVector.EMPTY))], null)), new cljs.core.Symbol(null, "meta9432", "meta9432", -871980307, null)], 
+    null);
+  }, cljs.core.t_cljs$core9431.cljs$lang$type = !0, cljs.core.t_cljs$core9431.cljs$lang$ctorStr = "cljs.core/t_cljs$core9431", cljs.core.t_cljs$core9431.cljs$lang$ctorPrWriter = function(b, c, d) {
+    return cljs.core._write(c, "cljs.core/t_cljs$core9431");
+  }, cljs.core.__GT_t_cljs$core9431 = function(b, c) {
+    return new cljs.core.t_cljs$core9431(b, c);
   });
-  return new cljs.core.t_cljs$core9988(cljs$core$nil_iter, cljs.core.PersistentArrayMap.EMPTY);
+  return new cljs.core.t_cljs$core9431(cljs$core$nil_iter, cljs.core.PersistentArrayMap.EMPTY);
 };
 cljs.core.StringIter = function(a, b) {
   this.s = a;
@@ -8974,7 +8979,7 @@ cljs.core.StringIter.prototype.remove = function() {
   return Error("Unsupported operation");
 };
 cljs.core.StringIter.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$s, cljs.core.with_meta(cljs.core.cst$sym$i, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "s", "s", -948495851, null), cljs.core.with_meta(new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.StringIter.cljs$lang$type = !0;
 cljs.core.StringIter.cljs$lang$ctorStr = "cljs.core/StringIter";
@@ -9003,7 +9008,7 @@ cljs.core.ArrayIter.prototype.remove = function() {
   return Error("Unsupported operation");
 };
 cljs.core.ArrayIter.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$arr, cljs.core.with_meta(cljs.core.cst$sym$i, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), cljs.core.with_meta(new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ArrayIter.cljs$lang$type = !0;
 cljs.core.ArrayIter.cljs$lang$ctorStr = "cljs.core/ArrayIter";
@@ -9037,7 +9042,7 @@ cljs.core.SeqIter.prototype.remove = function() {
   return Error("Unsupported operation");
 };
 cljs.core.SeqIter.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$_seq, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$_next, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "_seq", "_seq", -449557847, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "_next", "_next", 101877036, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.SeqIter.cljs$lang$type = !0;
 cljs.core.SeqIter.cljs$lang$ctorStr = "cljs.core/SeqIter";
@@ -9095,7 +9100,7 @@ cljs.core.Stepper.prototype.step = function(a) {
   return null == a.stepper ? null : b.xform.cljs$core$IFn$_invoke$arity$1 ? b.xform.cljs$core$IFn$_invoke$arity$1(a) : b.xform.call(null, a);
 };
 cljs.core.Stepper.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$xform, cljs.core.cst$sym$iter], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "xform", "xform", -85179481, null), new cljs.core.Symbol(null, "iter", "iter", -1346195486, null)], null);
 };
 cljs.core.Stepper.cljs$lang$type = !0;
 cljs.core.Stepper.cljs$lang$ctorStr = "cljs.core/Stepper";
@@ -9175,7 +9180,7 @@ cljs.core.MultiStepper.prototype.step = function(a) {
   return null == a.stepper ? null : this.xform.cljs$core$IFn$_invoke$arity$1 ? this.xform.cljs$core$IFn$_invoke$arity$1(a) : this.xform.call(null, a);
 };
 cljs.core.MultiStepper.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$xform, cljs.core.cst$sym$iters, cljs.core.cst$sym$nexts], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "xform", "xform", -85179481, null), new cljs.core.Symbol(null, "iters", "iters", 719353031, null), new cljs.core.Symbol(null, "nexts", "nexts", -1683579407, null)], null);
 };
 cljs.core.MultiStepper.cljs$lang$type = !0;
 cljs.core.MultiStepper.cljs$lang$ctorStr = "cljs.core/MultiStepper";
@@ -9311,7 +9316,8 @@ cljs.core.LazyTransformer.prototype.cljs$core$ICollection$_conj$arity$2 = functi
   return cljs.core.cons(b, cljs.core._seq(this));
 };
 cljs.core.LazyTransformer.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$stepper, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$first, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$rest, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.cst$sym$meta], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "stepper", "stepper", 1159163296, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "first", "first", 996428481, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, 
+  "rest", "rest", 398835108, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), new cljs.core.Symbol(null, "meta", "meta", -1154898805, null)], null);
 };
 cljs.core.LazyTransformer.cljs$lang$type = !0;
 cljs.core.LazyTransformer.cljs$lang$ctorStr = "cljs.core/LazyTransformer";
@@ -10384,7 +10390,7 @@ cljs.core.Atom.prototype.cljs$core$IHash$_hash$arity$1 = function(a) {
   return goog.getUid(this);
 };
 cljs.core.Atom.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$state, cljs.core.cst$sym$meta, cljs.core.cst$sym$validator, cljs.core.cst$sym$watches], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "state", "state", -348086572, null), new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "validator", "validator", -325659154, null), new cljs.core.Symbol(null, "watches", "watches", 1367433992, null)], null);
 };
 cljs.core.Atom.cljs$lang$type = !0;
 cljs.core.Atom.cljs$lang$ctorStr = "cljs.core/Atom";
@@ -10413,7 +10419,7 @@ cljs.core.atom.cljs$core$IFn$_invoke$arity$1 = function(a) {
   return new cljs.core.Atom(a, null, null, null);
 };
 cljs.core.atom.cljs$core$IFn$_invoke$arity$variadic = function(a, b) {
-  var c = null != b && (b.cljs$lang$protocol_mask$partition0$ & 64 || b.cljs$core$ISeq$) ? cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map, b) : b, d = cljs.core.get.cljs$core$IFn$_invoke$arity$2(c, cljs.core.cst$kw$meta), c = cljs.core.get.cljs$core$IFn$_invoke$arity$2(c, cljs.core.cst$kw$validator);
+  var c = null != b && (b.cljs$lang$protocol_mask$partition0$ & 64 || b.cljs$core$ISeq$) ? cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map, b) : b, d = cljs.core.get.cljs$core$IFn$_invoke$arity$2(c, new cljs.core.Keyword(null, "meta", "meta", 1499536964)), c = cljs.core.get.cljs$core$IFn$_invoke$arity$2(c, new cljs.core.Keyword(null, "validator", "validator", -1966190681));
   return new cljs.core.Atom(a, d, c, null);
 };
 cljs.core.atom.cljs$lang$applyTo = function(a) {
@@ -10504,7 +10510,7 @@ cljs.core.Volatile.prototype.cljs$core$IDeref$_deref$arity$1 = function(a) {
   return this.state;
 };
 cljs.core.Volatile.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$state, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "state", "state", -348086572, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.Volatile.cljs$lang$type = !0;
 cljs.core.Volatile.cljs$lang$ctorStr = "cljs.core/Volatile";
@@ -12359,7 +12365,7 @@ cljs.core.VectorNode = function(a, b) {
   this.arr = b;
 };
 cljs.core.VectorNode.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$edit, cljs.core.cst$sym$arr], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "edit", "edit", -1302639, null), new cljs.core.Symbol(null, "arr", "arr", 2115492975, null)], null);
 };
 cljs.core.VectorNode.cljs$lang$type = !0;
 cljs.core.VectorNode.cljs$lang$ctorStr = "cljs.core/VectorNode";
@@ -12475,8 +12481,8 @@ cljs.core.RangedIterator.prototype.next = function() {
   return a;
 };
 cljs.core.RangedIterator.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$i, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$base, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$arr, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.cst$sym$v, cljs.core.cst$sym$start, 
-  cljs.core.cst$sym$end], null);
+  return new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "base", "base", 1825810849, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, 
+  "arr", "arr", 2115492975, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), new cljs.core.Symbol(null, "v", "v", 1661996586, null), new cljs.core.Symbol(null, "start", "start", 1285322546, null), new cljs.core.Symbol(null, "end", "end", 1372345569, null)], null);
 };
 cljs.core.RangedIterator.cljs$lang$type = !0;
 cljs.core.RangedIterator.cljs$lang$ctorStr = "cljs.core/RangedIterator";
@@ -12759,7 +12765,8 @@ cljs.core.PersistentVector.prototype.cljs$core$IFn$_invoke$arity$2 = function(a,
   return this.cljs$core$IIndexed$_nth$arity$3(null, a, b);
 };
 cljs.core.PersistentVector.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$cnt, cljs.core.cst$sym$shift, cljs.core.cst$sym$root, cljs.core.cst$sym$tail, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "cnt", "cnt", 1924510325, null), new cljs.core.Symbol(null, "shift", "shift", -1657295705, null), new cljs.core.Symbol(null, "root", "root", 1191874074, null), new cljs.core.Symbol(null, "tail", "tail", 494507963, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 
+  1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.PersistentVector.cljs$lang$type = !0;
 cljs.core.PersistentVector.cljs$lang$ctorStr = "cljs.core/PersistentVector";
@@ -12937,7 +12944,8 @@ cljs.core.ChunkedSeq.prototype.cljs$core$IChunkedNext$_chunked_next$arity$1 = fu
   return null;
 };
 cljs.core.ChunkedSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$vec, cljs.core.cst$sym$node, cljs.core.cst$sym$i, cljs.core.cst$sym$off, cljs.core.cst$sym$meta, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "vec", "vec", 982683596, null), new cljs.core.Symbol(null, "node", "node", -2073234571, null), new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.Symbol(null, "off", "off", -2047994980, null), new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 
+  1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ChunkedSeq.cljs$lang$type = !0;
 cljs.core.ChunkedSeq.cljs$lang$ctorStr = "cljs.core/ChunkedSeq";
@@ -13158,7 +13166,8 @@ cljs.core.Subvec.prototype.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
   return this.cljs$core$IIndexed$_nth$arity$3(null, a, b);
 };
 cljs.core.Subvec.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$v, cljs.core.cst$sym$start, cljs.core.cst$sym$end, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "v", "v", 1661996586, null), new cljs.core.Symbol(null, "start", "start", 1285322546, null), new cljs.core.Symbol(null, "end", "end", 1372345569, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", 
+  "mutable", 875778266), !0], null))], null);
 };
 cljs.core.Subvec.cljs$lang$type = !0;
 cljs.core.Subvec.cljs$lang$ctorStr = "cljs.core/Subvec";
@@ -13400,8 +13409,8 @@ cljs.core.TransientVector.prototype.cljs$core$IFn$_invoke$arity$2 = function(a, 
   return this.cljs$core$ILookup$_lookup$arity$3(null, a, b);
 };
 cljs.core.TransientVector.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$cnt, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$shift, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$root, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$tail, 
-  new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "cnt", "cnt", 1924510325, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "shift", "shift", -1657295705, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, 
+  "root", "root", 1191874074, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "tail", "tail", 494507963, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.TransientVector.cljs$lang$type = !0;
 cljs.core.TransientVector.cljs$lang$ctorStr = "cljs.core/TransientVector";
@@ -13434,7 +13443,7 @@ cljs.core.PersistentQueueIter.prototype.remove = function() {
   return Error("Unsupported operation");
 };
 cljs.core.PersistentQueueIter.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$fseq, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.cst$sym$riter], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "fseq", "fseq", -1466412450, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), new cljs.core.Symbol(null, "riter", "riter", -237834262, null)], null);
 };
 cljs.core.PersistentQueueIter.cljs$lang$type = !0;
 cljs.core.PersistentQueueIter.cljs$lang$ctorStr = "cljs.core/PersistentQueueIter";
@@ -13523,7 +13532,7 @@ cljs.core.PersistentQueueSeq.prototype.cljs$core$ICollection$_conj$arity$2 = fun
   return cljs.core.cons(b, this);
 };
 cljs.core.PersistentQueueSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$front, cljs.core.cst$sym$rear, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "front", "front", 117022539, null), new cljs.core.Symbol(null, "rear", "rear", -900164830, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.PersistentQueueSeq.cljs$lang$type = !0;
 cljs.core.PersistentQueueSeq.cljs$lang$ctorStr = "cljs.core/PersistentQueueSeq";
@@ -13640,7 +13649,8 @@ cljs.core.PersistentQueue.prototype.cljs$core$ICollection$_conj$arity$2 = functi
   }(), b), null) : new cljs.core.PersistentQueue(c.meta, c.count + 1, cljs.core.conj.cljs$core$IFn$_invoke$arity$2(c.front, b), cljs.core.PersistentVector.EMPTY, null);
 };
 cljs.core.PersistentQueue.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$count, cljs.core.cst$sym$front, cljs.core.cst$sym$rear, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "count", "count", -514511684, null), new cljs.core.Symbol(null, "front", "front", 117022539, null), new cljs.core.Symbol(null, "rear", "rear", -900164830, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, 
+  "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.PersistentQueue.cljs$lang$type = !0;
 cljs.core.PersistentQueue.cljs$lang$ctorStr = "cljs.core/PersistentQueue";
@@ -13847,7 +13857,8 @@ cljs.core.ObjMap.prototype.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
   return this.cljs$core$ILookup$_lookup$arity$3(null, a, b);
 };
 cljs.core.ObjMap.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$keys, cljs.core.cst$sym$strobj, cljs.core.cst$sym$update_DASH_count, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "keys", "keys", -1586012071, null), new cljs.core.Symbol(null, "strobj", "strobj", 1088091283, null), new cljs.core.Symbol(null, "update-count", "update-count", -411982269, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, 
+  "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ObjMap.cljs$lang$type = !0;
 cljs.core.ObjMap.cljs$lang$ctorStr = "cljs.core/ObjMap";
@@ -13885,7 +13896,8 @@ cljs.core.RecordIter.prototype.remove = function() {
   return Error("Unsupported operation");
 };
 cljs.core.RecordIter.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$i, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.cst$sym$record, cljs.core.cst$sym$base_DASH_count, cljs.core.cst$sym$fields, cljs.core.cst$sym$ext_DASH_map_DASH_iter], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), new cljs.core.Symbol(null, "record", "record", 861424668, null), new cljs.core.Symbol(null, "base-count", "base-count", -1180647182, null), new cljs.core.Symbol(null, "fields", "fields", -291534703, null), new cljs.core.Symbol(null, 
+  "ext-map-iter", "ext-map-iter", -1215982757, null)], null);
 };
 cljs.core.RecordIter.cljs$lang$type = !0;
 cljs.core.RecordIter.cljs$lang$ctorStr = "cljs.core/RecordIter";
@@ -13907,7 +13919,7 @@ cljs.core.ES6EntriesIterator.prototype.next = function() {
   return {value:null, done:!0};
 };
 cljs.core.ES6EntriesIterator.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$s, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "s", "s", -948495851, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ES6EntriesIterator.cljs$lang$type = !0;
 cljs.core.ES6EntriesIterator.cljs$lang$ctorStr = "cljs.core/ES6EntriesIterator";
@@ -13932,7 +13944,7 @@ cljs.core.ES6SetEntriesIterator.prototype.next = function() {
   return {value:null, done:!0};
 };
 cljs.core.ES6SetEntriesIterator.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$s, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "s", "s", -948495851, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ES6SetEntriesIterator.cljs$lang$type = !0;
 cljs.core.ES6SetEntriesIterator.cljs$lang$ctorStr = "cljs.core/ES6SetEntriesIterator";
@@ -14110,7 +14122,7 @@ cljs.core.PersistentArrayMapSeq.prototype.cljs$core$ICollection$_conj$arity$2 = 
   return cljs.core.cons(b, this);
 };
 cljs.core.PersistentArrayMapSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$arr, cljs.core.cst$sym$i, cljs.core.cst$sym$_meta], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.Symbol(null, "_meta", "_meta", -1716892533, null)], null);
 };
 cljs.core.PersistentArrayMapSeq.cljs$lang$type = !0;
 cljs.core.PersistentArrayMapSeq.cljs$lang$ctorStr = "cljs.core/PersistentArrayMapSeq";
@@ -14140,7 +14152,7 @@ cljs.core.PersistentArrayMapIterator.prototype.next = function() {
   return a;
 };
 cljs.core.PersistentArrayMapIterator.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$arr, cljs.core.with_meta(cljs.core.cst$sym$i, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.cst$sym$cnt], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), cljs.core.with_meta(new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), new cljs.core.Symbol(null, "cnt", "cnt", 1924510325, null)], null);
 };
 cljs.core.PersistentArrayMapIterator.cljs$lang$type = !0;
 cljs.core.PersistentArrayMapIterator.cljs$lang$ctorStr = "cljs.core/PersistentArrayMapIterator";
@@ -14354,7 +14366,7 @@ cljs.core.PersistentArrayMap.prototype.cljs$core$IFn$_invoke$arity$2 = function(
   return this.cljs$core$ILookup$_lookup$arity$3(null, a, b);
 };
 cljs.core.PersistentArrayMap.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$cnt, cljs.core.cst$sym$arr, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "cnt", "cnt", 1924510325, null), new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.PersistentArrayMap.cljs$lang$type = !0;
 cljs.core.PersistentArrayMap.cljs$lang$ctorStr = "cljs.core/PersistentArrayMap";
@@ -14451,7 +14463,8 @@ cljs.core.TransientArrayMap.prototype.cljs$core$ITransientMap$_dissoc_BANG_$arit
   throw Error("dissoc! after persistent!");
 };
 cljs.core.TransientArrayMap.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$editable_QMARK_, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$len, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.cst$sym$arr], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "editable?", "editable?", -164945806, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "len", "len", -1230778691, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), 
+  new cljs.core.Symbol(null, "arr", "arr", 2115492975, null)], null);
 };
 cljs.core.TransientArrayMap.cljs$lang$type = !0;
 cljs.core.TransientArrayMap.cljs$lang$ctorStr = "cljs.core/TransientArrayMap";
@@ -14474,7 +14487,7 @@ cljs.core.Box = function(a) {
   this.val = a;
 };
 cljs.core.Box.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$val, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "val", "val", 1769233139, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.Box.cljs$lang$type = !0;
 cljs.core.Box.cljs$lang$ctorStr = "cljs.core/Box";
@@ -14622,8 +14635,8 @@ cljs.core.NodeIterator.prototype.remove = function() {
   return Error("Unsupported operation");
 };
 cljs.core.NodeIterator.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$arr, cljs.core.with_meta(cljs.core.cst$sym$i, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$next_DASH_entry, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$next_DASH_iter, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], 
-  null))], null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), cljs.core.with_meta(new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "next-entry", "next-entry", 1091342476, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, 
+  "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "next-iter", "next-iter", 1526626239, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.NodeIterator.cljs$lang$type = !0;
 cljs.core.NodeIterator.cljs$lang$ctorStr = "cljs.core/NodeIterator";
@@ -14787,7 +14800,8 @@ cljs.core.BitmapIndexedNode.prototype.cljs$core$IIterable$_iterator$arity$1 = fu
   return new cljs.core.NodeIterator(this.arr, 0, null, null);
 };
 cljs.core.BitmapIndexedNode.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$edit, cljs.core.with_meta(cljs.core.cst$sym$bitmap, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$arr, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "edit", "edit", -1302639, null), cljs.core.with_meta(new cljs.core.Symbol(null, "bitmap", "bitmap", 501334601, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, 
+  "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.BitmapIndexedNode.cljs$lang$type = !0;
 cljs.core.BitmapIndexedNode.cljs$lang$ctorStr = "cljs.core/BitmapIndexedNode";
@@ -14838,7 +14852,8 @@ cljs.core.ArrayNodeIterator.prototype.remove = function() {
   return Error("Unsupported operation");
 };
 cljs.core.ArrayNodeIterator.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$arr, cljs.core.with_meta(cljs.core.cst$sym$i, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$next_DASH_iter, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), cljs.core.with_meta(new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "next-iter", "next-iter", 1526626239, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, 
+  "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ArrayNodeIterator.cljs$lang$type = !0;
 cljs.core.ArrayNodeIterator.cljs$lang$ctorStr = "cljs.core/ArrayNodeIterator";
@@ -14924,7 +14939,8 @@ cljs.core.ArrayNode.prototype.cljs$core$IIterable$_iterator$arity$1 = function(a
   return new cljs.core.ArrayNodeIterator(this.arr, 0, null);
 };
 cljs.core.ArrayNode.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$edit, cljs.core.with_meta(cljs.core.cst$sym$cnt, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$arr, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "edit", "edit", -1302639, null), cljs.core.with_meta(new cljs.core.Symbol(null, "cnt", "cnt", 1924510325, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, 
+  "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ArrayNode.cljs$lang$type = !0;
 cljs.core.ArrayNode.cljs$lang$ctorStr = "cljs.core/ArrayNode";
@@ -15028,8 +15044,8 @@ cljs.core.HashCollisionNode.prototype.cljs$core$IIterable$_iterator$arity$1 = fu
   return new cljs.core.NodeIterator(this.arr, 0, null, null);
 };
 cljs.core.HashCollisionNode.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$edit, cljs.core.with_meta(cljs.core.cst$sym$collision_DASH_hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$cnt, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$arr, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], 
-  null);
+  return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "edit", "edit", -1302639, null), cljs.core.with_meta(new cljs.core.Symbol(null, "collision-hash", "collision-hash", -35831342, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "cnt", "cnt", 1924510325, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, 
+  "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.HashCollisionNode.cljs$lang$type = !0;
 cljs.core.HashCollisionNode.cljs$lang$ctorStr = "cljs.core/HashCollisionNode";
@@ -15166,7 +15182,8 @@ cljs.core.NodeSeq.prototype.cljs$core$ICollection$_conj$arity$2 = function(a, b)
   return cljs.core.cons(b, this);
 };
 cljs.core.NodeSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$nodes, cljs.core.cst$sym$i, cljs.core.cst$sym$s, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "nodes", "nodes", -459054278, null), new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.Symbol(null, "s", "s", -948495851, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 
+  875778266), !0], null))], null);
 };
 cljs.core.NodeSeq.cljs$lang$type = !0;
 cljs.core.NodeSeq.cljs$lang$ctorStr = "cljs.core/NodeSeq";
@@ -15308,7 +15325,8 @@ cljs.core.ArrayNodeSeq.prototype.cljs$core$ICollection$_conj$arity$2 = function(
   return cljs.core.cons(b, this);
 };
 cljs.core.ArrayNodeSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$nodes, cljs.core.cst$sym$i, cljs.core.cst$sym$s, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "nodes", "nodes", -459054278, null), new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.Symbol(null, "s", "s", -948495851, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 
+  875778266), !0], null))], null);
 };
 cljs.core.ArrayNodeSeq.cljs$lang$type = !0;
 cljs.core.ArrayNodeSeq.cljs$lang$ctorStr = "cljs.core/ArrayNodeSeq";
@@ -15378,7 +15396,7 @@ cljs.core.HashMapIter.prototype.remove = function() {
   return Error("Unsupported operation");
 };
 cljs.core.HashMapIter.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$nil_DASH_val, cljs.core.cst$sym$root_DASH_iter, cljs.core.with_meta(cljs.core.cst$sym$seen, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "nil-val", "nil-val", -513933559, null), new cljs.core.Symbol(null, "root-iter", "root-iter", 1974672108, null), cljs.core.with_meta(new cljs.core.Symbol(null, "seen", "seen", 1121531738, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.HashMapIter.cljs$lang$type = !0;
 cljs.core.HashMapIter.cljs$lang$ctorStr = "cljs.core/HashMapIter";
@@ -15542,7 +15560,8 @@ cljs.core.PersistentHashMap.prototype.cljs$core$IFn$_invoke$arity$2 = function(a
   return this.cljs$core$ILookup$_lookup$arity$3(null, a, b);
 };
 cljs.core.PersistentHashMap.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$cnt, cljs.core.cst$sym$root, cljs.core.with_meta(cljs.core.cst$sym$has_DASH_nil_QMARK_, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$tag, cljs.core.cst$sym$boolean], null)), cljs.core.cst$sym$nil_DASH_val, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "cnt", "cnt", 1924510325, null), new cljs.core.Symbol(null, "root", "root", 1191874074, null), cljs.core.with_meta(new cljs.core.Symbol(null, "has-nil?", "has-nil?", 825886722, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "tag", "tag", -1290361223), new cljs.core.Symbol(null, "boolean", 
+  "boolean", -278886877, null)], null)), new cljs.core.Symbol(null, "nil-val", "nil-val", -513933559, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.PersistentHashMap.cljs$lang$type = !0;
 cljs.core.PersistentHashMap.cljs$lang$ctorStr = "cljs.core/PersistentHashMap";
@@ -15661,8 +15680,9 @@ cljs.core.TransientHashMap.prototype.cljs$core$ITransientMap$_dissoc_BANG_$arity
   return this.without_BANG_(b);
 };
 cljs.core.TransientHashMap.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$edit, new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$tag, cljs.core.cst$sym$boolean, cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$root, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$count, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, 
-  !0], null)), cljs.core.with_meta(cljs.core.cst$sym$has_DASH_nil_QMARK_, new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$tag, cljs.core.cst$sym$boolean, cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$nil_DASH_val, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "edit", "edit", -1302639, null), new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "tag", "tag", -1290361223), new cljs.core.Symbol(null, "boolean", "boolean", -278886877, null), new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "root", "root", 1191874074, null), new cljs.core.PersistentArrayMap(null, 
+  1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "count", "count", -514511684, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "has-nil?", "has-nil?", 825886722, null), new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "tag", "tag", -1290361223), new cljs.core.Symbol(null, "boolean", 
+  "boolean", -278886877, null), new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "nil-val", "nil-val", -513933559, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.TransientHashMap.cljs$lang$type = !0;
 cljs.core.TransientHashMap.cljs$lang$ctorStr = "cljs.core/TransientHashMap";
@@ -15772,7 +15792,8 @@ cljs.core.PersistentTreeMapSeq.prototype.cljs$core$ICollection$_conj$arity$2 = f
   return cljs.core.cons(b, this);
 };
 cljs.core.PersistentTreeMapSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$stack, cljs.core.with_meta(cljs.core.cst$sym$ascending_QMARK_, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$tag, cljs.core.cst$sym$boolean], null)), cljs.core.cst$sym$cnt, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "stack", "stack", 847125597, null), cljs.core.with_meta(new cljs.core.Symbol(null, "ascending?", "ascending?", -1938452653, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "tag", "tag", -1290361223), new cljs.core.Symbol(null, "boolean", "boolean", -278886877, null)], null)), new cljs.core.Symbol(null, 
+  "cnt", "cnt", 1924510325, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.PersistentTreeMapSeq.cljs$lang$type = !0;
 cljs.core.PersistentTreeMapSeq.cljs$lang$ctorStr = "cljs.core/PersistentTreeMapSeq";
@@ -15996,7 +16017,8 @@ cljs.core.BlackNode.prototype.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
   return this.cljs$core$ILookup$_lookup$arity$3(null, a, b);
 };
 cljs.core.BlackNode.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$key, cljs.core.cst$sym$val, cljs.core.cst$sym$left, cljs.core.cst$sym$right, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "key", "key", 124488940, null), new cljs.core.Symbol(null, "val", "val", 1769233139, null), new cljs.core.Symbol(null, "left", "left", 1241415590, null), new cljs.core.Symbol(null, "right", "right", 1187949694, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", 
+  "mutable", 875778266), !0], null))], null);
 };
 cljs.core.BlackNode.cljs$lang$type = !0;
 cljs.core.BlackNode.cljs$lang$ctorStr = "cljs.core/BlackNode";
@@ -16174,7 +16196,8 @@ cljs.core.RedNode.prototype.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
   return this.cljs$core$ILookup$_lookup$arity$3(null, a, b);
 };
 cljs.core.RedNode.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$key, cljs.core.cst$sym$val, cljs.core.cst$sym$left, cljs.core.cst$sym$right, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "key", "key", 124488940, null), new cljs.core.Symbol(null, "val", "val", 1769233139, null), new cljs.core.Symbol(null, "left", "left", 1241415590, null), new cljs.core.Symbol(null, "right", "right", 1187949694, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", 
+  "mutable", 875778266), !0], null))], null);
 };
 cljs.core.RedNode.cljs$lang$type = !0;
 cljs.core.RedNode.cljs$lang$ctorStr = "cljs.core/RedNode";
@@ -16428,7 +16451,8 @@ cljs.core.PersistentTreeMap.prototype.cljs$core$ISorted$_comparator$arity$1 = fu
   return this.comp;
 };
 cljs.core.PersistentTreeMap.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$comp, cljs.core.cst$sym$tree, cljs.core.cst$sym$cnt, cljs.core.cst$sym$meta, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "comp", "comp", -1462482139, null), new cljs.core.Symbol(null, "tree", "tree", 1444219499, null), new cljs.core.Symbol(null, "cnt", "cnt", 1924510325, null), new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", 
+  "mutable", 875778266), !0], null))], null);
 };
 cljs.core.PersistentTreeMap.cljs$lang$type = !0;
 cljs.core.PersistentTreeMap.cljs$lang$ctorStr = "cljs.core/PersistentTreeMap";
@@ -16651,7 +16675,7 @@ cljs.core.KeySeq.prototype.cljs$core$ICollection$_conj$arity$2 = function(a, b) 
   return cljs.core.cons(b, this);
 };
 cljs.core.KeySeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$mseq, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$tag, cljs.core.cst$sym$not_DASH_native], null)), cljs.core.cst$sym$_meta], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "mseq", "mseq", 1602647196, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "tag", "tag", -1290361223), new cljs.core.Symbol(null, "not-native", "not-native", -236392494, null)], null)), new cljs.core.Symbol(null, "_meta", "_meta", -1716892533, null)], null);
 };
 cljs.core.KeySeq.cljs$lang$type = !0;
 cljs.core.KeySeq.cljs$lang$ctorStr = "cljs.core/KeySeq";
@@ -16757,7 +16781,7 @@ cljs.core.ValSeq.prototype.cljs$core$ICollection$_conj$arity$2 = function(a, b) 
   return cljs.core.cons(b, this);
 };
 cljs.core.ValSeq.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$mseq, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$tag, cljs.core.cst$sym$not_DASH_native], null)), cljs.core.cst$sym$_meta], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "mseq", "mseq", 1602647196, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "tag", "tag", -1290361223), new cljs.core.Symbol(null, "not-native", "not-native", -236392494, null)], null)), new cljs.core.Symbol(null, "_meta", "_meta", -1716892533, null)], null);
 };
 cljs.core.ValSeq.cljs$lang$type = !0;
 cljs.core.ValSeq.cljs$lang$ctorStr = "cljs.core/ValSeq";
@@ -16833,7 +16857,7 @@ cljs.core.merge_with.cljs$lang$applyTo = function(a) {
 cljs.core.select_keys = function(a, b) {
   for (var c = cljs.core.PersistentArrayMap.EMPTY, d = cljs.core.seq(b);;) {
     if (d) {
-      var e = cljs.core.first(d), f = cljs.core.get.cljs$core$IFn$_invoke$arity$3(a, e, cljs.core.cst$kw$cljs$core_SLASH_not_DASH_found), c = cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(f, cljs.core.cst$kw$cljs$core_SLASH_not_DASH_found) ? cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(c, e, f) : c, d = cljs.core.next(d)
+      var e = cljs.core.first(d), f = cljs.core.get.cljs$core$IFn$_invoke$arity$3(a, e, new cljs.core.Keyword("cljs.core", "not-found", "cljs.core/not-found", -1572889185)), c = cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(f, new cljs.core.Keyword("cljs.core", "not-found", "cljs.core/not-found", -1572889185)) ? cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(c, e, f) : c, d = cljs.core.next(d)
     } else {
       return cljs.core.with_meta(c, cljs.core.meta(a));
     }
@@ -16855,7 +16879,7 @@ cljs.core.HashSetIter.prototype.remove = function() {
   return Error("Unsupported operation");
 };
 cljs.core.HashSetIter.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$iter], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "iter", "iter", -1346195486, null)], null);
 };
 cljs.core.HashSetIter.cljs$lang$type = !0;
 cljs.core.HashSetIter.cljs$lang$ctorStr = "cljs.core/HashSetIter";
@@ -16981,7 +17005,7 @@ cljs.core.PersistentHashSet.prototype.cljs$core$IFn$_invoke$arity$2 = function(a
   return this.cljs$core$ILookup$_lookup$arity$3(null, a, b);
 };
 cljs.core.PersistentHashSet.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$hash_DASH_map, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "hash-map", "hash-map", -439030950, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.PersistentHashSet.cljs$lang$type = !0;
 cljs.core.PersistentHashSet.cljs$lang$ctorStr = "cljs.core/PersistentHashSet";
@@ -17069,7 +17093,7 @@ cljs.core.TransientHashSet.prototype.cljs$core$IFn$_invoke$arity$2 = function(a,
   return cljs.core._lookup.cljs$core$IFn$_invoke$arity$3(this.transient_map, a, cljs.core.lookup_sentinel) === cljs.core.lookup_sentinel ? b : a;
 };
 cljs.core.TransientHashSet.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$transient_DASH_map, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "transient-map", "transient-map", 351764893, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.TransientHashSet.cljs$lang$type = !0;
 cljs.core.TransientHashSet.cljs$lang$ctorStr = "cljs.core/TransientHashSet";
@@ -17204,7 +17228,7 @@ cljs.core.PersistentTreeSet.prototype.cljs$core$ISorted$_comparator$arity$1 = fu
   return cljs.core._comparator(this.tree_map);
 };
 cljs.core.PersistentTreeSet.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$tree_DASH_map, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "tree-map", "tree-map", 1373073049, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.PersistentTreeSet.cljs$lang$type = !0;
 cljs.core.PersistentTreeSet.cljs$lang$ctorStr = "cljs.core/PersistentTreeSet";
@@ -17537,7 +17561,7 @@ cljs.core.ArrayList.prototype.toArray = function() {
   return this.arr;
 };
 cljs.core.ArrayList.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$arr, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "arr", "arr", 2115492975, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.ArrayList.cljs$lang$type = !0;
 cljs.core.ArrayList.cljs$lang$ctorStr = "cljs.core/ArrayList";
@@ -17755,7 +17779,7 @@ cljs.core.RangeIterator.prototype.next = function() {
   return a;
 };
 cljs.core.RangeIterator.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$i, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.cst$sym$end, cljs.core.cst$sym$step], null);
+  return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "i", "i", 253690212, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), new cljs.core.Symbol(null, "end", "end", 1372345569, null), new cljs.core.Symbol(null, "step", "step", -1365547645, null)], null);
 };
 cljs.core.RangeIterator.cljs$lang$type = !0;
 cljs.core.RangeIterator.cljs$lang$ctorStr = "cljs.core/RangeIterator";
@@ -17886,7 +17910,8 @@ cljs.core.Range.prototype.cljs$core$ICollection$_conj$arity$2 = function(a, b) {
   return cljs.core.cons(b, this);
 };
 cljs.core.Range.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta, cljs.core.cst$sym$start, cljs.core.cst$sym$end, cljs.core.cst$sym$step, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "meta", "meta", -1154898805, null), new cljs.core.Symbol(null, "start", "start", 1285322546, null), new cljs.core.Symbol(null, "end", "end", 1372345569, null), new cljs.core.Symbol(null, "step", "step", -1365547645, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", 
+  "mutable", 875778266), !0], null))], null);
 };
 cljs.core.Range.cljs$lang$type = !0;
 cljs.core.Range.cljs$lang$ctorStr = "cljs.core/Range";
@@ -18015,7 +18040,7 @@ cljs.core.partition_by = function(a) {
 };
 cljs.core.partition_by.cljs$core$IFn$_invoke$arity$1 = function(a) {
   return function(b) {
-    var c = cljs.core.array_list(), d = cljs.core.volatile_BANG_(cljs.core.cst$kw$cljs$core_SLASH_none);
+    var c = cljs.core.array_list(), d = cljs.core.volatile_BANG_(new cljs.core.Keyword("cljs.core", "none", "cljs.core/none", 926646439));
     return function(c, d) {
       return function() {
         var g = null, h = function() {
@@ -18030,7 +18055,7 @@ cljs.core.partition_by.cljs$core$IFn$_invoke$arity$1 = function(a) {
         }, l = function(g, h) {
           var k = cljs.core.deref.cljs$core$IFn$_invoke$arity$1 ? cljs.core.deref.cljs$core$IFn$_invoke$arity$1(d) : cljs.core.deref.call(null, d), l = a.cljs$core$IFn$_invoke$arity$1 ? a.cljs$core$IFn$_invoke$arity$1(h) : a.call(null, h);
           cljs.core.vreset_BANG_(d, l);
-          if (cljs.core.keyword_identical_QMARK_(k, cljs.core.cst$kw$cljs$core_SLASH_none) || cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(l, k)) {
+          if (cljs.core.keyword_identical_QMARK_(k, new cljs.core.Keyword("cljs.core", "none", "cljs.core/none", 926646439)) || cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(l, k)) {
             return c.add(h), g;
           }
           k = cljs.core.vec(c.toArray());
@@ -18537,9 +18562,9 @@ cljs.core.pr_sequential_writer = function(a, b, c, d, e, f, g) {
       return cljs.core._write(a, "#");
     }
     cljs.core._write(a, c);
-    if (0 === cljs.core.cst$kw$print_DASH_length.cljs$core$IFn$_invoke$arity$1(f)) {
+    if (0 === (new cljs.core.Keyword(null, "print-length", "print-length", 1931866356)).cljs$core$IFn$_invoke$arity$1(f)) {
       cljs.core.seq(g) && cljs.core._write(a, function() {
-        var a = cljs.core.cst$kw$more_DASH_marker.cljs$core$IFn$_invoke$arity$1(f);
+        var a = (new cljs.core.Keyword(null, "more-marker", "more-marker", -14717935)).cljs$core$IFn$_invoke$arity$1(f);
         return cljs.core.truth_(a) ? a : "...";
       }());
     } else {
@@ -18547,10 +18572,10 @@ cljs.core.pr_sequential_writer = function(a, b, c, d, e, f, g) {
         var k = cljs.core.first(g);
         b.cljs$core$IFn$_invoke$arity$3 ? b.cljs$core$IFn$_invoke$arity$3(k, a, f) : b.call(null, k, a, f);
       }
-      for (var l = cljs.core.next(g), m = cljs.core.cst$kw$print_DASH_length.cljs$core$IFn$_invoke$arity$1(f) - 1;;) {
+      for (var l = cljs.core.next(g), m = (new cljs.core.Keyword(null, "print-length", "print-length", 1931866356)).cljs$core$IFn$_invoke$arity$1(f) - 1;;) {
         if (!l || null != m && 0 === m) {
           cljs.core.seq(l) && 0 === m && (cljs.core._write(a, d), cljs.core._write(a, function() {
-            var a = cljs.core.cst$kw$more_DASH_marker.cljs$core$IFn$_invoke$arity$1(f);
+            var a = (new cljs.core.Keyword(null, "more-marker", "more-marker", -14717935)).cljs$core$IFn$_invoke$arity$1(f);
             return cljs.core.truth_(a) ? a : "...";
           }()));
           break;
@@ -18620,7 +18645,7 @@ cljs.core.quote_string = function(a) {
   })), cljs.core.str('"')].join("");
 };
 cljs.core.print_meta_QMARK_ = function(a, b) {
-  var c = cljs.core.boolean$(cljs.core.get.cljs$core$IFn$_invoke$arity$2(a, cljs.core.cst$kw$meta));
+  var c = cljs.core.boolean$(cljs.core.get.cljs$core$IFn$_invoke$arity$2(a, new cljs.core.Keyword(null, "meta", "meta", 1499536964)));
   return c ? (c = null != b ? b.cljs$lang$protocol_mask$partition0$ & 131072 || b.cljs$core$IMeta$ ? !0 : !1 : !1) ? null != cljs.core.meta(b) : c : c;
 };
 cljs.core.pr_writer_impl = function(a, b, c) {
@@ -18653,7 +18678,7 @@ cljs.core.pr_writer_impl = function(a, b, c) {
     return cljs.core.pr_sequential_writer(b, cljs.core.pr_writer, "#js [", " ", "]", c, a);
   }
   if (goog.isString(a)) {
-    return cljs.core.truth_(cljs.core.cst$kw$readably.cljs$core$IFn$_invoke$arity$1(c)) ? cljs.core._write(b, cljs.core.quote_string(a)) : cljs.core._write(b, a);
+    return cljs.core.truth_((new cljs.core.Keyword(null, "readably", "readably", 1129599760)).cljs$core$IFn$_invoke$arity$1(c)) ? cljs.core._write(b, cljs.core.quote_string(a)) : cljs.core._write(b, a);
   }
   if (goog.isFunction(a)) {
     var f = a.name;
@@ -18688,8 +18713,8 @@ cljs.core.pr_writer_impl = function(a, b, c) {
   return cljs.core.write_all.cljs$core$IFn$_invoke$arity$variadic(b, cljs.core.array_seq(["#object[", c, " ", "" + cljs.core.str(a), "]"], 0));
 };
 cljs.core.pr_writer = function(a, b, c) {
-  var d = cljs.core.cst$kw$alt_DASH_impl.cljs$core$IFn$_invoke$arity$1(c);
-  return cljs.core.truth_(d) ? (c = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(c, cljs.core.cst$kw$fallback_DASH_impl, cljs.core.pr_writer_impl), d.cljs$core$IFn$_invoke$arity$3 ? d.cljs$core$IFn$_invoke$arity$3(a, b, c) : d.call(null, a, b, c)) : cljs.core.pr_writer_impl(a, b, c);
+  var d = (new cljs.core.Keyword(null, "alt-impl", "alt-impl", 670969595)).cljs$core$IFn$_invoke$arity$1(c);
+  return cljs.core.truth_(d) ? (c = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(c, new cljs.core.Keyword(null, "fallback-impl", "fallback-impl", -1501286995), cljs.core.pr_writer_impl), d.cljs$core$IFn$_invoke$arity$3 ? d.cljs$core$IFn$_invoke$arity$3(a, b, c) : d.call(null, a, b, c)) : cljs.core.pr_writer_impl(a, b, c);
 };
 cljs.core.pr_seq_writer = function(a, b, c) {
   cljs.core.pr_writer(cljs.core.first(a), b, c);
@@ -18751,7 +18776,7 @@ cljs.core.newline.cljs$core$IFn$_invoke$arity$0 = function() {
 };
 cljs.core.newline.cljs$core$IFn$_invoke$arity$1 = function(a) {
   cljs.core.string_print("\n");
-  return cljs.core.truth_(cljs.core.get.cljs$core$IFn$_invoke$arity$2(a, cljs.core.cst$kw$flush_DASH_on_DASH_newline)) ? cljs.core.flush() : null;
+  return cljs.core.truth_(cljs.core.get.cljs$core$IFn$_invoke$arity$2(a, new cljs.core.Keyword(null, "flush-on-newline", "flush-on-newline", -151457939))) ? cljs.core.flush() : null;
 };
 cljs.core.newline.cljs$lang$maxFixedArity = 1;
 cljs.core.pr_str = function(a) {
@@ -18810,7 +18835,7 @@ cljs.core.pr.cljs$lang$applyTo = function(a) {
 };
 cljs.core.print = function() {
   var a = function(a) {
-    return cljs.core.pr_with_opts(a, cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.pr_opts(), cljs.core.cst$kw$readably, !1));
+    return cljs.core.pr_with_opts(a, cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.pr_opts(), new cljs.core.Keyword(null, "readably", "readably", 1129599760), !1));
   }, b = function(b) {
     var d = null;
     if (0 < arguments.length) {
@@ -18841,7 +18866,7 @@ cljs.core.print_str = function(a) {
   return cljs.core.print_str.cljs$core$IFn$_invoke$arity$variadic(b);
 };
 cljs.core.print_str.cljs$core$IFn$_invoke$arity$variadic = function(a) {
-  return cljs.core.pr_str_with_opts(a, cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.pr_opts(), cljs.core.cst$kw$readably, !1));
+  return cljs.core.pr_str_with_opts(a, cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.pr_opts(), new cljs.core.Keyword(null, "readably", "readably", 1129599760), !1));
 };
 cljs.core.print_str.cljs$lang$maxFixedArity = 0;
 cljs.core.print_str.cljs$lang$applyTo = function(a) {
@@ -18859,7 +18884,7 @@ cljs.core.println = function(a) {
   return cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(b);
 };
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic = function(a) {
-  cljs.core.pr_with_opts(a, cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.pr_opts(), cljs.core.cst$kw$readably, !1));
+  cljs.core.pr_with_opts(a, cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.pr_opts(), new cljs.core.Keyword(null, "readably", "readably", 1129599760), !1));
   return cljs.core.truth_(cljs.core._STAR_print_newline_STAR_) ? cljs.core.newline.cljs$core$IFn$_invoke$arity$1(cljs.core.pr_opts()) : null;
 };
 cljs.core.println.cljs$lang$maxFixedArity = 0;
@@ -18878,7 +18903,7 @@ cljs.core.println_str = function(a) {
   return cljs.core.println_str.cljs$core$IFn$_invoke$arity$variadic(b);
 };
 cljs.core.println_str.cljs$core$IFn$_invoke$arity$variadic = function(a) {
-  return cljs.core.prn_str_with_opts(a, cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.pr_opts(), cljs.core.cst$kw$readably, !1));
+  return cljs.core.prn_str_with_opts(a, cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.pr_opts(), new cljs.core.Keyword(null, "readably", "readably", 1129599760), !1));
 };
 cljs.core.println_str.cljs$lang$maxFixedArity = 0;
 cljs.core.println_str.cljs$lang$applyTo = function(a) {
@@ -18915,7 +18940,7 @@ cljs.core.print_map = function(a, b, c, d) {
 cljs.core.Volatile.prototype.cljs$core$IPrintWithWriter$ = !0;
 cljs.core.Volatile.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = function(a, b, c) {
   cljs.core._write(b, "#object [cljs.core.Volatile ");
-  cljs.core.pr_writer(new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$val, this.state], null), b, c);
+  cljs.core.pr_writer(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "val", "val", 128701612), this.state], null), b, c);
   return cljs.core._write(b, "]");
 };
 cljs.core.Var.prototype.cljs$core$IPrintWithWriter$ = !0;
@@ -18998,7 +19023,7 @@ cljs.core.ChunkedCons.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = 
 cljs.core.Atom.prototype.cljs$core$IPrintWithWriter$ = !0;
 cljs.core.Atom.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = function(a, b, c) {
   cljs.core._write(b, "#object [cljs.core.Atom ");
-  cljs.core.pr_writer(new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$val, this.state], null), b, c);
+  cljs.core.pr_writer(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "val", "val", 128701612), this.state], null), b, c);
   return cljs.core._write(b, "]");
 };
 cljs.core.ValSeq.prototype.cljs$core$IPrintWithWriter$ = !0;
@@ -19147,7 +19172,7 @@ cljs.core.Delay.prototype.cljs$core$IPending$_realized_QMARK_$arity$1 = function
   return cljs.core.not(this.f);
 };
 cljs.core.Delay.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(cljs.core.cst$sym$f, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null)), cljs.core.with_meta(cljs.core.cst$sym$value, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "f", "f", 43394975, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null)), cljs.core.with_meta(new cljs.core.Symbol(null, "value", "value", 1946509744, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.Delay.cljs$lang$type = !0;
 cljs.core.Delay.cljs$lang$ctorStr = "cljs.core/Delay";
@@ -19244,7 +19269,7 @@ cljs.core.dedupe.cljs$core$IFn$_invoke$arity$0 = function() {
         c.cljs$core$IFn$_invoke$arity$2 = f;
         return c;
       }();
-    }(cljs.core.volatile_BANG_(cljs.core.cst$kw$cljs$core_SLASH_none));
+    }(cljs.core.volatile_BANG_(new cljs.core.Keyword("cljs.core", "none", "cljs.core/none", 926646439)));
   };
 };
 cljs.core.dedupe.cljs$core$IFn$_invoke$arity$1 = function(a) {
@@ -19334,7 +19359,7 @@ cljs.core.Eduction.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = fun
   return cljs.core.pr_sequential_writer(b, cljs.core.pr_writer, "(", " ", ")", c, this);
 };
 cljs.core.Eduction.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$xform, cljs.core.cst$sym$coll], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "xform", "xform", -85179481, null), new cljs.core.Symbol(null, "coll", "coll", -1006698606, null)], null);
 };
 cljs.core.Eduction.cljs$lang$type = !0;
 cljs.core.Eduction.cljs$lang$ctorStr = "cljs.core/Eduction";
@@ -19487,10 +19512,10 @@ cljs.core.js__GT_clj = function(a) {
   }
 };
 cljs.core.js__GT_clj.cljs$core$IFn$_invoke$arity$1 = function(a) {
-  return cljs.core.js__GT_clj.cljs$core$IFn$_invoke$arity$variadic(a, cljs.core.array_seq([new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$keywordize_DASH_keys, !1], null)], 0));
+  return cljs.core.js__GT_clj.cljs$core$IFn$_invoke$arity$variadic(a, cljs.core.array_seq([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "keywordize-keys", "keywordize-keys", 1310784252), !1], null)], 0));
 };
 cljs.core.js__GT_clj.cljs$core$IFn$_invoke$arity$variadic = function(a, b) {
-  var c = null != b && (b.cljs$lang$protocol_mask$partition0$ & 64 || b.cljs$core$ISeq$) ? cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map, b) : b, d = cljs.core.get.cljs$core$IFn$_invoke$arity$2(c, cljs.core.cst$kw$keywordize_DASH_keys), e = cljs.core.truth_(d) ? cljs.core.keyword : cljs.core.str;
+  var c = null != b && (b.cljs$lang$protocol_mask$partition0$ & 64 || b.cljs$core$ISeq$) ? cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map, b) : b, d = cljs.core.get.cljs$core$IFn$_invoke$arity$2(c, new cljs.core.Keyword(null, "keywordize-keys", "keywordize-keys", 1310784252)), e = cljs.core.truth_(d) ? cljs.core.keyword : cljs.core.str;
   return function(a, c, d, e) {
     return function m(n) {
       return (null != n ? n.cljs$core$IEncodeClojure$ || (n.cljs$lang$protocol_mask$partition$ ? 0 : cljs.core.native_satisfies_QMARK_(cljs.core.IEncodeClojure, n)) : cljs.core.native_satisfies_QMARK_(cljs.core.IEncodeClojure, n)) ? cljs.core._js__GT_clj(n, cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.array_map, b)) : cljs.core.seq_QMARK_(n) ? cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2(m, n)) : cljs.core.coll_QMARK_(n) ? cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.empty(n), 
@@ -19637,7 +19662,7 @@ cljs.core.group_by = function(a, b) {
   }, cljs.core.transient$(cljs.core.PersistentArrayMap.EMPTY), b));
 };
 cljs.core.make_hierarchy = function() {
-  return new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$parents, cljs.core.PersistentArrayMap.EMPTY, cljs.core.cst$kw$descendants, cljs.core.PersistentArrayMap.EMPTY, cljs.core.cst$kw$ancestors, cljs.core.PersistentArrayMap.EMPTY], null);
+  return new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null, "parents", "parents", -2027538891), cljs.core.PersistentArrayMap.EMPTY, new cljs.core.Keyword(null, "descendants", "descendants", 1824886031), cljs.core.PersistentArrayMap.EMPTY, new cljs.core.Keyword(null, "ancestors", "ancestors", -776045424), cljs.core.PersistentArrayMap.EMPTY], null);
 };
 cljs.core._global_hierarchy = null;
 cljs.core.get_global_hierarchy = function() {
@@ -19694,7 +19719,7 @@ cljs.core.isa_QMARK_.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
 };
 cljs.core.isa_QMARK_.cljs$core$IFn$_invoke$arity$3 = function(a, b, c) {
   var d = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(b, c);
-  if (!d && !(d = cljs.core.contains_QMARK_(cljs.core.cst$kw$ancestors.cljs$core$IFn$_invoke$arity$1(a).call(null, b), c)) && (d = cljs.core.vector_QMARK_(c)) && (d = cljs.core.vector_QMARK_(b))) {
+  if (!d && !(d = cljs.core.contains_QMARK_((new cljs.core.Keyword(null, "ancestors", "ancestors", -776045424)).cljs$core$IFn$_invoke$arity$1(a).call(null, b), c)) && (d = cljs.core.vector_QMARK_(c)) && (d = cljs.core.vector_QMARK_(b))) {
     if (d = cljs.core.count(c) === cljs.core.count(b)) {
       for (var d = !0, e = 0;;) {
         if (d && e !== cljs.core.count(c)) {
@@ -19735,7 +19760,7 @@ cljs.core.parents.cljs$core$IFn$_invoke$arity$1 = function(a) {
   }(), a);
 };
 cljs.core.parents.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
-  return cljs.core.not_empty(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$parents.cljs$core$IFn$_invoke$arity$1(a), b));
+  return cljs.core.not_empty(cljs.core.get.cljs$core$IFn$_invoke$arity$2((new cljs.core.Keyword(null, "parents", "parents", -2027538891)).cljs$core$IFn$_invoke$arity$1(a), b));
 };
 cljs.core.parents.cljs$lang$maxFixedArity = 2;
 cljs.core.ancestors = function(a) {
@@ -19762,7 +19787,7 @@ cljs.core.ancestors.cljs$core$IFn$_invoke$arity$1 = function(a) {
   }(), a);
 };
 cljs.core.ancestors.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
-  return cljs.core.not_empty(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$ancestors.cljs$core$IFn$_invoke$arity$1(a), b));
+  return cljs.core.not_empty(cljs.core.get.cljs$core$IFn$_invoke$arity$2((new cljs.core.Keyword(null, "ancestors", "ancestors", -776045424)).cljs$core$IFn$_invoke$arity$1(a), b));
 };
 cljs.core.ancestors.cljs$lang$maxFixedArity = 2;
 cljs.core.descendants = function(a) {
@@ -19789,7 +19814,7 @@ cljs.core.descendants.cljs$core$IFn$_invoke$arity$1 = function(a) {
   }(), a);
 };
 cljs.core.descendants.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
-  return cljs.core.not_empty(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$descendants.cljs$core$IFn$_invoke$arity$1(a), b));
+  return cljs.core.not_empty(cljs.core.get.cljs$core$IFn$_invoke$arity$2((new cljs.core.Keyword(null, "descendants", "descendants", 1824886031)).cljs$core$IFn$_invoke$arity$1(a), b));
 };
 cljs.core.descendants.cljs$lang$maxFixedArity = 2;
 cljs.core.derive = function(a) {
@@ -19820,7 +19845,7 @@ cljs.core.derive.cljs$core$IFn$_invoke$arity$3 = function(a, b, c) {
   if (!cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(b, c)) {
     throw Error("Assert failed: (not\x3d tag parent)");
   }
-  var d = cljs.core.cst$kw$parents.cljs$core$IFn$_invoke$arity$1(a), e = cljs.core.cst$kw$descendants.cljs$core$IFn$_invoke$arity$1(a), f = cljs.core.cst$kw$ancestors.cljs$core$IFn$_invoke$arity$1(a), g = function(a, b, c) {
+  var d = (new cljs.core.Keyword(null, "parents", "parents", -2027538891)).cljs$core$IFn$_invoke$arity$1(a), e = (new cljs.core.Keyword(null, "descendants", "descendants", 1824886031)).cljs$core$IFn$_invoke$arity$1(a), f = (new cljs.core.Keyword(null, "ancestors", "ancestors", -776045424)).cljs$core$IFn$_invoke$arity$1(a), g = function(a, b, c) {
     return function(d, e, f, g, r) {
       return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(function(a, b, c) {
         return function(a, b) {
@@ -19838,8 +19863,8 @@ cljs.core.derive.cljs$core$IFn$_invoke$arity$3 = function(a, b, c) {
     if (cljs.core.contains_QMARK_(f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(c) : f.call(null, c), b)) {
       throw Error([cljs.core.str("Cyclic derivation:"), cljs.core.str(c), cljs.core.str("has"), cljs.core.str(b), cljs.core.str("as ancestor")].join(""));
     }
-    b = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$parents, cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.cst$kw$parents.cljs$core$IFn$_invoke$arity$1(a), b, cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.get.cljs$core$IFn$_invoke$arity$3(d, b, cljs.core.PersistentHashSet.EMPTY), c)), cljs.core.cst$kw$ancestors, g(cljs.core.cst$kw$ancestors.cljs$core$IFn$_invoke$arity$1(a), b, e, c, f), cljs.core.cst$kw$descendants, g(cljs.core.cst$kw$descendants.cljs$core$IFn$_invoke$arity$1(a), 
-    c, f, b, e)], null);
+    b = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null, "parents", "parents", -2027538891), cljs.core.assoc.cljs$core$IFn$_invoke$arity$3((new cljs.core.Keyword(null, "parents", "parents", -2027538891)).cljs$core$IFn$_invoke$arity$1(a), b, cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.get.cljs$core$IFn$_invoke$arity$3(d, b, cljs.core.PersistentHashSet.EMPTY), c)), new cljs.core.Keyword(null, "ancestors", "ancestors", -776045424), g((new cljs.core.Keyword(null, "ancestors", 
+    "ancestors", -776045424)).cljs$core$IFn$_invoke$arity$1(a), b, e, c, f), new cljs.core.Keyword(null, "descendants", "descendants", 1824886031), g((new cljs.core.Keyword(null, "descendants", "descendants", 1824886031)).cljs$core$IFn$_invoke$arity$1(a), c, f, b, e)], null);
   }
   return cljs.core.truth_(b) ? b : a;
 };
@@ -19866,7 +19891,7 @@ cljs.core.underive.cljs$core$IFn$_invoke$arity$2 = function(a, b) {
   return null;
 };
 cljs.core.underive.cljs$core$IFn$_invoke$arity$3 = function(a, b, c) {
-  var d = cljs.core.cst$kw$parents.cljs$core$IFn$_invoke$arity$1(a), e = cljs.core.truth_(d.cljs$core$IFn$_invoke$arity$1 ? d.cljs$core$IFn$_invoke$arity$1(b) : d.call(null, b)) ? cljs.core.disj.cljs$core$IFn$_invoke$arity$2(d.cljs$core$IFn$_invoke$arity$1 ? d.cljs$core$IFn$_invoke$arity$1(b) : d.call(null, b), c) : cljs.core.PersistentHashSet.EMPTY, f = cljs.core.truth_(cljs.core.not_empty(e)) ? cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(d, b, e) : cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(d, 
+  var d = (new cljs.core.Keyword(null, "parents", "parents", -2027538891)).cljs$core$IFn$_invoke$arity$1(a), e = cljs.core.truth_(d.cljs$core$IFn$_invoke$arity$1 ? d.cljs$core$IFn$_invoke$arity$1(b) : d.call(null, b)) ? cljs.core.disj.cljs$core$IFn$_invoke$arity$2(d.cljs$core$IFn$_invoke$arity$1 ? d.cljs$core$IFn$_invoke$arity$1(b) : d.call(null, b), c) : cljs.core.PersistentHashSet.EMPTY, f = cljs.core.truth_(cljs.core.not_empty(e)) ? cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(d, b, e) : cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(d, 
   b), g = cljs.core.flatten(cljs.core.map.cljs$core$IFn$_invoke$arity$2(function(a, b, c) {
     return function(a) {
       return cljs.core.cons(cljs.core.first(a), cljs.core.interpose.cljs$core$IFn$_invoke$arity$2(cljs.core.first(a), cljs.core.second(a)));
@@ -20459,7 +20484,8 @@ cljs.core.MultiFn.prototype.cljs$core$IHash$_hash$arity$1 = function(a) {
   return goog.getUid(this);
 };
 cljs.core.MultiFn.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$name, cljs.core.cst$sym$dispatch_DASH_fn, cljs.core.cst$sym$default_DASH_dispatch_DASH_val, cljs.core.cst$sym$hierarchy, cljs.core.cst$sym$method_DASH_table, cljs.core.cst$sym$prefer_DASH_table, cljs.core.cst$sym$method_DASH_cache, cljs.core.cst$sym$cached_DASH_hierarchy], null);
+  return new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "name", "name", -810760592, null), new cljs.core.Symbol(null, "dispatch-fn", "dispatch-fn", -1401088155, null), new cljs.core.Symbol(null, "default-dispatch-val", "default-dispatch-val", -1231201266, null), new cljs.core.Symbol(null, "hierarchy", "hierarchy", 587061186, null), new cljs.core.Symbol(null, "method-table", "method-table", -1878263165, null), new cljs.core.Symbol(null, 
+  "prefer-table", "prefer-table", 462168584, null), new cljs.core.Symbol(null, "method-cache", "method-cache", 1230193905, null), new cljs.core.Symbol(null, "cached-hierarchy", "cached-hierarchy", -1085460203, null)], null);
 };
 cljs.core.MultiFn.cljs$lang$type = !0;
 cljs.core.MultiFn.cljs$lang$ctorStr = "cljs.core/MultiFn";
@@ -20519,7 +20545,7 @@ cljs.core.UUID.prototype.cljs$core$IComparable$_compare$arity$2 = function(a, b)
   return goog.array.defaultCompare(this.uuid, b.uuid);
 };
 cljs.core.UUID.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$uuid, cljs.core.with_meta(cljs.core.cst$sym$__hash, new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$mutable, !0], null))], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "uuid", "uuid", -504564192, null), cljs.core.with_meta(new cljs.core.Symbol(null, "__hash", "__hash", -1328796629, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "mutable", "mutable", 875778266), !0], null))], null);
 };
 cljs.core.UUID.cljs$lang$type = !0;
 cljs.core.UUID.cljs$lang$ctorStr = "cljs.core/UUID";
@@ -20607,12 +20633,14 @@ cljs.core.comparator = function(a) {
   };
 };
 cljs.core.special_symbol_QMARK_ = function(a) {
-  return cljs.core.contains_QMARK_(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 22, [cljs.core.cst$sym$_AMPERSAND_, null, cljs.core.cst$sym$defrecord_STAR_, null, cljs.core.cst$sym$try, null, cljs.core.cst$sym$finally, null, cljs.core.cst$sym$loop_STAR_, null, cljs.core.cst$sym$do, null, cljs.core.cst$sym$letfn_STAR_, null, cljs.core.cst$sym$if, null, cljs.core.cst$sym$new, null, cljs.core.cst$sym$ns, null, cljs.core.cst$sym$deftype_STAR_, null, cljs.core.cst$sym$let_STAR_, 
-  null, cljs.core.cst$sym$js_STAR_, null, cljs.core.cst$sym$fn_STAR_, null, cljs.core.cst$sym$recur, null, cljs.core.cst$sym$set_BANG_, null, cljs.core.cst$sym$_DOT_, null, cljs.core.cst$sym$var, null, cljs.core.cst$sym$quote, null, cljs.core.cst$sym$catch, null, cljs.core.cst$sym$throw, null, cljs.core.cst$sym$def, null], null), null), a);
+  return cljs.core.contains_QMARK_(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 22, [new cljs.core.Symbol(null, "\x26", "\x26", -2144855648, null), null, new cljs.core.Symbol(null, "defrecord*", "defrecord*", -1936366207, null), null, new cljs.core.Symbol(null, "try", "try", -1273693247, null), null, new cljs.core.Symbol(null, "finally", "finally", -1065347064, null), null, new cljs.core.Symbol(null, "loop*", "loop*", 615029416, null), null, new cljs.core.Symbol(null, 
+  "do", "do", 1686842252, null), null, new cljs.core.Symbol(null, "letfn*", "letfn*", -110097810, null), null, new cljs.core.Symbol(null, "if", "if", 1181717262, null), null, new cljs.core.Symbol(null, "new", "new", -444906321, null), null, new cljs.core.Symbol(null, "ns", "ns", 2082130287, null), null, new cljs.core.Symbol(null, "deftype*", "deftype*", 962659890, null), null, new cljs.core.Symbol(null, "let*", "let*", 1920721458, null), null, new cljs.core.Symbol(null, "js*", "js*", -1134233646, 
+  null), null, new cljs.core.Symbol(null, "fn*", "fn*", -752876845, null), null, new cljs.core.Symbol(null, "recur", "recur", 1202958259, null), null, new cljs.core.Symbol(null, "set!", "set!", 250714521, null), null, new cljs.core.Symbol(null, ".", ".", 1975675962, null), null, new cljs.core.Symbol(null, "var", "var", 870848730, null), null, new cljs.core.Symbol(null, "quote", "quote", 1377916282, null), null, new cljs.core.Symbol(null, "catch", "catch", -1616370245, null), null, new cljs.core.Symbol(null, 
+  "throw", "throw", 595905694, null), null, new cljs.core.Symbol(null, "def", "def", 597100991, null), null], null), null), a);
 };
 cljs.core.test = function(a) {
   a = a.cljs$lang$test;
-  return cljs.core.truth_(a) ? (a.cljs$core$IFn$_invoke$arity$0 ? a.cljs$core$IFn$_invoke$arity$0() : a.call(null), cljs.core.cst$kw$ok) : cljs.core.cst$kw$no_DASH_test;
+  return cljs.core.truth_(a) ? (a.cljs$core$IFn$_invoke$arity$0 ? a.cljs$core$IFn$_invoke$arity$0() : a.call(null), new cljs.core.Keyword(null, "ok", "ok", 967785236)) : new cljs.core.Keyword(null, "no-test", "no-test", -1679482642);
 };
 cljs.core.TaggedLiteral = function(a, b) {
   this.tag = a;
@@ -20647,7 +20675,7 @@ cljs.core.TaggedLiteral.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 
   return cljs.core.pr_writer(this.form, b, c);
 };
 cljs.core.TaggedLiteral.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$tag, cljs.core.cst$sym$form], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "tag", "tag", 350170304, null), new cljs.core.Symbol(null, "form", "form", 16469056, null)], null);
 };
 cljs.core.TaggedLiteral.cljs$lang$type = !0;
 cljs.core.TaggedLiteral.cljs$lang$ctorStr = "cljs.core/TaggedLiteral";
@@ -20738,7 +20766,7 @@ cljs.core.Namespace.prototype.findInternedVar = function(a) {
   var b = cljs.core.munge("" + cljs.core.str(a));
   if (goog.object.containsKey(this.obj, b)) {
     a = cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("" + cljs.core.str(this.name), "" + cljs.core.str(a));
-    var c = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$ns, this], null);
+    var c = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "ns", "ns", 441598760), this], null);
     return new cljs.core.Var(cljs.core.ns_lookup(this.obj, b), a, c);
   }
   return null;
@@ -20756,7 +20784,7 @@ cljs.core.Namespace.prototype.cljs$core$IHash$_hash$arity$1 = function(a) {
   return cljs.core.hash(this.name);
 };
 cljs.core.Namespace.getBasis = function() {
-  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$obj, cljs.core.cst$sym$name], null);
+  return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "obj", "obj", -1672671807, null), new cljs.core.Symbol(null, "name", "name", -810760592, null)], null);
 };
 cljs.core.Namespace.cljs$lang$type = !0;
 cljs.core.Namespace.cljs$lang$ctorStr = "cljs.core/Namespace";
@@ -20813,7 +20841,7 @@ cljs.core.ns_interns_STAR_ = function(a) {
         return function() {
           return goog.object.get(b, g);
         };
-      }(h, b, c), cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("" + cljs.core.str(a), "" + cljs.core.str(h)), new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$ns, c], null)));
+      }(h, b, c), cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("" + cljs.core.str(a), "" + cljs.core.str(h)), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "ns", "ns", 441598760), c], null)));
     };
   }(b, c);
   return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(c, cljs.core.PersistentArrayMap.EMPTY, cljs.core.js_keys(b));
@@ -27153,7 +27181,7 @@ quil.core.with_fill = function(a) {
 };
 quil.core.with_fill.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) {
   return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "let", "cljs.core/let", -308701135, null)), function() {
-    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-fill__9296__auto__", "old-fill__9296__auto__", -1369219797, null)), function() {
+    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-fill__12267__auto__", "old-fill__12267__auto__", 1971932390, null)), function() {
       var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "current-fill", "quil.core/current-fill", 269663137, null)))));
       return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
     }()))));
@@ -27162,7 +27190,7 @@ quil.core.with_fill.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) 
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "apply", "cljs.core/apply", 1757277831, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "fill", "quil.core/fill", 814613078, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), d, function() {
-    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "fill", "quil.core/fill", 814613078, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-fill__9296__auto__", "old-fill__9296__auto__", -1369219797, null)))));
+    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "fill", "quil.core/fill", 814613078, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-fill__12267__auto__", "old-fill__12267__auto__", 1971932390, null)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }())));
 };
@@ -27187,7 +27215,7 @@ quil.core.with_stroke = function(a) {
 };
 quil.core.with_stroke.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) {
   return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "let", "cljs.core/let", -308701135, null)), function() {
-    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-stroke__9304__auto__", "old-stroke__9304__auto__", 1727445468, null)), function() {
+    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-stroke__12275__auto__", "old-stroke__12275__auto__", -33523612, null)), function() {
       var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "current-stroke", "quil.core/current-stroke", -1148124489, null)))));
       return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
     }()))));
@@ -27196,7 +27224,7 @@ quil.core.with_stroke.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "apply", "cljs.core/apply", 1757277831, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "stroke", "quil.core/stroke", 577473004, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), d, function() {
-    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "stroke", "quil.core/stroke", 577473004, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-stroke__9304__auto__", "old-stroke__9304__auto__", 1727445468, null)))));
+    var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "stroke", "quil.core/stroke", 577473004, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "old-stroke__12275__auto__", "old-stroke__12275__auto__", -33523612, null)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }())));
 };
@@ -27221,14 +27249,14 @@ quil.core.with_translation = function(a) {
 };
 quil.core.with_translation.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) {
   return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "let", "cljs.core/let", -308701135, null)), function() {
-    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__9312__auto__", "tr__9312__auto__", 1275602594, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)))));
+    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__12283__auto__", "tr__12283__auto__", 825090791, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), function() {
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "push-matrix", "quil.core/push-matrix", 1356326676, null)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), function() {
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "try", "try", -1273693247, null)), function() {
-      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "translate", "quil.core/translate", 150889028, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__9312__auto__", "tr__9312__auto__", 1275602594, null)))));
+      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "translate", "quil.core/translate", 150889028, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__12283__auto__", "tr__12283__auto__", 825090791, null)))));
       return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
     }(), d, function() {
       var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "finally", "finally", -1065347064, null)), function() {
@@ -27261,14 +27289,14 @@ quil.core.with_rotation = function(a) {
 };
 quil.core.with_rotation.cljs$core$IFn$_invoke$arity$variadic = function(a, b, c, d) {
   return cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "let", "cljs.core/let", -308701135, null)), function() {
-    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__9320__auto__", "tr__9320__auto__", -1904946395, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)))));
+    var a = cljs.core.vec.call(null, cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__12291__auto__", "tr__12291__auto__", -1196104918, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, c)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), function() {
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "push-matrix", "quil.core/push-matrix", 1356326676, null)))));
     return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
   }(), function() {
     var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "try", "try", -1273693247, null)), function() {
-      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "apply", "cljs.core/apply", 1757277831, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "rotate", "quil.core/rotate", -1944995048, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__9320__auto__", "tr__9320__auto__", -1904946395, null)))));
+      var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("cljs.core", "apply", "cljs.core/apply", 1757277831, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol("quil.core", "rotate", "quil.core/rotate", -1944995048, null)), cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "tr__12291__auto__", "tr__12291__auto__", -1196104918, null)))));
       return cljs.core._conj.call(null, cljs.core.List.EMPTY, a);
     }(), d, function() {
       var a = cljs.core.sequence.call(null, cljs.core.seq.call(null, cljs.core.concat.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, new cljs.core.Symbol(null, "finally", "finally", -1065347064, null)), function() {

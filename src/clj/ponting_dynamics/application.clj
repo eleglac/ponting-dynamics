@@ -1,15 +1,16 @@
 (ns ponting-dynamics.application
-  (:gen-class) 
+  (:gen-class)
   (:require [compojure.core :refer :all]
             [compojure.handler :refer [site]]
             [compojure.route :as route]
-            
+
             [ponting-dynamics.views.common    :refer [not-found-page]]
             [ponting-dynamics.views.thefuture :refer [future-page]]
             [ponting-dynamics.views.home      :refer [main-page]]
             [ponting-dynamics.views.pages     :refer [about-page contact samples cljs-page jobs]]
             [ponting-dynamics.views.stats     :refer [stats-page]]
-            [ponting-dynamics.views.circles   :refer [circles-page]]
+            [ponting-dynamics.views.circles   :refer [circles-page]
+            [ponting-dynamics.views.notetaker :refer [notetaker-page]]]
 
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.adapter.jetty :as jetty]))
@@ -38,7 +39,7 @@
 
   ;; The Clojurescript Battleship Game
   (GET "/cljs" [] cljs-page)
-  
+
   ;; Landing page for all sorts of little things
   (GET "/samples" [] samples)
 
@@ -54,11 +55,15 @@
   ;; The Ponting Dynamics Large Circle Collider is finally online here.
   (GET "/circles" [] (circles-page))
 
+  ;; The Ponting Dynamics Dynamic Article Summarizer.
+  (GET "/notetaker" [] (notetaker-page))
+  (POST "/notetaker" req (notetaker-page req))
+
   ;; Doesn't matter where you're trying to go, I got you covered
   ;(context "/:title" [title]
     ;(GET "/"  [title] (default-page title [:p "If you sought " title " then you have found it."]))
     ;(GET "/*" [title] (default-page title [:p "Why do you seek to transcend " title "?"])))
-  
+
   ;; Did you done goof?
   (route/not-found not-found-page))
 
