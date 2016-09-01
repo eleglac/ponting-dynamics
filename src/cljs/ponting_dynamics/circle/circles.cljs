@@ -4,10 +4,22 @@
                                smooth frame-rate background defsketch width height] 
                        :include-macros true]))
 
-(def wide  (.-innerWidth js/window))
-(def high  (.-innerHeight js/window))
-(def popl 75)
+(def wide (.-innerWidth js/window))
+(def high (.-innerHeight js/window))
+(def popl (Math/floor (/ (* wide high) 8000)))
 (def rate 24)
+
+(defn random-move-change [agent]
+  (assoc agent :d-x (- (rand 2) (rand 5))
+               :d-y (- (rand 2) (rand 5))
+               :stationary? false
+               :colliding? false
+               :rad (min (inc (:rad agent)) (/ pd-c/cell-size 2))))
+
+(defn pick-collision-behavior []
+  (rand-nth [random-move-change
+             random-move-change
+             random-move-change]))
 
 (defn make-agent
   "Creates an agent, which is a map containing the included params and a few others."
@@ -20,10 +32,11 @@
    :rad   rad
    :shell shell
    :core  core
-   :d-x   0 
-   :d-y   0
+   :d-x   (- 2 (rand-int 5)) 
+   :d-y   (- 2 (rand-int 5))
    :colliding?  false
-   :stationary? false})
+   :stationary? false
+   :behavior    (pick-collision-behavior)})
 
 (defn draw-agent
   "Draws an agent.  The agent is visualized as an circle, with a 'shell' and a 'core.'"
@@ -43,8 +56,6 @@
     (ellipse x y rad rad)))
 
 (defn populate
-  "Creates a list of entities of either type :agent or :food.  If neither of those is
-   the type given as *type, will create a list of nil, I think."
   
   [pop-count]
   
@@ -83,13 +94,6 @@
 
     (assoc agent :x x :y y)))
 
-(defn change-movement [agent]
-  (assoc agent :d-x (- 2 (rand-int 5))
-               :d-y (- 2 (rand-int 5))
-               :stationary? false
-               :colliding? false
-               :rad (min (inc (:rad agent)) 20)))
-
 (defn stationary? 
   "Attempts to allow for changing of agent direction when it is clear that the agent
    has become stationary, either because it never moved or because it is stuck in a 
@@ -101,7 +105,7 @@
     (if (= agent d-agent) 
       (assoc d-agent :stationary? true)
       (assoc d-agent :stationary? false
-                     :rad (max (dec (:rad agent)) 5)))))
+                     :rad (max (dec (:rad agent)) 10)))))
 
 (defn update-agents
   "Take a list of agents and return a new list, very similar to the old one except that
@@ -112,8 +116,8 @@
   (let [d-agents (map stationary? (pd-c/collision-detect agents))]
     (map
       (fn [agent]
-        (if (or (:stationary? agent) (:colliding? agent))
-          (change-movement agent)
+        (if (or (:colliding? agent) (:stationary? agent))
+          ((:behavior agent) agent)
           agent))
       d-agents)))
 

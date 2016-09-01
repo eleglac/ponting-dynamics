@@ -1407,15 +1407,15 @@ var Vb = function Vb(b, c) {
     return c.a ? c.a(b) : c.call(null, b);
   }
   throw w("IChunk.-drop-first", b);
-}, Zb = function Zb(b) {
+}, Xb = function Xb(b) {
   if (null != b && null != b.Db) {
     return b.Db(b);
   }
-  var c = Zb[p(null == b ? null : b)];
+  var c = Xb[p(null == b ? null : b)];
   if (null != c) {
     return c.a ? c.a(b) : c.call(null, b);
   }
-  c = Zb._;
+  c = Xb._;
   if (null != c) {
     return c.a ? c.a(b) : c.call(null, b);
   }
@@ -1852,7 +1852,7 @@ function vc(a, b) {
   var c = hc(a), c = ic(0, c);
   return jc(c, b);
 }
-function xc(a) {
+function wc(a) {
   var b = 0, c = 1;
   for (a = D(a);;) {
     if (null != a) {
@@ -2093,7 +2093,7 @@ g.vb = function() {
   return 0 < a ? new Nc(this, a - 1, null) : null;
 };
 g.K = function() {
-  return xc(this);
+  return wc(this);
 };
 g.s = function(a, b) {
   return Oc.b ? Oc.b(this, b) : Oc.call(null, this, b);
@@ -2206,7 +2206,7 @@ g.T = function() {
   return this.i + 1;
 };
 g.K = function() {
-  return xc(this);
+  return wc(this);
 };
 g.s = function(a, b) {
   return Oc.b ? Oc.b(this, b) : Oc.call(null, this, b);
@@ -2589,14 +2589,14 @@ g.call = function() {
     a = this;
     return a.g.a ? a.g.a(b) : a.g.call(null, b);
   }
-  function Yb(a) {
+  function Zb(a) {
     a = this;
     return a.g.u ? a.g.u() : a.g.call(null);
   }
-  var G = null, G = function(G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Xb, wc, Lb, kd, fe, Se, lg, Eh) {
+  var G = null, G = function(G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Yb, xc, Lb, kd, fe, Se, og, Gh) {
     switch(arguments.length) {
       case 1:
-        return Yb.call(this, G);
+        return Zb.call(this, G);
       case 2:
         return ya.call(this, G, ja);
       case 3:
@@ -2624,25 +2624,25 @@ g.call = function() {
       case 14:
         return l.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb);
       case 15:
-        return k.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Xb);
+        return k.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Yb);
       case 16:
-        return h.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Xb, wc);
+        return h.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Yb, xc);
       case 17:
-        return f.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Xb, wc, Lb);
+        return f.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Yb, xc, Lb);
       case 18:
-        return e.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Xb, wc, Lb, kd);
+        return e.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Yb, xc, Lb, kd);
       case 19:
-        return d.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Xb, wc, Lb, kd, fe);
+        return d.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Yb, xc, Lb, kd, fe);
       case 20:
-        return c.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Xb, wc, Lb, kd, fe, Se);
+        return c.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Yb, xc, Lb, kd, fe, Se);
       case 21:
-        return b.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Xb, wc, Lb, kd, fe, Se, lg);
+        return b.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Yb, xc, Lb, kd, fe, Se, og);
       case 22:
-        return a.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Xb, wc, Lb, kd, fe, Se, lg, Eh);
+        return a.call(this, G, ja, na, ua, xa, Ca, Ea, La, Ua, ab, Ma, ob, xb, Kb, Yb, xc, Lb, kd, fe, Se, og, Gh);
     }
     throw Error("Invalid arity: " + arguments.length);
   };
-  G.a = Yb;
+  G.a = Zb;
   G.b = ya;
   G.f = Y;
   G.D = T;
@@ -3226,7 +3226,7 @@ g.ib = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -3452,7 +3452,7 @@ g.ba = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -3658,7 +3658,7 @@ g.ba = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -3816,7 +3816,7 @@ g.ba = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -3912,14 +3912,14 @@ Vd.a = function(a) {
 Vd.b = function(a, b) {
   return new V(null, function() {
     var c = D(a);
-    return c ? hd(c) ? Rd(Zb(c), Vd.b($b(c), b)) : Q(H(c), Vd.b(I(c), b)) : b;
+    return c ? hd(c) ? Rd(Xb(c), Vd.b($b(c), b)) : Q(H(c), Vd.b(I(c), b)) : b;
   }, null, null);
 };
 Vd.j = function(a, b, c) {
   return function e(a, b) {
     return new V(null, function() {
       var c = D(a);
-      return c ? hd(c) ? Rd(Zb(c), e($b(c), b)) : Q(H(c), e(I(c), b)) : t(b) ? e(H(b), K(b)) : null;
+      return c ? hd(c) ? Rd(Xb(c), e($b(c), b)) : Q(H(c), e(I(c), b)) : t(b) ? e(H(b), K(b)) : null;
     }, null, null);
   }(Vd.b(a, b), c);
 };
@@ -4048,17 +4048,17 @@ function Xd(a, b, c) {
   if (17 === b) {
     return a.Ea ? a.Ea(c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T) : a.Ea ? a.Ea(c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T) : a.call(null, c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T);
   }
-  var Y = db(ya), Yb = eb(ya);
+  var Y = db(ya), Zb = eb(ya);
   if (18 === b) {
     return a.Fa ? a.Fa(c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T, Y) : a.Fa ? a.Fa(c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T, Y) : a.call(null, c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T, Y);
   }
-  ya = db(Yb);
-  Yb = eb(Yb);
+  ya = db(Zb);
+  Zb = eb(Zb);
   if (19 === b) {
     return a.Ga ? a.Ga(c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T, Y, ya) : a.Ga ? a.Ga(c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T, Y, ya) : a.call(null, c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T, Y, ya);
   }
-  var G = db(Yb);
-  eb(Yb);
+  var G = db(Zb);
+  eb(Zb);
   if (20 === b) {
     return a.Ha ? a.Ha(c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T, Y, ya, G) : a.Ha ? a.Ha(c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T, Y, ya, G) : a.call(null, c, d, e, f, h, k, l, m, n, q, u, x, y, C, F, L, T, Y, ya, G);
   }
@@ -4498,7 +4498,7 @@ g.Sb = function(a, b, c) {
       f += 1;
     } else {
       if (a = D(a)) {
-        hd(a) ? (d = Zb(a), a = $b(a), k = d, e = O(d), d = k) : (d = H(a), k = S(d, 0, null), h = S(d, 1, null), h.D ? h.D(k, this, b, c) : h.call(null, k, this, b, c), a = K(a), d = null, e = 0), f = 0;
+        hd(a) ? (d = Xb(a), a = $b(a), k = d, e = O(d), d = k) : (d = H(a), k = S(d, 0, null), h = S(d, 1, null), h.D ? h.D(k, this, b, c) : h.call(null, k, this, b, c), a = K(a), d = null, e = 0), f = 0;
       } else {
         return null;
       }
@@ -4687,7 +4687,7 @@ Z.b = function(a, b) {
     var c = D(b);
     if (c) {
       if (hd(c)) {
-        for (var d = Zb(c), e = O(d), f = Pd(e), h = 0;;) {
+        for (var d = Xb(c), e = O(d), f = Pd(e), h = 0;;) {
           if (h < e) {
             Sd(f, function() {
               var b = A.b(d, h);
@@ -4842,7 +4842,7 @@ function ve(a, b) {
     var c = D(b);
     if (c) {
       if (hd(c)) {
-        for (var d = Zb(c), e = O(d), f = Pd(e), h = 0;;) {
+        for (var d = Xb(c), e = O(d), f = Pd(e), h = 0;;) {
           if (h < e) {
             var k;
             k = A.b(d, h);
@@ -5183,7 +5183,7 @@ g.vb = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   if (b instanceof W) {
@@ -5416,7 +5416,7 @@ g.ba = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -5601,7 +5601,7 @@ g.vb = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -6026,7 +6026,7 @@ g.T = function() {
   return (this.c.length - this.i) / 2;
 };
 g.K = function() {
-  return xc(this);
+  return wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -6109,7 +6109,7 @@ g.forEach = function(a) {
       e += 1;
     } else {
       if (b = D(b)) {
-        hd(b) ? (c = Zb(b), b = $b(b), h = c, d = O(c), c = h) : (c = H(b), h = S(c, 0, null), f = S(c, 1, null), a.b ? a.b(f, h) : a.call(null, f, h), b = K(b), c = null, d = 0), e = 0;
+        hd(b) ? (c = Xb(b), b = $b(b), h = c, d = O(c), c = h) : (c = H(b), h = S(c, 0, null), f = S(c, 1, null), a.b ? a.b(f, h) : a.call(null, f, h), b = K(b), c = null, d = 0), e = 0;
       } else {
         return null;
       }
@@ -6806,7 +6806,7 @@ g.L = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -6943,7 +6943,7 @@ g.L = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -7074,7 +7074,7 @@ g.forEach = function(a) {
       e += 1;
     } else {
       if (b = D(b)) {
-        hd(b) ? (c = Zb(b), b = $b(b), h = c, d = O(c), c = h) : (c = H(b), h = S(c, 0, null), f = S(c, 1, null), a.b ? a.b(f, h) : a.call(null, f, h), b = K(b), c = null, d = 0), e = 0;
+        hd(b) ? (c = Xb(b), b = $b(b), h = c, d = O(c), c = h) : (c = H(b), h = S(c, 0, null), f = S(c, 1, null), a.b ? a.b(f, h) : a.call(null, f, h), b = K(b), c = null, d = 0), e = 0;
       } else {
         return null;
       }
@@ -7351,7 +7351,7 @@ g.ba = function() {
   return null == a ? null : new Wf(a, this.ea);
 };
 g.K = function() {
-  return xc(this);
+  return wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -7448,7 +7448,7 @@ g.ba = function() {
   return null == a ? null : new Xf(a, this.ea);
 };
 g.K = function() {
-  return xc(this);
+  return wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -7570,7 +7570,7 @@ g.forEach = function(a) {
       e += 1;
     } else {
       if (b = D(b)) {
-        hd(b) ? (c = Zb(b), b = $b(b), h = c, d = O(c), c = h) : (c = H(b), h = S(c, 0, null), f = S(c, 1, null), a.b ? a.b(f, h) : a.call(null, f, h), b = K(b), c = null, d = 0), e = 0;
+        hd(b) ? (c = Xb(b), b = $b(b), h = c, d = O(c), c = h) : (c = H(b), h = S(c, 0, null), f = S(c, 1, null), a.b ? a.b(f, h) : a.call(null, f, h), b = K(b), c = null, d = 0), e = 0;
       } else {
         return null;
       }
@@ -7870,7 +7870,7 @@ g.T = function() {
 };
 g.K = function() {
   var a = this.o;
-  return null != a ? a : this.o = a = xc(this);
+  return null != a ? a : this.o = a = wc(this);
 };
 g.s = function(a, b) {
   return Oc(this, b);
@@ -7960,7 +7960,7 @@ function jg(a, b, c, d, e, f, h) {
     Ka = k;
   }
 }
-function mg(a, b) {
+function kg(a, b) {
   for (var c = D(b), d = null, e = 0, f = 0;;) {
     if (f < e) {
       var h = d.P(null, f);
@@ -7968,17 +7968,17 @@ function mg(a, b) {
       f += 1;
     } else {
       if (c = D(c)) {
-        d = c, hd(d) ? (c = Zb(d), e = $b(d), d = c, h = O(c), c = e, e = h) : (h = H(d), Nb(a, h), c = K(d), d = null, e = 0), f = 0;
+        d = c, hd(d) ? (c = Xb(d), e = $b(d), d = c, h = O(c), c = e, e = h) : (h = H(d), Nb(a, h), c = K(d), d = null, e = 0), f = 0;
       } else {
         return null;
       }
     }
   }
 }
-var ng = {'"':'\\"', "\\":"\\\\", "\b":"\\b", "\f":"\\f", "\n":"\\n", "\r":"\\r", "\t":"\\t"};
-function og(a) {
+var lg = {'"':'\\"', "\\":"\\\\", "\b":"\\b", "\f":"\\f", "\n":"\\n", "\r":"\\r", "\t":"\\t"};
+function mg(a) {
   return [z('"'), z(a.replace(RegExp('[\\\\"\b\f\n\r\t]', "g"), function(a) {
-    return ng[a];
+    return lg[a];
   })), z('"')].join("");
 }
 function pg(a, b) {
@@ -8013,7 +8013,7 @@ function qg(a, b, c) {
     return jg(b, rg, "#js [", " ", "]", c, a);
   }
   if (ba(a)) {
-    return t((new r(null, "readably", "readably", 1129599760)).a(c)) ? Nb(b, og(a)) : Nb(b, a);
+    return t((new r(null, "readably", "readably", 1129599760)).a(c)) ? Nb(b, mg(a)) : Nb(b, a);
   }
   if (ca(a)) {
     var e = a.name;
@@ -8021,7 +8021,7 @@ function qg(a, b, c) {
       var a = null == e;
       return a ? a : /^[\s\xa0]*$/.test(e);
     }()) ? "Function" : e;
-    return mg(b, Qc(["#object[", c, ' "', "" + z(a), '"]'], 0));
+    return kg(b, Qc(["#object[", c, ' "', "" + z(a), '"]'], 0));
   }
   if (a instanceof Date) {
     return c = function(a, b) {
@@ -8032,20 +8032,20 @@ function qg(a, b, c) {
           return c;
         }
       }
-    }, mg(b, Qc(['#inst "', "" + z(a.getUTCFullYear()), "-", c(a.getUTCMonth() + 1, 2), "-", c(a.getUTCDate(), 2), "T", c(a.getUTCHours(), 2), ":", c(a.getUTCMinutes(), 2), ":", c(a.getUTCSeconds(), 2), ".", c(a.getUTCMilliseconds(), 3), "-", '00:00"'], 0));
+    }, kg(b, Qc(['#inst "', "" + z(a.getUTCFullYear()), "-", c(a.getUTCMonth() + 1, 2), "-", c(a.getUTCDate(), 2), "T", c(a.getUTCHours(), 2), ":", c(a.getUTCMinutes(), 2), ":", c(a.getUTCSeconds(), 2), ".", c(a.getUTCMilliseconds(), 3), "-", '00:00"'], 0));
   }
   if (a instanceof RegExp) {
-    return mg(b, Qc(['#"', a.source, '"'], 0));
+    return kg(b, Qc(['#"', a.source, '"'], 0));
   }
   if (t(a.constructor.wb)) {
-    return mg(b, Qc(["#object[", a.constructor.wb.replace(RegExp("/", "g"), "."), "]"], 0));
+    return kg(b, Qc(["#object[", a.constructor.wb.replace(RegExp("/", "g"), "."), "]"], 0));
   }
   e = a.constructor.name;
   c = t(function() {
     var a = null == e;
     return a ? a : /^[\s\xa0]*$/.test(e);
   }()) ? "Object" : e;
-  return mg(b, Qc(["#object[", c, " ", "" + z(a), "]"], 0));
+  return kg(b, Qc(["#object[", c, " ", "" + z(a), "]"], 0));
 }
 function rg(a, b, c) {
   var d = (new r(null, "alt-impl", "alt-impl", 670969595)).a(c);
@@ -8069,7 +8069,7 @@ function tg(a) {
           k += 1;
         } else {
           if (a = D(a)) {
-            f = a, hd(f) ? (a = Zb(f), h = $b(f), f = a, l = O(a), a = h, h = l) : (l = H(f), Nb(e, " "), rg(l, e, b), a = K(f), f = null, h = 0), k = 0;
+            f = a, hd(f) ? (a = Xb(f), h = $b(f), f = a, l = O(a), a = h, h = l) : (l = H(f), Nb(e, " "), rg(l, e, b), a = K(f), f = null, h = 0), k = 0;
           } else {
             break a;
           }
@@ -8208,21 +8208,21 @@ function vg(a) {
 -876037597), Fg = new r(null, "mouse-clicked", "mouse-clicked", -199339421), Gg = new r(null, "mouse-released", "mouse-released", -664480061), Hg = new r(null, "fn", "fn", -1175266204), Ig = new r(null, "f8", "f8", -2141475484), Jg = new r(null, "screen", "screen", 1990059748), Kg = new r(null, "enable-depth-test", "enable-depth-test", 1519326084), Lg = new r(null, "mouse-exited", "mouse-exited", -483205244), Mg = new r(null, "enable-depth-sort", "enable-depth-sort", -383089627), Ng = new r(null, 
 "f1", "f1", 1714532389), Og = new r(null, "java2d", "java2d", 166099237), Pg = new r(null, "corner", "corner", 1296717125), Qg = new r(null, "disable-texture-mipmaps", "disable-texture-mipmaps", 1697917541), Rg = new r(null, "darkest", "darkest", 68197253), Sg = new r(null, "f10", "f10", 627525541), Tg = new r(null, "dodge", "dodge", -1556666427), Ug = new r(null, "disable-stroke-pure", "disable-stroke-pure", 735493926), Vg = new r(null, "replace", "replace", -786587770), Wg = new r(null, "alt", 
 "alt", -3214426), Xg = new r(null, "mouse-wheel", "mouse-wheel", 1811662439), Yg = new r(null, "disable-depth-test", "disable-depth-test", 284606407), Zg = new r(null, "keyPressed", "keyPressed", 1791025256), $g = new r(null, "decor", "decor", -1730969431), ah = new r(null, "colliding?", "colliding?", 982736489), bh = new r(null, "enable-stroke-perspective", "enable-stroke-perspective", -259923319), ch = new r(null, "opengl", "opengl", -614998103), dh = new r(null, "mouse-moved", "mouse-moved", -1918152310), 
-eh = new r(null, "safe-draw-fn", "safe-draw-fn", 1454900202), fh = new r(null, "mouseOut", "mouseOut", -386669045), gh = new r(null, "f5", "f5", 1587057387), hh = new r(null, "settings", "settings", 1556144875), ih = new r(null, "command", "command", -894540724), jh = new r(null, "mouseScrolled", "mouseScrolled", 31878252), kh = new r(null, "mouseDragged", "mouseDragged", 129975181), lh = new r(null, "radius", "radius", -2073122258), mh = new r(null, "d-x", "d-x", -605169425), nh = new r(null, "up", 
-"up", -269712113), oh = new r(null, "renderer", "renderer", 336841071), ph = new r(null, "size", "size", 1098693007), qh = new r(null, "title", "title", 636505583), rh = new r(null, "center", "center", -748944368), sh = new r(null, "setup", "setup", 1987730512), th = new r(null, "mouse-pressed", "mouse-pressed", 736955536), uh = new r(null, "middleware", "middleware", 1462115504), vh = new r(null, "disable-optimized-stroke", "disable-optimized-stroke", 74038544), wh = new r(null, "d-y", "d-y", 629858064), 
-xh = new r(null, "global-key-events", "global-key-events", 335064944), yh = new r(null, "corners", "corners", -137817903), zh = new r(null, "f11", "f11", -1417398799), Ah = new r(null, "host", "host", -1558485167), Bh = new r(null, "overlay", "overlay", -139131598), Ch = new r(null, "mouse-entered", "mouse-entered", 811350322), Dh = new r(null, "enable-opengl-errors", "enable-opengl-errors", 89998962), Fh = new r(null, "enable-stroke-pure", "enable-stroke-pure", 881345587), Gh = new r(null, "no-safe-draw", 
-"no-safe-draw", -1157778157), Hh = new r(null, "f3", "f3", 1954829043), Ih = new r(null, "enable-depth-mask", "enable-depth-mask", 872785875), Jh = new r(null, "key-pressed", "key-pressed", -757100364), Kh = new r(null, "key-released", "key-released", 215919828), Lh = new r(null, "f2", "f2", 396168596), Mh = new r(null, "keyReleased", "keyReleased", 541714964), Nh = new r(null, "id", "id", -1388402092), Oh = new r(null, "control", "control", 1892578036), Ph = new r(null, "difference", "difference", 
-1916101396), Qh = new r(null, "mouseClicked", "mouseClicked", 1764302965), Rh = new r(null, "enable-optimized-stroke", "enable-optimized-stroke", 1537575253), Sh = new r(null, "p2d", "p2d", -2106175755), Th = new r(null, "mouseReleased", "mouseReleased", 1116234838), Uh = new r(null, "mousePressed", "mousePressed", 1776186454), Vh = new r(null, "mouseMoved", "mouseMoved", -1936954058), Wh = new r(null, "f12", "f12", 853352790), Xh = new r(null, "mouseOver", "mouseOver", -1334461930), Yh = new r(null, 
-"exclusion", "exclusion", 531897910), Zh = new r(null, "disable-opengl-errors", "disable-opengl-errors", 506822839), $h = new r(null, "right", "right", -452581833), ai = new r(null, "host-id", "host-id", 742376279), bi = new r(null, "core", "core", -86019209), ci = new r(null, "hard-light", "hard-light", -37591145), di = new r(null, "keyTyped", "keyTyped", 1437329399), ei = new r(null, "no-start", "no-start", 1381488856), fi = new r(null, "multiply", "multiply", -1036907048), gi = new r(null, "lightest", 
-"lightest", -2043115912), hi = new r(null, "f7", "f7", 356150168), ii = new r(null, "x", "x", 2099068185), ji = new r(null, "blend", "blend", 249565561), ki = new r(null, "disable-depth-sort", "disable-depth-sort", -1568352839), li = new r(null, "target", "target", 253001721), mi = new r(null, "f9", "f9", 704633338), ni = new r(null, "draw", "draw", 1358331674), oi = new r(null, "add", "add", 235287739), pi = new r(null, "shell", "shell", 1402941019), qi = new r(null, "soft-light", "soft-light", 
-513207899), ri = new r(null, "subtract", "subtract", 2136988635), si = new r(null, "rad", "rad", -833983012), ti = new r(null, "f6", "f6", 2103080604), ui = new r(null, "f4", "f4", 990968764), vi = new r(null, "p3d", "p3d", -850380194), wi = new r(null, "mouse-dragged", "mouse-dragged", -1220073441), xi = new r(null, "left", "left", -399115937), yi = new r(null, "enable-texture-mipmaps", "enable-texture-mipmaps", 1241892671);
-var zi = {};
-function Ai(a) {
+eh = new r(null, "safe-draw-fn", "safe-draw-fn", 1454900202), fh = new r(null, "mouseOut", "mouseOut", -386669045), gh = new r(null, "f5", "f5", 1587057387), hh = new r(null, "settings", "settings", 1556144875), ih = new r(null, "command", "command", -894540724), jh = new r(null, "mouseScrolled", "mouseScrolled", 31878252), kh = new r(null, "behavior", "behavior", 1202392908), lh = new r(null, "mouseDragged", "mouseDragged", 129975181), mh = new r(null, "radius", "radius", -2073122258), nh = new r(null, 
+"d-x", "d-x", -605169425), oh = new r(null, "up", "up", -269712113), ph = new r(null, "renderer", "renderer", 336841071), qh = new r(null, "size", "size", 1098693007), rh = new r(null, "title", "title", 636505583), sh = new r(null, "center", "center", -748944368), th = new r(null, "setup", "setup", 1987730512), uh = new r(null, "mouse-pressed", "mouse-pressed", 736955536), vh = new r(null, "middleware", "middleware", 1462115504), wh = new r(null, "disable-optimized-stroke", "disable-optimized-stroke", 
+74038544), xh = new r(null, "d-y", "d-y", 629858064), yh = new r(null, "global-key-events", "global-key-events", 335064944), zh = new r(null, "corners", "corners", -137817903), Ah = new r(null, "f11", "f11", -1417398799), Bh = new r(null, "host", "host", -1558485167), Ch = new r(null, "overlay", "overlay", -139131598), Dh = new r(null, "mouse-entered", "mouse-entered", 811350322), Eh = new r(null, "enable-opengl-errors", "enable-opengl-errors", 89998962), Fh = new r(null, "enable-stroke-pure", "enable-stroke-pure", 
+881345587), Hh = new r(null, "no-safe-draw", "no-safe-draw", -1157778157), Ih = new r(null, "f3", "f3", 1954829043), Jh = new r(null, "enable-depth-mask", "enable-depth-mask", 872785875), Kh = new r(null, "key-pressed", "key-pressed", -757100364), Lh = new r(null, "key-released", "key-released", 215919828), Mh = new r(null, "f2", "f2", 396168596), Nh = new r(null, "keyReleased", "keyReleased", 541714964), Oh = new r(null, "id", "id", -1388402092), Ph = new r(null, "control", "control", 1892578036), 
+Qh = new r(null, "difference", "difference", 1916101396), Rh = new r(null, "mouseClicked", "mouseClicked", 1764302965), Sh = new r(null, "enable-optimized-stroke", "enable-optimized-stroke", 1537575253), Th = new r(null, "p2d", "p2d", -2106175755), Uh = new r(null, "mouseReleased", "mouseReleased", 1116234838), Vh = new r(null, "mousePressed", "mousePressed", 1776186454), Wh = new r(null, "mouseMoved", "mouseMoved", -1936954058), Xh = new r(null, "f12", "f12", 853352790), Yh = new r(null, "mouseOver", 
+"mouseOver", -1334461930), Zh = new r(null, "exclusion", "exclusion", 531897910), $h = new r(null, "disable-opengl-errors", "disable-opengl-errors", 506822839), ai = new r(null, "right", "right", -452581833), bi = new r(null, "host-id", "host-id", 742376279), ci = new r(null, "core", "core", -86019209), di = new r(null, "hard-light", "hard-light", -37591145), ei = new r(null, "keyTyped", "keyTyped", 1437329399), fi = new r(null, "no-start", "no-start", 1381488856), gi = new r(null, "multiply", "multiply", 
+-1036907048), hi = new r(null, "lightest", "lightest", -2043115912), ii = new r(null, "f7", "f7", 356150168), ji = new r(null, "x", "x", 2099068185), ki = new r(null, "blend", "blend", 249565561), li = new r(null, "disable-depth-sort", "disable-depth-sort", -1568352839), mi = new r(null, "target", "target", 253001721), ni = new r(null, "f9", "f9", 704633338), oi = new r(null, "draw", "draw", 1358331674), pi = new r(null, "add", "add", 235287739), qi = new r(null, "shell", "shell", 1402941019), ri = 
+new r(null, "soft-light", "soft-light", 513207899), si = new r(null, "subtract", "subtract", 2136988635), ti = new r(null, "rad", "rad", -833983012), ui = new r(null, "f6", "f6", 2103080604), vi = new r(null, "f4", "f4", 990968764), wi = new r(null, "p3d", "p3d", -850380194), xi = new r(null, "mouse-dragged", "mouse-dragged", -1220073441), yi = new r(null, "left", "left", -399115937), zi = new r(null, "enable-texture-mipmaps", "enable-texture-mipmaps", 1241892671);
+var Ai = {};
+function Bi(a) {
   return D(a) ? Yd(od, a) : !0;
 }
-H(new W(null, 2, 5, X, [zi.Cc, Ad], null));
-H(new W(null, 2, 5, X, [zi.Dc, Bd], null));
-function Bi(a) {
+H(new W(null, 2, 5, X, [Ai.Cc, Ad], null));
+H(new W(null, 2, 5, X, [Ai.Dc, Bd], null));
+function Ci(a) {
   return new V(null, function() {
     var b = Ve(Q(null, function() {
       return function d(b) {
@@ -8231,7 +8231,7 @@ function Bi(a) {
             var f = D(b);
             if (f) {
               if (hd(f)) {
-                var h = Zb(f), k = O(h), l = Pd(k);
+                var h = Xb(f), k = O(h), l = Pd(k);
                 a: {
                   for (var m = 0;;) {
                     if (m < k) {
@@ -8283,7 +8283,7 @@ function Bi(a) {
     }(b))(b, 1);
   }, null, null);
 }
-function Ci(a, b, c, d) {
+function Di(a, b, c, d) {
   for (;;) {
     if (b >= O(a)) {
       return null;
@@ -8297,7 +8297,7 @@ function Ci(a, b, c, d) {
     d += f;
   }
 }
-function Di(a) {
+function Ei(a) {
   return function c(d) {
     return Q(d, new V(null, function() {
       var e;
@@ -8318,7 +8318,7 @@ function Di(a) {
               k = S(k, 2, null);
               h = M.b(f, 1) ? bd(h) : R.b(bd(h), new W(null, 3, 5, X, [e, f - 1, k - 1], null));
               if (2 - (k - 1) <= Yd(Ad, Ye(a, e + 1, O(a)))) {
-                e = Ci(a, e + 1, h, k - 1);
+                e = Di(a, e + 1, h, k - 1);
                 break a;
               }
               if (!D(h)) {
@@ -8331,9 +8331,9 @@ function Di(a) {
       }
       return t(e) ? c(e) : null;
     }, null, null));
-  }(Ci(a, 0, Vc, 0));
+  }(Di(a, 0, Vc, 0));
 }
-function Ei(a) {
+function Fi(a) {
   var b = ig(a), c = Ve(eg(a)), d = hg(0, O(c));
   a = Ve(function() {
     return function(a, b, c) {
@@ -8344,7 +8344,7 @@ function Ei(a) {
               var c = D(d);
               if (c) {
                 if (hd(c)) {
-                  var e = Zb(c), f = O(e), h = Pd(f);
+                  var e = Xb(c), f = O(e), h = Pd(f);
                   return function() {
                     for (var c = 0;;) {
                       if (c < f) {
@@ -8370,7 +8370,7 @@ function Ei(a) {
       };
     }(b, c, d)(d);
   }());
-  var e = Di(a);
+  var e = Ei(a);
   return function(a, b, c, d, e) {
     return function q(u) {
       return new V(null, function(a, b, c, d, e) {
@@ -8380,7 +8380,7 @@ function Ei(a) {
             if (f) {
               var h = f;
               if (hd(h)) {
-                var k = Zb(h), l = O(k), m = Pd(l);
+                var k = Xb(h), l = O(k), m = Pd(l);
                 return function() {
                   for (var q = 0;;) {
                     if (q < l) {
@@ -8394,7 +8394,7 @@ function Ei(a) {
                                   var a = D(u);
                                   if (a) {
                                     if (hd(a)) {
-                                      var b = Zb(a), c = O(b), d = Pd(c);
+                                      var b = Xb(a), c = O(b), d = Pd(c);
                                       a: {
                                         for (var e = 0;;) {
                                           if (e < c) {
@@ -8431,7 +8431,7 @@ function Ei(a) {
                   }
                 }() ? Rd(m.J(), q($b(h))) : Rd(m.J(), null);
               }
-              var kg = H(h);
+              var ng = H(h);
               return Q(Yd(Vd, function() {
                 return function(a, b, c, d, e, f, h, k) {
                   return function Ma(l) {
@@ -8441,7 +8441,7 @@ function Ei(a) {
                           var a = D(l);
                           if (a) {
                             if (hd(a)) {
-                              var b = Zb(a), c = O(b), d = Pd(c);
+                              var b = Xb(a), c = O(b), d = Pd(c);
                               a: {
                                 for (var f = 0;;) {
                                   if (f < c) {
@@ -8469,7 +8469,7 @@ function Ei(a) {
                       };
                     }(a, b, c, d, e, f, h, k), null, null);
                   };
-                }(kg, h, f, a, b, c, d, e)(kg);
+                }(ng, h, f, a, b, c, d, e)(ng);
               }()), q(I(h)));
             }
             return null;
@@ -8479,7 +8479,7 @@ function Ei(a) {
     };
   }(b, c, d, a, e)(e);
 }
-function Fi(a) {
+function Gi(a) {
   var b = Ve(Gd(a)), c = O(a);
   return 2 > c ? null : M.b(2, 1) ? function(a, b) {
     return function h(c) {
@@ -8489,7 +8489,7 @@ function Fi(a) {
             var a = D(c);
             if (a) {
               if (hd(a)) {
-                var b = Zb(a), d = O(b), e = Pd(d);
+                var b = Xb(a), d = O(b), e = Pd(d);
                 a: {
                   for (var u = 0;;) {
                     if (u < d) {
@@ -8512,13 +8512,13 @@ function Fi(a) {
         };
       }(a, b), null, null);
     };
-  }(c, b)(eg(a)) : t(Ai(a)) ? M.b(2, c) ? (a = D(a), bb(J, a)) : Z.b(function(a, b) {
+  }(c, b)(eg(a)) : t(Bi(a)) ? M.b(2, c) ? (a = D(a), bb(J, a)) : Z.b(function(a, b) {
     return function(a) {
       return Z.b(b, a);
     };
-  }(c, b), Bi(c)) : Ei(a);
+  }(c, b), Ci(c)) : Fi(a);
 }
-;var Gi = function Gi(b) {
+;var Hi = function Hi(b) {
   for (var c = [], d = arguments.length, e = 0;;) {
     if (e < d) {
       c.push(arguments[e]), e += 1;
@@ -8528,42 +8528,42 @@ function Fi(a) {
   }
   switch(c.length) {
     case 1:
-      return Gi.a(arguments[0]);
+      return Hi.a(arguments[0]);
     case 2:
-      return Gi.b(arguments[0], arguments[1]);
+      return Hi.b(arguments[0], arguments[1]);
     default:
-      return Gi.j(arguments[0], arguments[1], new E(c.slice(2), 0, null));
+      return Hi.j(arguments[0], arguments[1], new E(c.slice(2), 0, null));
   }
 };
-Gi.a = function(a) {
+Hi.a = function(a) {
   return a;
 };
-Gi.b = function(a, b) {
+Hi.b = function(a, b) {
   return O(a) < O(b) ? vd(function(a, d) {
     return nd(b, d) ? cd.b(a, d) : a;
   }, a, a) : vd(cd, a, b);
 };
-Gi.j = function(a, b, c) {
-  return vd(Gi, a, R.b(c, b));
+Hi.j = function(a, b, c) {
+  return vd(Hi, a, R.b(c, b));
 };
-Gi.v = function(a) {
+Hi.v = function(a) {
   var b = H(a), c = K(a);
   a = H(c);
   c = K(c);
-  return Gi.j(b, a, c);
+  return Hi.j(b, a, c);
 };
-Gi.w = 2;
-function Hi(a) {
+Hi.w = 2;
+function Ii(a) {
   if (D(a)) {
     var b = H(a), c = H(K(a));
-    a = si.a(b) + si.a(c);
-    var d = ii.a(c) - ii.a(b), b = wg.a(c) - wg.a(b);
+    a = ti.a(b) + ti.a(c);
+    var d = ji.a(c) - ji.a(b), b = wg.a(c) - wg.a(b);
     return Math.sqrt(d * d + b * b) <= a;
   }
   return !1;
 }
-function Ii(a) {
-  var b = ii.a(a) - si.a(a), c = ii.a(a) + si.a(a), d = wg.a(a) - si.a(a), e = wg.a(a) + si.a(a), f = new W(null, 4, 5, X, [new W(null, 2, 5, X, [b, d], null), new W(null, 2, 5, X, [c, d], null), new W(null, 2, 5, X, [b, e], null), new W(null, 2, 5, X, [c, e], null)], null);
+function Ji(a) {
+  var b = ji.a(a) - ti.a(a), c = ji.a(a) + ti.a(a), d = wg.a(a) - ti.a(a), e = wg.a(a) + ti.a(a), f = new W(null, 4, 5, X, [new W(null, 2, 5, X, [b, d], null), new W(null, 2, 5, X, [c, d], null), new W(null, 2, 5, X, [b, e], null), new W(null, 2, 5, X, [c, e], null)], null);
   return new W(null, 2, 5, X, [a, eg(Z.b(function() {
     return function(a) {
       var b = S(a, 0, null);
@@ -8572,7 +8572,7 @@ function Ii(a) {
     };
   }(b, c, d, e, f), f))], null);
 }
-function Ji(a) {
+function Ki(a) {
   var b = S(a, 0, null), c = S(a, 1, null);
   return ue.b(Z.b(function() {
     return function(a) {
@@ -8582,25 +8582,25 @@ function Ji(a) {
     };
   }(a, b, c), c), se(O(c), b));
 }
-function Ki(a) {
+function Li(a) {
   return of(Zd(Zf, ie.f(Ve, ye, We), Z.b(function(a) {
     var c = S(a, 0, null);
     a = S(a, 1, null);
     return Xc([c], [new W(null, 1, 5, X, [a], null)]);
   }, a)));
 }
-function Li(a) {
-  var b = Fi(a), c = ve(Hi, b), d = eg(ye(c));
-  a = Gi.b(dg(a), d);
+function Mi(a) {
+  var b = Gi(a), c = ve(Ii, b), d = eg(ye(c));
+  a = Hi.b(dg(a), d);
   return Vd.b(Z.b(function() {
     return function(a) {
       return U.f(a, ah, !0);
     };
   }(b, c, d, a), d), a);
 }
-function Mi(a) {
-  a = Z.b(Li, a);
-  var b = eg(ye(a)), c = Z.b(Nh, b), d = Ae(2, 2, ue.b(c, b));
+function Ni(a) {
+  a = Z.b(Mi, a);
+  var b = eg(ye(a)), c = Z.b(Oh, b), d = Ae(2, 2, ue.b(c, b));
   return of(Zd(Zf, function() {
     return function(a, b) {
       return U.f(b, ah, !0);
@@ -8613,72 +8613,72 @@ function Mi(a) {
     };
   }(a, b, c, d), d)));
 }
-;var Ni;
+;var Oi;
 a: {
-  var Oi = aa.navigator;
-  if (Oi) {
-    var Pi = Oi.userAgent;
-    if (Pi) {
-      Ni = Pi;
+  var Pi = aa.navigator;
+  if (Pi) {
+    var Qi = Pi.userAgent;
+    if (Qi) {
+      Oi = Qi;
       break a;
     }
   }
-  Ni = "";
+  Oi = "";
 }
-function Qi(a) {
-  return -1 != Ni.indexOf(a);
+function Ri(a) {
+  return -1 != Oi.indexOf(a);
 }
-;var Ri = Qi("Opera"), Si = Qi("Trident") || Qi("MSIE"), Ti = Qi("Edge"), Ui = Qi("Gecko") && !(-1 != Ni.toLowerCase().indexOf("webkit") && !Qi("Edge")) && !(Qi("Trident") || Qi("MSIE")) && !Qi("Edge"), Vi = -1 != Ni.toLowerCase().indexOf("webkit") && !Qi("Edge");
-Vi && Qi("Mobile");
-Qi("Macintosh");
-Qi("Windows");
-Qi("Linux") || Qi("CrOS");
-var Wi = aa.navigator || null;
-Wi && (Wi.appVersion || "").indexOf("X11");
-Qi("Android");
-!Qi("iPhone") || Qi("iPod") || Qi("iPad");
-Qi("iPad");
-Qi("iPod");
-function Xi() {
+;var Si = Ri("Opera"), Ti = Ri("Trident") || Ri("MSIE"), Ui = Ri("Edge"), Vi = Ri("Gecko") && !(-1 != Oi.toLowerCase().indexOf("webkit") && !Ri("Edge")) && !(Ri("Trident") || Ri("MSIE")) && !Ri("Edge"), Wi = -1 != Oi.toLowerCase().indexOf("webkit") && !Ri("Edge");
+Wi && Ri("Mobile");
+Ri("Macintosh");
+Ri("Windows");
+Ri("Linux") || Ri("CrOS");
+var Xi = aa.navigator || null;
+Xi && (Xi.appVersion || "").indexOf("X11");
+Ri("Android");
+!Ri("iPhone") || Ri("iPod") || Ri("iPad");
+Ri("iPad");
+Ri("iPod");
+function Yi() {
   var a = aa.document;
   return a ? a.documentMode : void 0;
 }
-var Yi;
+var Zi;
 a: {
-  var Zi = "", $i = function() {
-    var a = Ni;
-    if (Ui) {
+  var $i = "", aj = function() {
+    var a = Oi;
+    if (Vi) {
       return /rv\:([^\);]+)(\)|;)/.exec(a);
     }
-    if (Ti) {
+    if (Ui) {
       return /Edge\/([\d\.]+)/.exec(a);
     }
-    if (Si) {
+    if (Ti) {
       return /\b(?:MSIE|rv)[: ]([^\);]+)(\)|;)/.exec(a);
     }
-    if (Vi) {
+    if (Wi) {
       return /WebKit\/(\S+)/.exec(a);
     }
-    if (Ri) {
+    if (Si) {
       return /(?:Version)[ \/]?(\S+)/.exec(a);
     }
   }();
-  $i && (Zi = $i ? $i[1] : "");
-  if (Si) {
-    var aj = Xi();
-    if (null != aj && aj > parseFloat(Zi)) {
-      Yi = String(aj);
+  aj && ($i = aj ? aj[1] : "");
+  if (Ti) {
+    var bj = Yi();
+    if (null != bj && bj > parseFloat($i)) {
+      Zi = String(bj);
       break a;
     }
   }
-  Yi = Zi;
+  Zi = $i;
 }
-var bj = {};
-function cj(a) {
+var cj = {};
+function dj(a) {
   var b;
-  if (!(b = bj[a])) {
+  if (!(b = cj[a])) {
     b = 0;
-    for (var c = fa(String(Yi)).split("."), d = fa(String(a)).split("."), e = Math.max(c.length, d.length), f = 0;0 == b && f < e;f++) {
+    for (var c = fa(String(Zi)).split("."), d = fa(String(a)).split("."), e = Math.max(c.length, d.length), f = 0;0 == b && f < e;f++) {
       var h = c[f] || "", k = d[f] || "", l = RegExp("(\\d*)(\\D*)", "g"), m = RegExp("(\\d*)(\\D*)", "g");
       do {
         var n = l.exec(h) || ["", "", ""], q = m.exec(k) || ["", "", ""];
@@ -8688,21 +8688,21 @@ function cj(a) {
         b = ga(0 == n[1].length ? 0 : parseInt(n[1], 10), 0 == q[1].length ? 0 : parseInt(q[1], 10)) || ga(0 == n[2].length, 0 == q[2].length) || ga(n[2], q[2]);
       } while (0 == b);
     }
-    b = bj[a] = 0 <= b;
+    b = cj[a] = 0 <= b;
   }
   return b;
 }
-var dj = aa.document, ej = dj && Si ? Xi() || ("CSS1Compat" == dj.compatMode ? parseInt(Yi, 10) : 5) : void 0;
-!Ui && !Si || Si && 9 <= Number(ej) || Ui && cj("1.9.1");
-Si && cj("9");
-var fj = new Pa(null, 3, [$g, new W(null, 2, 5, X, ["2.0", "Try :features [:present] for similar effect"], null), li, new W(null, 2, 5, X, ["2.0", "Use :features [:keep-on-top] instead."], null), eh, new W(null, 2, 5, X, ["2.0", "Use :features [:no-safe-fns] instead."], null)], null);
-function gj(a) {
-  a = dg(a);
-  t(a.a ? a.a(Gh) : a.call(null, Gh)) && tg(Qc(["Feature :no-safe-draw was renamed to :no-safe-fns in Quil 2.1.", "Use :feature [:no-safe-fns] now."], 0));
-  return cd.b(a, Gh);
-}
+var ej = aa.document, fj = ej && Ti ? Yi() || ("CSS1Compat" == ej.compatMode ? parseInt(Zi, 10) : 5) : void 0;
+!Vi && !Ti || Ti && 9 <= Number(fj) || Vi && dj("1.9.1");
+Ti && dj("9");
+var gj = new Pa(null, 3, [$g, new W(null, 2, 5, X, ["2.0", "Try :features [:present] for similar effect"], null), mi, new W(null, 2, 5, X, ["2.0", "Use :features [:keep-on-top] instead."], null), eh, new W(null, 2, 5, X, ["2.0", "Use :features [:no-safe-fns] instead."], null)], null);
 function hj(a) {
-  var b = Be.f(a, new W(null, 1, 5, X, [zg], null), gj);
+  a = dg(a);
+  t(a.a ? a.a(Hh) : a.call(null, Hh)) && tg(Qc(["Feature :no-safe-draw was renamed to :no-safe-fns in Quil 2.1.", "Use :feature [:no-safe-fns] now."], 0));
+  return cd.b(a, Hh);
+}
+function ij(a) {
+  var b = Be.f(a, new W(null, 1, 5, X, [zg], null), hj);
   return ze.b(de, we(Qa, function() {
     return function(a) {
       return function e(b) {
@@ -8712,12 +8712,12 @@ function hj(a) {
               var a = D(b);
               if (a) {
                 if (hd(a)) {
-                  var c = Zb(a), l = O(c), m = Pd(l);
+                  var c = Xb(a), l = O(c), m = Pd(l);
                   return function() {
                     for (var a = 0;;) {
                       if (a < l) {
                         var b = A.b(c, a), e = S(b, 0, null), f = S(b, 1, null), b = m;
-                        var h = fj.a ? fj.a(e) : fj.call(null, e);
+                        var h = gj.a ? gj.a(e) : gj.call(null, e);
                         t(h) ? (f = S(h, 0, null), h = S(h, 1, null), tg(Qc([e, "option was removed in Quil", f, ".", h], 0)), e = null) : e = new W(null, 2, 5, X, [e, f], null);
                         b.add(e);
                         a += 1;
@@ -8729,7 +8729,7 @@ function hj(a) {
                 }
                 var n = H(a), q = S(n, 0, null), u = S(n, 1, null);
                 return Q(function() {
-                  var a = fj.a ? fj.a(q) : fj.call(null, q);
+                  var a = gj.a ? gj.a(q) : gj.call(null, q);
                   if (t(a)) {
                     var b = S(a, 0, null), a = S(a, 1, null);
                     tg(Qc([q, "option was removed in Quil", b, ".", a], 0));
@@ -8746,23 +8746,23 @@ function hj(a) {
     }(b)(b);
   }()));
 }
-;var ij = !Si || 9 <= Number(ej), jj = Si && !cj("9");
-!Vi || cj("528");
-Ui && cj("1.9b") || Si && cj("8") || Ri && cj("9.5") || Vi && cj("528");
-Ui && !cj("8") || Si && cj("9");
-function kj(a, b) {
+;var jj = !Ti || 9 <= Number(fj), kj = Ti && !dj("9");
+!Wi || dj("528");
+Vi && dj("1.9b") || Ti && dj("8") || Si && dj("9.5") || Wi && dj("528");
+Vi && !dj("8") || Ti && dj("9");
+function lj(a, b) {
   this.type = a;
   this.currentTarget = this.target = b;
   this.defaultPrevented = this.Lb = !1;
 }
-kj.prototype.stopPropagation = function() {
+lj.prototype.stopPropagation = function() {
   this.Lb = !0;
 };
-kj.prototype.preventDefault = function() {
+lj.prototype.preventDefault = function() {
   this.defaultPrevented = !0;
 };
-function lj(a, b) {
-  kj.call(this, a ? a.type : "");
+function mj(a, b) {
+  lj.call(this, a ? a.type : "");
   this.relatedTarget = this.currentTarget = this.target = null;
   this.charCode = this.keyCode = this.button = this.screenY = this.screenX = this.clientY = this.clientX = this.offsetY = this.offsetX = 0;
   this.metaKey = this.shiftKey = this.altKey = this.ctrlKey = !1;
@@ -8773,7 +8773,7 @@ function lj(a, b) {
     this.currentTarget = b;
     var e = a.relatedTarget;
     if (e) {
-      if (Ui) {
+      if (Vi) {
         var f;
         a: {
           try {
@@ -8790,7 +8790,7 @@ function lj(a, b) {
       "mouseover" == c ? e = a.fromElement : "mouseout" == c && (e = a.toElement);
     }
     this.relatedTarget = e;
-    null === d ? (this.offsetX = Vi || void 0 !== a.offsetX ? a.offsetX : a.layerX, this.offsetY = Vi || void 0 !== a.offsetY ? a.offsetY : a.layerY, this.clientX = void 0 !== a.clientX ? a.clientX : a.pageX, this.clientY = void 0 !== a.clientY ? a.clientY : a.pageY, this.screenX = a.screenX || 0, this.screenY = a.screenY || 0) : (this.clientX = void 0 !== d.clientX ? d.clientX : d.pageX, this.clientY = void 0 !== d.clientY ? d.clientY : d.pageY, this.screenX = d.screenX || 0, this.screenY = d.screenY || 
+    null === d ? (this.offsetX = Wi || void 0 !== a.offsetX ? a.offsetX : a.layerX, this.offsetY = Wi || void 0 !== a.offsetY ? a.offsetY : a.layerY, this.clientX = void 0 !== a.clientX ? a.clientX : a.pageX, this.clientY = void 0 !== a.clientY ? a.clientY : a.pageY, this.screenX = a.screenX || 0, this.screenY = a.screenY || 0) : (this.clientX = void 0 !== d.clientX ? d.clientX : d.pageX, this.clientY = void 0 !== d.clientY ? d.clientY : d.pageY, this.screenX = d.screenX || 0, this.screenY = d.screenY || 
     0);
     this.button = a.button;
     this.keyCode = a.keyCode || 0;
@@ -8807,28 +8807,28 @@ function lj(a, b) {
 (function() {
   function a() {
   }
-  a.prototype = kj.prototype;
-  lj.Zb = kj.prototype;
-  lj.prototype = new a;
-  lj.prototype.constructor = lj;
-  lj.qb = function(a, c, d) {
+  a.prototype = lj.prototype;
+  mj.Zb = lj.prototype;
+  mj.prototype = new a;
+  mj.prototype.constructor = mj;
+  mj.qb = function(a, c, d) {
     for (var e = Array(arguments.length - 2), f = 2;f < arguments.length;f++) {
       e[f - 2] = arguments[f];
     }
-    return kj.prototype[c].apply(a, e);
+    return lj.prototype[c].apply(a, e);
   };
 })();
-lj.prototype.stopPropagation = function() {
-  lj.Zb.stopPropagation.call(this);
+mj.prototype.stopPropagation = function() {
+  mj.Zb.stopPropagation.call(this);
   this.kb.stopPropagation ? this.kb.stopPropagation() : this.kb.cancelBubble = !0;
 };
-lj.prototype.preventDefault = function() {
-  lj.Zb.preventDefault.call(this);
+mj.prototype.preventDefault = function() {
+  mj.Zb.preventDefault.call(this);
   var a = this.kb;
   if (a.preventDefault) {
     a.preventDefault();
   } else {
-    if (a.returnValue = !1, jj) {
+    if (a.returnValue = !1, kj) {
       try {
         if (a.ctrlKey || 112 <= a.keyCode && 123 >= a.keyCode) {
           a.keyCode = -1;
@@ -8838,47 +8838,47 @@ lj.prototype.preventDefault = function() {
     }
   }
 };
-var mj = "closure_listenable_" + (1E6 * Math.random() | 0), nj = 0;
-function oj(a, b, c, d, e) {
+var nj = "closure_listenable_" + (1E6 * Math.random() | 0), oj = 0;
+function pj(a, b, c, d, e) {
   this.listener = a;
   this.xb = null;
   this.src = b;
   this.type = c;
   this.rb = !!d;
   this.Jb = e;
-  this.key = ++nj;
+  this.key = ++oj;
   this.ob = this.Ab = !1;
 }
-function pj(a) {
+function qj(a) {
   a.ob = !0;
   a.listener = null;
   a.xb = null;
   a.src = null;
   a.Jb = null;
 }
-;function qj(a) {
+;function rj(a) {
   this.src = a;
   this.qa = {};
   this.yb = 0;
 }
-qj.prototype.add = function(a, b, c, d, e) {
+rj.prototype.add = function(a, b, c, d, e) {
   var f = a.toString();
   a = this.qa[f];
   a || (a = this.qa[f] = [], this.yb++);
-  var h = rj(a, b, d, e);
-  -1 < h ? (b = a[h], c || (b.Ab = !1)) : (b = new oj(b, this.src, f, !!d, e), b.Ab = c, a.push(b));
+  var h = sj(a, b, d, e);
+  -1 < h ? (b = a[h], c || (b.Ab = !1)) : (b = new pj(b, this.src, f, !!d, e), b.Ab = c, a.push(b));
   return b;
 };
-qj.prototype.remove = function(a, b, c, d) {
+rj.prototype.remove = function(a, b, c, d) {
   a = a.toString();
   if (!(a in this.qa)) {
     return !1;
   }
   var e = this.qa[a];
-  b = rj(e, b, c, d);
-  return -1 < b ? (pj(e[b]), Array.prototype.splice.call(e, b, 1), 0 == e.length && (delete this.qa[a], this.yb--), !0) : !1;
+  b = sj(e, b, c, d);
+  return -1 < b ? (qj(e[b]), Array.prototype.splice.call(e, b, 1), 0 == e.length && (delete this.qa[a], this.yb--), !0) : !1;
 };
-qj.prototype.hasListener = function(a, b) {
+rj.prototype.hasListener = function(a, b) {
   var c = void 0 !== a, d = c ? a.toString() : "", e = void 0 !== b;
   return ia(this.qa, function(a) {
     for (var h = 0;h < a.length;++h) {
@@ -8889,7 +8889,7 @@ qj.prototype.hasListener = function(a, b) {
     return !1;
   });
 };
-function rj(a, b, c, d) {
+function sj(a, b, c, d) {
   for (var e = 0;e < a.length;++e) {
     var f = a[e];
     if (!f.ob && f.listener == b && f.rb == !!c && f.Jb == d) {
@@ -8898,9 +8898,9 @@ function rj(a, b, c, d) {
   }
   return -1;
 }
-;var sj = "closure_lm_" + (1E6 * Math.random() | 0), tj = {}, uj = 0;
-function vj() {
-  var a = wj, b = ij ? function(c) {
+;var tj = "closure_lm_" + (1E6 * Math.random() | 0), uj = {}, vj = 0;
+function wj() {
+  var a = xj, b = jj ? function(c) {
     return a.call(b.src, b.listener, c);
   } : function(c) {
     c = a.call(b.src, b.listener, c);
@@ -8910,23 +8910,23 @@ function vj() {
   };
   return b;
 }
-function xj(a, b, c, d, e) {
+function yj(a, b, c, d, e) {
   if ("array" == p(b)) {
     for (var f = 0;f < b.length;f++) {
-      xj(a, b[f], c, d, e);
+      yj(a, b[f], c, d, e);
     }
   } else {
-    if (c = yj(c), a && a[mj]) {
+    if (c = zj(c), a && a[nj]) {
       a.Nc(b, c, d, e);
     } else {
       if (!b) {
         throw Error("Invalid event type");
       }
-      var f = !!d, h = zj(a);
-      h || (a[sj] = h = new qj(a));
+      var f = !!d, h = Aj(a);
+      h || (a[tj] = h = new rj(a));
       c = h.add(b, c, !0, d, e);
       if (!c.xb) {
-        d = vj();
+        d = wj();
         c.xb = d;
         d.src = a;
         d.listener = c;
@@ -8934,42 +8934,42 @@ function xj(a, b, c, d, e) {
           a.addEventListener(b.toString(), d, f);
         } else {
           if (a.attachEvent) {
-            a.attachEvent(Aj(b.toString()), d);
+            a.attachEvent(Bj(b.toString()), d);
           } else {
             throw Error("addEventListener and attachEvent are unavailable.");
           }
         }
-        uj++;
+        vj++;
       }
     }
   }
 }
-function Aj(a) {
-  return a in tj ? tj[a] : tj[a] = "on" + a;
+function Bj(a) {
+  return a in uj ? uj[a] : uj[a] = "on" + a;
 }
-function Bj(a, b, c, d) {
+function Cj(a, b, c, d) {
   var e = !0;
-  if (a = zj(a)) {
+  if (a = Aj(a)) {
     if (b = a.qa[b.toString()]) {
       for (b = b.concat(), a = 0;a < b.length;a++) {
         var f = b[a];
-        f && f.rb == c && !f.ob && (f = Cj(f, d), e = e && !1 !== f);
+        f && f.rb == c && !f.ob && (f = Dj(f, d), e = e && !1 !== f);
       }
     }
   }
   return e;
 }
-function Cj(a, b) {
+function Dj(a, b) {
   var c = a.listener, d = a.Jb || a.src;
   if (a.Ab && "number" != typeof a && a && !a.ob) {
     var e = a.src;
-    if (e && e[mj]) {
+    if (e && e[nj]) {
       e.Pc(a);
     } else {
       var f = a.type, h = a.xb;
-      e.removeEventListener ? e.removeEventListener(f, h, a.rb) : e.detachEvent && e.detachEvent(Aj(f), h);
-      uj--;
-      if (f = zj(e)) {
+      e.removeEventListener ? e.removeEventListener(f, h, a.rb) : e.detachEvent && e.detachEvent(Bj(f), h);
+      vj--;
+      if (f = Aj(e)) {
         var h = a.type, k;
         if (k = h in f.qa) {
           k = f.qa[h];
@@ -8977,20 +8977,20 @@ function Cj(a, b) {
           (m = 0 <= l) && Array.prototype.splice.call(k, l, 1);
           k = m;
         }
-        k && (pj(a), 0 == f.qa[h].length && (delete f.qa[h], f.yb--));
-        0 == f.yb && (f.src = null, e[sj] = null);
+        k && (qj(a), 0 == f.qa[h].length && (delete f.qa[h], f.yb--));
+        0 == f.yb && (f.src = null, e[tj] = null);
       } else {
-        pj(a);
+        qj(a);
       }
     }
   }
   return c.call(d, b);
 }
-function wj(a, b) {
+function xj(a, b) {
   if (a.ob) {
     return !0;
   }
-  if (!ij) {
+  if (!jj) {
     var c;
     if (!(c = b)) {
       a: {
@@ -9007,7 +9007,7 @@ function wj(a, b) {
       }
     }
     e = c;
-    c = new lj(e, this);
+    c = new mj(e, this);
     d = !0;
     if (!(0 > e.keyCode || void 0 != e.returnValue)) {
       a: {
@@ -9030,31 +9030,31 @@ function wj(a, b) {
       }
       for (var f = a.type, h = e.length - 1;!c.Lb && 0 <= h;h--) {
         c.currentTarget = e[h];
-        var k = Bj(e[h], f, !0, c), d = d && k;
+        var k = Cj(e[h], f, !0, c), d = d && k;
       }
       for (h = 0;!c.Lb && h < e.length;h++) {
-        c.currentTarget = e[h], k = Bj(e[h], f, !1, c), d = d && k;
+        c.currentTarget = e[h], k = Cj(e[h], f, !1, c), d = d && k;
       }
     }
     return d;
   }
-  return Cj(a, new lj(b, this));
+  return Dj(a, new mj(b, this));
 }
+function Aj(a) {
+  a = a[tj];
+  return a instanceof rj ? a : null;
+}
+var Ej = "__closure_events_fn_" + (1E9 * Math.random() >>> 0);
 function zj(a) {
-  a = a[sj];
-  return a instanceof qj ? a : null;
-}
-var Dj = "__closure_events_fn_" + (1E9 * Math.random() >>> 0);
-function yj(a) {
   if (ca(a)) {
     return a;
   }
-  a[Dj] || (a[Dj] = function(b) {
+  a[Ej] || (a[Ej] = function(b) {
     return a.handleEvent(b);
   });
-  return a[Dj];
+  return a[Ej];
 }
-;function Ej(a, b) {
+;function Fj(a, b) {
   if (t(B.b(b, a))) {
     return B.b(b, a);
   }
@@ -9063,7 +9063,7 @@ function yj(a) {
   }
   throw Error([z("Expecting a keyword, got: "), z(a), z(". Expected one of: "), z(Ve(td(nf(b))))].join(""));
 }
-;var Fj = null, Gj = new Pa(null, 4, [Og, Processing.prototype.PConstants.JAVA2D, Sh, Processing.prototype.PConstants.P2D, vi, Processing.prototype.PConstants.P3D, ch, Processing.prototype.PConstants.OPENGL], null), Hj = function Hj(b) {
+;var Gj = null, Hj = new Pa(null, 4, [Og, Processing.prototype.PConstants.JAVA2D, Th, Processing.prototype.PConstants.P2D, wi, Processing.prototype.PConstants.P3D, ch, Processing.prototype.PConstants.OPENGL], null), Ij = function Ij(b) {
   for (var c = [], d = arguments.length, e = 0;;) {
     if (e < d) {
       c.push(arguments[e]), e += 1;
@@ -9073,34 +9073,34 @@ function yj(a) {
   }
   switch(c.length) {
     case 2:
-      return Hj.b(arguments[0], arguments[1]);
+      return Ij.b(arguments[0], arguments[1]);
     case 3:
-      return Hj.f(arguments[0], arguments[1], arguments[2]);
+      return Ij.f(arguments[0], arguments[1], arguments[2]);
     default:
       throw Error([z("Invalid arity: "), z(c.length)].join(""));;
   }
 };
-Hj.b = function(a, b) {
-  return Fj.size(a | 0, b | 0);
+Ij.b = function(a, b) {
+  return Gj.size(a | 0, b | 0);
 };
-Hj.f = function(a, b, c) {
-  return Fj.size(a | 0, b | 0, Ej(c, Gj));
+Ij.f = function(a, b, c) {
+  return Gj.size(a | 0, b | 0, Fj(c, Hj));
 };
-Hj.w = 3;
-function Ij(a, b) {
-  for (var c = D(Xc([Zg, fh, jh, kh, sh, Mh, Qh, Th, Uh, Vh, Xh, di, ni], [Jh, Lg, Xg, wi, sh, Kh, Fg, Gg, th, dh, Ch, Eg, ni])), d = null, e = 0, f = 0;;) {
+Ij.w = 3;
+function Jj(a, b) {
+  for (var c = D(Xc([Zg, fh, jh, lh, th, Nh, Rh, Uh, Vh, Wh, Yh, ei, oi], [Kh, Lg, Xg, xi, th, Lh, Fg, Gg, uh, dh, Dh, Eg, oi])), d = null, e = 0, f = 0;;) {
     if (f < e) {
       var h = d.P(null, f), k = S(h, 0, null), l = S(h, 1, null), m = b.a ? b.a(l) : b.call(null, l);
       if (t(m)) {
         var n = m;
         a[Ld(k)] = function(b, c, d, e, f) {
           return function() {
-            var b = Fj;
-            Fj = a;
+            var b = Gj;
+            Gj = a;
             try {
               return f.u ? f.u() : f.call(null);
             } finally {
-              Fj = b;
+              Gj = b;
             }
           };
         }(c, d, e, f, n, m, h, k, l);
@@ -9110,19 +9110,19 @@ function Ij(a, b) {
       if (m = D(c)) {
         h = m;
         if (hd(h)) {
-          c = Zb(h), f = $b(h), d = c, e = O(c), c = f;
+          c = Xb(h), f = $b(h), d = c, e = O(c), c = f;
         } else {
           var n = H(h), k = S(n, 0, null), l = S(n, 1, null), q = b.a ? b.a(l) : b.call(null, l);
           if (t(q)) {
             var u = q;
             a[Ld(k)] = function(b, c, d, e, f) {
               return function() {
-                var b = Fj;
-                Fj = a;
+                var b = Gj;
+                Gj = a;
                 try {
                   return f.u ? f.u() : f.call(null);
                 } finally {
-                  Fj = b;
+                  Gj = b;
                 }
               };
             }(c, d, e, f, u, q, n, k, l, h, m);
@@ -9138,37 +9138,37 @@ function Ij(a, b) {
     }
   }
 }
-function Jj(a) {
-  var b = Yf(Qc([new Pa(null, 1, [ph, new W(null, 2, 5, X, [500, 300], null)], null), function(b) {
+function Kj(a) {
+  var b = Yf(Qc([new Pa(null, 1, [qh, new W(null, 2, 5, X, [500, 300], null)], null), function(b) {
     return b.a ? b.a(a) : b.call(null, a);
-  }.call(null, Yd(ie, Q(hj, uh.b(a, Vc))))], 0)), c = function() {
-    var a = ph.a(b);
+  }.call(null, Yd(ie, Q(ij, vh.b(a, Vc))))], 0)), c = function() {
+    var a = qh.a(b);
     return t(a) ? a : new W(null, 2, 5, X, [200, 200], null);
-  }(), d = oh.a(b), e = dg(zg.a(b)), f = function(a, b, c) {
+  }(), d = ph.a(b), e = dg(zg.a(b)), f = function(a, b, c) {
     return function() {
-      Yd(Hj, Vd.b(b, t(c) ? new W(null, 1, 5, X, [c], null) : Vc));
+      Yd(Ij, Vd.b(b, t(c) ? new W(null, 1, 5, X, [c], null) : Vc));
       t(hh.a(a)) && hh.a(a).call(null);
-      return t(sh.a(a)) ? sh.a(a).call(null) : null;
+      return t(th.a(a)) ? th.a(a).call(null) : null;
     };
   }(b, c, d, e), h = t(Xg.a(b)) ? function(a) {
     return function() {
-      return Xg.a(a).call(null, -1 * Fj.mouseScroll);
+      return Xg.a(a).call(null, -1 * Gj.mouseScroll);
     };
-  }(b, c, d, e, f) : null, k = U.j(b, sh, f, Qc([Xg, h], 0)), c = new Processing.Sketch(function(a, b, c, d, e, f, h) {
+  }(b, c, d, e, f) : null, k = U.j(b, th, f, Qc([Xg, h], 0)), c = new Processing.Sketch(function(a, b, c, d, e, f, h) {
     return function(a) {
-      Ij(a, h);
+      Jj(a, h);
       a.Oc = le ? le(null) : ke.call(null, null);
       return a.zc = le ? le(60) : ke.call(null, 60);
     };
   }(b, c, d, e, f, h, k));
-  nd(e, xh) && (c.options.globalKeyEvents = !0);
+  nd(e, yh) && (c.options.globalKeyEvents = !0);
   return c;
 }
-function Kj(a) {
+function Lj(a) {
   a = a.xc;
   t(a) && a.exit();
 }
-var Lj = function Lj(b) {
+var Mj = function Mj(b) {
   for (var c = [], d = arguments.length, e = 0;;) {
     if (e < d) {
       c.push(arguments[e]), e += 1;
@@ -9176,128 +9176,131 @@ var Lj = function Lj(b) {
       break;
     }
   }
-  return Lj.j(0 < c.length ? new E(c.slice(0), 0, null) : null);
+  return Mj.j(0 < c.length ? new E(c.slice(0), 0, null) : null);
 };
-Lj.j = function(a) {
+Mj.j = function(a) {
   var b = Yd(me, a);
   a = function() {
-    var a = Ah.a(b), c = document;
+    var a = Bh.a(b), c = document;
     return ba(a) ? c.getElementById(a) : a;
   }();
   var c = function() {
-    var a = oh.a(b);
-    return t(a) ? a : Sh;
+    var a = ph.a(b);
+    return t(a) ? a : Th;
   }();
-  return t(a) ? (t(a.Xb) ? M.b(c, a.Xb) || console.warn("WARNING: Using different context on one canvas!") : a.Xb = c, Kj(a), a.xc = new Processing(a, Jj(b))) : console.error("ERROR: Cannot create sketch. :host is not specified.");
+  return t(a) ? (t(a.Xb) ? M.b(c, a.Xb) || console.warn("WARNING: Using different context on one canvas!") : a.Xb = c, Lj(a), a.xc = new Processing(a, Kj(b))) : console.error("ERROR: Cannot create sketch. :host is not specified.");
 };
-Lj.w = 0;
-Lj.v = function(a) {
-  return Lj.j(D(a));
+Mj.w = 0;
+Mj.v = function(a) {
+  return Mj.j(D(a));
 };
-var Mj = le ? le(J) : ke.call(null, J);
-function Nj(a) {
+var Nj = le ? le(J) : ke.call(null, J);
+function Oj(a) {
   var b = document.createElement("canvas");
   b.setAttribute("id", a);
   document.body.appendChild(b);
 }
-function Oj() {
-  for (var a = 1 >= document.body.childNodes.length, b = D(Cc.a ? Cc.a(Mj) : Cc.call(null, Mj)), c = null, d = 0, e = 0;;) {
+function Pj() {
+  for (var a = 1 >= document.body.childNodes.length, b = D(Cc.a ? Cc.a(Nj) : Cc.call(null, Nj)), c = null, d = 0, e = 0;;) {
     if (e < d) {
       var f = c.P(null, e);
-      t(a) && Nj(ai.a(f));
+      t(a) && Oj(bi.a(f));
       Hg.a(f).call(null);
       e += 1;
     } else {
       if (b = D(b)) {
-        c = b, hd(c) ? (b = Zb(c), e = $b(c), c = b, d = O(b), b = e) : (b = H(c), t(a) && Nj(ai.a(b)), Hg.a(b).call(null), b = K(c), c = null, d = 0), e = 0;
+        c = b, hd(c) ? (b = Xb(c), e = $b(c), c = b, d = O(b), b = e) : (b = H(c), t(a) && Oj(bi.a(b)), Hg.a(b).call(null), b = K(c), c = null, d = 0), e = 0;
       } else {
         break;
       }
     }
   }
-  return ne.b ? ne.b(Mj, Vc) : ne.call(null, Mj, Vc);
+  return ne.b ? ne.b(Nj, Vc) : ne.call(null, Nj, Vc);
 }
-xj(window, "load", Oj);
-function Pj() {
-  return t(null) ? null : Fj;
+yj(window, "load", Pj);
+function Qj() {
+  return t(null) ? null : Gj;
 }
-Xc([Dg, Jg, Rg, Tg, Vg, Bh, Ph, Yh, ci, fi, gi, ji, oi, qi, ri], [Processing.prototype.PConstants.BURN, Processing.prototype.PConstants.SCREEN, Processing.prototype.PConstants.DARKEST, Processing.prototype.PConstants.DODGE, Processing.prototype.PConstants.REPLACE, Processing.prototype.PConstants.OVERLAY, Processing.prototype.PConstants.DIFFERENCE, Processing.prototype.PConstants.EXCLUSION, Processing.prototype.PConstants.HARD_LIGHT, Processing.prototype.PConstants.MULTIPLY, Processing.prototype.PConstants.LIGHTEST, 
+Xc([Dg, Jg, Rg, Tg, Vg, Ch, Qh, Zh, di, gi, hi, ki, pi, ri, si], [Processing.prototype.PConstants.BURN, Processing.prototype.PConstants.SCREEN, Processing.prototype.PConstants.DARKEST, Processing.prototype.PConstants.DODGE, Processing.prototype.PConstants.REPLACE, Processing.prototype.PConstants.OVERLAY, Processing.prototype.PConstants.DIFFERENCE, Processing.prototype.PConstants.EXCLUSION, Processing.prototype.PConstants.HARD_LIGHT, Processing.prototype.PConstants.MULTIPLY, Processing.prototype.PConstants.LIGHTEST, 
 Processing.prototype.PConstants.BLEND, Processing.prototype.PConstants.ADD, Processing.prototype.PConstants.SOFT_LIGHT, Processing.prototype.PConstants.SUBTRACT]);
-var Qj = new Pa(null, 4, [rh, Processing.prototype.PConstants.CENTER, lh, Processing.prototype.PConstants.RADIUS, Pg, Processing.prototype.PConstants.CORNER, yh, Processing.prototype.PConstants.CORNERS], null);
-Xc([Ag, Cg, Kg, Mg, Qg, Ug, Yg, bh, vh, Dh, Fh, Ih, Rh, Zh, ki, yi], [Processing.prototype.PConstants.DISABLE_STROKE_PERSPECTIVE, Processing.prototype.PConstants.DISABLE_DEPTH_MASK, Processing.prototype.PConstants.ENABLE_DEPTH_TEST, Processing.prototype.PConstants.ENABLE_DEPTH_SORT, Processing.prototype.PConstants.DISABLE_TEXTURE_MIPMAPS, Processing.prototype.PConstants.DISABLE_STROKE_PURE, Processing.prototype.PConstants.DISABLE_DEPTH_TEST, Processing.prototype.PConstants.ENABLE_STROKE_PERSPECTIVE, 
+var Rj = new Pa(null, 4, [sh, Processing.prototype.PConstants.CENTER, mh, Processing.prototype.PConstants.RADIUS, Pg, Processing.prototype.PConstants.CORNER, zh, Processing.prototype.PConstants.CORNERS], null);
+Xc([Ag, Cg, Kg, Mg, Qg, Ug, Yg, bh, wh, Eh, Fh, Jh, Sh, $h, li, zi], [Processing.prototype.PConstants.DISABLE_STROKE_PERSPECTIVE, Processing.prototype.PConstants.DISABLE_DEPTH_MASK, Processing.prototype.PConstants.ENABLE_DEPTH_TEST, Processing.prototype.PConstants.ENABLE_DEPTH_SORT, Processing.prototype.PConstants.DISABLE_TEXTURE_MIPMAPS, Processing.prototype.PConstants.DISABLE_STROKE_PURE, Processing.prototype.PConstants.DISABLE_DEPTH_TEST, Processing.prototype.PConstants.ENABLE_STROKE_PERSPECTIVE, 
 Processing.prototype.PConstants.DISABLE_OPTIMIZED_STROKE, Processing.prototype.PConstants.ENABLE_OPENGL_ERRORS, Processing.prototype.PConstants.ENABLE_STROKE_PURE, Processing.prototype.PConstants.ENABLE_DEPTH_MASK, Processing.prototype.PConstants.ENABLE_OPTIMIZED_STROKE, Processing.prototype.PConstants.DISABLE_OPENGL_ERRORS, Processing.prototype.PConstants.DISABLE_DEPTH_SORT, Processing.prototype.PConstants.ENABLE_TEXTURE_MIPMAPS]);
-Xc([121, 39, 157, 119, 116, 113, 40, 117, 118, 122, 17, 115, 112, 123, 16, 120, 38, 18, 114, 37], [Sg, $h, ih, Ig, gh, Lh, Bg, ti, hi, zh, Oh, ui, Ng, Wh, yg, mi, nh, Wg, Hh, xi]);
-var Rj, Sj = window.innerWidth, Tj = window.innerHeight;
-function Uj(a) {
-  var b = pi.a(a), c = S(b, 0, null), b = S(b, 1, null), d = bi.a(a), e = S(d, 0, null), f = S(d, 1, null), h = S(d, 2, null), k = S(d, 3, null), d = si.a(a), l = ii.a(a);
-  a = wg.a(a);
-  Pj().stroke(c, b);
-  Pj().strokeWeight(2);
-  Pj().fill(e, f, h, k);
-  Pj()["no-fill-quil"] = !1;
-  c = Ej(lh, Qj);
-  Pj().ellipseMode(c | 0);
-  return Pj().ellipse(l, a, d, d);
-}
-function Vj() {
-  return pe(75, te(function() {
-    var a = vg(Sj), b = new W(null, 2, 5, X, [200, 255], null), c = new W(null, 4, 5, X, [vg(255), vg(255), vg(255), 255], null), d = vg(Tj), e;
-    null == ug && (ug = le ? le(0) : ke.call(null, 0));
-    e = sc.a([z("G__"), z(oe.b(ug, Bc))].join(""));
-    return Xc([wg, xg, ah, mh, wh, Nh, bi, ii, pi, si], [d, !1, !1, 0, 0, e, c, a, b, 5]);
-  }));
-}
+Xc([121, 39, 157, 119, 116, 113, 40, 117, 118, 122, 17, 115, 112, 123, 16, 120, 38, 18, 114, 37], [Sg, ai, ih, Ig, gh, Mh, Bg, ui, ii, Ah, Ph, vi, Ng, Xh, yg, ni, oh, Wg, Ih, yi]);
+var Sj, Tj = window.innerWidth, Uj = window.innerHeight, Vj = Math.floor(Tj * Uj / 8E3);
 function Wj(a) {
-  var b;
-  if (0 < mh.a(a)) {
-    b = mh.a(a) + ii.a(a);
-    var c = Fj.width;
-    b -= c * Cd(b, c);
-  } else {
-    b = mh.a(a) + ii.a(a), b = 0 < b ? b : Fj.width - b;
-  }
-  if (0 < wh.a(a)) {
-    var c = wh.a(a) + wg.a(a), d = Fj.height, c = c - d * Cd(c, d)
-  } else {
-    c = wh.a(a) + wg.a(a), c = 0 < c ? c : Fj.height - c;
-  }
-  return U.j(a, ii, b, Qc([wg, c], 0));
-}
-function Xj(a) {
-  return U.j(a, mh, 2 - vg(5), Qc([wh, 2 - vg(5), xg, !1, ah, !1, si, function() {
-    var b = si.a(a) + 1;
+  return U.j(a, nh, 2 * Math.random() - 5 * Math.random(), Qc([xh, 2 * Math.random() - 5 * Math.random(), xg, !1, ah, !1, ti, function() {
+    var b = ti.a(a) + 1;
     return 20 > b ? b : 20;
   }()], 0));
 }
-function Yj(a) {
-  var b = Wj(a);
-  return M.b(a, b) ? U.f(b, xg, !0) : U.j(b, xg, !1, Qc([si, function() {
-    var b = si.a(a) - 1;
-    return 5 < b ? b : 5;
-  }()], 0));
+function Xj(a) {
+  var b = qi.a(a), c = S(b, 0, null), b = S(b, 1, null), d = ci.a(a), e = S(d, 0, null), f = S(d, 1, null), h = S(d, 2, null), k = S(d, 3, null), d = ti.a(a), l = ji.a(a);
+  a = wg.a(a);
+  Qj().stroke(c, b);
+  Qj().strokeWeight(2);
+  Qj().fill(e, f, h, k);
+  Qj()["no-fill-quil"] = !1;
+  c = Fj(mh, Rj);
+  Qj().ellipseMode(c | 0);
+  return Qj().ellipse(l, a, d, d);
+}
+function Yj() {
+  return pe(Vj, te(function() {
+    var a = vg(Tj), b = new W(null, 2, 5, X, [200, 255], null), c = new W(null, 4, 5, X, [vg(255), vg(255), vg(255), 255], null), d = vg(Uj), e;
+    e = new W(null, 3, 5, X, [Wj, Wj, Wj], null);
+    e = Kc(e, vg(O(e)));
+    var f = 2 - vg(5), h = 2 - vg(5), k;
+    null == ug && (ug = le ? le(0) : ke.call(null, 0));
+    k = sc.a([z("G__"), z(oe.b(ug, Bc))].join(""));
+    return Xc([wg, xg, ah, kh, nh, xh, Oh, ci, ji, qi, ti], [d, !1, !1, e, f, h, k, c, a, b, 5]);
+  }));
 }
 function Zj(a) {
-  a = Z.b(Yj, Mi(Ki(Ae(2, 2, ye(Z.b(Ji, Z.b(Ii, a)))))));
+  var b;
+  if (0 < nh.a(a)) {
+    b = nh.a(a) + ji.a(a);
+    var c = Gj.width;
+    b -= c * Cd(b, c);
+  } else {
+    b = nh.a(a) + ji.a(a), b = 0 < b ? b : Gj.width - b;
+  }
+  if (0 < xh.a(a)) {
+    var c = xh.a(a) + wg.a(a), d = Gj.height, c = c - d * Cd(c, d)
+  } else {
+    c = xh.a(a) + wg.a(a), c = 0 < c ? c : Gj.height - c;
+  }
+  return U.j(a, ji, b, Qc([wg, c], 0));
+}
+function ak(a) {
+  var b = Zj(a);
+  return M.b(a, b) ? U.f(b, xg, !0) : U.j(b, xg, !1, Qc([ti, function() {
+    var b = ti.a(a) - 1;
+    return 10 < b ? b : 10;
+  }()], 0));
+}
+function bk(a) {
+  a = Z.b(ak, Ni(Li(Ae(2, 2, ye(Z.b(Ki, Z.b(Ji, a)))))));
   return Z.b(function() {
     return function(a) {
       var c;
-      c = xg.a(a);
-      c = t(c) ? c : ah.a(a);
-      return t(c) ? Xj(a) : a;
+      c = ah.a(a);
+      c = t(c) ? c : xg.a(a);
+      return t(c) ? kh.a(a).call(null, a) : a;
     };
   }(a), a);
 }
-function ak() {
-  Pj().smooth();
-  var a = Fj.zc;
+function ck() {
+  Qj().smooth();
+  var a = Gj.zc;
   ne.b ? ne.b(a, 24) : ne.call(null, a, 24);
-  Fj.frameRate(24);
-  a = Vj();
-  Rj = le ? le(a) : ke.call(null, a);
+  Gj.frameRate(24);
+  a = Yj();
+  Sj = le ? le(a) : ke.call(null, a);
 }
-function bk() {
-  Pj().background(32);
-  for (var a = Z.b(Uj, oe.b(Rj, Zj)), b = a;;) {
+function dk() {
+  Qj().background(32);
+  for (var a = Z.b(Xj, oe.b(Sj, bk)), b = a;;) {
     if (D(b)) {
       b = K(b);
     } else {
@@ -9306,8 +9309,8 @@ function bk() {
   }
   return a;
 }
-function ck() {
-  return Lj.j(Qc([Ah, "quil-circles", ph, new W(null, 2, 5, X, [Sj, Tj], null), qh, "An animation of circular antagonism.", sh, Yc(ak) ? function() {
+function ek() {
+  return Mj.j(Qc([Bh, "quil-circles", qh, new W(null, 2, 5, X, [Tj, Uj], null), rh, "An animation of circular antagonism.", th, Yc(ck) ? function() {
     function a(a) {
       var d = null;
       if (0 < arguments.length) {
@@ -9319,7 +9322,7 @@ function ck() {
       return b.call(this, d);
     }
     function b(a) {
-      return Yd(ak, a);
+      return Yd(ck, a);
     }
     a.w = 0;
     a.v = function(a) {
@@ -9328,7 +9331,7 @@ function ck() {
     };
     a.j = b;
     return a;
-  }() : ak, ni, Yc(bk) ? function() {
+  }() : ck, oi, Yc(dk) ? function() {
     function a(a) {
       var d = null;
       if (0 < arguments.length) {
@@ -9340,7 +9343,7 @@ function ck() {
       return b.call(this, d);
     }
     function b(a) {
-      return Yd(bk, a);
+      return Yd(dk, a);
     }
     a.w = 0;
     a.v = function(a) {
@@ -9349,15 +9352,15 @@ function ck() {
     };
     a.j = b;
     return a;
-  }() : bk], 0));
+  }() : dk], 0));
 }
-var dk = ["ponting_dynamics", "circles", "circles"], ek = aa;
-dk[0] in ek || !ek.execScript || ek.execScript("var " + dk[0]);
-for (var fk;dk.length && (fk = dk.shift());) {
-  dk.length || void 0 === ck ? ek = ek[fk] ? ek[fk] : ek[fk] = {} : ek[fk] = ck;
+var fk = ["ponting_dynamics", "circles", "circles"], gk = aa;
+fk[0] in gk || !gk.execScript || gk.execScript("var " + fk[0]);
+for (var hk;fk.length && (hk = fk.shift());) {
+  fk.length || void 0 === ek ? gk = gk[hk] ? gk[hk] : gk[hk] = {} : gk[hk] = ek;
 }
 t(ge(function(a) {
-  return M.b(ei, a);
-}, null)) || (oe.f(Mj, R, new Pa(null, 2, [Hg, ck, ai, "quil-circles"], null)), M.b(document.readyState, "complete") && Oj());
+  return M.b(fi, a);
+}, null)) || (oe.f(Nj, R, new Pa(null, 2, [Hg, ek, bi, "quil-circles"], null)), M.b(document.readyState, "complete") && Pj());
 
 })();
