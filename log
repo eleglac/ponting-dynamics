@@ -1,4 +1,0 @@
-2016-04-30 20:06:02.581:INFO::main: Logging initialized @9298ms
-2016-04-30 20:06:02.775:INFO:oejs.Server:main: jetty-9.2.10.v20150310
-2016-04-30 20:06:02.859:INFO:oejs.ServerConnector:main: Started ServerConnector@2066cc36{HTTP/1.1}{0.0.0.0:5000}
-2016-04-30 20:06:02.860:INFO:oejs.Server:main: Started @9577ms

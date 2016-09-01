@@ -18,4 +18,4 @@ A current working version of this app can be viewed at pontingdynamics.org.  It 
 
 ## License
 
-Copyright © 2015 FAlex J. Ponting.  All rights reserved.  Why would you steal this code anyway?
+Copyright © 2016 FAlex J. Ponting.  All rights reserved.  Why would you steal this code anyway?

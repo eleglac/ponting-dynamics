@@ -9,8 +9,9 @@
             [ponting-dynamics.views.home      :refer [main-page]]
             [ponting-dynamics.views.pages     :refer [about-page contact samples cljs-page jobs]]
             [ponting-dynamics.views.stats     :refer [stats-page]]
-            [ponting-dynamics.views.circles   :refer [circles-page]
-            [ponting-dynamics.views.notetaker :refer [notetaker-page]]]
+            [ponting-dynamics.views.notetaker :refer [notetaker-page]]
+            [ponting-dynamics.views.circles   :refer [circles-page]]
+            [ponting-dynamics.views.tri       :refer [tri-page]]
 
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.adapter.jetty :as jetty]))
@@ -57,7 +58,10 @@
 
   ;; The Ponting Dynamics Dynamic Article Summarizer.
   (GET "/notetaker" [] (notetaker-page))
-  (POST "/notetaker" req (notetaker-page req))
+  ;;(POST "/notetaker" req (notetaker-page req))
+
+  ;; A cool visualization.  Doesn't need to be more than that.
+  (GET "/tri" [] (tri-page))
 
   ;; Doesn't matter where you're trying to go, I got you covered
   ;(context "/:title" [title]

@@ -19,5 +19,5 @@
                [:td [:form {:target "/notetaker" :method "POST"}
                      [:input.entry-field {:type "text" :name "link-text"}]]]]]]]]))
   ([req]
-    (print req)
-    (notetaker-page))
+    ;(print req)
+    (notetaker-page)))

@@ -27,7 +27,9 @@
                             :material [:div.fun-stuff
                                        [:p "Here there be stuff of potential amusement."]
                                        [:p [:a {:href "/cljs"} "The Clojurescript Battleship Game"]]
-                                       [:p [:a {:href "/statistics"} "Code Investment Report"]]]}}))
+                                       [:p [:a {:href "/statistics"} "Code Investment Report"]]
+                                       [:p [:a {:href "/circles"} "The Ponting Dynamics Low-Velocity Circle Collider"]]
+                                       [:p [:a {:href "/tri"}] "Cool Visualization"]]}}))
 
 (def jobs
   (define-page {:head-data {:title "Ponting Dynamics | Employment Opportunities"}
