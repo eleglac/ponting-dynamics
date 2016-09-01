@@ -10,8 +10,8 @@
 (def rate 24)
 
 (defn random-move-change [agent]
-  (assoc agent :d-x (- (rand 2) (rand 5))
-               :d-y (- (rand 2) (rand 5))
+  (assoc agent :d-x (- (rand 7) (rand 3))
+               :d-y (- (rand 7) (rand 3))
                :stationary? false
                :colliding? false
                :rad (min (inc (:rad agent)) (/ pd-c/cell-size 2))))
@@ -32,8 +32,8 @@
    :rad   rad
    :shell shell
    :core  core
-   :d-x   (- 2 (rand-int 5)) 
-   :d-y   (- 2 (rand-int 5))
+   :d-x   0 
+   :d-y   0
    :colliding?  false
    :stationary? false
    :behavior    (pick-collision-behavior)})
