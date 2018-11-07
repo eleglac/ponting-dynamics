@@ -8,7 +8,9 @@
                  [org.clojure/clojure "1.8.0"]
                  [ring/ring-jetty-adapter "1.4.0"]
                  [ring/ring-defaults "0.2.0"]
-                 [clj-tagsoup "0.3.0" :exclusions [org.clojure/clojure]]]
+                 [clj-tagsoup "0.3.0" :exclusions [org.clojure/clojure]]
+                 [org.clojure/clojurescript "1.9.227"]
+                 [quil "2.4.0"]]
 
   :source-paths ["src/clj" "src/cljs"]
 
