@@ -2,7 +2,7 @@
   (:require [clojure.java.io :refer [file]]
             [clojure.string :as s]))
 
-;; Define what we're interested in: .clj, .cljs, .html, and .css files in the respective folders.
+;; Define what we're interested in: .clj, .cljs, .js, .html, and .css files in the respective folders.
 
 (def code-dirs ["resources/" "src/"])
 

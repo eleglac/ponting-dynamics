@@ -25,18 +25,14 @@
   (define-page {:head-data {:title "Ponting Dynamics | Some Interesting Experiments"}
                 :body-data {:topic "Fun Stuff"
                             :material [:div.fun-stuff
-                                       [:p "Here there be stuff of potential amusement."]
+                                       [:p "Looking for diversion?  Enjoy some of the projects below!"]
                                        [:p [:a {:href "/cljs"} "The Clojurescript Battleship Game"]]
-                                       [:p [:a {:href "/statistics"} "Code Investment Report"]]
-                                       [:p [:a {:href "/circles"} "The Ponting Dynamics Low-Velocity Circle Collider"]]
-                                       [:p [:a {:href "/tri"}] "Cool Visualization"]]}}))
+                                       [:p [:a {:href "/statistics"} "Auto-Generated Code Investment Report"]]
+                                       [:p [:a {:href "/circles"} "Low-Velocity Circle Collider"]]
+                                       [:p [:a {:href "/tri"} "Rainbow Triangle Visualizer"]]]}}))
 
 (def jobs
   (define-page {:head-data {:title "Ponting Dynamics | Employment Opportunities"}
                 :body-data {:topic "Careers"
                             :material [:div.careers
-                                       [:p "We're not hiring right now."]
-                                       [:p "Wait.  Wait!  There is ONE position available."]
-                                       [:p "It's an entry level position requiring ten years of experience."]
-                                       [:p "Please direct your resume, cover letter, and SSN to " [:a {:href "mailto:jobs@pontingdynamics.org"} "jobs@pontingdynamics.org"]]
-                                       [:p "We promise to get back to you in 1-3 business cycles."]]}}))
+                                       [:p "We're not hiring right now."]]}}))
