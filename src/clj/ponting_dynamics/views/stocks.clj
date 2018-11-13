@@ -6,7 +6,7 @@
             ))
 
 
-(defn stocks-page
+(def stocks-page
   (define-page {:head-data {:title "Ponting Dynamics | Surreal-Time Stock Price Indicator"}
                 :body-data {:topic "Stock Quote Engine"
                             :material [:div.stock-quote
