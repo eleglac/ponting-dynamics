@@ -4,13 +4,15 @@
 //// and the links in the list should reflect the current path of the image directory.
 //// Generating this list should probably be done procedurally, but this gets the job done.
 
-var backgrounds = ["img/wood-water.jpg",
-                   "img/library-books.jpg",
-                   "img/blurry-city-traffic.jpg", 
-                   "img/orange-tree.jpg",
-                   "img/designer-desk.jpg",
-                   "img/desk-and-chair.jpg",
-                   "img/old-tools.jpg"];
+//TODO: re-implement in Clojurescript
+
+var backgrounds = ["/img/wood-water.jpg",
+                   "/img/library-books.jpg",
+                   "/img/blurry-city-traffic.jpg", 
+                   "/img/orange-tree.jpg",
+                   "/img/designer-desk.jpg",
+                   "/img/desk-and-chair.jpg",
+                   "/img/old-tools.jpg"];
 
 // FUNCTION DEFINITIONS
 //// makeHighlightable(element) - used to animate front page feeder link

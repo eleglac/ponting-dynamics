@@ -1,5 +1,5 @@
 (ns ponting-dynamics.views.common
-  (:require [hiccup.page :refer [html5]]))
+  (:require [hiccup.page :refer [html5 include-css include-js]]))
 
 (def default-links {"Home"       "/"
                     "Fun Stuff"  "/samples"
@@ -9,7 +9,9 @@
 
 (def default-scripts ["https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
                       "https://code.jquery.com/color/jquery.color-2.1.0.min.js"
-                      "js/dynamic.js"])
+                      "/js/dynamic.js"])
+
+(def default-styles ["/css/styles.css"])
 
 (defn page-head 
   "Head-info defines the <head> data for a page.  Can take a map - defineable parameters are:
@@ -25,9 +27,7 @@
    [:meta {:name "description" :content (or description "Ponting Dynamics is an internet content development consultancy located in Los Angeles, CA.")}]
    [:meta {:name "keywords"    :content (or keywords "HTML, CSS, Javascript, jQuery, Clojure, Clojurescript, Hiccup, Bootstrap, SASS, Internet, Consulting")}]
    [:meta {:name "author"      :content "Alex J. Ponting"}]
-   (if stylesheets 
-     (map (fn [link] [:link {:rel "stylesheet" :type "text/css" :href link}]) stylesheets)
-     [:link {:rel "stylesheet" :type "text/css" :href "css/styles.css"}])])
+   (apply include-css (or stylesheets default-styles))])
 
 (defn generate-link-html 
   "Generate a list of links, currently assumed to sit inside a hideable footer pane.
@@ -44,13 +44,6 @@
   
   [:div.hideable-container.foot
    [:div.hideable.navigation.pane (generate-link-html links)]])
-
-(defn generate-script-html
-  "Similar to generate-link-html, but expects a plain list instead of a map."
-
-  [scripts]
-  
-  (map (fn [src] [:script {:src src}]) scripts))
 
 (defn page-topic
   "Wraps a standard page topic in the appropriate presentation tags.  Can take a map with:
@@ -100,7 +93,6 @@
     (background-layer 
       (content-layer body-data)
       (footer (or links default-links))
-      (generate-script-html (or scripts default-scripts)))))
-
-(def not-found-page
-  (define-page {:head-data {:title "Ponting Dynamics | Not Found"}}))
+      (apply include-js (or scripts default-scripts))
+      
+      )))

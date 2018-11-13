@@ -29,10 +29,18 @@
                                        [:p [:a {:href "/cljs"} "The Clojurescript Battleship Game"]]
                                        [:p [:a {:href "/statistics"} "Auto-Generated Code Investment Report"]]
                                        [:p [:a {:href "/circles"} "Low-Velocity Circle Collider"]]
-                                       [:p [:a {:href "/tri"} "Rainbow Triangle Visualizer"]]]}}))
+                                       [:p [:a {:href "/tri"} "Rainbow Triangle Visualizer"]]
+                                       [:p [:a {:href "/stocks"} "Stock Quotes"]]]}}))
+
 
 (def jobs
   (define-page {:head-data {:title "Ponting Dynamics | Employment Opportunities"}
                 :body-data {:topic "Careers"
                             :material [:div.careers
                                        [:p "We're not hiring right now."]]}}))
+
+(def not-found-page
+  (define-page {:head-data {:title "Ponting Dynamics | Not Found"}
+                :body-data {:topic "404 - Not Found"
+                            :material [:div.not-found
+                                       [:p "The resource you are attempting to locate is not at this URL."]]}}))

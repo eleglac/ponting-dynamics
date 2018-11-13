@@ -4,12 +4,10 @@
             [compojure.handler :refer [site]]
             [compojure.route :as route]
 
-            [ponting-dynamics.views.common    :refer [not-found-page]]
             [ponting-dynamics.views.thefuture :refer [future-page]]
             [ponting-dynamics.views.home      :refer [main-page]]
-            [ponting-dynamics.views.pages     :refer [about-page contact samples cljs-page jobs]]
+            [ponting-dynamics.views.pages     :refer :all]
             [ponting-dynamics.views.stats     :refer [stats-page]]
-            [ponting-dynamics.views.notetaker :refer [notetaker-page]]
             [ponting-dynamics.views.circles   :refer [circles-page]]
             [ponting-dynamics.views.tri       :refer [tri-page]]
             [ponting-dynamics.views.stocks    :refer [stocks-page]]
@@ -18,18 +16,7 @@
             [ring.adapter.jetty :as jetty]))
 
 (defroutes app-routes
-  ;;Now this is some bullshit here... I don't know why, but in routes that go more than one level (i.e. /l1/l2) the root is set to /l1
-  ;;and so when the browser looks for the file it looks in the wrong folder.  So, workaround: manually construct the response to guarantee
-  ;;that no matter what stupid route the browser tries to use, it's going to get redirected to the actual content.
-  ;;
-  ;;Likely the same thing will happen if I have Javascript on deep pages, but that's a future worry.
-  ;; UPDATE 10/3/15 - it totally did happen with the javascript!  Way to go, past Alex
-
-  (context "*/css" []
-    (GET "/:file" [file] {:status 200 :headers {"Content-Type" "text/css; charset=utf-8"} :body (slurp (str "resources/public/css/" file))}))
-  (context "*/js" []
-    (GET "/:file" [file] {:status 200 :headers {"Content-Type" "text/javascript; charset=utf-8"} :body (slurp (str "resources/public/js/" file))}))
-
+  
   ;; Gotta have the index
   (GET "/" [] (main-page))
 
@@ -61,14 +48,12 @@
   (GET "/tri" [] (tri-page))
 
   ;; Stock experiments
-  (context "/stocks" []
-    (GET "/" [] (stocks-page)))
-
-  ;; Doesn't matter where you're trying to go, I got you covered
-  ;(context "/:title" [title]
-    ;(GET "/"  [title] (default-page title [:p "If you sought " title " then you have found it."]))
-    ;(GET "/*" [title] (default-page title [:p "Why do you seek to transcend " title "?"])))
-
+  (GET "/stocks" [] (stocks-page "WHZT"))
+  (GET "/stocks/:ticker" [ticker] (stocks-page ticker))  
+  
+  ;; static resources
+  (route/resources "/")
+  
   ;; Did you done goof?
   (route/not-found not-found-page))
 

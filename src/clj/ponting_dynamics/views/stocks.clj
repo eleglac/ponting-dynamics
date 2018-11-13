@@ -1,13 +1,23 @@
 (ns ponting-dynamics.views.stocks
-  (:require [hiccup.page :refer [html5]]
-            [pl.danieljanus.tagsoup :refer [parse]]
-            
+  (:require [ponting-dynamics.util.financial-data :refer [get-quote]]
             [ponting-dynamics.views.common :refer [define-page]]
             ))
 
+(defn stocks-page 
+  "Takes a ticker symbol from the URL and presents the current quote
+  for that stock."
 
-(def stocks-page
-  (define-page {:head-data {:title "Ponting Dynamics | Surreal-Time Stock Price Indicator"}
-                :body-data {:topic "Stock Quote Engine"
-                            :material [:div.stock-quote
-                                       [:p "Stock quotes will be forthcoming."]]}}))
+  [ticker]
+
+  (let [quote-data (first (vals (get-quote ticker)))]
+    (define-page 
+      {:head-data 
+       {:title "Ponting Dynamics | Surreal-Time Stock Price Indicator"}
+       :body-data 
+       {:topic (str "Quote Data for: " ticker) 
+        :material 
+        [:div.stock-quote
+         [:table
+          (map (fn [[k v]] [:tr [:td k] [:td v]]) quote-data)]]
+
+        }})))
