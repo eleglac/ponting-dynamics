@@ -12,6 +12,7 @@
             [ponting-dynamics.views.notetaker :refer [notetaker-page]]
             [ponting-dynamics.views.circles   :refer [circles-page]]
             [ponting-dynamics.views.tri       :refer [tri-page]]
+            [ponting-dynamics.views.stocks    :refer [stocks-page]]
 
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.adapter.jetty :as jetty]))
@@ -56,12 +57,12 @@
   ;; The Ponting Dynamics Large Circle Collider is finally online here.
   (GET "/circles" [] (circles-page))
 
-  ;; The Ponting Dynamics Dynamic Article Summarizer.
-  (GET "/notetaker" [] (notetaker-page))
-  ;;(POST "/notetaker" req (notetaker-page req))
-
   ;; A cool visualization.  Doesn't need to be more than that.
   (GET "/tri" [] (tri-page))
+
+  ;; Stock experiments
+  (context "/stocks" []
+    (GET "/" [] (stocks-page)))
 
   ;; Doesn't matter where you're trying to go, I got you covered
   ;(context "/:title" [title]
